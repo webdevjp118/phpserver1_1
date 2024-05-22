@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.299" height="42.319" viewBox="0 0 31.299 42.319">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(0.98 1)">
+    <g id="Group_33" data-name="Group 33" transform="translate(0 0)">
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="14.549" cy="5.362" rx="14.549" ry="5.362" transform="translate(0.155 8.017)" fill="none" stroke="#004eb1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_18" data-name="Path 18" d="M1.03,14.3C1.03,8.177,7.589,1,15.679,1S30.329,6.954,30.329,14.3" transform="translate(-1.01 -1)" fill="none" stroke="#004eb1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_19" data-name="Path 19" d="M30.252,20.79V41.346c0,3.568-6.512,6.465-14.549,6.465s-14.549-2.9-14.549-6.465c0,0-.222-20.462-.134-20.556" transform="translate(-1 -7.491)" fill="none" stroke="#004eb1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_20" data-name="Path 20" d="M2.51,24.227c2,1.27,1.781,5.84,3.992,6.848s3-1.747,4.254-1.485,1.8,1.7,1.8,3.232.134,3.763.195,5.1,1.337,3.582,2.722,3.615,2.258-.759,2.258-2.742V33.057c0-.941.363-2.836,1.451-3.252s1.962-.282,2.177,1.519S22.4,35.1,24.511,34.791s1.861-2.029,1.982-4.207.5-5.181,2.95-6.4" transform="translate(-1.495 -8.603)" fill="none" stroke="#004eb1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

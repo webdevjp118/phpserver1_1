@@ -1,0 +1,410 @@
+@use '../global'as g;
+
+.page._recruit {
+  background: radial-gradient(rgba(#333, .28) 0%, rgba(#333, .28) 100%),
+    url(../img/recruit_01.png) no-repeat center/cover;
+  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
+  margin-bottom: 2em;
+
+  @include g.sp {
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  }
+}
+
+.recruit {
+  padding-top: 2em;
+
+  @include g.sp {
+    padding-bottom: 3em;
+  }
+
+  .recruit_box {
+    width: 1120px;
+    margin: 0 auto;
+
+    @include g.sp {
+      width: 95%;
+    }
+
+    .recruit_title {
+      font-family: g.$serif;
+      font-size: 36px;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 40px;
+
+      @include g.sp {
+        font-size: 2.25rem;
+        margin-bottom: 1.5em;
+      }
+    }
+
+    .recruit_text {
+      font-size: 18px;
+      line-height: 1.78;
+      margin-bottom: 2em;
+
+      @include g.sp {
+        font-size: 1.125rem;
+      }
+    }
+
+    .flex {
+      @include g.pc {
+        display: flex;
+      }
+
+      .textBox {
+        width: 70%;
+
+        @include g.pc {
+          padding-right: 1em;
+        }
+
+        @include g.sp {
+          width: 100%;
+        }
+      }
+
+      .recruitFigure {
+        text-align: center;
+        width: 34%;
+
+        @include g.pc {
+          margin-left: 60px;
+        }
+
+        @include g.sp {
+          width: 100%;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.philosophy {
+  background: radial-gradient(#B90106, #810000);
+  clip-path: polygon(0 23%, 100% 0, 100% 77%, 0 100%);
+  padding-top: 210px;
+  padding-bottom: 210px;
+
+  @include g.sp {
+    clip-path: polygon(0 10%, 100% 0, 100% 89%, 0 100%);
+    padding-top: 7em;
+    padding-bottom: 7em;
+  }
+
+  ._en {
+    color: rgba($color: #fff, $alpha: 0.2);
+  }
+
+  .section_title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 46px;
+    position: relative;
+    color: #fff;
+
+    @include g.sp {
+      font-size: 1.75rem;
+    }
+
+    &::after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: rgba($color: #fff, $alpha: 0.7);
+      position: absolute;
+      bottom: -0.3em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+
+  .philosophy_titile {
+    font-family: g.$serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+
+    @include g.sp {
+      width: 95%;
+      font-size: 1.5rem;
+    }
+  }
+
+  .philosophy_text {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.78;
+
+    @include g.sp {
+      width: 95%;
+    }
+  }
+}
+
+.job {
+  padding-top: 40px;
+  padding-bottom: 100px;
+
+  @include g.sp {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+
+  .section_title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 46px;
+    position: relative;
+
+    @include g.sp {
+      font-size: 1.75rem;
+    }
+
+    &::after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: #9D0105;
+      position: absolute;
+      bottom: -0.3em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+
+  .jobBox {
+    width: 930px;
+    margin: 0 auto;
+    background-color: #fff;
+
+    @include g.pc {
+      padding: 40px;
+    }
+
+    @include g.sp {
+      width: 95%;
+    }
+
+    dl {
+      @include g.pc {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      @include g.sp {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 1em;
+      }
+
+      dt {
+        width: 220px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        padding: 25px 0 25px 3em;
+        border-bottom: 2px solid #9D0105;
+        margin-right: 10px;
+
+        @include g.sp {
+          font-size: 1rem;
+          width: 100%;
+          padding: 1em;
+        }
+
+        &:last-of-type {
+          border-bottom: none;
+        }
+      }
+
+      dd {
+        width: 620px;
+        font-size: 16px;
+        line-height: 1.78;
+        padding: 25px 0 25px 2em;
+        border-bottom: 1px solid #9D0105;
+
+        @include g.sp {
+          font-size: 1rem;
+          width: 100%;
+          padding: 1em 1em 1em 2em;
+        }
+
+        &:last-of-type {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
+.contact_form {
+  background-color: rgba($color: #fff, $alpha: 0.6);
+  clip-path: polygon(0 15%, 100% 0, 100% 88%, 0 100%);
+  padding-top: 230px;
+  padding-bottom: 210px;
+
+  @include g.sp {
+    clip-path: polygon(0 7%, 100% 0, 100% 89%, 0 100%);
+    padding-top: 7em;
+    padding-bottom: 13em;
+  }
+
+  .section_title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 10px;
+
+    @include g.sp {
+      font-size: 1.75rem;
+    }
+
+    &::after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: #9D0105;
+      position: absolute;
+      bottom: -0.3em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+
+  .contact_formText {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 60px;
+
+    @include g.sp {
+      width: 95%;
+      margin: 0 auto;
+      font-size: 1.125rem;
+      margin-bottom: 2em;
+    }
+  }
+
+  .form {
+    max-width: 762px;
+    margin: 0 auto;
+
+    @include g.sp {
+      width: 95%;
+    }
+
+    dl {
+      @include g.pc {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      dt {
+        width: 33%;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 60px;
+        padding: 0.6em 0;
+
+        @include g.sp {
+          width: 100%;
+          font-size: 1.125rem;
+          margin-bottom: 1em;
+        }
+
+        .require {
+          color: #333;
+          background-color: #EAEAEA;
+          font-size: 16px;
+          font-weight: 500;
+          padding: 0.2em 0.5em;
+          margin-left: 1em;
+
+          @include g.sp {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      dd {
+        width: 67%;
+        font-size: 18px;
+        margin-bottom: 40px;
+
+        @include g.sp {
+          width: 100%;
+          font-size: 1.125rem;
+          margin-bottom: 1em;
+        }
+
+        input[type=text],
+        input[type=email],
+        input[type=tel] {
+          max-width: 510px;
+          width: 100%;
+          height: 45px;
+          background-color: #fff;
+          border: 1px solid rgba($color: #333, $alpha: 0.2);
+          padding-left: 0.8em;
+          margin-bottom: 1em;
+        }
+
+        textarea {
+          max-width: 510px;
+          width: 100%;
+          height: 140px;
+          border: 1px solid rgba($color: #333, $alpha: 0.2);
+          background-color: #fff;
+          padding-left: 0.8em;
+          padding-top: 0.8em;
+          margin-bottom: 60px;
+
+          @include g.sp {
+            margin-bottom: 2em;
+          }
+        }
+      }
+    }
+
+    .privacyPolicy {
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 60px;
+
+      @include g.sp {
+        font-size: 1rem;
+        margin-bottom: 2em;
+      }
+
+      ._ul {
+        text-decoration: underline;
+      }
+    }
+
+    .formBtn {
+      text-align: center;
+    }
+  }
+}

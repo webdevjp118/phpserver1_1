@@ -1,0 +1,41 @@
+.c-pagenation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    li {
+        text-align: center;
+        border-radius: 1px;
+        border: 1px solid $colorDarkGreen;
+        background: $colorDarkGreen;
+        color: #fff;
+        @include mq_down(md) {
+            width: 42px;
+            height: 42px;
+            line-height: 42px;
+            margin: 4px;
+        }
+        @include mq_up(md) {
+            width: 48px;
+            height: 48px;
+            line-height: 48px;
+            margin: 8px;
+        }
+        a {
+            display: block;
+            text-align: center;
+            background: #fff;
+            color: $colorDarkGreen;
+            border-radius: 1px;
+            @include mq_down(md) {
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+            }
+            @include mq_up(md) {
+                width: 46px;
+                height: 46px;
+                line-height: 46px;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.u-m {
+    /* top */
+    &t10 {
+        margin-top: 10px;
+    }
+
+    /* right */
+    &r10 {
+        margin-right: 10px;
+    }
+
+    /* bottom */
+    &b10 {
+        margin-bottom: 10px;
+    }
+    &b2em {
+        margin-bottom: 2em;
+    }
+
+    /* left */
+    &l10 {
+        margin-left: 10px;
+    }
+}

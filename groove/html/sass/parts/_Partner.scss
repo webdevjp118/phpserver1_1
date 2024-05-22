@@ -1,0 +1,138 @@
+@use '../global'as g;
+
+.page_top.-partner {
+  .sectionTitle {
+    @include g.sp {
+      padding-bottom: 1em;
+    }
+  }
+
+  .sectionTitle_large {
+    transform: translateY(-240px);
+
+    @include g.sp {
+      transform: translateY(-1em);
+    }
+  }
+
+  .partnerText {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.875;
+
+    @include g.pc {
+      transform: translateY(-150px);
+    }
+
+    @include g.sp {
+      width: 90%;
+      margin: 0 auto;
+      font-size: 1rem;
+    }
+  }
+}
+
+.partner {
+
+  .sectionTitle_sub {
+    @include g.pc {
+      transform: translateY(-100px);
+    }
+
+    @include g.sp {
+      margin: 1em 0;
+    }
+  }
+
+
+  .partnerTable {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 125px;
+
+    @include g.sp {
+      width: 100%;
+      margin-bottom: 3em;
+    }
+
+    .partnerFigure {
+      @include g.pc {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      @include g.sp {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+
+    dl {
+      width: 900px;
+      margin: 0 auto;
+
+      @include g.pc {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      @include g.sp {
+        width: 90%;
+      }
+
+      dt {
+        width: 25%;
+        border-bottom: 1px solid #CECECE;
+        padding: 1.2em 1em 1.2em 0;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.875;
+        position: relative;
+
+        @include g.sp {
+          width: 100%;
+        }
+
+        &::after {
+          content: '';
+          width: 165px;
+          height: 3.5px;
+          background-color: #3351BC;
+          position: absolute;
+          left: 0;
+          bottom: -2px;
+        }
+
+        &:last-of-type {
+          border-bottom: 1px solid #CECECE;
+        }
+      }
+
+      dd {
+        width: 75%;
+        border-bottom: 1px solid #CECECE;
+        padding: 1.2em 1em 1.2em 2em;
+        font-size: 16px;
+        line-height: 1.875;
+
+        @include g.sp {
+          width: 100%;
+          padding: 1em 1em 1em;
+        }
+
+        &:last-of-type {
+          border-bottom: 1px solid #CECECE;
+        }
+
+        ul {
+          li {
+            margin-bottom: 1em;
+          }
+        }
+      }
+    }
+  }
+}

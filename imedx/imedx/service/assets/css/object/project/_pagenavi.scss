@@ -1,0 +1,76 @@
+/* ページネーション */
+.wp-pagenavi {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    @include mq_down(md) {
+        margin-top: 60px;
+    }
+    @include mq_up(md) {
+        margin-top: 80px;
+    }
+    a, span {
+        display: inline-block;
+        width: auto;
+        margin: 4px;
+        border-radius: 2px;
+        @include mq_down(md) {
+            padding: 12px 15px !important;
+        }
+        @include mq_up(md) {
+            padding: 16px 19px !important;
+        }
+    }
+    a {
+        color: $colorLightBlue;
+        border: 1px solid $colorLightBlue;
+        &.nextpostslink {
+            display: flex;
+            align-items: center;
+            @include mq_down(md) {
+                padding: 12px 9px !important;
+            }
+            @include mq_up(md) {
+                padding: 16px 12px !important;
+            }
+            &:after {
+                content: "";
+                display: block;
+                width: 10px;
+                height: 10px;
+                background: center/contain no-repeat url("assets/images/icon_arrow_right_light_blue.png");
+                margin-left: 12px;
+            }
+        }
+        &.previouspostslink {
+            display: flex;
+            align-items: center;
+            @include mq_down(md) {
+                padding: 12px 9px !important;
+            }
+            @include mq_up(md) {
+                padding: 16px 12px !important;
+            }
+            &:before {
+                content: "";
+                display: block;
+                width: 10px;
+                height: 10px;
+                background: center/contain no-repeat url("assets/images/icon_arrow_left_light_blue.png");
+                margin-right: 12px;
+            }
+        }
+    }
+    span {
+        &.current {
+            color: #fff;
+            background: $colorLightBlue;
+        }
+        &.extend {
+            padding: 0 !important;
+        }
+    }
+}

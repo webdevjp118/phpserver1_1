@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		// Sassのコンパイルによる出力設定
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "expanded",
+				// "expanded", "compact", "nested", "compressed",
+				"extensionName": ".css",
+				"savePath": "/css/"
+				// null, "/", "~/../",
+			}
+		],
+	}
+}

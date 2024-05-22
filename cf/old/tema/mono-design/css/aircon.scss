@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/*---------------------------
+aircon
+----------------------------*/
+.aircon{
+	text-align: left;
+	.inner{
+		width:900px;
+		@media only screen and (min-width:641px) and (max-width:768px) {/*tablet*/
+			width:96%;
+		}
+		@media screen and (max-width: 640px) {/*sp*/
+			width:92%;
+		}
+		.title {
+			margin-bottom: 40px;
+			.img{
+				width:35%;
+				float: left;
+				@media screen and (max-width: 640px) {/*sp*/
+					width:100%;
+					float: none;
+					margin-bottom: 10px;
+					text-align: center;
+				}
+			}
+			.txt{
+				width:60%;
+				float: right;
+				@media screen and (max-width: 640px) {/*sp*/
+					width:100%;
+					float: none;
+				}
+				span{
+					font-size: 1.5em;
+					font-weight: 500;
+					line-height: 1.4em;
+					display: block;
+					margin-bottom: 20px;
+					@media screen and (max-width: 640px) {/*sp*/
+						br{
+							display: none;
+						}
+					}
+				}
+			}
+		}//.title
+		.guide{
+			.txt{
+				img{
+					display: block;
+					margin-bottom: 20px;
+				}
+			}
+			.img{
+				padding: 10px;
+				box-shadow: 3px 3px 5px #ccc;
+				border: 1px solid #ccc;
+				img{
+					width:100%;
+				}
+			}
+		}//.guide
+		.point{
+			.col{
+				img{
+					display: block;
+					margin: auto;
+					margin-bottom: 10px;
+				}
+			}
+		}
+		.flow{
+			.img{
+				&:after{
+					content: "";
+					display: block;
+					clear: both;
+				}
+				img{
+					margin-bottom: 10px;
+					@media screen and (max-width: 640px) {/*sp*/
+						width:50%;
+						float: left;
+						&:nth-of-type(3){
+							display: none;
+						}
+					}
+				}
+			}
+			.txt{
+				.box{
+					display: block;
+					padding-top: 10px;
+					span{
+						width:40%;
+						display: inline-block;
+						margin-right: 5%;
+						padding: 10px;
+						border-radius: 50px;
+						background: #4AC1D2;
+						text-align: center;
+						color: #fff;
+						@media screen and (max-width: 640px) {/*sp*/
+							width:100%;
+							margin-bottom: 10px;
+						}
+					}
+				}
+				.arrow{
+					padding: 10px 0px;
+					color: #999;
+					text-indent: 20%;
+					@media screen and (max-width: 640px) {/*sp*/
+						text-indent: 0;
+						text-align: center;
+						padding: 5px 0px;
+					}
+				}
+			}
+		}//.flow
+		.contact{
+			border: 1px solid #ccc;
+			background: url(http://www.cfrepair.co.jp/img/contents/works/aircon/contact_img.png) no-repeat top right;
+			background-size: auto 100%;
+			@media screen and (max-width: 640px) {/*sp*/
+				background: none;
+			}
+			.col{
+				padding: 30px 20px;
+				@media screen and (max-width: 640px) {/*sp*/
+					padding:10px 4%;
+				}
+				span{
+					display: block;
+					margin-bottom: 10px;
+					font-size: 1.4em;
+					font-weight: 500;
+				}
+				.tel{
+					font-size: 1.4em;
+					font-weight: 500;
+					margin-bottom: 10px;
+					img{
+						vertical-align: middle;
+						margin-right: 10px;
+					}
+				}
+				.mail{
+					margin-bottom: 10px;
+					img{
+						vertical-align: middle;
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+	}
+}

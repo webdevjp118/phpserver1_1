@@ -1,0 +1,95 @@
+@use '../global'as g;
+
+
+footer {
+  width: 100%;
+  background: url(../img/footer_bace.png) no-repeat center/cover;
+  clip-path: polygon(0 42%, 100% 0, 100% 100%, 0 100%);
+  margin-top: -162px;
+  padding-bottom: 1em;
+
+  @include g.sp {
+    clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 5em;
+  }
+
+  .footerInner {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    @include g.sp {
+      width: 95%;
+    }
+
+    .footer_logo {
+      @include g.pc {
+        padding-top: 190px;
+        margin-bottom: 13px
+      }
+
+      @include g.sp {
+        margin-bottom: 1em;
+      }
+    }
+
+    .flex {
+      color: #fff;
+      margin-bottom: 62px;
+
+      @include g.pc {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      @include g.sp {
+        margin-bottom: 2em;
+      }
+
+      .address {
+        font-size: 16px;
+
+        @include g.sp {
+          font-size: 1rem;
+          margin-bottom: 1em;
+        }
+      }
+
+      .navContainer {
+        .footerNav {
+          .navList {
+            display: flex;
+
+            @include g.sp {
+              flex-wrap: wrap;
+            }
+
+            .navItem {
+              font-size: 16px;
+              font-weight: 500;
+              margin-right: 40px;
+
+              @include g.sp {
+                margin-right: 1.5em;
+                margin-bottom: 1em;
+              }
+
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footerText {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+
+    @include g.sp {
+      font-size: 0.75rem;
+    }
+  }
+}

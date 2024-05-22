@@ -1,0 +1,70 @@
+/* 
+=== LAPTOP SCREENS
+ */
+
+@media only screen and (min-width: 1200px) {
+}
+
+/* 
+  === LARGE TABLAT SCREENS
+   */
+
+@media (max-width: 992px) {
+  /* HASHTAG SECTION */
+  .hashtagWrapper .dropMenu .dropend .dropdown-toggle,
+  .hashtagWrapper .tags {
+    font-size: 8px;
+  }
+
+  .contentsSection .centerContents .recipeCard .cardDetails {
+    font-size: 12px !important;
+  }
+
+  .mainTags .tags {
+    font-size: 12px;
+  }
+}
+
+/* 
+  === TABLAT SCREENS
+   */
+
+@media (max-width: 768px) {
+}
+
+/* 
+  === MOBILE SCREENS
+   */
+
+@media (max-width: 767px) {
+  .contentsSection .centerContents .recipeCard .cardTag {
+   padding: 0; 
+    border-radius: 0px; 
+    margin: 0;
+    width: 100%;
+  }
+  .contentsSection .centerContents .recipeCard.artistCard .cardText {
+    font-size: 0.7em;
+    line-height: 1.4em;
+    height: 2.8em;
+    overflow: hidden;
+  }
+  .d-none {
+    display: block !important;
+  }
+  .contentsSection .multiplueImages.d-none {
+    display: block !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contentsSection .multiplueImages img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mobile-hide {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+}

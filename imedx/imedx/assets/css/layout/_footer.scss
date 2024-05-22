@@ -1,0 +1,21 @@
+.l-footer {
+    &__link {
+        text-align: center;
+        @include mq_down(lg) {
+            padding-top: 40px;
+        }
+        @include mq_up(lg) {
+            padding: 134px 0;
+        }
+    }
+    &__catchcopy {
+        font-size: 12px;
+        padding: 8px;
+        text-align: center;
+        color: #fff;
+        background: $colorDarkGreen;
+        @include mq_down(lg) {
+            font-size: 10px;
+        }
+    }
+}

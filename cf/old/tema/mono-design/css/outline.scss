@@ -1,0 +1,109 @@
+.outline{
+	.inner{
+		text-align: left;
+		.greeting{
+			margin-bottom: 40px;
+			.title_img{
+				background: url(../img/outline/greeting_bg.png);
+				background-size: cover;
+				padding: 90px 50px;
+				margin-bottom: 40px;
+				@media screen and (max-width: 640px) {/*sp*/
+					padding: 50px 25px;
+				}
+				span{
+					font-size: 1.6em;
+					line-height: 1.4em;
+					color: #fff;
+					text-shadow: 0 0 6px #000;
+					@media screen and (max-width: 640px) {/*sp*/
+						font-size: 1.2em;
+					}
+				}
+			}
+			.text{
+				margin-bottom: 30px;
+				line-height: 1.8em;
+			}
+			.name{
+				text-align: right;
+				font-size: 1.4rem;
+				line-height: 1.8em;
+			}
+		}
+		.info{
+			margin-bottom: 60px;
+			&:after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			.text{
+				width:100%;
+				@media screen and (max-width: 640px) {/*sp*/
+					width:100%;
+					float: none;
+				}
+				table{
+					width:100%;
+					tr{
+						th{
+							width:30%;
+							text-align: left;
+							padding: 10px;
+							background: #eee;
+							border-bottom: 1px solid #fff;
+							@media screen and (max-width: 640px) {/*sp*/
+								display: block;
+								width:100%;
+							}
+						}
+						td{
+							width:70%;
+							text-align: left;
+							padding: 10px;
+							border-bottom: 1px solid #ccc;
+							@media screen and (max-width: 640px) {/*sp*/
+								display: block;
+								width:100%;
+							}
+						}
+					}
+				}
+			}
+		}//.info
+		.history{
+			margin-bottom: 60px;
+			table{
+				width:100%;
+				tr{
+					th{
+						width:30%;
+						text-align: left;
+						padding: 10px;
+						background: #eee;
+						border-bottom: 1px solid #fff;
+					}
+					td{
+						width:70%;
+						text-align: left;
+						padding: 10px;
+						border-bottom: 1px solid #ccc;
+					}
+				}
+			}
+		}
+		.access{
+			margin-bottom: 60px;
+			.text{
+				margin-bottom: 30px;
+				span{
+					display: block;
+					margin-bottom: 10px;
+					font-size: 1.2em;
+					font-weight: 500;
+				}
+			}
+		}
+	}//.inner
+}

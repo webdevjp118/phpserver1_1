@@ -1,0 +1,15 @@
+.p-policy {
+    .policy-detail {
+        margin: 32px auto 0;
+        background: #fff;
+        @include mq_down(md) {
+            padding: 16px;
+            border: 16px solid $colorThinBlue;
+        }
+        @include mq_up(md) {
+            padding: 24px;
+            width: 679px;
+            border: 20px solid $colorThinBlue;
+        }
+    }
+}

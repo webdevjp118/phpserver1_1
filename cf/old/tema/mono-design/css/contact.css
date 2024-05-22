@@ -1,0 +1,84 @@
+/*---------------------------
+contact
+----------------------------*/
+.contact .inner {
+  text-align: left;
+}
+.contact .inner .main .mail {
+  margin-bottom: 40px;
+}
+.contact .inner .main .mail p {
+  margin-bottom: 20px;
+}
+.contact .inner .main .mail dl {
+  text-align: left;
+}
+.contact .inner .main .mail dl:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.contact .inner .main .mail dl dt {
+  width: 25%;
+  float: left;
+  padding: 10px 0 10px 0;
+  clear: both;
+}
+@media screen and (max-width: 640px) {
+  .contact .inner .main .mail dl dt {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.contact .inner .main .mail dl dd {
+  padding: 10px 0 10px 30%;
+  border-bottom: 1px dashed #ccc;
+}
+.contact .inner .main .mail dl dd input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.contact .inner .main .mail dl dd input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.contact .inner .main .mail dl dd textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+@media screen and (max-width: 640px) {
+  .contact .inner .main .mail dl dd {
+    /*sp*/
+    width: 100%;
+    float: none;
+    padding: 10px 0 10px 0;
+  }
+  .contact .inner .main .mail dl dd input[type="text"] {
+    width: 100%;
+  }
+  .contact .inner .main .mail dl dd input[type="email"] {
+    width: 100%;
+  }
+}
+.contact .inner .main .mail .btn {
+  padding-top: 20px;
+  text-align: center;
+}
+.contact .inner .main .mail .btn input[type="submit"] {
+  padding: 5px 20px;
+  color: #fff;
+}
+.contact .inner .main .txt {
+  margin-bottom: 40px;
+}
+.contact .inner .main .txt p {
+  margin-bottom: 10px;
+}
+.contact .inner .main .txt h3 {
+  margin-bottom: 10px;
+}
+.contact .inner .main .contact_box h3 {
+  margin-bottom: 20px;
+}

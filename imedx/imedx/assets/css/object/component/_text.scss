@@ -1,0 +1,15 @@
+.c-text {
+    &-sentence {
+        line-height: 1.6;
+    }
+    &-list {
+        &__ttl {
+            color: $colorDarkGreen;
+            line-height: 1.6;
+        }
+        &__sentence {
+            flex: 1;
+            line-height: 1.6;
+        }
+    }
+}

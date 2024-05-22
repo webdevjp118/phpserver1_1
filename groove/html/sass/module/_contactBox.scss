@@ -1,0 +1,74 @@
+@use '../global'as g;
+
+.contact_01 {
+  background-color: #F7F8FC;
+  padding-top: 57px;
+  padding-bottom: 87px;
+
+  @include g.sp {
+    padding-top: 4em;
+    padding-bottom: 3em;
+  }
+
+  .contactBox {
+    width: 778px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 6px 20px 20px rgba($color: #0357CB, $alpha: 0.1);
+
+    @include g.pc {
+      height: 254px;
+
+    }
+
+    @include g.sp {
+      width: 90%;
+    }
+
+    .contactTitle {
+      text-align: center;
+      font-family: g.$raleway;
+      font-size: 67px;
+      font-weight: bold;
+      color: rgba($color: #D6DAEA, $alpha: 0.4);
+      transform: translateY(-40px);
+
+      @include g.sp {
+        font-size: 17vw;
+      }
+
+      .-ja {
+        display: block;
+        color: #404F86;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 0.5em;
+
+        @include g.sp {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .btnBox {
+      margin-top: 1em;
+
+      @include g.pc {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      @include g.sp {
+        padding-bottom: 1em;
+      }
+
+      a {
+        @include g.sp {
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+.l-footer {
+    &__link {
+        text-align: center;
+        @include mq_down(md) {
+            padding-top: 40px;
+        }
+        @include mq_up(md) {
+            padding: 80px 0;
+        }
+    }
+    &__catchcopy {
+        font-size: 12px;
+        padding: 8px;
+        text-align: center;
+        color: #fff;
+        background: $colorDarkBlue;
+        @include mq_down(md) {
+            font-size: 10px;
+        }
+    }
+    .footer-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @include mq_down(md) {
+            padding: 4px;
+        }
+        li {
+            @include mq_up(lg) {
+                width: 32%;
+                margin-top: 2%;
+                &:not(:nth-child(3n)) {
+                    margin-right: 2%;
+                }
+            }
+            @include mq_down(lg) {
+                width: 50%;
+                border-bottom: 4px solid #fff;
+                &:nth-child(odd) {
+                    border-right: 4px solid #fff;
+                }
+            }
+            a {
+                width: 100%;
+                text-align: left;
+                position: relative;
+                display: inline-block;
+                color: $colorBlue;
+                background: $colorThinBlue;
+                border: 1px solid $colorThinBlue;
+                border-radius: 1px;
+                overflow: hidden;
+                font-weight: 600;
+                @include mq_up(md) {
+                    font-size: 15px;
+                    padding: 16px 16px 16px 32px;
+                    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+                    &:hover {
+                        border: 1px solid $colorBlue;
+                    }
+                }
+                @include mq_down(md) {
+                    font-size: 12px;
+                    padding: 22px 0 22px 22px;
+                }
+                &:before {
+                    content: "";
+                    display: block;
+                    width: 5px;
+                    height: 9px;
+                    background: center/contain no-repeat url("assets/images/icon_arrow_right_dark_blue.png");
+                    position: absolute;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+                    @include mq_down(md) {
+                        left: 8px;
+                    }
+                    @include mq_up(md) {
+                        left: 16px;
+                    }
+                }
+                &:hover:before {
+                    -webkit-transform: translate(4px, -50%);
+                    transform: translate(4px, -50%);
+                }
+            }
+        }
+    }
+    .footer-img {
+        text-align: center;
+        @include mq_down(md) {
+            margin-bottom: 32px;
+        }
+        @include mq_up(md) {
+            margin-bottom: 24px;
+        }
+        img {
+            width: auto;
+            @include mq_down(md) {
+                height: 30px;
+            }
+            @include mq_up(md) {
+                height: 40px;
+            }
+        }
+    }
+    .l-wrap {
+        @include mq_down(md) {
+            padding: 0;
+        }
+    }
+}

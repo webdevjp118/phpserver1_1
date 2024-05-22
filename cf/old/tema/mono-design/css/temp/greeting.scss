@@ -1,0 +1,41 @@
+.greeting{
+	.inner{
+		.img{
+			width:25%;
+			float: left;
+			@media screen and (max-width: 640px) {/*sp*/
+				width:100%;
+				float: none;
+			}
+			img{
+				margin-bottom: 30px;
+			}
+			.name{
+				font-weight:500;
+				line-height: 1.6em;
+				span{
+					display: block;
+					font-size: 1.3em;
+				}
+			}
+		}//.img
+		.text{
+			width:70%;
+			float: right;
+			text-align: left;
+			font-size: 1.1em;
+			line-height: 1.6em;
+			@media screen and (max-width: 640px) {/*sp*/
+				width:100%;
+				float: none;
+			}
+			span{
+				display: block;
+				margin-bottom: 30px;
+				font-size: 1.6rem;
+				font-weight: 500;
+				line-height: 1.4em;
+			}
+		}//.text
+	}
+}//.greeting

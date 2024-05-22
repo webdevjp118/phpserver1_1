@@ -1,0 +1,10 @@
+.u-text {
+    &__sentence {
+        font-size: 14px;
+        line-height: 1.6;
+        color: $colorLightBlack;
+    }
+    &__center {
+        text-align: center;
+    }
+}

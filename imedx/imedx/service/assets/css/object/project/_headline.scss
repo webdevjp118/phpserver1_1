@@ -1,0 +1,40 @@
+.p-headline {
+    &__top {
+        text-align: center;
+        @include mq_down(md) {
+            margin-bottom: 26px;
+            font-size: 26px;
+        }
+        @include mq_up(md) {
+            margin-bottom: 32px;
+            font-size: 32px;
+        }
+        &:after {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 50px;
+            margin: 12px auto 0;
+            background: $colorDarkBlue;
+        }
+    }
+    &__left {
+        @include mq_down(md) {
+            text-align: center;
+            font-size: 26px;
+            margin-bottom: 26px;
+            &:after {
+                content: "";
+                display: block;
+                height: 2px;
+                width: 50px;
+                margin: 12px auto 0;
+                background: $colorDarkBlue;
+            }
+        }
+        @include mq_up(md) {
+            width: 200px;
+            font-size: 32px;
+        }
+    }
+}

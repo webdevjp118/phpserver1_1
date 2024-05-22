@@ -1,0 +1,10 @@
+.c-box {
+    &-two {
+        @include mq_down(md) {
+            margin-bottom: 24px;
+        }
+        @include mq_up(md) {
+            width: 50%;
+        }
+    }
+}

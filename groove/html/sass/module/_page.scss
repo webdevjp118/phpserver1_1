@@ -1,0 +1,74 @@
+@use '../global'as g;
+
+.sectionTitle_large {
+  font-family: g.$raleway;
+  font-size: 120px;
+  font-weight: bold;
+
+  @include g.sp {
+    font-size: 14vw;
+  }
+}
+
+.sectionTitle {
+  font-family: g.$raleway;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  color: #404F86;
+
+  @include g.sp {
+    font-size: 10vw;
+  }
+
+  .-ja {
+    font-family: g.$sansSerif;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+
+    @include g.sp {
+      font-size: 1rem;
+    }
+  }
+}
+
+.sectionTitle_sub {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+  color: #404F86;
+
+  @include g.sp {
+    font-size: 1.75rem;
+  }
+}
+
+.page_top {
+  background: url(../img/page.png) no-repeat center/cover;
+  padding-top: 160px;
+
+  @include g.sp {
+    padding-top: 7em;
+  }
+
+  .sectionTitle {
+    padding-bottom: 206px;
+
+    @include g.sp {
+      padding-bottom: 5em;
+    }
+  }
+
+  .sectionTitle_large {
+    text-align: right;
+    color: rgba($color: #FFFFFF, $alpha: 0.2);
+    transform: translateY(-270px);
+
+    @include g.sp {
+      transform: translateY(-3.8em);
+    }
+  }
+}
+

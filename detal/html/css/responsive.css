@@ -1,0 +1,1679 @@
+@media(min-width:0px) and (max-width:767px){
+.container{ max-width:100%; padding:0 15px; }
+
+.common_title_hp h2 {font-size: 50px; line-height: 70px; }
+.common_title_hp p { font-size: 18px; line-height: 26px; }
+
+.common_main_title_hp h2 { font-size: 22px; line-height: 30px; }
+.common_main_title_hp p { padding-top: 8px; font-size: 18px; line-height: 24px;}
+
+.common_btn_hp { font-size: 16px; line-height: 15px; padding: 15px 0; min-width: 230px; }
+
+/*--------------- HEADER_START --------------*/
+#header{ padding:0px; }
+.header-in-hp{ height:60px; padding:0 0 0 15px;     justify-content: space-between; }
+.logo-hp{ width: 80px; padding:0px; }
+.logo-hp img{ width:100%; height:auto; }
+.header_img_hp{ display:none; }
+.header_right_hp{ display:none; }
+
+.right_fixed_bar_hp{ display:none; }
+.entry_box_hp a{ min-width:120px; height:50px; line-height:50px; font-size: 16px; }
+.entry_box_hp a span { padding-right: 16px; }
+.entry_box_hp img { margin: 0px 0 0 -11px; width: 12px; }
+
+.header_title_hp{ display:none;}
+.header_top_bar_hp{ display:none; }
+.mobile-menu-icon-hp{ width: 40px; height: 60px; margin: 0 15px; }
+.navigation_in_hp { width: 100%; margin-left: auto; padding: 55px 20px 45px 20px; }
+.menu_logo_hp { width: 50px; }
+.navbar{ padding-top:30px; }
+.navbar-nav .nav-item{ font-size: 15px; line-height: 18px;     padding-bottom: 35px; }
+.navbar-nav .nav-item span { font-size: 10px; line-height: 10px; letter-spacing: 0.8px; padding-left: 17px; }
+.navbar-nav .nav-item ul li a {  font-size: 18px; line-height: 18px; }
+.mobile_social_hp { padding-top: 0; }
+.mobile_navigation_btn_hp { padding-top: 12px; }
+.mobile_navigation_btn_hp a { max-width: 216px; height: 30px; line-height: 30px; font-size: 12px; line-height: 30px; letter-spacing: 2px; }
+.mobile_navigation_btn_hp a img {  margin-top: 9px; margin-right: 7px; margin-left: -7px; width: 7px; }
+.mobile_social_hp ul li { margin-right: 38px; }
+.mobile_entry_box_hp { padding-top: 30px; }
+.mobile_entry_box_hp a{ min-width:100%; height: 50px; line-height: 50px; font-size: 16px; }
+.mobile_entry_box_hp a img{ width:14px; }
+	
+/*--------------- HEADER_END --------------*/
+
+/*--------------- CONTAIN_START --------------*/
+#contain{ padding: 60px 0 0 0; }
+.banner_block_hp{ background:rgba(244,244,242,0.8); }
+.banner_img_hp { padding-left: 0; }
+.banner_box_hp { padding-bottom: 0; }
+.banner_title_hp { position: relative; bottom: auto; left: auto; background:none; padding: 15px; z-index: 1; min-width: auto; }
+.banner_title_hp h3 { font-size: 20px; line-height: 35px; letter-spacing: 1px; }
+.banner_title_hp p { font-size: 17px; line-height: 26px; padding-top: 15px; }
+.banner_title1_hp h3 { padding-top: 15px; }
+
+.register_block_hp { padding: 40px 0 40px 0; }
+.register_title_hp div{ padding:0 40px; }
+.register_title_hp { font-size: 22px; line-height: 30px; min-height: 56px; }
+.register_title_hp span { font-size: 20px; }
+.register_top_hp{ padding:15px 15px 0px 15px; display: block; }
+.register_box_hp { width: 100%; padding: 0; }
+.register_img_hp { width: 150px; margin: auto; }
+.register_box_title_hp img{ width:40px; margin-right: 10px; }
+.register_box_title_hp h3 { font-size: 23px; line-height: 30px; }
+.register_box_title_hp h3 span { font-size: 28px; }
+.register_box_title_hp{ padding-bottom:12px; }
+.register_box_info_hp{ font-size:18px; }
+.register_link_hp ul li img { margin: -2px 8px 0 0; width: 20px; }
+.register_link_hp ul li { margin-bottom: 10px; font-size: 14px; line-height: 20px; padding: 7px 10px; }
+.register_subinfo_hp{ font-size:15px; }
+
+.trouble_block_hp{ padding:40px 0; }
+.trouble_title_hp { font-size: 22px; line-height: 30px; }
+.trouble_title_hp span { font-size: 24px; }
+.trouble_top_hp { padding-top: 30px; display:block; }
+.trouble_img_hp { width: 100%; }
+.trouble_box_hp { width: 100%; padding-left: 0; padding-top: 20px; }
+.trouble_box_link_hp ul li { margin-bottom: 10px; font-size: 13px; line-height: 20px; }
+.trouble_box_link_hp ul li span{ padding:8px 12px; } 
+.trouble_box_title_hp h3 { font-size: 16px; line-height: 30px; }
+.trouble_box_title_hp h3 div:after { height: 6px; bottom: 6px; }
+.trouble_box_title_hp { padding-top: 20px; }
+
+.policy_block_hp { padding: 40px 0 40px 0; }
+.policy_info_hp { padding-top: 20px; }
+.policy_info_hp h3 { font-size: 20px; line-height: 30px; }
+.policy_info_hp p { padding-top: 30px; font-size: 14px; line-height: 24px; }
+.policy_info_hp p span { font-size: 16px; }
+
+.feature_block_hp { padding: 40px 0 0 0; }
+.feature_title_hp { margin-top: 30px; }
+.feature_title_hp { margin-top: 30px; padding: 15px; }
+.feature_title_hp h3 { font-size: 20px; line-height: 24px; }
+.feature_title_hp h3 span { font-size: 28px; line-height: 30px }
+.feature_info_hp { padding-top: 30px; font-size: 14px; line-height: 20px; }
+.feature_info_hp div:after{ height:6px; }
+.feature_subinfo_hp { padding-top: 70px; font-size: 16px; line-height: 28px; }
+.feature_subinfo_hp:before{ height:35px; }
+.feature_top_hp { display: block; padding-top: 30px; }
+.feature_image_hp { width: 100%; }
+.feature_box_hp { width: 100%; padding: 20px 0 0 0; }
+.feature_box_info_hp p { font-size: 13px; line-height: 26px;}
+.feature_change_hp { padding-top: 30px; }
+.feature_change_hp .feature_box_hp{ padding:20px 0 0 0; }
+.feature_box_info_hp h3 { font-size: 16px; line-height: 26px; padding-bottom: 20px; }
+.point_block_hp { padding-top: 50px; }
+.point_block_hp .common_title_hp p {   font-size: 14px; line-height: 20px; }
+.point_block_hp .common_title_hp p span { font-size: 24px;} 
+.point_box_hp { width: 100%; margin: 40px 0px 0 0; }
+.point_box_img_hp { width: 60%; }
+.point_grid_hp { width: 70%; margin-right: -30%; }
+.point_grid_title_hp { padding-left: 20px; }
+.point_grid_info_hp { height: auto; padding: 29px 14px 16px 19px; }
+.point_grid_title_hp h3 { font-size: 30px; line-height: 40px; }
+.point_grid_info_hp h3 { font-size: 20px; line-height: 30px; }
+.point_grid_info_hp p { font-size: 14px; line-height: 24px; }
+.point_btn_hp{ margin-top:50px; }
+.point_btn_hp h3 { font-size: 22px; line-height: 30px; }
+.point_btn_hp p{ font-size:16px; }
+.treatment_block_hp { padding: 10px 0 40px 0; }
+.treatment_top_hp { padding-top: 30px; }
+.treatment_box_hp { display: block; padding-bottom: 40px; }
+.treatment_left_hp { width: 100%; }
+.treatment_right_hp { width: 100%; padding: 20px 15px 15px 15px; margin: 0; }
+.treatment_right_hp:after{ display:none; }
+.treatment_right_info_hp h3 { font-size: 20px; }
+.treatment_right_info_hp h4 { font-size: 14px; line-height: 27px; padding-top: 18px; }
+.treatment_right_info_hp p { padding-top: 18px; font-size: 13px; line-height: 24px; }
+.treatment_box_change_hp .treatment_right_hp { margin: 0; padding: 20px 15px 15px 15px; }
+.treatment_left_info_hp{ padding:15px; }
+.treatment_bottom_hp { padding-top: 30px; }
+.treatment_bottom_box_hp { display: block; }
+.treatment_bottom_img_hp { width: 100%; }
+.treatment_bottom_right_hp { width: 100%; padding: 20px 15px 15px 15px; margin: 0; }
+.treatment_bottom_right_hp:after{ display:none; }
+.treatment_bottom_info_hp h3{ font-size: 20px; }
+.treatment_bottom_info_hp p { padding-top: 10px; font-size: 14px; line-height: 27px; }
+.treatment_bottom_row_hp { padding-top: 0px; display: block; }
+.treatment_bottom_grid_hp { width: 100%; margin-right: 0; margin-top: 30px; }
+.treatment_bottom_grid_info_hp{ line-height:26px; }
+.treatment_bottom_change_hp{ padding-top:30px; }
+.treatment_bottom_change_hp .treatment_bottom_right_hp { padding: 20px 15px 15px 15px; margin: 0; }
+.treatment_info_hp { padding-top: 30px; font-size: 14px; line-height: 30px; }
+
+.implants_block_hp { padding: 40px 0; }
+.implants_title_hp h3 { font-size: 20px; line-height: 30px; padding-bottom: 30px; }
+.implants_title_hp h4 { font-size: 18px; }
+.implants_top_hp { padding-top: 30px; display: block; }
+.implants_img_hp { width: 100%; }
+.implants_right_hp { width: 100%; padding: 15px; height: auto; }
+.implants_info_hp { font-size: 14px; line-height: 27px; }
+.implants_box_hp { padding-top: 30px; }
+.implants_subinfo_hp { font-size: 15px; line-height: 30px;}
+.implants_row_hp{ display:block; }
+.implants_left_row_hp { width: 100%; padding: 15px 15px 0 15px; }
+.implants_right_row_hp { width: 100%; }
+.implants_right_gride_hp { display: block; padding: 15px; }
+.implants_left_title_hp { font-size: 16px; line-height: 24px; }
+.implants_right_info_hp { font-size: 14px; line-height: 26px; width: 100%; }
+.implants_right_subinfo_hp { font-size: 14px; line-height: 22px; width:100%; }
+
+.counseling_block_hp { padding: 50px 0 40px 0; }
+.counseling_top_hp { padding-top: 40px; display: block; }
+.counseling_img_hp { width: 100%; margin-left: 0; }
+.counseling_right_hp { width: 100%; margin: 20px 0 0 0; }
+.counseling_info_hp h3 { font-size: 20px; line-height: 28px; }
+.counseling_info_hp p { font-size: 14px; line-height: 30px; padding-top: 20px; }
+.counseling_btn_hp { padding-top: 60px; }
+.common_green_btn { padding: 22px 30px 22px 110px; }
+.common_green_btn h3 { font-size: 20px; line-height: 30px; }
+.common_green_btn h3 span { font-size: 22px; }
+.common_green_btn p { font-size: 14px; line-height: 22px; }
+
+.flow_block_hp { padding: 40px 0; }
+.flow_title_hp h3 { font-size: 22px; line-height: 34px; }
+.flow_title_hp p { font-size: 16px; line-height: 22px; padding-top: 10px; }
+.flow_top_hp { padding-top: 40px; }
+.flow_box_hp { display: block; padding: 15px; }
+.flow_info_2_hp { width: 100%; padding-right:0; }
+.flow_info_hp h3 { font-size: 20px; line-height: 25px; padding-top: 0; }
+.flow_info_hp p { font-size: 14px; line-height: 28px; padding-top: 10px; }
+.flow_right_btn_2_hp { width: 100%; display: block; padding: 20px 0 0 0; }
+.flow_green_btn_hp{ width:100%; }
+.flow_white_btn_hp { margin-left: 0; width: 100%; margin-top:10px; }
+.flow_green_info_hp h3 { font-size: 18px; line-height: 28px; }
+.flow_green_info_hp h3 span { font-size: 16px; }
+.flow_green_info_hp p { font-size: 12px; }
+.flow_white_btn_hp a p { font-size: 18px; line-height: 26px; padding: 11px 0; }
+.flow_left_hp { width: 80px; }
+.flow_right_hp { width: calc(100% - 80px); }
+.flow_left_in_hp { width: 70px; height: 70px; padding: 12px 0; }
+.flow_left_in_hp h3 { font-size: 12px; line-height: 22px; }
+.flow_left_in_hp p { font-size: 26px; line-height: 23px;}
+.flow_box_hp:before{ left: -47px; }
+.flow_top_in_hp { padding-bottom: 30px; }
+.flow_info_hp { width: 100%; padding-right: 0; }
+.flow_img_hp { width: 100%; padding: 20px 0 0 0; }
+.flow_change_hp { padding-top: 40px; }
+.flow_change_hp p { font-size: 14px; line-height: 28px; padding-top: 20px; }
+
+.line_block_hp { padding: 30px 0 200px 0; }
+.line_block_hp .common_title_hp p { font-size: 18px; line-height: 26px; }
+.line_block_hp .common_title_hp p span { font-size: 17px; }
+.line_info_hp p { font-size: 14px; line-height: 24px; padding-top: 20px; }
+.line_info_hp h3 { font-size: 18px; line-height: 28px; padding: 30px 0 26px 0; }
+
+.precautions_box_hp{ padding:20px; }
+.precautions_title_hp { font-size: 15px; line-height: 22px;}
+.precautions_info_hp ul li { font-size: 13px; line-height: 22px; padding-bottom: 16px; }
+.precautions_block_hp { padding-bottom: 40px; }
+.new_block_bdp { padding: 40px 0; }
+.new_title_bdp h3 { font-size: 22px; line-height: 34px; }
+.new_title_bdp p { font-size: 16px; line-height: 22px; padding-top: 10px; }
+.new_pd_bdp { padding-top: 30px; display: block; }
+.blog_box_bp { width: 100%; margin: 0 0 30px 0 !important; }
+.new_btn_hp { padding-top: 10px; }
+
+/*--------------- CONTAIN_END --------------*/
+
+/*--------------- FOOTER_START --------------*/
+#footer { padding: 40px 0 24px 0; }
+.footer_top_middle_hp { display: block; }
+.footer_top_middle_left_hp { width: 100%; padding-right: 0; }
+.footer_top_middle_right_hp { width: 100%; padding: 30px 0 0 0; }
+.footer_phone_hp { padding: 40px 0 0 0; }
+.footer_phone_hp p { font-size: 15px; line-height: 20px;  }
+.footer_phone_hp h3 { font-size: 26px; line-height: 36px; }
+.footer_phone_hp h3 img{ width:20px; }
+.footer_green_btn_hp { width: 50% !important; margin-right: 6px; padding: 10px 0; }
+.footer_green_btn_hp .flow_green_info_hp p { font-size: 14px; }
+.footer_white_btn_hp a{ font-size: 14px; min-width:100%; } 
+.footer_table_hp { padding-top: 30px; }
+.footer_table_top_title_hp { width: 106px; font-size: 14px; }
+.footer_table_top_info_hp { width: calc(14% - 14px); font-size: 11px; line-height: 22px; }
+.footer_map_btns_left_hp { font-size: 12px; line-height: 16px; color: #fff; }
+.footer_map_btns_left_hp span { font-size: 13px; line-height: 16px; }
+.footer_menu_hp { padding: 40px 0 0 0; }
+.footer_menu_hp ul li { padding: 0 15px; }
+.copyright_hp { padding: 20px 0 0 0; text-align: center; }
+.back-to-top-hp { right: 10px; bottom: 10px; width: 68px; height: 68px; line-height: 68px; }
+/*--------------- FOOTER_END --------------*/
+
+/*--------------- 01_CLINIC_INTRODUCTION_START --------------*/
+.banner_block_in_cp { padding: 0; }
+.banner_title_cp { padding-top: 20px; padding-left:15px; padding-right:15px; }
+.banner_title_cp h3 { font-size: 20px; line-height: 30px; }
+.banner_title_cp p { font-size: 16px; line-height: 22px; padding-top: 5px; }
+.banner_img_cp { padding-top: 20px; }
+.breadcrumb_block_cp { padding: 15px 0; }
+.breadcrumb_block_in_cp { padding: 0 15px; }
+.photo_block_cp { padding: 20px 0 40px 0; }
+.photo_title_cp { font-size: 22px; line-height: 26px; padding: 0 15px; }
+.photo_top_cp { padding: 20px 0 0 0; display:block; }
+.photo_left_img_cp { width: 100%; }
+.photo_right_cp { width: 100%; margin-left: 0; margin-top: 14px; }
+.photo_box_cp { padding: 14px 0 0 0; }
+.photo_right_img2_cp { margin-right: 14px; width: calc(50% - 7px); }
+.photo_bottom_cp { padding: 14px 0 0 0; display: block; }
+.photo_bottom_left_cp { width: 100%; margin-right: 0; }
+.photo_bottom_left_img1_cp { width: calc(68.7% - 10px); margin-right: 14px; }
+.photo_bottom_left_img2_cp { width: 31.3%; }
+.photo_bottom_left_row_cp { padding-top: 14px; }
+.photo_bottom_left_img4_cp { width: calc(68.7% - 10px); margin-left: 14px; }
+.photo_bottom_right_img_cp { width: 100%; padding-top: 14px; }
+.order_main_cp { padding: 60px 0 20px 0; }
+.order_digit_cp { font-size: 70px; line-height: 36px; width: 80px; }
+.order_title_cp { font-size: 20px; line-height: 32px; width: calc(100% - 35px); margin-left: -45px; }
+.order_info_cp { padding: 20px 0 0 35px; }
+.order_info_cp p { font-size: 14px; line-height: 26px; }
+.order_box_cp { padding: 30px 0 0 0; display: flex; margin-right: 0; }
+.order_row_cp { width: calc(33.33% - 10px); margin-right: 15px; }
+.order_block_cp { padding: 0 0 40px 0; }
+.greeting_block_cp { padding: 40px 0 0 0; }
+.greeting_top_cp { display: block; padding-top: 30px; }
+.greeting_title_cp { font-size: 20px; line-height: 36px; width: 100%; margin-right: 0; padding-left: 0; adding-right: 15px; }
+.greeting_img_cp { width: 100%; margin-top: 20px; padding-right: 15px; }
+.greeting_info_cp { padding: 20px 15px 0 0px; }
+.greeting_info_cp p { font-size: 13px; line-height: 26px; padding-bottom: 20px; }
+.greeting_row_cp { display: block; padding: 30px 15px 1px 0; }
+.greeting_box_cp { width: 270px; margin: 0 auto 30px auto !important; }
+.greeting_row_info_cp { font-size: 13px; line-height: 28px; padding: 20px 15px 0 0; }
+.greeting_middle_cp { margin-top: 30px; padding-bottom: 40px; }
+.takayuki_block_cp { padding: 40px 0 0 0; }
+.takayuki_top_cp { display: block; padding: 0 0 40px 0; }
+.takayuki_img_cp { width: 100%; margin: 0; }
+.takayuki_right_cp { width: 100%; margin-left: 0; padding: 40px 0 0 20px; }
+.takayuki_name_cp { font-size: 25px; line-height: 30px; padding: 6px 20px; width: auto; bottom: 0px; right: 0px; }
+.takayuki_row_cp { display: block; padding-top: 20px; }
+.takayuki_box_left_cp { width: 100%; }
+.takayuki_box_right_cp { width: 100%; padding-left: 0; padding-top: 30px; }
+.takayuki_subtitle_cp { font-size: 16px; line-height: 28px; }
+.takayuki_subinfo_cp p { font-size: 14px; line-height: 28px; }
+.takayuki_date_cp p { font-size: 14px; line-height: 28px; }
+.takayuki_gride_info_cp p{ font-size: 14px; line-height: 28px; }
+.doctor_change_cp .takayuki_name_cp { bottom: 0; left: auto; }
+.doctor_change_cp .takayuki_right_cp { margin-right: 0; padding: 40px 20px 0 0; }
+.doctor_change_cp .takayuki_img_cp { margin: 0; }
+.infection_block_cp { margin-top: 60px; padding: 40px 0 50px 0; }
+.infection_title_cp { font-size: 16px; line-height: 28px; }
+.infection_top_cp{ flex-wrap: wrap;	 }
+.infection_box_cp { width: 100%; margin-right: 0; padding: 30px 25px; margin-bottom: 40px; }
+.infection_subtitle_cp { padding-top: 20px; }
+.infection_subtitle_cp p { font-size: 12px; line-height: 23px; padding-top: 20px; }
+.infection_row_cp { display: flex; padding: 30px 0; max-width: 760px; margin: auto; flex-wrap: wrap; }
+.infection_grid_cp { width: 250px; margin: 0 auto 20px auto !important; }
+.infection_img_cp{ margin:auto; }
+.infection_bottom_cp { padding-top: 20px; }
+.infection_bottom_box_cp { padding: 30px 15px; }
+.infection_bottom_info_cp { font-size: 13px; line-height: 26px; }
+.infection_box_info_cp { padding: 30px 0 0 0; }
+.infection_box_info_cp ul li{ font-size: 13px; line-height: 26px; }
+.infection_bottom_subinfo_cp{ padding:30px 0 0 0; font-size: 13px; line-height: 26px; }
+.access_block_cp { padding: 40px 0 40px 0; }
+.access_right_info_cp { font-size: 18px; }
+.access_title_cp { font-size: 12px; line-height: 22px; }
+.access_row_cp { padding-top: 20px; }
+.access_location_info_cp { font-size: 12px; line-height: 22px; }
+.access_box_cp { padding-top: 30px; }
+.access_grid_cp { width: 100%; margin-right: 0; position: relative; margin-bottom: 50px !important; }
+.access_svg_cp { right: auto; top: auto; transform: rotate(90deg); bottom: -30px; left: calc(50% - 14px); }
+.access_grid_cp:last-child{ margin-bottom:0 !important; }
+.access_img_info_cp { font-size: 14px; line-height: 28px; }
+.access_pd_cp { padding-top: 40px; }
+.access_bottom_cp { display: block; padding: 0; }
+.access_bottom_box_cp { width: 100%; padding: 25px 0; margin-right: 0; margin-top: 30px; }
+.access_bottom_title_cp { font-size: 15px; line-height: 30px; }
+.access_bottom_info_cp { font-size: 14px; line-height: 28px; }
+/*--------------- 01_CLINIC_INTRODUCTION_END --------------*/
+
+/*--------------- 02_IMPLANT TREATMENT_START --------------*/
+.contact_banner_details_ip {
+    width: 100%;
+    padding: 25px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+}
+.contact_banner_details_info_ip {
+    padding: 20px 0 0 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+.inplant_block_ip {
+    padding: 30px 0 0 0;
+}
+.inplant_middle_ip {
+    width: 100%;
+}
+.inplant_top_ip {
+    display: block;
+}
+.inplant_img_ip {
+    width: 100%;
+    padding-right: 0;
+}
+.inplant_img_ip img {
+    width: 100%;
+}
+.inplant_info_ip {
+    width: 100%;
+	padding-top:15px;
+}
+.inplant_info_ip p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.inplant_box_ip{ margin-top:40px; padding: 30px; }
+.inplant_bottom_ip {
+    padding-top: 40px;
+}
+.inplant_bottom_info_ip p {
+    font-size: 13px;
+    line-height: 26px;
+}
+.inplant_bottom_img_ip {
+    padding-right: 14px;
+}
+.pros_block_ip {
+    padding: 50px 0 0 0;
+}
+.pros_title_ip h2 {
+       font-size: 18px;
+    padding: 16px 15px;
+    margin-top: 30px;
+}
+.pros_title_ip p {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 30px 0 0 0;
+}
+.pros_top_ip{ overflow: scroll; }
+.pros_top_inner_ip{ width:1000px; }
+.pros_border2_ip{ margin-top:0; }
+.pros_border_ip{ margin-bottom:0; }
+.pros_main_ip { padding-bottom: 50px; }
+.pros_pd_ip { padding-bottom: 20px; }
+.inserts_block_ip {
+    padding: 40px 0 40px 0;
+}
+.inserts_info_ip p {
+    font-size: 14px;
+    line-height: 22px;}
+	.inserts_info_ip p br{ display:none; }
+	.inserts_title_ip h2{  font-size: 18px;
+    padding: 16px 15px;
+    margin-top: 40px; }
+.inserts_top_ip{ display:block; }
+.inserts_box_ip{ width:300px; margin:0 auto 30px auto  !important; }
+.inserts_boxes_ip {
+    padding: 20px;
+    margin-top: 50px;
+}
+.inserts_box_title_ip {
+    font-size: 16px;
+    line-height: 28px;
+}
+.inserts_box_in_ip {
+    flex-direction: column-reverse;
+}
+.inserts_right_ip {
+    padding-left: 0;
+    width: 100%;
+}
+.inserts_left_ip {
+    padding-top: 30px;
+    width: 100%;
+}
+.inserts_left_info_ip p {
+    font-size: 16px;
+    line-height: 30px;
+}
+.inserts_pd_ip {
+    padding-top: 0;
+}
+.inserts_bottom_inner_ip {
+    padding-bottom: 50px;
+}
+.inserts_bottom_left_ip {
+    width: 100px;
+}
+.inserts_bottom_left_in_ip {
+    font-size: 19px;
+    line-height: 28px;
+}
+.inserts_bottom_right_ip {
+    width: calc(100% - 100px);
+}
+.inserts_bottom_box_ip {
+    width: 100%;
+	padding:15px;
+}
+	.inserts_bottom_right_ip:before {
+
+    left: -53px;
+    top: 40px;
+    width: 2px;
+    height: calc(100% - 10px);
+}
+.inserts_bottom_box_in_ip{     flex-direction: column-reverse; }
+.inserts_box_img_ip {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 0;
+}
+.inserts_box_subinfo_ip {
+    width: 100%;
+    padding: 20px 0 0 0;
+}
+.inserts_box_subinfo_ip h2 {
+    font-size: 18px;
+}
+.inserts_box_subinfo_ip p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.inserts_subinfo_ip {
+    padding: 15px;
+ 
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.free_block_ip {
+    padding: 40px 0;
+}
+.free_box_info_ip p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 30px;
+}
+.therapy_block_ip {
+    padding-top: 40px;
+}
+.common_green_btn:before{ top:-15px; }
+.therapy_change_ip .pros_title_ip p {
+    padding-top: 30px;
+}
+.therapy_boxes_ip{ padding:30px 30px 0px 30px; }
+.therapy_title_ip h2{ padding-bottom:30px; }
+.therapy_box_ip {
+    padding-bottom: 40px;
+}
+.therapy_box_in_ip {
+    display: block;
+}
+.therapy_img_ip {
+    width: 100%;
+    padding-right: 0;
+}
+.therapy_info_ip {
+    width: 100%;
+    padding: 20px 0 0 0;
+}
+.therapy_info_ip p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+.therapy_bottom_info_ip p {
+    font-size: 14px;
+    line-height: 28px;
+    padding: 40px 0 40px 0;
+}
+.chronic_block_ip {
+    padding: 40px 0 0 0;
+}
+.chronic_title_ip h2 {
+    font-size: 22px;
+    line-height: 32px;
+}
+.chronic_title_ip p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 30px;
+}
+.chronic_top_ip {
+    padding: 30px 15px;
+    margin: 36px auto auto auto;
+}
+.chronic_pd_ip {
+    padding-top: 20px;
+}
+.chronic_info_ip {
+    font-size: 16px;
+}
+.chronic_box_ip {
+    display: block;
+    padding-top: 40px;
+    width: 100%;
+}
+.chronic_img_ip {
+    width: 100%;
+    padding-right: 0;
+}
+.chronic_box_info_ip {
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+.chronic_box_info_ip p {
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+.chronic_grid_ip {
+    padding-top: 50px;
+        flex-direction: column-reverse;
+}
+.chronic_left_ip {
+    width: 100%;
+    padding: 25px;
+    margin: 0;
+}
+.chronic_right_ip {
+    width: 100%;
+}
+.chronic_left_title_ip h2 {
+    font-size: 20px;
+}
+.chronic_left_in_ip ul li {
+    font-size: 16px;
+}
+.warranty_pb_ip {
+    padding-top: 20px;
+}
+.warranty_top_ip {
+    padding-top: 40px;
+	width:100%; display:block;
+}
+.warranty_img_ip {
+    width: 100%;
+    padding-right: 0;
+}
+.warranty_info_ip {
+    padding-top: 25px;
+    width: 100%;
+}
+.warranty_info_ip p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.warranty_info_img_ip{ display:none; }
+.warranty_info_img2_ip{ display:none; }
+.warranty_info_img3_ip{ display:none; }
+.warranty_bottom_ip{ margin-top:30px; }
+.warranty_subtitle_ip h3{ line-height:26px; }
+.costs_left_ip {
+    width: 100%;
+    padding-right: 0;
+}
+.costs_box_ip {
+    display: block;
+}
+.costs_right_ip {
+    width: 100%;
+    padding-top: 35px;
+}
+.costs_in_ip {
+    font-size: 14px;
+    line-height: 13px;
+}
+.costs_price_ip{
+    font-size: 14px;
+    line-height: 13px;
+}
+.costs_img_ip{ display:none; }
+.costs_img2_ip{ display:none; }
+.costs_bottom_title_ip {
+    line-height: 60px;
+    padding: 30px 0 25px 0;
+}
+.costs_bottom_inner_ip {
+    display: block;
+}
+.costs_bottom_box_ip {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+.costs_bottom_info_ip {
+    padding-top: 20px;
+}
+.costs_block_ip {
+    padding-bottom: 40px;
+}
+.counseling_btn_2_hp .counseling_btn_hp {
+    padding: 40px 15px;
+}
+.concerns_block_ip {
+    padding: 40px 0;
+}
+.concerns_title_ip h2 {
+    font-size: 20px;
+    line-height: 35px;
+}
+.concerns_top_ip {
+    display: block;
+}
+.concerns_left_ip {
+    width: 300px;
+    padding-right: 0;
+    margin: auto;
+}
+.concerns_right_ip {
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+.concerns_right_in_ip p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.concerns_box_ip {
+    margin-top: 40px;
+    padding: 30px;
+}
+.concerns_box_in_ip h2 {
+    font-size: 20px;
+}
+.concerns_box_in_ip p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.concerns_bottom_ip {
+    padding: 40px 0 0 0;
+}
+.concerns_bottom_in_ip h2 {
+    font-size: 20px;
+}
+.concerns_bottom_in_ip p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 30px;
+}
+.medical_block_csp {
+    padding: 40px 0 40px 0;
+}
+.cost_title_csp h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.cost_title_csp p {
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+.medical_top_csp {
+    padding: 40px 0 40px 0;
+}
+.medical_box_csp {
+    padding: 20px 0 40px 0;
+    flex-wrap: wrap;
+}
+.medical_box_sign_csp{ padding:0 15px; }
+.medical_bottom_csp{ padding:20px; }
+.medical_bottom_row_csp {
+    display: block;} 
+	.medical_bottom_left_csp {
+    width: 100%;
+    margin-right: 0;
+}
+.medical_bottom_info_csp {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.medical_bottom_right_csp {
+    width: 100%;
+    padding: 14px 20px 11px 20px;
+}
+.medical_left_box_csp{ font-size:13px; }
+.medical_right_box_csp {
+    font-size: 13px;}
+	.faq_block_ip {
+    padding-top: 40px;}
+	.faq_main_ip {
+    padding-top: 40px;
+}
+.btn-link1 {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 18px 10px;
+}
+.faq_title_ip {
+    font-size: 20px;
+    line-height: 28px;
+    width: 40px; }
+	.faq_desc_ip {
+    width: calc(100% - 40px);
+    font-size: 14px;
+    line-height: 28px;
+    color: #333333;
+    padding-right: 40px;
+}
+.accordion .card .active.collapsed{ background-position:right 20px center; background-size: 20px; }
+.accordion .card .active{ background-position:right 20px center; background-size: 20px; }
+.card-body {
+    padding: 20px 0px 20px 0 !important;
+    margin: 0 10px;
+    display: flex;
+}
+.faq_middle_ip {
+    padding: 0 0 20px 0;
+}
+/*--------------- 02_IMPLANT TREATMENT_END --------------*/
+
+/*--------------- 03_COST_START --------------*/
+.cost_block_csp {
+    padding: 40px 0 40px 0;
+}
+.cost_top_csp {
+    padding-top: 40px
+}
+.cost_subtitle_csp {
+    font-size: 17px;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+.cost_row_csp {
+    display: block;
+}
+.cost_left_csp {
+    width: 100%;
+}
+.cost_box_csp {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.cost_right_csp {
+    width: 100%;
+}
+.cost_left_info_csp {
+    font-size: 17px;
+    line-height: 22px;
+    width: calc(100% - 180px);
+    padding-left: 0;
+    text-align: center;
+}
+.cost_price_csp {
+    font-size: 22px;
+    line-height: 32px;
+    padding: 20px 20px 20px 20px;
+    min-height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dental_block_csp {
+    padding: 40px 0;
+}
+/*--------------- 03_COST_END --------------*/
+
+/*---------------04_BLOG_LIST_START --------------------*/
+.blog_block_bp {
+    padding: 40px 0 40px 0;
+}
+.blog_pagination_pp .page-item {
+    margin-right: 10px;
+}
+.blog_pagination_pp .page-link{ font-size:18px; }
+/*---------------04_BLOG_LIST_END --------------------*/
+
+/*---------------05_BLOG_LIST_DETAILS_START --------------------*/
+.detail_block_bdp {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.detail_info_bdp h4 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.detail_info_bdp p {
+    font-size: 14px;
+    line-height: 28px;
+}
+.detail_table_row_bdp {
+    display: block;
+}
+.detail_table_left_bdp {
+    width: 100%;
+}
+.detail_left_title_bdp{ padding:15px; }
+.detail_table_right_bdp {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+}
+.detail_right_info_bdp {
+    font-size: 14px;
+    line-height: 24px;
+}
+.detail_list_bdp {
+    padding-top: 40px;
+}
+.detail_btn2_bdp {
+    padding-top: 40px;
+}
+/*---------------05_BLOG_LIST_DETAILS_END --------------------*/
+
+/*---------------06_CONTACT_START --------------------*/
+.contact_block_cop {
+    padding: 40px 0;
+}
+.contact_details_cop {
+    font-size: 16px;
+    line-height: 30px;
+}
+.contact-form-cop {
+    padding: 60px 0 0 0;
+}
+.form-field-cop{ display:block;     padding: 0 0 30px 0; }
+.form-field-lable-cop {
+    width: 100%;
+    padding-right: 0;
+	padding-bottom:18px;
+}
+.form-field-input-cop {
+    width: 100%;
+    padding: 0;
+}
+.form-field-info-cop {
+    padding: 0;
+}
+.form-field-details-in-cop {
+    height: 100%;
+    padding: 20px 25px 25px 20px;
+}
+.form-field-radio-main-cop {
+    padding: 30px 0 30px 0;
+}
+.contact-btn-cop a {
+    min-width: 280px;
+}
+.form-list-title-cop {
+    font-size: 13px;
+    line-height: 24px;
+    color: #565656;
+    padding-right: 10px;
+    width: 80px;
+}
+.form-radio-cop {
+    padding: 0 30px 0 0;
+}
+.radio-container-cop{ font-size:14px; }
+
+/*---------------06_CONTACT_END --------------------*/
+}
+
+@media(min-width:768px) and (max-width:991px){
+.container{ max-width:768px; padding:0 15px; }
+
+.common_title_hp h2 { font-size: 70px; line-height: 70px; }
+.common_title_hp p { font-size: 22px; line-height: 26px; }
+
+.common_main_title_hp h2 { font-size: 26px; line-height: 30px; }
+.common_main_title_hp p { padding-top: 10px; font-size: 20px; line-height: 24px;}
+
+.common_btn_hp { font-size: 16px; line-height: 15px; padding: 15px 0; min-width: 230px; }
+
+/*--------------- HEADER_START --------------*/
+#header{ padding:0px; }
+.header-in-hp{ height:60px; padding:0 0 0 15px;     justify-content: space-between; }
+.logo-hp{ width: 80px; padding:0px; }
+.logo-hp img{ width:100%; height:auto; }
+.header_img_hp{ display:none; }
+.header_right_hp{ display:none; }
+
+.right_fixed_bar_hp{ display:none; }
+.entry_box_hp a{ min-width:120px; height:50px; line-height:50px; font-size: 16px; }
+.entry_box_hp a span { padding-right: 16px; }
+.entry_box_hp img { margin: 0px 0 0 -11px; width: 12px; }
+
+.header_title_hp{ display:none;}
+.header_top_bar_hp{ display:none; }
+.mobile-menu-icon-hp{ width: 40px; height: 60px; margin: 0 15px; }
+.navigation_in_hp { width: 100%; margin-left: auto; padding: 55px 20px 45px 20px; }
+.menu_logo_hp { width: 50px; }
+.navbar{ padding-top:30px; }
+.navbar-nav .nav-item{ font-size: 21px; line-height: 21px; }
+.navbar-nav .nav-item span { font-size: 10px; line-height: 10px; letter-spacing: 0.8px; padding-left: 17px; }
+.navbar-nav .nav-item ul li a {  font-size: 18px; line-height: 18px; }
+.mobile_social_hp { padding-top: 0; }
+.mobile_navigation_btn_hp { padding-top: 12px; }
+.mobile_navigation_btn_hp a { max-width: 216px; height: 30px; line-height: 30px; font-size: 12px; line-height: 30px; letter-spacing: 2px; }
+.mobile_navigation_btn_hp a img {  margin-top: 9px; margin-right: 7px; margin-left: -7px; width: 7px; }
+.mobile_social_hp ul li { margin-right: 38px; }
+.mobile_entry_box_hp { padding-top: 30px; }
+.mobile_entry_box_hp a{ min-width:100%; height: 50px; line-height: 50px; font-size: 16px; }
+.mobile_entry_box_hp a img{ width:14px; }
+	
+/*--------------- HEADER_END --------------*/
+
+/*--------------- CONTAIN_START --------------*/
+#contain{ padding: 60px 0 0 0; }
+.banner_img_hp { padding-left: 50px; }
+.banner_box_hp { padding-bottom: 50px; }
+.banner_title_hp { padding: 15px; min-width: 400px; }
+.banner_title_hp h3 { font-size: 20px; line-height: 35px; letter-spacing: 1px; }
+.banner_title_hp p { font-size: 17px; line-height: 26px; padding-top: 15px; }
+.banner_title1_hp h3 { padding-top: 15px; }
+
+.register_block_hp { padding: 40px 0 40px 0; }
+.register_title_hp div{ padding:0 40px; }
+.register_title_hp { font-size: 26px; line-height: 44px; min-height: 56px; }
+.register_title_hp span { font-size: 20px; }
+.register_top_hp{ padding:0 15px 0 30px;  }
+.register_box_title_hp img{ width:40px; margin-right: 10px; }
+.register_box_title_hp h3 { font-size: 23px; line-height: 30px; }
+.register_box_title_hp h3 span { font-size: 28px; }
+.register_box_title_hp{ padding-bottom:12px; }
+.register_box_info_hp{ font-size:16px; }
+.register_link_hp ul li img { margin: -2px 8px 0 0; width: 20px; }
+.register_link_hp ul li { margin-bottom: 10px; font-size: 14px; line-height: 20px; padding: 7px 10px; }
+.register_subinfo_hp{ font-size:15px; }
+
+.trouble_block_hp{ padding:40px 0; }
+.trouble_title_hp { font-size: 22px; line-height: 30px; }
+.trouble_title_hp span { font-size: 24px; }
+.trouble_top_hp { padding-top: 30px; }
+.trouble_img_hp { width: 50%; }
+.trouble_box_hp { width: 50%; padding-left: 30px; }
+.trouble_block_hp:after{ height:150px; }
+.trouble_box_link_hp ul li { margin-bottom: 10px; font-size: 13px; line-height: 20px; }
+.trouble_box_link_hp ul li span{ padding:8px 12px; } 
+.trouble_box_title_hp h3 { font-size: 16px; line-height: 30px; }
+.trouble_box_title_hp h3 div:after { height: 6px; bottom: 6px; }
+.trouble_box_title_hp { padding-top: 20px; }
+
+.policy_block_hp { padding: 50px 0 40px 0; }
+.policy_info_hp { padding-top: 40px; }
+.policy_info_hp h3 { font-size: 20px; line-height: 30px; }
+.policy_info_hp p { padding-top: 30px; font-size: 14px; line-height: 24px; }
+.policy_info_hp p span { font-size: 16px; }
+
+.feature_block_hp { padding: 40px 0 0 0; }
+.feature_title_hp { margin-top: 30px; }
+.feature_title_hp { margin-top: 30px; padding: 15px; }
+.feature_title_hp h3 { font-size: 20px; line-height: 24px; }
+.feature_title_hp h3 span { font-size: 28px; line-height: 30px }
+.feature_info_hp { padding-top: 30px; font-size: 14px; line-height: 20px; }
+.feature_info_hp div:after{ height:6px; }
+.feature_subinfo_hp { padding-top: 70px; font-size: 16px; line-height: 28px; }
+.feature_subinfo_hp:before{ height:35px; }
+.feature_top_hp { padding-top: 30px; }
+.feature_image_hp { width: 50%; }
+.feature_box_hp { width: 50%; padding: 0px 0 0 30px; }
+.feature_box_info_hp p { font-size: 13px; line-height: 26px;}
+.feature_change_hp { padding-top: 30px; }
+.feature_change_hp .feature_box_hp{ padding:0px 30px 0 0; }
+.feature_box_info_hp h3 { font-size: 16px; line-height: 26px; padding-bottom: 20px; }
+.point_block_hp { padding-top: 50px; }
+.point_block_hp .common_title_hp p {   font-size: 16px; line-height: 20px; }
+.point_block_hp .common_title_hp p span { font-size: 24px;} 
+.point_box_img_hp { width: 60%; }
+.point_grid_hp { width: 70%; margin-right: -30%; }
+.point_grid_title_hp { padding-left: 20px; }
+.point_grid_info_hp { height: auto; padding: 29px 14px 16px 19px; }
+.point_grid_title_hp h3 { font-size: 30px; line-height: 40px; }
+.point_grid_info_hp h3 { font-size: 20px; line-height: 30px; }
+.point_grid_info_hp p { font-size: 14px; line-height: 24px; }
+.point_btn_hp{ margin-top:50px; }
+.point_btn_hp h3 { font-size: 22px; line-height: 30px; }
+.point_btn_hp p{ font-size:16px; }
+.treatment_block_hp { padding: 10px 0 40px 0; }
+.treatment_top_hp { padding-top: 30px; }
+.treatment_box_hp {padding-bottom: 40px; }
+.treatment_left_hp { width: 50%; }
+.treatment_right_hp {  width: calc(50% + 70px); padding: 20px 15px 15px 60px;  margin: 35px 0 0 -35px; }
+.treatment_right_hp:after{ display:none; }
+.treatment_right_info_hp h3 { font-size: 20px; }
+.treatment_right_info_hp h4 { font-size: 14px; line-height: 27px; padding-top: 18px; }
+.treatment_right_info_hp p { padding-top: 18px; font-size: 13px; line-height: 24px; }
+.treatment_box_change_hp .treatment_right_hp {  padding: 20px 60px 15px 15px; margin: 35px -35px 0 0; }
+.treatment_left_info_hp{ padding:15px; }
+.treatment_bottom_hp { padding-top: 30px; }
+.treatment_bottom_box_hp { }
+.treatment_bottom_img_hp { width: 50%; }
+.treatment_bottom_right_hp { width: calc(50% + 70px); padding: 20px 15px 15px 60px;  margin: 35px 0 0 -35px;}
+.treatment_bottom_right_hp:after{ display:none; }
+.treatment_bottom_info_hp h3{ font-size: 20px; }
+.treatment_bottom_info_hp p { padding-top: 10px; font-size: 14px; line-height: 27px; }
+.treatment_bottom_row_hp { padding-top:40px; }
+.treatment_bottom_grid_info_hp{ line-height:26px; }
+.treatment_bottom_change_hp{ padding-top:30px; }
+.treatment_bottom_change_hp .treatment_bottom_right_hp { padding: 20px 60px 15px 15px; margin: 35px -35px 0 0; }
+.treatment_info_hp { padding-top: 30px; font-size: 14px; line-height: 30px; }
+
+.implants_block_hp { padding: 40px 0; }
+.implants_title_hp h3 { font-size: 20px; line-height: 30px; padding-bottom: 30px; }
+.implants_title_hp h4 { font-size: 18px; }
+.implants_top_hp { padding-top: 30px; }
+.implants_img_hp { width: 50%; }
+.implants_right_hp { width: 50%; padding: 15px; height: auto; }
+.implants_info_hp { font-size: 14px; line-height: 27px; }
+.implants_box_hp { padding-top: 30px; }
+.implants_left_row_hp { width: 270px; padding: 28px 0 28px 20px; }
+.implants_right_row_hp { width: calc(100% - 270px); }
+.implants_right_gride_hp { padding: 15px; }
+.implants_left_title_hp { font-size: 16px; line-height: 24px; }
+.implants_right_info_hp { font-size: 14px; line-height: 26px; }
+.implants_right_subinfo_hp { font-size: 14px; line-height: 22px; }
+
+.counseling_block_hp { padding: 50px 0 40px 0; }
+.counseling_top_hp { padding-top: 40px; }
+.counseling_img_hp { width: 50%; margin:0; }
+.counseling_right_hp { width: 50%; margin-left: 20px; }
+.counseling_info_hp h3 { font-size: 20px; line-height: 28px; }
+.counseling_info_hp p { font-size: 14px; line-height: 30px; padding-top: 20px; }
+.counseling_btn_hp { padding-top: 60px; }
+
+.flow_block_hp { padding: 40px 0; }
+.flow_title_hp h3 { font-size: 22px; line-height: 34px; }
+.flow_title_hp p { font-size: 16px; line-height: 22px; padding-top: 10px; }
+.flow_top_hp { padding-top: 40px; }
+.flow_box_hp { padding: 25px; }
+.flow_info_2_hp { width: 100%; padding-right:0; }
+.flow_info_hp h3 { font-size: 20px; line-height: 25px; padding-top: 0; }
+.flow_info_hp p { font-size: 14px; line-height: 28px; padding-top: 10px; }
+.flow_right_btn_2_hp { padding: 20px 0 0 0; width:100%; }
+.flow_right_btn_2_hp .flow_green_btn_hp{ width:100%;     text-align: center; }
+.flow_white_btn_hp { width: 100%;  margin-left: 10px}
+.flow_green_info_hp h3 { font-size: 18px; line-height: 28px; }
+.flow_green_info_hp h3 span { font-size: 16px; }
+.flow_green_info_hp p { font-size: 12px; }
+.flow_white_btn_hp a p { font-size: 18px; line-height: 26px;}
+.flow_left_hp { width: 80px; }
+.flow_right_hp { width: calc(100% - 80px); }
+.flow_left_in_hp { width: 70px; height: 70px; padding: 12px 0; }
+.flow_left_in_hp h3 { font-size: 12px; line-height: 22px; }
+.flow_left_in_hp p { font-size: 26px; line-height: 23px;}
+.flow_box_hp:before{ left: -47px; }
+.flow_top_in_hp { padding-bottom: 30px; }
+.flow_change_hp { padding-top: 40px; }
+.flow_change_hp p { font-size: 14px; line-height: 28px; padding-top: 20px; }
+.flow_info_hp { width: calc(100% - 200px); padding-right: 38px; }
+.flow_img_hp { width: 200px; }
+
+.line_block_hp { padding: 50px 0 200px 0; }
+.line_block_hp .common_title_hp p { font-size: 18px; line-height: 26px; }
+.line_block_hp .common_title_hp p span { font-size: 17px; }
+.line_info_hp p { font-size: 14px; line-height: 24px; padding-top: 40px; }
+.line_info_hp h3 { font-size: 18px; line-height: 28px; padding: 30px 0 26px 0; }
+
+.precautions_box_hp{ padding:20px; }
+.precautions_title_hp { font-size: 15px; line-height: 22px;}
+.precautions_info_hp ul li { font-size: 13px; line-height: 22px; padding-bottom: 16px; }
+.precautions_block_hp { padding-bottom: 40px; }
+.new_block_bdp { padding: 40px 0; }
+.new_title_bdp h3 { font-size: 22px; line-height: 34px; }
+.new_title_bdp p { font-size: 16px; line-height: 22px; padding-top: 10px; }
+
+/*--------------- CONTAIN_END --------------*/
+
+/*--------------- FOOTER_START --------------*/
+#footer { padding: 40px 0 24px 0; }
+.footer_map_hp iframe { height: 235px; }
+.footer_phone_hp { padding: 40px 0 0 0; }
+.footer_phone_hp p { font-size: 15px; line-height: 20px;  }
+.footer_phone_hp h3 { font-size: 26px; line-height: 36px; }
+.footer_phone_hp h3 img{ width:20px; }
+.footer_green_btn_hp { width: 50% !important; margin-right: 6px; padding: 10px 0; }
+.footer_green_btn_hp .flow_green_info_hp p { font-size: 14px; }
+.footer_white_btn_hp a{ font-size: 14px; min-width:100%; } 
+.footer_table_hp { padding-top: 30px; }
+.footer_table_top_title_hp { width: 106px; font-size: 14px; }
+.footer_table_top_info_hp { width: calc(14% - 14px); font-size: 11px; line-height: 22px; }
+.footer_map_btns_left_hp { font-size: 12px; line-height: 16px; color: #fff; }
+.footer_map_btns_left_hp span { font-size: 13px; line-height: 16px; }
+.footer_menu_hp { padding: 40px 0 0 0; }
+.footer_menu_hp ul li { padding: 0 11px; }
+.copyright_hp { padding: 20px 0 0 0; text-align: center; }
+.back-to-top-hp { right: 10px; bottom: 10px; width: 68px; height: 68px; line-height: 68px; }
+/*--------------- FOOTER_END --------------*/
+
+/*--------------- 01_CLINIC_INTRODUCTION_START --------------*/
+.banner_block_in_cp { padding: 0; }
+.banner_middle_cp{ padding-left:50px; }
+.banner_title_cp { padding-top: 20px; padding-left:0px; padding-right:15px; }
+.banner_title_cp h3 { font-size: 20px; line-height: 30px; }
+.banner_title_cp p { font-size: 16px; line-height: 22px; padding-top: 5px; }
+.banner_img_cp { padding-top: 20px; }
+.breadcrumb_block_cp { padding: 15px 0 15px 35px; }
+.breadcrumb_block_in_cp { padding: 0 15px; }
+
+.photo_block_cp { padding: 20px 0 40px 0; }
+.photo_title_cp { font-size: 22px; line-height: 26px; padding: 0 50px; }
+.photo_left_img_cp { width: 65.75%; }
+.photo_right_cp { width: calc(34.5% - 24px); margin-left: 25px; }
+.photo_bottom_left_cp { width: 48.7%; }
+.photo_bottom_left_img3_cp { width: 30%; }
+.photo_bottom_left_img4_cp { width: calc(70% - 25px); }
+.photo_bottom_right_img_cp { width: 50%; }
+
+.order_main_cp { padding: 60px 0 20px 0; }
+.order_digit_cp { font-size: 70px; line-height: 36px; width: 80px; }
+.order_title_cp { font-size: 20px; line-height: 32px; width: calc(100% - 35px); margin-left: -45px; }
+.order_info_cp { padding: 20px 0 0 35px; }
+.order_info_cp p { font-size: 14px; line-height: 26px; }
+.order_box_cp { padding: 30px 0 0 0; display: flex; margin-right: 0; }
+.order_row_cp { width: calc(33.33% - 10px); margin-right: 15px; }
+.order_block_cp { padding: 0 0 60px 0; }
+.greeting_block_cp { padding: 40px 0 0 0; }
+.greeting_top_cp { display: block; padding-top: 30px; }
+.greeting_title_cp { font-size: 20px; line-height: 36px; width: 100%; margin-right: 0; padding-left: 0; adding-right: 15px; }
+.greeting_img_cp { width: 100%; margin-top: 20px; padding-right: 15px; }
+.greeting_info_cp { padding: 20px 15px 0 0px; }
+.greeting_info_cp p { font-size: 13px; line-height: 26px; padding-bottom: 20px; }
+.greeting_row_cp {  padding: 30px 15px 1px 0; }
+.greeting_box_cp {  width: calc(33.33% - 14px); margin-right: 20px; }
+.greeting_row_info_cp { font-size: 13px; line-height: 28px; padding: 30px 15px 0 0; }
+.greeting_middle_cp { margin-top: 30px; padding-bottom: 40px; }
+.takayuki_block_cp { padding: 40px 0 0 0; }
+.takayuki_top_cp { display: block; padding: 0 0 40px 0; }
+.takayuki_img_cp { width: 100%; margin: 0; }
+.takayuki_right_cp { width: 100%; margin-left: 0; padding: 40px 0 0 20px; }
+.takayuki_name_cp { font-size: 25px; line-height: 30px; padding: 6px 20px; width: auto; bottom: 0px; right: 0px; }
+.takayuki_row_cp { padding-top: 20px; }
+.takayuki_box_left_cp {  }
+.takayuki_box_right_cp { }
+.takayuki_subtitle_cp { font-size: 16px; line-height: 28px; }
+.takayuki_subinfo_cp p { font-size: 14px; line-height: 28px; }
+.takayuki_date_cp p { font-size: 14px; line-height: 28px; }
+.takayuki_gride_info_cp p{ font-size: 14px; line-height: 28px; }
+.doctor_change_cp .takayuki_name_cp { bottom: 0; left: auto; }
+.doctor_change_cp .takayuki_right_cp { margin-right: 0; padding: 40px 20px 0 0; }
+.doctor_change_cp .takayuki_img_cp { margin: 0; }
+.infection_block_cp { margin-top: 60px; padding: 40px 0 50px 0; }
+.infection_title_cp { font-size: 16px; line-height: 28px; }
+.infection_top_cp{ flex-wrap: wrap;	 }
+.infection_box_cp { width: calc(50% - 20px); margin-right: 40px; padding: 30px 25px; margin-bottom: 50px; }
+.infection_box_cp:nth-child(2n){ margin-right:0; }
+.infection_subtitle_cp { padding-top: 20px; }
+.infection_subtitle_cp p { font-size: 12px; line-height: 23px; padding-top: 20px; }
+.infection_row_cp { display: flex; padding: 30px 0; max-width: 760px; margin: auto; }
+.infection_grid_cp { width: calc(33.33% - 26px); margin-right: 40px; }
+.infection_img_cp{ margin:auto; }
+.infection_bottom_cp { padding-top: 20px; }
+.infection_bottom_box_cp { padding: 30px 15px; }
+.infection_box_info_cp { padding: 30px 0 0 0; }
+.infection_bottom_subinfo_cp{ padding:30px 0 0 0; font-size: 15px; line-height: 26px; }
+.access_block_cp { padding: 40px 0 40px 0; }
+.access_right_info_cp { font-size: 18px; }
+.access_title_cp { font-size: 12px; line-height: 22px; }
+.access_row_cp { padding-top: 20px; }
+.access_location_info_cp { font-size: 12px; line-height: 22px; }
+.access_img_info_cp { font-size: 14px; line-height: 24px; }
+.access_grid_cp {  width: calc(33.33% - 50px); margin-right: 50px; position: relative; margin-bottom: 40px; }
+.access_svg_cp { transform: translate(34px, -52px); }
+.access_pd_cp { padding-top: 40px; }
+.access_bottom_title_cp { font-size: 15px; line-height: 30px; }
+.access_bottom_info_cp { font-size: 14px; line-height: 28px; }
+/*--------------- 01_CLINIC_INTRODUCTION_END --------------*/
+
+/*--------------- 02_IMPLANT TREATMENT_START --------------*/
+.contact_banner_details_ip {
+        width: 80%;
+    padding: 25px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    float: right;
+    margin-top: -80px;
+}
+.contact_banner_details_info_ip {
+    padding: 20px 0 0 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+.inplant_block_ip {
+    padding: 30px 0 0 0;
+}
+.inplant_middle_ip {
+    width: 100%;
+}
+.inplant_img_ip img {
+    width: 100%;
+}
+.inplant_img_ip{ padding-right:30px; }
+.inplant_info_ip p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.inplant_box_ip{ margin-top:40px; padding: 30px; }
+.inplant_bottom_ip {
+    padding-top: 40px;
+}
+.inplant_bottom_info_ip p {
+    font-size: 13px;
+    line-height: 26px;
+}
+.inplant_bottom_img_ip {
+    padding-right: 14px;
+}
+.pros_block_ip {
+    padding: 50px 0 0 0;
+}
+.pros_title_ip h2 {
+       font-size: 18px;
+    padding: 16px 15px;
+    margin-top: 30px;
+}
+.pros_title_ip p {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 30px 0 0 0;
+}
+.pros_top_ip{ overflow: scroll; }
+.pros_top_inner_ip{ width:1000px; }
+.pros_border2_ip{ margin-top:0; }
+.pros_border_ip{ margin-bottom:0; }
+.pros_main_ip { padding-bottom: 50px; }
+.pros_pd_ip { padding-bottom: 20px; }
+.inserts_block_ip {
+    padding: 40px 0 40px 0;
+}
+.inserts_info_ip p {
+    font-size: 14px;
+    line-height: 22px;}
+	.inserts_info_ip p br{ display:none; }
+	.inserts_title_ip h2{  font-size: 18px;
+    padding: 16px 15px;
+    margin-top: 40px; }
+.inserts_boxes_ip {
+    padding: 20px;
+    margin-top: 50px;
+}
+.inserts_box_title_ip {
+    font-size: 16px;
+    line-height: 28px;
+}
+.inserts_left_info_ip p {
+    font-size: 16px;
+    line-height: 30px;
+}
+.inserts_pd_ip {
+    padding-top: 0;
+}
+.inserts_bottom_inner_ip {
+    padding-bottom: 50px;
+}
+.inserts_bottom_left_ip {
+    width: 100px;
+}
+.inserts_bottom_left_in_ip {
+    font-size: 19px;
+    line-height: 28px;
+}
+.inserts_bottom_right_ip {
+    width: calc(100% - 100px);
+}
+.inserts_bottom_box_ip {
+    width: 100%;
+	padding:15px;
+}
+	.inserts_bottom_right_ip:before {
+
+    left: -53px;
+    top: 40px;
+    width: 2px;
+    height: calc(100% - 10px);
+}
+.inserts_box_subinfo_ip h2 {
+    font-size: 18px;
+}
+.inserts_box_subinfo_ip p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.inserts_subinfo_ip {
+    padding: 15px;
+ 
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.free_block_ip {
+    padding: 40px 0;
+}
+.free_box_info_ip p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 30px;
+}
+.therapy_block_ip {
+    padding-top: 60px;
+}
+.common_green_btn:before{ top:-43px; }
+.therapy_change_ip .pros_title_ip p {
+    padding-top: 30px;
+}
+.therapy_boxes_ip{ padding:30px 30px 0px 30px; }
+.therapy_title_ip h2{ padding-bottom:30px; }
+.therapy_box_ip {
+    padding-bottom: 40px;
+}
+.therapy_info_ip p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+.therapy_bottom_info_ip p {
+    font-size: 14px;
+    line-height: 28px;
+    padding: 40px 0 40px 0;
+}
+.chronic_block_ip {
+    padding: 40px 0 0 0;
+}
+.chronic_title_ip h2 {
+    font-size: 22px;
+    line-height: 32px;
+}
+.chronic_title_ip p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 30px;
+}
+.chronic_top_ip {
+    padding: 30px 15px;
+    margin: 36px auto auto auto;
+}
+.chronic_pd_ip {
+    padding-top: 20px;
+}
+.chronic_info_ip {
+    font-size: 16px;
+}
+.chronic_box_ip{ width:100%; }
+.chronic_box_info_ip p {
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+.chronic_grid_ip {
+    padding-top: 50px;
+}
+.chronic_left_ip {
+    width: 100%;
+    padding: 25px;
+    margin: 0;
+}
+.chronic_right_ip {
+    width: 100%;
+}
+.chronic_left_title_ip h2 {
+    font-size: 20px;
+}
+.chronic_left_in_ip ul li {
+    font-size: 16px;
+}
+.warranty_pb_ip {
+    padding-top: 20px;
+}
+.warranty_top_ip {
+    padding-top: 40px;
+}
+.warranty_subtitle_ip h3{ line-height:26px; }
+.costs_in_ip {
+    font-size: 14px;
+    line-height: 13px;
+}
+.costs_price_ip{
+    font-size: 14px;
+    line-height: 13px;
+}
+.costs_bottom_title_ip {
+    line-height: 60px;
+    padding: 30px 0 25px 0;
+}
+.costs_bottom_info_ip {
+    padding-top: 60px;
+}
+.costs_block_ip {
+    padding-bottom: 40px;
+}
+.counseling_btn_2_hp .counseling_btn_hp {
+    padding: 60px 15px;
+}
+.concerns_block_ip {
+    padding: 40px 0;
+}
+.concerns_title_ip h2 {
+    font-size: 20px;
+    line-height: 35px;
+}
+.concerns_right_in_ip p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.concerns_box_ip {
+    margin-top: 40px;
+    padding: 30px;
+}
+.concerns_box_in_ip h2 {
+    font-size: 20px;
+}
+.concerns_box_in_ip p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.concerns_bottom_ip {
+    padding: 40px 0 0 0;
+}
+.concerns_bottom_in_ip h2 {
+    font-size: 20px;
+}
+.concerns_bottom_in_ip p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 30px;
+}
+.medical_block_csp {
+    padding: 40px 0 40px 0;
+}
+.cost_title_csp h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.cost_title_csp p {
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+.medical_top_csp {
+    padding: 40px 0 40px 0;
+}
+.medical_box_csp {
+    padding: 20px 0 40px 0;
+    flex-wrap: wrap;
+}
+.medical_box_sign_csp{ padding:0 15px; }
+.medical_bottom_csp{ padding:20px; }
+.medical_bottom_row_csp {
+    display: block;} 
+	.medical_bottom_left_csp {
+    width: 100%;
+    margin-right: 0;
+}
+.medical_bottom_info_csp {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.medical_bottom_right_csp {
+    width: 100%;
+    padding: 14px 20px 11px 20px;
+}
+.medical_left_box_csp{ font-size:13px; }
+.medical_right_box_csp {
+    font-size: 13px;}
+	.faq_block_ip {
+    padding-top: 40px;}
+	.faq_main_ip {
+    padding-top: 40px;
+}
+.btn-link1 {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 18px 10px;
+}
+.faq_title_ip {
+    font-size: 20px;
+    line-height: 28px;
+    width: 40px; }
+	.faq_desc_ip {
+    width: calc(100% - 40px);
+    font-size: 14px;
+    line-height: 28px;
+    color: #333333;
+    padding-right: 40px;
+}
+.accordion .card .active.collapsed{ background-position:right 20px center; background-size: 20px; }
+.accordion .card .active{ background-position:right 20px center; background-size: 20px; }
+.card-body {
+    padding: 20px 0px 20px 0 !important;
+    margin: 0 10px;
+    display: flex;
+}
+.faq_middle_ip {
+    padding: 0 0 20px 0;
+}
+/*--------------- 02_IMPLANT TREATMENT_END --------------*/
+
+/*--------------- 03_COST_START --------------*/
+.cost_block_csp {
+    padding: 40px 0 40px 0;
+}
+.cost_top_csp {
+    padding-top: 40px
+}
+.cost_subtitle_csp {
+    font-size: 17px;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+.cost_left_info_csp {
+    font-size: 17px;
+    line-height: 22px;
+}
+.cost_price_csp {
+    font-size: 22px;
+    line-height: 32px;
+}
+.dental_block_csp {
+    padding: 40px 0;
+}
+/*--------------- 03_COST_END --------------*/
+
+/*---------------04_BLOG_LIST_START --------------------*/
+.blog_block_bp {
+    padding: 40px 0 40px 0;
+}
+.blog_pagination_pp .page-item {
+    margin-right: 10px;
+}
+.blog_pagination_pp .page-link{ font-size:18px; }
+/*---------------04_BLOG_LIST_END --------------------*/
+
+/*---------------05_BLOG_LIST_DETAILS_START --------------------*/
+.detail_block_bdp {
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.detail_info_bdp h4 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.detail_info_bdp p {
+    font-size: 14px;
+    line-height: 28px;
+}
+.detail_right_info_bdp {
+    font-size: 14px;
+    line-height: 24px;
+}
+.detail_list_bdp {
+    padding-top: 40px;
+}
+.detail_btn2_bdp {
+    padding-top: 40px;
+}
+/*---------------05_BLOG_LIST_DETAILS_END --------------------*/
+
+/*---------------06_CONTACT_START --------------------*/
+.contact_block_cop {
+    padding: 40px 0;
+}
+.contact_details_cop {
+    font-size: 16px;
+    line-height: 30px;
+}
+.contact-form-cop {
+    padding: 60px 0 0 0;
+}
+.form-radio-cop {
+    padding: 0 30px 0 0;
+}
+
+/*---------------06_CONTACT_END --------------------*/
+
+}
+
+@media(min-width:992px) and (max-width:1170px){
+.container{ max-width:992px; padding:0 15px; }
+ 
+/*--------------- HEADER_START --------------*/
+.header-in-hp{ padding:0 0 0 20px; }
+.logo-hp{ width:90px; }
+.header_img_hp { width: 200px; }
+.header_right_hp { padding-left: 20px; width: calc(100% - 400px); }
+.header_request_hp a{ font-size:14px; }
+.header_right_line_hp a{ font-size:16px; }
+.header_inquirie_hp a span { font-size: 15px; }
+.header_inquirie_hp a { padding: 23px 10px 17px 10px; font-size: 12px; }
+.header_reception_hp a { padding: 23px 10px 17px 10px; font-size: 12px; }
+.header_reception_hp a span { font-size: 12px; }
+/*--------------- HEADER_END --------------*/
+
+/*--------------- CONTAIN_START --------------*/
+.banner_img_hp { padding-left: 70px; }
+.banner_title_hp h3 { font-size: 25px; line-height: 50px; }
+.banner_title_hp p { font-size: 20px; line-height: 23px; }
+.register_box_title_hp h3 { font-size: 32px; line-height: 55px; }
+.register_box_title_hp h3 span { font-size: 36px; }
+.trouble_box_hp{ padding-left:40px; }
+.trouble_box_link_hp ul li{ font-size:15px; }
+.trouble_box_title_hp h3 { font-size: 20px; line-height: 40px; }
+.point_grid_info_hp p {  font-size: 14px; line-height: 26px; }
+.point_grid_info_hp h3 { font-size: 20px; line-height: 34px; }
+/*--------------- CONTAIN_END --------------*/
+
+/*--------------- FOOTER_START --------------*/
+.footer_map_btns_left_hp{ font-size:13px; }
+.footer_map_btns_left_hp span { font-size: 17px; }
+/*--------------- FOOTER_END --------------*/
+
+/*--------------- 01_CLINIC_INTRODUCTION_START --------------*/
+.banner_block_in_cp { padding: 0 0 0 70px; }
+.breadcrumb_block_in_cp { padding: 0 0 0 70px; }
+.photo_title_cp { padding-left: 70px; }
+.order_box_cp{ margin-right:0; }
+.order_main_cp { padding: 120px 0 40px 0; }
+.greeting_row_cp {  padding: 40px 70px 0 70px; }
+.takayuki_gride_info_cp p { font-size: 14px; line-height: 28px; }
+.takayuki_img_cp { margin: -40px 0 0 -100px; }
+.doctor_change_cp .takayuki_right_cp{ margin-left:0; }
+.common_title_hp h2 { font-size: 90px; line-height: 100px; }
+/*--------------- 01_CLINIC_INTRODUCTION_END --------------*/
+
+/*--------------- 02_IMPLANT TREATMENT_START --------------*/
+.pros_block_ip {
+    padding: 100px 0 0 0;
+}
+/*--------------- 02_IMPLANT TREATMENT_END --------------*/
+
+}
+
+@media(min-width:992px) and (max-width:9999px){
+.navbar-nav .dropdown:hover .dropdown-menu{ display:block; opacity:1; height:auto; transform: translate(0px, 0px); }
+.navbar-nav .nav-link:after{ display:none; }
+}

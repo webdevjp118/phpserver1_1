@@ -1,0 +1,230 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+/*
+    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
+    font-family: Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', serif;
+    font-family: Georgia, serif;
+    font-family: Garamond, serif;
+    font-family: 'Courier New', monospace;
+    */
+}
+body {
+    font-size: 17px;
+    line-height: 1.5;
+    padding-right: 10px;
+}
+
+pre {
+    tab-size: 4; /* Set tab size to 4 characters wide */
+}
+
+h3 {
+    margin: 0;
+}
+p {
+    margin-top: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: #F0F0F0;
+    font-family: Verdana, sans-serif;
+}
+
+ul li {
+    margin-bottom: 4px;
+    border-bottom: dotted 1px #A0A0A0;
+    background-color: #FBE0C3;
+}
+
+ul.ur_heading {
+    /* background-color: #F9FBE7; */
+    background-color: #fff;
+} 
+li.right_title {
+    background-color: #c2EdcE;
+}
+
+.left_title[data-subhas="true"]::before,
+.right_title[data-subhas="true"]::before {
+    content: "â–¸";
+    margin-left: -10px;
+}
+.left_title.chare_opened[data-subhas="true"]::before,
+.right_title.chare_opened[data-subhas="true"]::before {
+    content: "â–¾";
+    margin-left: -10px;
+}
+.left_title[data-chare="2"], 
+.right_title[data-chare="2"] {
+    margin-left: 10px !important;
+}
+.left_title[data-chare="3"],
+.right_title[data-chare="3"] {
+    margin-left: 20px;
+}
+.left_title[data-chare="4"],
+.right_title[data-chare="4"] {
+    margin-left: 30px;
+}
+.left_title[data-chare="5"],
+.right_title[data-chare="5"] {
+    margin-left: 40px;
+}
+.left_title[data-chare="6"],
+.right_title[data-chare="6"] {
+    margin-left: 50px;
+}
+.left_title[data-chare="7"],
+.right_title[data-chare="7"] {
+    margin-left: 60px;
+}
+.left_title[data-chare="8"],
+.right_title[data-chare="8"] {
+    margin-left: 70px;
+}
+
+/* .left_title[data-chare="2"]::before {
+    content: "Â»";
+    margin-left: -10px;
+}
+.left_title[data-chare="3"]::before {
+    content: "â–¸";
+    margin-left: -10px;
+}
+.left_title[data-chare="4"]::before {
+    content: "â€º";
+    margin-left: -10px;
+} */
+
+ul li:hover {
+    background-color: #E0E0E0;
+}
+ul li.right_title:hover {
+}
+
+.side_heading {
+    position: fixed;
+    width: 240px;
+    height: 100vh;
+    background-color: #F0F0F0;
+}
+.ul_headings {
+    width: 100%;
+    height: calc(100vh - 120px);
+    position: relative;
+}
+.ul_heading, .ur_heading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: calc(100vh - 120px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.top_search {
+    position: fixed;
+    right: 0;
+    /* top: 100px; */
+    width: calc( 100% - 240px);
+    background-color: #F0F0F0;
+    display: flex;
+}
+.top_search input[type="text"] {
+    margin: 4px 0;
+    width: 100%;
+}
+.top_search textarea {
+    flex: 0 0 45%;
+    height: 90px;
+}
+.top_search button {
+    flex: 0 0 10%;
+}
+.top_result {
+    width: 40px;
+    height: 40px;
+    content: "";
+    display: block;
+}
+.php_error {
+    margin-top: 80px;
+}
+.opt_words {
+    display: flex;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+.opt_word {
+    width: 48%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: solid 1px #AAAAAA;
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+.opt_word[data-checked=true]{
+    background-color: #649C17;
+}
+.opt_word[data-checked=false]{
+    background-color: #E0E0E0;
+}
+.switch_heading {
+    border-radius: 4px;
+    width: 48%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: solid 1px #FF0000;
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+.switch_heading.switched {
+    background-color: rgb(240, 255, 254);
+}
+.chare_name,
+.chare_sep {
+    font-size: 14px;
+    cursor: pointer;
+}
+.main_content {
+    padding-left: 260px;
+    padding-top: 100px;
+    /* padding-top: 300px; */
+    padding-bottom: 20vh;
+}
+input[type="text"] {
+    margin: 20px;
+    font-size: 15px;
+    padding: 4px;
+}
+.date_row span {
+    padding: 0 4px;
+    background-color: #c2EdcE;
+}
+.text_row {
+    display: flex;
+}
+.jp_text, .ko_text {
+    flex: 1;
+}
+.ko_text {
+    padding-left: 15px;
+}

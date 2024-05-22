@@ -1,0 +1,703 @@
+/*------------------------
+col
+------------------------*/
+.row {
+  width: 100%;
+}
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.row.col2 .col {
+  width: 49%;
+  float: left;
+  margin-right: 2%;
+}
+.row.col2 .col:nth-of-type(2n) {
+  margin-right: 0;
+}
+@media screen and (max-width: 640px) {
+  .row.col2 .col {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 1em;
+  }
+}
+.row.col2 .col-sc {
+  width: 49%;
+  float: left;
+  margin-right: 2%;
+}
+.row.col2 .col-sc:nth-of-type(2n) {
+  margin-right: 0;
+}
+.row.col3 .col {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+.row.col3 .col:nth-of-type(3n) {
+  margin-right: 0;
+}
+@media screen and (max-width: 640px) {
+  .row.col3 .col {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 1em;
+  }
+}
+.row.col3 .col-sc {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+.row.col3 .col-sc:nth-of-type(3n) {
+  margin-right: 0;
+}
+.row.col4 .col {
+  width: 23.5%;
+  float: left;
+  margin-right: 2%;
+}
+.row.col4 .col:nth-of-type(4n) {
+  margin-right: 0;
+}
+@media screen and (max-width: 640px) {
+  .row.col4 .col {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 1em;
+  }
+}
+.row.col4 .col-sc {
+  width: 23.5%;
+  float: left;
+  margin-right: 2%;
+}
+.row.col4 .col-sc:nth-of-type(4n) {
+  margin-right: 0;
+}
+
+/*-----------------------
+float
+------------------------*/
+.row .col.fr {
+  float: right !important;
+}
+
+/*------------------------
+width
+------------------------*/
+.row .col.w10 {
+  width: 10%;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w10 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w10 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w10-sc {
+  width: 10%;
+  float: left;
+}
+.row .col.w15 {
+  width: 15%;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w15 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w15 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w15-sc {
+  width: 15%;
+  float: left;
+}
+.row .col.w20 {
+  width: 20%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w20 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w20 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w20-sc {
+  width: 20%;
+  float: left;
+}
+.row .col.w25 {
+  width: 25%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w25 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w25 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w25-sc {
+  width: 25%;
+  float: left;
+}
+.row .col.w30 {
+  width: 30%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w30 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w30 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w30-sc {
+  width: 30%;
+  float: left;
+}
+.row .col.w35 {
+  width: 35%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w35 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w35 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w35-sc {
+  width: 35%;
+  float: left;
+}
+.row .col.w40 {
+  width: 40%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w40 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w40 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w40-sc {
+  width: 40%;
+  float: left;
+}
+.row .col.w45 {
+  width: 45%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w45 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w45 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w45-sc {
+  width: 45%;
+  float: left;
+}
+.row .col.w50 {
+  width: 50%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w50 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w50 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w50-sc {
+  width: 50%;
+  float: left;
+}
+.row .col.w55 {
+  width: 55%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w55 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w55 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w55-sc {
+  width: 55%;
+  float: left;
+}
+.row .col.w60 {
+  width: 60%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w60 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w60 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w60-sc {
+  width: 60%;
+  float: left;
+}
+.row .col.w65 {
+  width: 65%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w65 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w65 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w65-sc {
+  width: 65%;
+  float: left;
+}
+.row .col.w70 {
+  width: 70%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w70 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w70 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w70-sc {
+  width: 70%;
+  float: left;
+}
+.row .col.w75 {
+  width: 75%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w75 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w75 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w75-sc {
+  width: 75%;
+  float: left;
+}
+.row .col.w80 {
+  width: 80%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w80 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w80 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w80-sc {
+  width: 80%;
+  float: left;
+}
+.row .col.w85 {
+  width: 85%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w85 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w85 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w85-sc {
+  width: 85%;
+  float: left;
+}
+.row .col.w90 {
+  width: 90%;
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .row .col.w90 {
+    /*tablet*/
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .row .col.w90 {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.row .col.w90-sc {
+  width: 90%;
+  float: left;
+}
+
+/*------------------------
+width pixel
+------------------------*/
+.w1000 {
+  width: 1000px;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .w1000 {
+    /*tablet*/
+    width: 95%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .w1000 {
+    /*sp*/
+    width: 92%;
+    float: none;
+  }
+}
+
+.w900 {
+  width: 900px;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .w900 {
+    /*tablet*/
+    width: 95%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .w900 {
+    /*sp*/
+    width: 92%;
+    float: none;
+  }
+}
+
+.w800 {
+  width: 800px;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .w800 {
+    /*tablet*/
+    width: 95%;
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .w800 {
+    /*sp*/
+    width: 92%;
+    float: none;
+  }
+}
+
+/*------------------------
+margin
+------------------------*/
+.mr1 {
+  margin-right: 1%;
+}
+
+.mr2 {
+  margin-right: 2%;
+}
+
+.mr3 {
+  margin-right: 3%;
+}
+
+.mr4 {
+  margin-right: 4%;
+}
+
+.mr5 {
+  margin-right: 5%;
+}
+
+.mr6 {
+  margin-right: 6%;
+}
+
+.mr7 {
+  margin-right: 7%;
+}
+
+.mr8 {
+  margin-right: 8%;
+}
+
+.mr9 {
+  margin-right: 9%;
+}
+
+.mr10 {
+  margin-right: 10%;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb25 {
+  margin-bottom: 25px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb35 {
+  margin-bottom: 35px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+span.mb5 {
+  display: block;
+}
+span.mb10 {
+  display: block;
+}
+span.mb15 {
+  display: block;
+}
+span.mb20 {
+  display: block;
+}
+
+/*------------------------
+padding
+------------------------*/
+.p1 {
+  /*normal*/
+  padding: 0 1%;
+}
+
+.p2 {
+  padding: 0 2%;
+}
+
+.p3 {
+  padding: 0 3%;
+}
+
+.p4 {
+  padding: 0 4%;
+}
+
+.p5 {
+  padding: 0 5%;
+}
+
+.pt5 {
+  padding-top: 5px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.pt15 {
+  padding-top: 15px;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+/*-----------------------
+font
+------------------------*/
+.fw {
+  font-weight: bold;
+}
+
+.tl {
+  text-align: left !important;
+}
+
+.tr {
+  text-align: right !important;
+}
+
+.tc {
+  text-align: center !important;
+}
+
+.f12 {
+  font-size: 1.2em;
+}
+
+.f14 {
+  font-size: 1.4em;
+}
+
+.f16 {
+  font-size: 1.6em;
+}
+
+.f18 {
+  font-size: 1.8em;
+}
+
+.f20 {
+  font-size: 2.0em;
+}
+
+/*-----------------------
+line
+------------------------*/
+.tline {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.bline {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}

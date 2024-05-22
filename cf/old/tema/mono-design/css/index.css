@@ -1,0 +1,214 @@
+/*---------------------------
+index
+----------------------------*/
+.mv {
+  background: url(../img/common/content_back.png) repeat-x;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+@media screen and (max-width: 640px) {
+  .mv {
+    /*sp*/
+    margin-bottom: 20px;
+    padding-top: 0px;
+  }
+}
+
+.news {
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+@media screen and (max-width: 640px) {
+  .news {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+}
+.news h2 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #F78EA6;
+  text-align: left;
+}
+.news .box {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.news .box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.news .box .date {
+  width: 20%;
+  float: left;
+}
+@media screen and (max-width: 640px) {
+  .news .box .date {
+    /*sp*/
+    width: 30%;
+  }
+}
+.news .box .text {
+  width: 80%;
+  float: right;
+}
+@media screen and (max-width: 640px) {
+  .news .box .text {
+    /*sp*/
+    width: 70%;
+  }
+}
+.news .btn {
+  padding-top: 10px;
+  text-align: right;
+}
+
+.greeting {
+  width: 35%;
+  float: right;
+  text-align: left;
+  padding-right: 17%;
+  background: url(http://www.cfrepair.co.jp/img/index/greeting_img.png) no-repeat bottom right;
+}
+@media screen and (max-width: 640px) {
+  .greeting {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+    padding-right: 45%;
+  }
+}
+
+.works {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+  line-height: 1.4em;
+}
+.works h2 {
+  margin-bottom: 10px;
+}
+.works .row .box {
+  width: 33%;
+  float: left;
+}
+@media screen and (max-width: 640px) {
+  .works .row .box {
+    /*sp*/
+    width: 100%;
+    float: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+}
+.works .row .box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.works .row .box:nth-of-type(1) {
+  padding-right: 2%;
+}
+@media screen and (max-width: 640px) {
+  .works .row .box:nth-of-type(1) {
+    /*sp*/
+    padding: 10%;
+  }
+}
+.works .row .box:nth-of-type(2) {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 0 2%;
+}
+@media screen and (max-width: 640px) {
+  .works .row .box:nth-of-type(2) {
+    /*sp*/
+    padding: 10%;
+  }
+}
+.works .row .box:nth-of-type(3) {
+  padding-left: 2%;
+}
+@media screen and (max-width: 640px) {
+  .works .row .box:nth-of-type(3) {
+    /*sp*/
+    padding: 10%;
+  }
+}
+
+.shopping {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.shopping:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.shopping .shop {
+  width: 30%;
+  float: left;
+}
+@media screen and (max-width: 640px) {
+  .shopping .shop {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+}
+.shopping .item {
+  width: 65%;
+  float: right;
+}
+@media screen and (max-width: 640px) {
+  .shopping .item {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.shopping .item:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.shopping .item .box {
+  width: 28%;
+  display: block;
+  float: left;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 5%;
+  padding: 10px 0;
+}
+@media screen and (max-width: 640px) {
+  .shopping .item .box {
+    /*sp*/
+    width: 32%;
+    margin-right: 2%;
+  }
+  .shopping .item .box img {
+    width: 50%;
+  }
+  .shopping .item .box:nth-of-type(3) {
+    margin-right: 0;
+  }
+}
+.shopping .item .box span {
+  display: block;
+  padding-top: 5px;
+}
+@media screen and (max-width: 640px) {
+  .shopping .item .box span {
+    /*sp*/
+    font-size: 0.8rem;
+  }
+}

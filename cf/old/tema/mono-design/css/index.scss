@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/*---------------------------
+index
+----------------------------*/
+.mv{
+	background: url(../img/common/content_back.png) repeat-x;
+	margin-bottom: 40px;
+	padding-top: 20px;
+	@media screen and (max-width: 640px) {/*sp*/
+		margin-bottom: 20px;
+		padding-top: 0px;
+	}
+}
+.news{
+	width:60%;
+	float: left;
+	text-align: left;
+	@media screen and (max-width: 640px) {/*sp*/
+		width:100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+	h2{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 2px solid #F78EA6;
+		text-align: left;
+	}
+	.box{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #ccc;
+		&:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.date{
+			width:20%;
+			float: left;
+			@media screen and (max-width: 640px) {/*sp*/
+				width:30%;
+			}
+		}
+		.text{
+			width:80%;
+			float: right;
+			@media screen and (max-width: 640px) {/*sp*/
+				width:70%;
+			}
+		}
+	}
+	.btn{
+		padding-top: 10px;
+		text-align: right;
+	}
+}
+.greeting{
+	width:35%;
+	float: right;
+	text-align: left;
+	padding-right:17%;
+	background: url(http://www.cfrepair.co.jp/img/index/greeting_img.png) no-repeat bottom right;
+	@media screen and (max-width: 640px) {/*sp*/
+		width:100%;
+		float: none;
+		margin-bottom: 10px;
+		padding-right:45%;
+	}
+}
+.works{
+	width:100%;
+	margin-bottom: 20px;
+	text-align: left;
+	line-height: 1.4em;
+	h2{
+		margin-bottom: 10px;
+	}
+	.row{
+		.box{
+			width:33%;
+			float: left;
+			@media screen and (max-width: 640px) {/*sp*/
+				width:100%;
+				float: none;
+				border: 1px solid #ccc;
+				border-radius: 10px;
+				margin-bottom: 10px;
+			}
+			img{
+				width:100%;
+				margin-bottom: 10px;
+			}
+			&:nth-of-type(1){
+				padding-right: 2%;
+				@media screen and (max-width: 640px) {/*sp*/
+					padding: 10%;
+				}
+			}
+			&:nth-of-type(2){
+				border-left: 1px solid #ccc;
+				border-right: 1px solid #ccc;
+				padding: 0 2%;
+				@media screen and (max-width: 640px) {/*sp*/
+					padding: 10%;
+				}
+			}
+			&:nth-of-type(3){
+				padding-left: 2%;
+				@media screen and (max-width: 640px) {/*sp*/
+					padding: 10%;
+				}
+			}
+		}
+	}
+}
+
+.shopping{
+	margin-bottom: 20px;
+	text-align: left;
+	&:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.shop{
+		width:30%;
+		float: left;
+		@media screen and (max-width: 640px) {/*sp*/
+			width:100%;
+			float: none;
+			margin-bottom: 20px;
+		}
+	}//.shop
+	.item{
+		width:65%;
+		float: right;
+		@media screen and (max-width: 640px) {/*sp*/
+			width:100%;
+			float: none;
+		}
+		&:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.box{
+			width:28%;
+			display: block;
+			float: left;
+			text-align: center;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			margin-right: 5%;
+			padding: 10px 0;
+			@media screen and (max-width: 640px) {/*sp*/
+				width:32%;
+				margin-right: 2%;
+				img{
+					width:50%;
+				}
+				&:nth-of-type(3){
+					margin-right: 0;
+				}
+			}
+			span{
+				display: block;
+				padding-top: 5px;
+				@media screen and (max-width: 640px) {/*sp*/
+					font-size: 0.8rem;
+				}
+			}	
+		}
+	}
+}

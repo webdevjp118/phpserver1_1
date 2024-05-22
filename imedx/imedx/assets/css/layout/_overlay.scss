@@ -1,0 +1,16 @@
+.l-overlay {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  background-color:rgba(0,0,0,0.7);
+  transition: opacity 300ms;
+  &.is_open {
+    opacity: 1;
+    visibility: visible;
+  }
+}

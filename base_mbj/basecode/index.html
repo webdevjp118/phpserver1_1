@@ -1,0 +1,3690 @@
+{block:NotLoadItemsPage}
+<!DOCTYPE html>
+<html lang="ja" class="souvenirs{block:NotIndexPage} subpage{/block:NotIndexPage}{block:IndexPageCategory} category-page subpage{/block:IndexPageCategory}{block:IndexPageSearch} category-page subpage{/block:IndexPageSearch}{block:IndexPage}{block:NoIndexPageCategory}{block:NoIndexPageSearch} top-page{/block:NoIndexPageSearch}{/block:NoIndexPageCategory}{/block:IndexPage}{block:not_if-ShowTopMv} no-mv{/block:not_if-ShowTopMv}{block:not_image-TopMv} empty-mv{/block:not_image-TopMv}{block:AppsBaseEraser} hide-baselogo{/block:AppsBaseEraser}{block:AppsMailMagazine} is-active-newsletter{/block:AppsMailMagazine}{block:if-LogoOnNav} no-mv-logo{/block:if-LogoOnNav}{block:not_if-NotScrollEffect} is-scroll-effect{/block:not_if-NotScrollEffect}{block:not_if-IconBg} no-icon-bg{/block:not_if-IconBg}">
+
+<head>
+  <meta charset="UTF-8">
+  {block:NotShopPublic}
+  <meta name="robots" content="noindex,nofollow">
+  {/block:NotShopPublic}
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no, email=no, address=no">
+  <meta name="copyright" content="SHARESL Inc.">
+  <meta name="BASE-Theme-Name" content="souvenirs">
+  <meta name="BASE-Theme-Version" content="10">
+
+  {block:AppsBlog}
+  <link href="{BlogFeedPageURL}" rel="alternate" type="application/rss+xml" title="Blog | {ShopName}" />
+  {/block:AppsBlog}
+
+  {block:ItemPage}{MetaItemInfoTag}{/block:ItemPage}
+  {block:NotItemPage}{MetaShopInfoTag}{/block:NotItemPage}
+
+  <title>{PageTitle}</title>
+
+  {FaviconTag}
+  {CanonicalTag}
+
+  {block:Hidden}
+<!-- カラー -->
+<meta name="color:Text" content="" label="テキストカラー">
+<meta name="color:Main" content="" label="メインカラー">
+<meta name="color:MainText" content="" label="└ メインカラー上の文字色">
+<meta name="color:Key" content="" label="アクセントカラー">
+<meta name="color:KeyText" content="" label="└ アクセントカラー上の文字色">
+<meta name="color:SaleText" content="" label="セール価格の文字色">
+<!-- カラー -->
+
+<!-- フォント -->
+<meta name="select:FontFamily" content="zenoldmincho" title="Zen Old Mincho" label="【テキスト全体】フォントを選ぶ">
+<meta name="select:FontFamily" content="notoserif" title="Noto Serif JP" label="【テキスト全体】フォントを選ぶ">
+<meta name="select:FontFamily" content="notosans" title="Noto Sans JP" label="【テキスト全体】フォントを選ぶ">
+<meta name="select:FontFamily" content="mplus-rounded-1c" title="M PLUS Rounded 1c" label="【テキスト全体】フォントを選ぶ">
+<!-- /フォント -->
+
+<meta name="if:LogoOnNav" content="0" label="【ヘッダー】ロゴ配置を変更（OFFの場合はメインビジュアルの中心に配置）">
+
+<meta name="if:ScrollHeaderBg" content="0" label="【ヘッダー】スクロール時にヘッダーに背景を表示（※ONの場合は背景色は白・文字色は黒）">
+<meta name="if:IconBg" content="0" label="【ヘッダー】アイコンに白背景を付ける">
+
+<meta name="color:MenuText-PC" content="" label="【PC：メニュー】文字色">
+
+<!-- スマホ：メニュー -->
+<meta name="color:MenuButton" content="" label="【スマホ：メニュー】メニューボタンの色">
+<meta name="image:MenuBg" content="" label="【スマホ：メニュー】背景画像：推奨サイズ横750×縦1530（px）">
+<meta name="color:MenuBg" content="" label="【スマホ：メニュー】背景色">
+<meta name="color:MenuText" content="" label="【スマホ：メニュー】文字色">
+<meta name="select:MenuLogoBlendMode" content="normal" title="なし" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="multiply" title="multiply" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="screen" title="screen" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="overlay" title="overlay" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="darken" title="darken" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="lighten" title="lighten" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="soft-light" title="soft-light" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="hard-light" title="hard-light" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="color" title="color" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="color-burn" title="color-burn" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="color-dodge" title="color-dodge" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="difference" title="difference" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="exclusion" title="exclusion" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="luminosity" title="luminosity" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="hue" title="hue" label="【スマホ：メニュー】ロゴのブレンドモード">
+<meta name="select:MenuLogoBlendMode" content="saturation" title="saturation" label="【スマホ：メニュー】ロゴのブレンドモード">
+<!-- /スマホ：メニュー -->
+
+<!-- SNS -->
+<meta name="if:ShowSns" content="1" label="【SNS】SNSリンクを表示する">
+<!-- /SNS -->
+
+<meta name="text:NewsletterDescription" content="新商品やキャンペーンなどの最新情報をお届けいたします。" label="【メールマガジンApp】説明文">
+
+<!-- フッター -->
+<meta name="image:FooterBg-PC" content="" label="【フッター】背景画像（PC）：推奨サイズ横1440×縦450（px）">
+<meta name="image:FooterBg-SP" content="" label="【フッター】背景画像（スマホ）推奨サイズ横750×縦750（px）">
+<meta name="if:FixedFooterBg" content="1" label="【フッター】背景画像を固定する（PC）">
+<meta name="color:FooterBg" content="" label="【フッター】背景色">
+<meta name="if:ShowFooterLogo" content="1" label="【フッター】ロゴを表示する">
+<meta name="select:FooterLogoBlendMode" content="normal" title="なし" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="multiply" title="multiply" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="screen" title="screen" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="overlay" title="overlay" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="darken" title="darken" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="lighten" title="lighten" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="soft-light" title="soft-light" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="hard-light" title="hard-light" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="color" title="color" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="color-burn" title="color-burn" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="color-dodge" title="color-dodge" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="difference" title="difference" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="exclusion" title="exclusion" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="luminosity" title="luminosity" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="hue" title="hue" label="【フッター】ロゴのブレンドモード">
+<meta name="select:FooterLogoBlendMode" content="saturation" title="saturation" label="【フッター】ロゴのブレンドモード">
+<meta name="if:ShowShopInfo" content="1" label="【フッター】ショップ情報を表示する">
+<meta name="color:ShopInfoText" content="" label="【フッター】ショップ情報：文字色（PC）">
+<meta name="color:ShopInfoText-SP" content="" label="【フッター】ショップ情報：文字色（スマホ）">
+<meta name="text:ShopTel" content="" label="【フッター】ショップ情報：PHONE（電話番号）">
+<meta name="text:ShopEmail" content="" label="【フッター】ショップ情報：MAIL（メールアドレス）">
+<meta name="text:ShopWebSite" content="" label="【フッター】ショップ情報：WEBSITE（Webサイト）">
+<meta name="text:ShopAddress" content="" label="【フッター】ショップ情報：住所など">
+<!-- /フッター -->
+
+<!-- 【TOP】メインビジュアル -->
+<meta name="if:ShowTopMv" content="1" label="【TOP】メインビジュアルを表示する">
+<meta name="if:TopMvFull" content="0" label="【TOP】メインビジュアル：フルサイズで使う（ON：フルサイズ／OFF：2分割）">
+<meta name="if:TopMvAnimation" content="1" label="【TOP】メインビジュアル：画像表示時のアニメーションを追加する（※動画は無効）">
+<meta name="image:TopMvRight" content="" label="【TOP】メインビジュアル：2分割用画像【右】：推奨サイズ横1440×縦1892（px）">
+<meta name="image:TopMvLeft" content="" label="【TOP】メインビジュアル：2分割用画像【左】：推奨サイズ横900×縦1320（px）">
+<meta name="image:TopMv" content="" label="【TOP】メインビジュアル：フルサイズ用画像（PC）：推奨サイズ横2880×縦1892（px）">
+<meta name="image:TopMvSp" content="" label="【TOP】メインビジュアル：フルサイズ用画像（スマホ）：推奨サイズ横750×縦750（px）">
+<meta name="color:TopMvBg" content="" label="【TOP】メインビジュアル：背景色（画像なしの場合）">
+<meta name="text:TopMvYouTubeUrl" content="" label="【TOP】メインビジュアル：背景動画を設定（YouTube動画ページURLを入力）※画像と動画の両方に入力がある場合は動画が優先されます">
+<meta name="image:TopMvYouTubeLoading" content="" label="【TOP】メインビジュアル：背景動画の読み込み完了までの初期画像（比率16:9）">
+<meta name="if:TopMvVideoFullSize-SP" content="1" label="【TOP】メインビジュアル：背景動画をスマホでも画面いっぱいにする">
+
+<meta name="select:MvLogoBlendMode" content="normal" title="なし" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="multiply" title="multiply" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="screen" title="screen" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="overlay" title="overlay" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="darken" title="darken" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="lighten" title="lighten" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="soft-light" title="soft-light" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="hard-light" title="hard-light" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="color" title="color" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="color-burn" title="color-burn" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="color-dodge" title="color-dodge" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="difference" title="difference" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="exclusion" title="exclusion" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="luminosity" title="luminosity" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="hue" title="hue" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<meta name="select:MvLogoBlendMode" content="saturation" title="saturation" label="【TOP】メインビジュアル：ロゴのブレンドモード">
+<!-- /【TOP】メインビジュアル -->
+
+<meta name="select:SubHeaderLogoBlendMode" content="normal" title="なし" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="multiply" title="multiply" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="screen" title="screen" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="overlay" title="overlay" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="darken" title="darken" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="lighten" title="lighten" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="soft-light" title="soft-light" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="hard-light" title="hard-light" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="color" title="color" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="color-burn" title="color-burn" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="color-dodge" title="color-dodge" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="difference" title="difference" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="exclusion" title="exclusion" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="luminosity" title="luminosity" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="hue" title="hue" label="【TOP以外】ロゴのブレンドモード">
+<meta name="select:SubHeaderLogoBlendMode" content="saturation" title="saturation" label="【TOP以外】ロゴのブレンドモード">
+<!-- /【TOP】メインビジュアル -->
+
+
+<!-- 【TOP】コンセプト -->
+<meta name="if:ShowTopConcept" content="0" label="【TOP】コンセプトを表示">
+<meta name="image:TopConcept" content="" label="【TOP】コンセプト：画像：推奨サイズ横500×縦550（px）">
+<meta name="if:TopConceptImageSkew" content="1" label="【TOP】コンセプト：画像を斜めに切り抜く">
+<meta name="text:TopConceptSubTitle" content="CONCEPT" label="【TOP】コンセプト：サブタイトル">
+<meta name="text:TopConceptTitle" content="" label="【TOP】コンセプト：タイトル">
+<meta name="text:TopConceptText" content="" label="【TOP】コンセプト：テキスト">
+<meta name="text:TopConceptLinkUrl" content="" label="【TOP】コンセプト：リンクURL（※空欄の場合はABOUTページURLが入ります）">
+<meta name="if:TopConceptOutLink" content="0" label="【TOP】コンセプト：リンクを新しいタブで開く">
+<!-- /【TOP】コンセプト -->
+
+<!-- 【TOP】ピックアップ -->
+<meta name="if:ShowPickUp" content="0" label="【TOP】ピックアップを表示">
+<meta name="image:PickUpImage-1" content="" label="【TOP】ピックアップ①：画像：推奨サイズ横420×縦600（px）">
+<meta name="text:PickUpItemName-1" content="" label="【TOP】ピックアップ①：商品名">
+<meta name="text:PickUpItemPrice-1" content="" label="【TOP】ピックアップ①：商品価格">
+<meta name="text:PickUpItemSalePrice-1" content="" label="【TOP】ピックアップ①：セール価格">
+<meta name="text:PickUpItemUrl-1" content="" label="【TOP】ピックアップ①：リンク先URL">
+<meta name="if:PickUpItemOutlink-1" content="0" label="【TOP】ピックアップ①：リンクを新しいタブで開く">
+<meta name="image:PickUpImage-2" content="" label="【TOP】ピックアップ②：画像：推奨サイズ横420×縦600（px）">
+<meta name="text:PickUpItemName-2" content="" label="【TOP】ピックアップ②：商品名">
+<meta name="text:PickUpItemPrice-2" content="" label="【TOP】ピックアップ②：商品価格">
+<meta name="text:PickUpItemSalePrice-2" content="" label="【TOP】ピックアップ②：セール価格">
+<meta name="text:PickUpItemUrl-2" content="" label="【TOP】ピックアップ②：リンク先URL">
+<meta name="if:PickUpItemOutlink-2" content="0" label="【TOP】ピックアップ②：リンクを新しいタブで開く">
+<meta name="image:PickUpImage-3" content="" label="【TOP】ピックアップ③：画像：推奨サイズ横420×縦600（px）">
+<meta name="text:PickUpItemName-3" content="" label="【TOP】ピックアップ③：商品名">
+<meta name="text:PickUpItemPrice-3" content="" label="【TOP】ピックアップ③：商品価格">
+<meta name="text:PickUpItemSalePrice-3" content="" label="【TOP】ピックアップ③：セール価格">
+<meta name="text:PickUpItemUrl-3" content="" label="【TOP】ピックアップ③：リンク先URL">
+<meta name="if:PickUpItemOutlink-3" content="0" label="【TOP】ピックアップ③：リンクを新しいタブで開く">
+<meta name="image:PickUpImage-4" content="" label="【TOP】ピックアップ④：画像：推奨サイズ横420×縦600（px）">
+<meta name="text:PickUpItemName-4" content="" label="【TOP】ピックアップ④：商品名">
+<meta name="text:PickUpItemPrice-4" content="" label="【TOP】ピックアップ④：商品価格">
+<meta name="text:PickUpItemSalePrice-4" content="" label="【TOP】ピックアップ④：セール価格">
+<meta name="text:PickUpItemUrl-4" content="" label="【TOP】ピックアップ④：リンク先URL">
+<meta name="if:PickUpItemOutlink-4" content="0" label="【TOP】ピックアップ④：リンクを新しいタブで開く">
+<meta name="image:PickUpImage-5" content="" label="【TOP】ピックアップ⑤：画像：推奨サイズ横420×縦600（px）">
+<meta name="text:PickUpItemName-5" content="" label="【TOP】ピックアップ⑤：商品名">
+<meta name="text:PickUpItemPrice-5" content="" label="【TOP】ピックアップ⑤：商品価格">
+<meta name="text:PickUpItemSalePrice-5" content="" label="【TOP】ピックアップ⑤：セール価格">
+<meta name="text:PickUpItemUrl-5" content="" label="【TOP】ピックアップ⑤：リンク先URL">
+<meta name="if:PickUpItemOutlink-5" content="0" label="【TOP】ピックアップ⑤：リンクを新しいタブで開く">
+<meta name="image:PickUpImage-6" content="" label="【TOP】ピックアップ⑥：画像：推奨サイズ横420×縦600（px）">
+<meta name="text:PickUpItemName-6" content="" label="【TOP】ピックアップ⑥：商品名">
+<meta name="text:PickUpItemPrice-6" content="" label="【TOP】ピックアップ⑥：商品価格">
+<meta name="text:PickUpItemSalePrice-6" content="" label="【TOP】ピックアップ⑥：セール価格">
+<meta name="text:PickUpItemUrl-6" content="" label="【TOP】ピックアップ⑥：リンク先URL">
+<meta name="if:PickUpItemOutlink-6" content="0" label="【TOP】ピックアップ⑥：リンクを新しいタブで開く">
+<!-- 【TOP】ピックアップ -->
+
+<!-- バナーエリア -->
+<meta name="if:ShowCta" content="0" label="【バナー】バナーを表示">
+<meta name="image:TopCtaBg" content="0" label="【バナー】背景画像（TOPページのみ）推奨サイズ：横900×縦555（px）">
+<meta name="if:FixedTopCtaBg" content="1" label="【バナー】背景画像を固定する（TOPページ・PCのみ）">
+<meta name="if:ShowCta-Faq" content="1" label="【バナー】FAQバナーを表示">
+<meta name="image:CtaImage-Faq" content="" label="└【バナー】FAQバナー画像：推奨サイズ横300×縦240（px）">
+<meta name="if:ShowCta-Contact" content="1" label="【バナー】CONTACTバナーを表示">
+<meta name="image:CtaImage-Contact" content="" label="└【バナー】CONTACTバナー画像：推奨サイズ横300×縦240（px）">
+<meta name="if:ShowCta-Opt-1" content="0" label="【バナー】任意バナー①を表示">
+<meta name="text:CtaLinkUrl-Opt-1" content="" label="├【バナー】任意バナー①：リンクURL">
+<meta name="if:CtaOutlink-Opt-1" content="0" label="├【バナー】任意バナー①：リンクを新しいタブで開く">
+<meta name="if:CtaFrameBorder-Opt-1" content="0" label="├【バナー】任意バナー①：枠線を表示">
+<meta name="image:CtaImage-Opt-1" content="" label="├【バナー】任意バナー①：画像：推奨サイズ横300×縦240（px）">
+<meta name="text:CtaSubTitle-Opt-1" content="" label="├【バナー】任意バナー①：サブタイトル">
+<meta name="text:CtaTitle-Opt-1" content="" label="└【バナー】任意バナー①：タイトル">
+
+<meta name="if:ShowCta-Opt-2" content="0" label="【バナー】任意バナー②を表示">
+<meta name="text:CtaLinkUrl-Opt-2" content="" label="├【バナー】任意バナー②：リンクURL">
+<meta name="if:CtaOutlink-Opt-2" content="0" label="├【バナー】任意バナー②：リンクを新しいタブで開く">
+<meta name="if:CtaFrameBorder-Opt-2" content="0" label="├【バナー】任意バナー②：枠線を表示">
+<meta name="image:CtaImage-Opt-2" content="" label="├【バナー】任意バナー②：画像：推奨サイズ横300×縦240（px）">
+<meta name="text:CtaSubTitle-Opt-2" content="" label="├【バナー】任意バナー②：サブタイトル">
+<meta name="text:CtaTitle-Opt-2" content="" label="└【バナー】任意バナー②：タイトル">
+
+<meta name="if:ShowCta-Opt-3" content="" label="【バナー】任意バナー③を表示">
+<meta name="text:CtaLinkUrl-Opt-3" content="" label="├【バナー】任意バナー③：リンクURL">
+<meta name="if:CtaOutlink-Opt-3" content="0" label="├【バナー】任意バナー③：リンクを新しいタブで開く">
+<meta name="if:CtaFrameBorder-Opt-3" content="" label="├【バナー】任意バナー③：枠線を表示">
+<meta name="image:CtaImage-Opt-3" content="" label="├【バナー】任意バナー③：画像：推奨サイズ横300×縦240（px）">
+<meta name="text:CtaSubTitle-Opt-3" content="" label="├【バナー】任意バナー③：サブタイトル">
+<meta name="text:CtaTitle-Opt-3" content="" label="└【バナー】任意バナー③：タイトル">
+
+<meta name="if:ShowCta-Opt-4" content="" label="【バナー】任意バナー④を表示">
+<meta name="text:CtaLinkUrl-Opt-4" content="" label="├【バナー】任意バナー④：リンクURL">
+<meta name="if:CtaOutlink-Opt-4" content="0" label="├【バナー】任意バナー④：リンクを新しいタブで開く">
+<meta name="if:CtaFrameBorder-Opt-4" content="" label="├【バナー】任意バナー④：枠線を表示">
+<meta name="image:CtaImage-Opt-4" content="" label="├【バナー】任意バナー④：画像：推奨サイズ横300×縦240（px）">
+<meta name="text:CtaSubTitle-Opt-4" content="" label="├【バナー】任意バナー④：サブタイトル">
+<meta name="text:CtaTitle-Opt-4" content="" label="└【バナー】任意バナー④：タイトル">
+<!-- バナーエリア -->
+
+<!-- 【TOP】ブログ一覧 -->
+<meta name="if:ShowTopBlog" content="0" label="【TOP】ブログ一覧を表示">
+<meta name="select:BlogCount" content="3" title="3" label="└【TOP】ブログ：最大記事数">
+<meta name="select:BlogCount" content="4" title="4" label="└【TOP】ブログ：最大記事数">
+<meta name="select:BlogCount" content="5" title="5" label="└【TOP】ブログ：最大記事数">
+<meta name="select:BlogCount" content="6" title="6" label="└【TOP】ブログ：最大記事数">
+<meta name="select:BlogCount" content="7" title="7" label="└【TOP】ブログ：最大記事数">
+<meta name="select:BlogCount" content="8" title="8" label="└【TOP】ブログ：最大記事数">
+<meta name="select:BlogCount" content="9" title="9" label="└【TOP】ブログ：最大記事数">
+<meta name="select:BlogCount" content="10" title="10" label="└【TOP】ブログ：最大記事数">
+<!-- 【TOP】ブログ一覧 -->
+
+<meta name="if:ShowAboutIntroduction" content="1" label="【ABOUT】ショップ説明を表示">
+<meta name="if:ShowAboutConcept-1" content="0" label="【ABOUT】コンセプト①を表示">
+<meta name="image:AboutConcept-1" content="" label="【ABOUT】コンセプト①：画像：推奨サイズ横500×縦550（px）">
+<meta name="if:AboutConceptImageSkew-1" content="1" label="【ABOUT】コンセプト①：画像を斜めに切り抜く">
+<meta name="text:AboutConceptTitle-1" content="" label="【ABOUT】コンセプト①：タイトル">
+<meta name="text:AboutConceptText-1" content="" label="【ABOUT】コンセプト①：テキスト">
+<meta name="if:ShowAboutConcept-2" content="0" label="【ABOUT】コンセプト②を表示">
+<meta name="image:AboutConcept-2" content="" label="【ABOUT】コンセプト②：画像：推奨サイズ横500×縦550（px）">
+<meta name="if:AboutConceptImageSkew-2" content="1" label="【ABOUT】コンセプト②：画像を斜めに切り抜く">
+<meta name="text:AboutConceptTitle-2" content="" label="【ABOUT】コンセプト②：タイトル">
+<meta name="text:AboutConceptText-2" content="" label="【ABOUT】コンセプト②：テキスト">
+
+<meta name="text:YouTubeCode" content="" label="【ABOUT】YouTube埋め込みコード（YouTube動画ページ→共有→埋め込みで表示されるコードを貼り付け）">
+
+<!-- 商品ページ -->
+<meta name="text:ItemFreeSpace" content="" label="【商品詳細】フリーテキスト（全商品ページの商品説明の上に表示）">
+<meta name="if:ShowRelated" content="1" label="【商品詳細】関連商品を表示">
+<!-- 商品ページ -->
+
+<!-- FAQ -->
+<meta name="if:ShowFaq" content="0" label="【FAQ】FAQを表示">
+<meta name="text:Question-1" content="" label="【FAQ 1】質問">
+<meta name="text:Answer-1" content="" label="└【FAQ 1】答え">
+<meta name="text:Question-2" content="" label="【FAQ 2】質問">
+<meta name="text:Answer-2" content="" label="└【FAQ 2】答え">
+<meta name="text:Question-3" content="" label="【FAQ 3】質問">
+<meta name="text:Answer-3" content="" label="└【FAQ 3】答え">
+<meta name="text:Question-4" content="" label="【FAQ 4】質問">
+<meta name="text:Answer-4" content="" label="└【FAQ 4】答え">
+<meta name="text:Question-5" content="" label="【FAQ 5】質問">
+<meta name="text:Answer-5" content="" label="└【FAQ 5】答え">
+<meta name="text:Question-6" content="" label="【FAQ 6】質問">
+<meta name="text:Answer-6" content="" label="└【FAQ 6】答え">
+<meta name="text:Question-7" content="" label="【FAQ 7】質問">
+<meta name="text:Answer-7" content="" label="└【FAQ 7】答え">
+<meta name="text:Question-8" content="" label="【FAQ 8】質問">
+<meta name="text:Answer-8" content="" label="└【FAQ 8】答え">
+<meta name="text:Question-9" content="" label="【FAQ 9】質問">
+<meta name="text:Answer-9" content="" label="└【FAQ 9】答え">
+<meta name="text:Question-10" content="" label="【FAQ 10】質問">
+<meta name="text:Answer-10" content="" label="└【FAQ 10】答え">
+<meta name="text:Question-11" content="" label="【FAQ 11】質問">
+<meta name="text:Answer-11" content="" label="└【FAQ 11】答え">
+<meta name="text:Question-12" content="" label="【FAQ 12】質問">
+<meta name="text:Answer-12" content="" label="└【FAQ 12】答え">
+<meta name="text:Question-13" content="" label="【FAQ 13】質問">
+<meta name="text:Answer-13" content="" label="└【FAQ 13】答え">
+<meta name="text:Question-14" content="" label="【FAQ 14】質問">
+<meta name="text:Answer-14" content="" label="└【FAQ 14】答え">
+<meta name="text:Question-15" content="" label="【FAQ 15】質問">
+<meta name="text:Answer-15" content="" label="└【FAQ 15】答え">
+<!-- /FAQ -->
+
+<meta name="if:NotScrollEffect" content="0" label="【アニメーション】スクロール時のアニメーションを停止する">
+<meta name="text:OriginalCSS" content="" label="【上級者向け】独自のスタイルシートを追加する">
+
+{/block:Hidden}
+
+  {block:BlogPage}
+  {HeadLinkNextPrevTag}
+  {/block:BlogPage}
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" as="script" href="https://basefile.akamaized.net/sharesl/62988508456a9/common.bundle.js?{UpdateTime}">
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp.min.css">
+  <link rel="preload" as="style" href="https://basefile.akamaized.net/sharesl/64805426d819a/style.css?{UpdateTime}">
+  <script>
+    var font_family = ['{select:FontFamily}'];
+    {block:AppsI18n}
+    //言語判定
+    function addLangClassNameRootElem() {
+      const $langSelector = document.querySelector('.x_i18nSelectBox[name="data[UserLanguage][language_code]"]');
+      if(!$langSelector){
+        return;
+      }
+      const lang = $langSelector.value;
+      document.documentElement.classList.add('lang-' + lang);
+    }
+    window.addEventListener('DOMContentLoaded', (event) => {
+      addLangClassNameRootElem();
+    }, false);
+    {/block:AppsI18n}
+  </script>
+  <script src="https://basefile.akamaized.net/sharesl/62176327ae0a9/font.bundle.js?{UpdateTime}"></script>
+  <script src="https://basefile.akamaized.net/sharesl/621763387e221/icon.bundle.js?{UpdateTime}" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp.min.css">
+  <link rel="stylesheet" href="https://basefile.akamaized.net/sharesl/64805426d819a/style.css?{UpdateTime}">
+
+  {BackgroundTag}
+
+  <!-- Customize Style -->
+<style type="text/css">
+  html{
+    {block:color-Text}
+    --custom-text-color : {color:Text};
+    {/block:color-Text}
+
+    {block:color-Main}
+    --custom-main-color : {color:Main};
+    {/block:color-Main}
+
+    {block:color-MainText}
+    --custom-main-text-color : {color:MainText};
+    {/block:color-MainText}
+
+    {block:color-Key}
+    --custom-key-color : {color:Key};
+    {/block:color-Key}
+
+    {block:color-KeyText}
+    --custom-key-text-color : {color:KeyText};
+    {/block:color-KeyText}
+
+    {block:color-SaleText}
+    --custom-sale-text-color : {color:SaleText};
+    {/block:color-SaleText}
+
+    {block:color-MenuButton}
+    --custom-menu-btn-color : {color:MenuButton};
+    {/block:color-MenuButton}
+
+    {block:color-MenuText}
+    --custom-menu-text-color : {color:MenuText};
+    {/block:color-MenuText}
+
+    {block:color-MenuText-PC}
+    --custom-pc-menu-text-color : {color:MenuText-PC};
+    {/block:color-MenuText-PC}
+
+    {block:color-MenuBg}
+    --custom-menu-bg-color : {color:MenuBg};
+    {/block:color-MenuBg}
+
+    {block:color-FooterBg}
+    --custom-footer-bg-color : {color:FooterBg};
+    {/block:color-FooterBg}
+
+    {block:color-ShopInfoText}
+    --custom-shop-info-text-color : {color:ShopInfoText};
+    {/block:color-ShopInfoText}
+
+    {block:color-ShopInfoText-SP}
+    --custom-shop-info-text-color-sp : {color:ShopInfoText-SP};
+    {/block:color-ShopInfoText-SP}
+
+    {block:color-TopMvBg}
+    --custom-top-mv-bg-color : {color:TopMvBg};
+    {/block:color-TopMvBg}
+
+    {block:image-MenuBg}
+    --menu-bg : url({image:MenuBg});
+    {/block:image-MenuBg}
+
+    {block:image-FooterBg-PC}
+    --footer-bg-pc : url({image:FooterBg-PC});
+    {/block:image-FooterBg-PC}
+
+    {block:image-FooterBg-SP}
+    --footer-bg-sp : url({image:FooterBg-SP});
+    {/block:image-FooterBg-SP}
+
+    {block:image-TopCtaBg}
+    --cta-bg : url({image:TopCtaBg});
+    {/block:image-TopCtaBg}
+
+    {block:text-TopMvYouTubeUrl}
+    {block:image-TopMvYouTubeLoading}
+    --top-mv-video-poster : url({image:TopMvYouTubeLoading});
+    {/block:image-TopMvYouTubeLoading}
+    {/block:text-TopMvYouTubeUrl}
+
+    {block:not_if-FixedTopCtaBg}
+    --custom-top-cta-bg-attachment : scroll;
+    {/block:not_if-FixedTopCtaBg}
+
+    {block:not_if-FixedFooterBg}
+    --custom-footer-bg-attachment : scroll;
+    {/block:not_if-FixedFooterBg}
+
+    --mv-logo-blendmode : {select:MvLogoBlendMode};
+    --footer-logo-blendmode : {select:FooterLogoBlendMode};
+    --subheader-logo-blendmode : {select:SubHeaderLogoBlendMode};
+    --menu-logo-blendmode : {select:MenuLogoBlendMode};
+  }
+</style>
+<!-- /Customize Style -->
+
+  {block:text-OriginalCSS}
+  <style type="text/css">
+    {text:OriginalCSS}
+  </style>
+  {/block:text-OriginalCSS}
+
+  {block:ItemPage}
+  {MetaItemInfoTag}
+  {/block:ItemPage}
+
+  {block:NotItemPage}
+  {MetaShopInfoTag}
+  {/block:NotItemPage}
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  {GoogleAnalyticsTag}
+</head>
+
+<body class="u-{select:FontFamily}">
+  {block:AppsInformationBanner}
+  {AppsInformationBannerTag}
+  {/block:AppsInformationBanner}
+  <div class="l-cover">
+    {block:if-LogoOnNav}
+<h1 class="l-header__logo u-sp">
+  <a href="{IndexPageURL}">{LogoTag}</a>
+</h1>
+{/block:if-LogoOnNav}
+<header class="l-header{block:if-ScrollHeaderBg} is-bg{/block:if-ScrollHeaderBg}">
+  <div class="l-header__inner u-frame">
+    {block:if-LogoOnNav}
+    <h1 class="l-header__logo u-exSp">
+      <a href="{IndexPageURL}">{LogoTag}</a>
+    </h1>
+    {/block:if-LogoOnNav}
+    <button class="l-header__menubtn c-menubtn" id="js-menu-open" type="button"></button>
+
+    <div class="l-header__menu c-menu u-exSp">
+      <div class="c-menu__sub c-submenu">
+        {block:ShopPublic}
+        {block:AppsSearch}
+        <button class="c-submenu__search js-search-btn" type="button">
+          <span class="c-submenu__search__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 768 768">
+              <title>SEARCH</title>
+              <path d="M756.48 702.719l-142.080-142.080c46.080-57.6 76.799-134.399 76.799-215.039 0-191.999-153.6-345.6-345.6-345.6s-345.6 153.6-345.6 345.6c0 191.999 153.6 345.6 345.6 345.6 80.64 0 157.439-26.88 215.039-76.799l142.080 142.080c7.68 7.68 19.2 11.52 26.88 11.52s19.2-3.84 26.88-11.52c15.36-15.36 15.36-38.4 0-53.76zM76.801 345.6c0-149.76 119.040-268.8 268.8-268.8s268.8 119.040 268.8 268.8c0 72.96-30.72 142.080-76.799 188.16 0 0 0 0 0 0s0 0 0 0c-49.92 49.92-115.2 76.799-188.16 76.799-153.6 3.84-272.639-115.2-272.639-264.96z"></path>
+            </svg>
+          </span>
+          <!-- /.c-submenu__search__icon -->
+        </button>
+        <!-- /.c-submenu__search -->
+        {/block:AppsSearch}
+        {/block:ShopPublic}
+        {BASEMenuTag}
+      </div>
+      <!-- /.c-menu__sub -->
+      <div class="c-menu__inner">
+        <ul class="c-menu__list">
+          <li class="c-menu__item{block:if-LogoOnNav} u-sp{/block:if-LogoOnNav}">
+            <a href="{IndexPageURL}">HOME</a>
+          </li>
+          <li class="c-menu__item">
+            <a href="{AboutPageURL}">ABOUT</a>
+          </li>
+          {block:AppsItemCategory}
+          <li class="c-menu__item">
+            <button class="js-catmodal-btn" type="button">CATEGORY</button>
+          </li>
+          {/block:AppsItemCategory}
+          {block:AppsBlog}
+          <li class="c-menu__item">
+            <a href="{BlogPageURL}">BLOG</a>
+          </li>
+          {/block:AppsBlog}
+          {block:if-ShowFaq}
+          <li class="c-menu__item">
+            <button class="js-faq-btn" type="button">FAQ</button>
+          </li>
+          {/block:if-ShowFaq}
+          {block:AppsCommunity}
+          <li class="c-menu__item">
+            <a href="{CommunityPageURL}">COMMUNITY</a>
+          </li>
+          {/block:AppsCommunity}
+          {block:AppsMembership}
+          <li class="c-menu__item">
+            <a href="{MembershipPageURL}">MEMBERSHIP</a>
+          </li>
+          <li class="c-menu__item">
+            <a href="{MembershipMyPageURL}">MYPAGE</a>
+          </li>
+          {/block:AppsMembership}
+          <li class="c-menu__item">
+            <a href="{ContactPageURL}">CONTACT</a>
+          </li>
+          {block:AppsCoinFunding}
+          <li class="c-menu__item">
+            <a href="{CoinFundingPageURL}">COIN</a>
+          </li>
+          {/block:AppsCoinFunding}
+        </ul>
+        <!-- /.c-menu__list -->
+      </div>
+      <!-- /.c-menu__inner -->
+    </div>
+    <!-- /.l-header__menu -->
+    <div class="l-header__submenu c-submenu">
+      {block:ShopPublic}
+      {block:AppsSearch}
+      <button class="c-submenu__search js-search-btn" type="button">
+        <span class="c-submenu__search__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 768 768">
+            <title>SEARCH</title>
+            <path d="M756.48 702.719l-142.080-142.080c46.080-57.6 76.799-134.399 76.799-215.039 0-191.999-153.6-345.6-345.6-345.6s-345.6 153.6-345.6 345.6c0 191.999 153.6 345.6 345.6 345.6 80.64 0 157.439-26.88 215.039-76.799l142.080 142.080c7.68 7.68 19.2 11.52 26.88 11.52s19.2-3.84 26.88-11.52c15.36-15.36 15.36-38.4 0-53.76zM76.801 345.6c0-149.76 119.040-268.8 268.8-268.8s268.8 119.040 268.8 268.8c0 72.96-30.72 142.080-76.799 188.16 0 0 0 0 0 0s0 0 0 0c-49.92 49.92-115.2 76.799-188.16 76.799-153.6 3.84-272.639-115.2-272.639-264.96z"></path>
+          </svg>
+        </span>
+        <!-- /.c-submenu__search__icon -->
+      </button>
+      <!-- /.c-submenu__search -->
+      {/block:AppsSearch}
+      {/block:ShopPublic}
+      {BASEMenuTag}
+    </div>
+    <!-- /.l-header__submenu -->
+
+  </div>
+  <!-- /.l-header-inner -->
+</header>
+<!-- /.l-header -->
+
+<div class="c-menu u-sp">
+  <button class="c-menu__btn c-menubtn" id="js-menu-open" type="button" aria-hidden="true"></button>
+
+  <div class="c-menu__sub c-submenu">
+    {block:ShopPublic}
+    {block:AppsSearch}
+    <button class="c-submenu__search js-search-btn" type="button">
+      <span class="c-submenu__search__icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 768 768">
+          <title>SEARCH</title>
+          <path d="M756.48 702.719l-142.080-142.080c46.080-57.6 76.799-134.399 76.799-215.039 0-191.999-153.6-345.6-345.6-345.6s-345.6 153.6-345.6 345.6c0 191.999 153.6 345.6 345.6 345.6 80.64 0 157.439-26.88 215.039-76.799l142.080 142.080c7.68 7.68 19.2 11.52 26.88 11.52s19.2-3.84 26.88-11.52c15.36-15.36 15.36-38.4 0-53.76zM76.801 345.6c0-149.76 119.040-268.8 268.8-268.8s268.8 119.040 268.8 268.8c0 72.96-30.72 142.080-76.799 188.16 0 0 0 0 0 0s0 0 0 0c-49.92 49.92-115.2 76.799-188.16 76.799-153.6 3.84-272.639-115.2-272.639-264.96z"></path>
+        </svg>
+      </span>
+      <!-- /.c-submenu__search__icon -->
+    </button>
+    <!-- /.c-submenu__search -->
+    {/block:AppsSearch}
+    {/block:ShopPublic}
+    {BASEMenuTag}
+  </div>
+  <!-- /.c-menu__sub -->
+
+  <h1 class="c-menu__logo">
+    <a href="{IndexPageURL}">{LogoTag}</a>
+  </h1>
+  <div class="c-menu__inner" id="js-menu-scrollable">
+    {block:AppsItemCategory}
+    <div class="c-menu__category c-category c-category--menu u-sp">
+      <button class="c-category__btn js-category-btn" type="button">
+        <span class="c-category__btn__icon">
+          <span class="line"></span>
+        </span>
+        <span class="c-category__btn__text">CATEGORY</span>
+      </button>
+      <!-- /.c-category__btn -->
+      <div class="c-category__body">
+        <div class="c-category__list" id="js-category-scrollable">
+          {AppsItemCategoryCategoriesTag}
+        </div>
+        <!-- /.c-category__list -->
+      </div>
+      <!-- /.c-category__body -->
+    </div>
+    <!-- /.c-menu__category -->
+    {/block:AppsItemCategory}
+
+    <ul class="c-menu__list">
+      <li class="c-menu__item{block:if-LogoOnNav} u-sp{/block:if-LogoOnNav}">
+        <a href="{IndexPageURL}">HOME</a>
+      </li>
+      <li class="c-menu__item">
+        <a href="{AboutPageURL}">ABOUT</a>
+      </li>
+      {block:AppsBlog}
+      <li class="c-menu__item">
+        <a href="{BlogPageURL}">BLOG</a>
+      </li>
+      {/block:AppsBlog}
+      {block:if-ShowFaq}
+      <li class="c-menu__item">
+        <button class="js-faq-btn" type="button">FAQ</button>
+      </li>
+      {/block:if-ShowFaq}
+      {block:AppsCommunity}
+      <li class="c-menu__item">
+        <a href="{CommunityPageURL}">COMMUNITY</a>
+      </li>
+      {/block:AppsCommunity}
+      {block:AppsMembership}
+      <li class="c-menu__item">
+        <a href="{MembershipPageURL}">MEMBERSHIP</a>
+      </li>
+      <li class="c-menu__item">
+        <a href="{MembershipMyPageURL}">MYPAGE</a>
+      </li>
+      {/block:AppsMembership}
+      <li class="c-menu__item">
+        <a href="{ContactPageURL}">CONTACT</a>
+      </li>
+      {block:AppsCoinFunding}
+      <li class="c-menu__item">
+        <a href="{CoinFundingPageURL}">COIN</a>
+      </li>
+      {/block:AppsCoinFunding}
+    </ul>
+    <!-- /.c-menu__list -->
+
+    {block:if-ShowSns}
+    <div class="c-menu__sns c-sns prioritize-menu">
+      <h2 class="c-sns__caption">FOLLOW US</h2>
+<div class="c-sns__list">
+  {block:ShopInstagramId}
+  <a class="c-sns__item" href="http://instagram.com/{ShopInstagramId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--instagram"></span>
+  </a>
+  <!-- /.c-sns__item -->
+  {/block:ShopInstagramId}
+
+  {block:ShopTwitterId}
+  <a class="c-sns__item" href="https://twitter.com/{ShopTwitterId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--twitter"></span>
+  </a>
+  {/block:ShopTwitterId}
+
+  {block:ShopFacebookId}
+  <a class="c-sns__item" href="https://www.facebook.com/{ShopFacebookId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--facebook"></span>
+  </a>
+  {/block:ShopFacebookId}
+
+  {block:ShopLineId}
+  <a class="c-sns__item" href="https://line.me/R/ti/p/%40{ShopLineId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--line"></span>
+  </a>
+  {/block:ShopLineId}
+
+  {block:ShopTiktokId}
+  <a class="c-sns__item" href="https://www.tiktok.com/@{ShopTiktokId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--tiktok"></span>
+  </a>
+  {/block:ShopTiktokId}
+
+  {block:ShopYoutubeId}
+  <a class="c-sns__item" href="{ShopYoutubeId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--youtube"></span>
+  </a>
+  {/block:ShopYoutubeId}
+
+  {block:ShopNoteId}
+  <a class="c-sns__item" href="https://note.com/{ShopNoteId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--note"></span>
+  </a>
+  {/block:ShopNoteId}
+
+  {block:ShopAmebaId}
+  <a class="c-sns__item" href="http://ameblo.jp/{ShopAmebaId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--ameba"></span>
+  </a>
+  {/block:ShopAmebaId}
+</div>
+  <!-- /.c-sns__list -->
+    </div>
+    <!-- /.c-menu__sns -->
+    {/block:if-ShowSns}
+    <div class="c-menu__nav">
+      <a href="{PrivacyPageURL}">{lang:Privacy}</a>
+      <a href="{LawPageURL}">{lang:Law}</a>
+      {block:AppsMembership}
+      <a href="https://thebase.com/pages/shop_membership_term" target="_blank" rel="noopener">会員規約</a>
+      {/block:AppsMembership}
+    </div>
+    <!-- /.c-menu__nav -->
+    <p class="c-menu__copyright">
+      <small>©︎ {ShopName}</small>
+    </p>
+    <!-- /.c-menu__copyright -->
+  </div>
+  <!-- /.c-menu__inner -->
+</div>
+<!-- /.c-menu -->
+
+{block:AppsItemCategory}
+<div class="c-catmodal u-exSp--flex">
+  <div class="c-catmodal__inner">
+    <div class="c-catmodal__scrollable" id="js-catmodal-scrollable">
+      <div class="c-catmodal__list">
+        {AppsItemCategoryCategoriesTag}
+      </div>
+      <!-- /.c-catmodal__list -->
+      <button class="c-catmodal__end js-catmodal-close" type="button" aria-hidden="true">CLOSE</button>
+    </div>
+    <!-- /.c-catmodal__scrollable -->
+    <button type="button" class="c-catmodal__close js-catmodal-close"></button>
+  </div>
+  <!-- /.c-catmodal__inner -->
+  <div class="c-catmodal__overlay js-catmodal-close"></div>
+</div>
+<!-- /.c-catmodal -->
+{/block:AppsItemCategory}
+
+{block:ShopPublic}
+{block:AppsSearch}
+<div class="c-search">
+  <div class="c-search__inner">
+    <button type="button" class="c-search__close js-search-close"></button>
+    <form class="c-search__row" action="{SearchPageURL}" method="get">
+      <input class="c-search__input js-search" type="text" name="q" placeholder="Search" value="{IndexPageSearch}" autocomplete="off">
+      <button class="c-search__submit" type="submit">
+        <span class="c-search__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 768 768">
+            <title>SEARCH</title>
+            <path d="M756.48 702.719l-142.080-142.080c46.080-57.6 76.799-134.399 76.799-215.039 0-191.999-153.6-345.6-345.6-345.6s-345.6 153.6-345.6 345.6c0 191.999 153.6 345.6 345.6 345.6 80.64 0 157.439-26.88 215.039-76.799l142.080 142.080c7.68 7.68 19.2 11.52 26.88 11.52s19.2-3.84 26.88-11.52c15.36-15.36 15.36-38.4 0-53.76zM76.801 345.6c0-149.76 119.040-268.8 268.8-268.8s268.8 119.040 268.8 268.8c0 72.96-30.72 142.080-76.799 188.16 0 0 0 0 0 0s0 0 0 0c-49.92 49.92-115.2 76.799-188.16 76.799-153.6 3.84-272.639-115.2-272.639-264.96z"></path>
+          </svg>
+        </span>
+        <!-- /.c-search__icon -->
+      </button>
+      <!-- /.c-search__submit -->
+    </form>
+    <!-- /.c-search__row -->
+  </div>
+  <!-- /.c-search__inner -->
+  <div class="c-search__overlay js-search-close"></div>
+</div>
+<!-- /.c-search -->
+{/block:AppsSearch}
+{/block:ShopPublic}
+    <main class="l-main">
+      {block:NotIndexPage}
+
+      <div class="c-subheader u-frame{block:if-LogoOnNav}{block:ItemPage} no-subheader{/block:ItemPage}{/block:if-LogoOnNav}">
+        {block:not_if-LogoOnNav}
+        <div class="c-subheader__logo">
+          <a href="{IndexPageURL}">{LogoTag}</a>
+        </div>
+        <!-- /.c-subheader__logo -->
+        {/block:not_if-LogoOnNav}
+
+        {block:NotItemPage}
+        {block:NotPrivacyPage}
+        {block:NotLawPage}
+        <h1 class="c-subheader__title">
+          {block:AboutPage}
+          ABOUT
+          {/block:AboutPage}
+          {block:AppsBlog}
+          {block:BlogPage}
+          BLOG
+          {/block:BlogPage}
+          {/block:AppsBlog}
+          {block:AppsCommunity}
+          {block:CommunityPage}
+          COMMUNITY
+          {/block:CommunityPage}
+          {/block:AppsCommunity}
+          {block:ContactPage}
+          CONTACT
+          {/block:ContactPage}
+          {block:AppsMembership}
+          {block:MembershipPage}
+          MEMBERSHIP
+          {/block:MembershipPage}
+          {block:MembershipMyPage}
+          MYPAGE
+          {/block:MembershipMyPage}
+          {block:MembershipLoginPage}
+          LOG IN
+          {/block:MembershipLoginPage}
+          {/block:AppsMembership}
+        </h1>
+        {/block:NotLawPage}
+        {/block:NotPrivacyPage}
+        {/block:NotItemPage}
+      </div>
+      <!-- /.c-subheader -->
+      {/block:NotIndexPage}
+
+      {block:IndexPageCategory}
+      <div class="c-subheader u-frame">
+        {block:BreadcrumbTag}
+        <div class="c-breadcrumb c-subheader__breadcrumb">
+          {BreadcrumbTag}
+        </div>
+        <!-- /.c-pan -->
+        {/block:BreadcrumbTag}
+        {block:not_if-LogoOnNav}
+        <div class="c-subheader__logo">
+          <a href="{IndexPageURL}">{LogoTag}</a>
+        </div>
+        <!-- /.c-subheader__logo -->
+        {/block:not_if-LogoOnNav}
+        <h1 class="c-subheader__title">{IndexPageCategory}</h1>
+      </div>
+      <!-- /.c-subheader -->
+      {/block:IndexPageCategory}
+
+      {block:IndexPageSearch}
+      <div class="c-subheader u-frame">
+        {block:not_if-LogoOnNav}
+        <div class="c-subheader__logo">
+          <a href="{IndexPageURL}">{LogoTag}</a>
+        </div>
+        <!-- /.c-subheader__logo -->
+        {/block:not_if-LogoOnNav}
+        <h1 class="c-subheader__title">{lang:ItemSearchResult}</h1>
+      </div>
+      <!-- /.c-subheader -->
+      {/block:IndexPageSearch}
+
+      {block:IndexPage}
+
+{block:IndexPageCategory}
+<div class="p-category">
+  {block:HasAppsItemCategoryChildCategories}
+  <ul class="c-tag">
+    {block:AppsItemCategoryChildCategories}
+    <li><a href="{AppsItemCategoryChildCategoryPageURL}">{AppsItemCategoryChildCategoryName}</a></li>
+    {/block:AppsItemCategoryChildCategories}
+  </ul>
+  <!-- /.c-tag -->
+  {/block:HasAppsItemCategoryChildCategories}
+  {/block:IndexPageCategory}
+
+  {block:IndexPageSearch}
+  <div class="p-category">
+    {/block:IndexPageSearch}
+
+    {block:NoIndexPageCategory}
+    {block:NoIndexPageSearch}
+
+    <div class="c-mv{block:if-TopMvAnimation} is-animation{/block:if-TopMvAnimation}" id="js-mv">
+      <div class="c-mv__inner">
+        {block:not_if-LogoOnNav}
+        <h1 class="c-mv__logo">
+          <a href="{IndexPageURL}">{LogoTag}</a>
+        </h1>
+        {/block:not_if-LogoOnNav}
+        {block:if-ShowTopMv}
+        {block:not_text-TopMvYouTubeUrl}
+        {block:if-TopMvFull}
+        {block:image-TopMv}
+        <picture class="c-mv__bg">
+          <source
+          media="(min-width:801px)"
+          srcset="{image:TopMv}"
+          >
+          <img
+          class="c-mv__bg__img"
+          src="{block:image-TopMvSp}{image:TopMvSp}{/block:image-TopMvSp}{block:not_image-TopMvSp}{image:TopMv}{/block:not_image-TopMvSp}"
+          alt="{ShopName}"
+          >
+        </picture>
+        <!-- /.c-mv__bg -->
+        {/block:image-TopMv}
+        {/block:if-TopMvFull}
+        {block:not_if-TopMvFull}
+        <div class="c-mv__bg c-mv__bg--divided">
+          {block:image-TopMvLeft}
+          <div class="c-mv__bg--l">
+            <img
+            src="{image:TopMvLeft}"
+            alt="{ShopName}"
+            >
+          </div>
+          {/block:image-TopMvLeft}
+          {block:image-TopMvRight}
+          <div class="c-mv__bg--r">
+            <img
+            src="{image:TopMvRight}"
+            alt="{ShopName}"
+            >
+          </div>
+          {/block:image-TopMvRight}
+        </div>
+        <!-- /.c-mv__bg.c-mv__bg--divided -->
+        {/block:not_if-TopMvFull}
+
+        {/block:not_text-TopMvYouTubeUrl}
+        {block:text-TopMvYouTubeUrl}
+        <div class="c-mv__video">
+          <div class="c-mv__video__inner{block:if-TopMvVideoFullSize-SP} sp-full{/block:if-TopMvVideoFullSize-SP}">
+            <div id="js-youtube" data-youtube-url="{text:TopMvYouTubeUrl}"></div>
+          </div>
+          <!-- /.c-mv__video__inner -->
+        </div>
+        <!-- /.c-mv__video -->
+        {/block:text-TopMvYouTubeUrl}
+        {/block:if-ShowTopMv}
+      </div>
+      <!-- /.c-mv__inner -->
+      {block:AppsItemCategory}
+      <div class="c-mv__category c-category">
+        <button class="c-category__btn js-category-btn" type="button">
+          <span class="c-category__btn__icon">
+            <span class="line"></span>
+          </span>
+          <span class="c-category__btn__text">CATEGORY</span>
+        </button>
+        <div class="c-category__body">
+          <div class="c-category__list" id="js-category-scrollable">
+            {AppsItemCategoryCategoriesTag}
+          </div>
+          <!-- /.c-category__list -->
+        </div>
+        <!-- /.c-category__body -->
+      </div>
+      <!-- /.c-mv__category -->
+      {/block:AppsItemCategory}
+    </div>
+    <!-- /.c-mv -->
+
+    {block:AppsBlogArticleIsPinned}
+    <div class="c-notice">
+      <div class="c-notice__inner u-frame">
+        <a href="{AppsBlogArticlePageURL}">{AppsBlogArticleTitle}</a>
+      </div>
+    </div>
+    {/block:AppsBlogArticleIsPinned}
+
+    {block:if-ShowTopConcept}
+    <div class="c-concept">
+      <div class="c-concept__inner u-frame">
+        {block:image-TopConcept}
+        <div class="c-concept__pic{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+          {block:if-TopConceptImageSkew}
+          <div class="c-concept__pic__skew">
+            {/block:if-TopConceptImageSkew}
+            <img
+            src="{image:TopConcept}"
+            alt="{text:TopConceptTitle}">
+            {block:if-TopConceptImageSkew}
+          </div>
+          <!-- /.c-concept__pic__skew -->
+          {/block:if-TopConceptImageSkew}
+        </div>
+        <!-- /.c-concept__pic -->
+        {/block:image-TopConcept}
+        <div class="c-concept__content{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+          {block:text-TopConceptSubTitle}
+          <div class="c-concept__subtitle u-preline">{text:TopConceptSubTitle}</div>
+          {/block:text-TopConceptSubTitle}
+          {block:text-TopConceptTitle}
+          <h2 class="c-concept__title u-preline">{text:TopConceptTitle}</h2>
+          {/block:text-TopConceptTitle}
+          {block:text-TopConceptText}
+          <p class="c-concept__text u-preline">{text:TopConceptText}</p>
+          {/block:text-TopConceptText}
+          <a class="c-concept__btn c-btn" href="{block:text-TopConceptLinkUrl}{text:TopConceptLinkUrl}{/block:text-TopConceptLinkUrl}{block:not_text-TopConceptLinkUrl}{AboutPageURL}{/block:not_text-TopConceptLinkUrl}"{block:if-TopConceptOutLink} target="_blank" rel="noopener"{/block:if-TopConceptOutLink}>MORE</a>
+        </div>
+        <!-- /.c-concept__content -->
+      </div>
+      <!-- /.c-concept__inner -->
+    </div>
+    <!-- /.c-concept -->
+    {/block:if-ShowTopConcept}
+
+    {block:if-ShowPickUp}
+<div class="c-pickup{block:not_if-ShowTopConcept} no-concept{/block:not_if-ShowTopConcept}">
+  <div class="c-pickup__inner u-frame">
+    <h2 class="c-pickup__caption{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">PICK UP</h2>
+    <div class="c-pickup__carousel swiper c-carousel{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}" id="js-pickup-slide">
+      <div class="c-carousel__inner swiper-wrapper">
+
+        {block:image-PickUpImage-1}
+        <div class="c-carousel__item swiper-slide">
+          <div class="c-carousel__item__inner" data-swiper-parallax-x="30" data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000">
+            <div class="c-carousel__item__pic" data-swiper-parallax-x="-30" data-swiper-parallax-scale="0.8" data-swiper-parallax-duration="1000">
+              {block:text-PickUpItemUrl-1}
+              <a href="{text:PickUpItemUrl-1}"{block:if-PickUpItemOutlink-1} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-1}>
+                {/block:text-PickUpItemUrl-1}
+                <img
+                src="{image:PickUpImage-1}"
+                alt="{text:PickUpItemName-1}">
+                {block:text-PickUpItemUrl-1}
+              </a>
+              {/block:text-PickUpItemUrl-1}
+            </div>
+            <!-- /.c-carousel__item__pic -->
+            {block:text-PickUpItemName-1}
+            <div class="c-carousel__item__box" data-swiper-parallax-x="-90"  data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.6">
+              {block:text-PickUpItemUrl-1}
+              <a href="{text:PickUpItemUrl-1}"{block:if-PickUpItemOutlink-1} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-1}>
+                {/block:text-PickUpItemUrl-1}
+                <div class="c-carousel__item__content">
+                  <div class="c-carousel__item__name">{text:PickUpItemName-1}</div>
+                  {block:text-PickUpItemPrice-1}
+                  {block:text-PickUpItemSalePrice-1}
+                  <del class="c-carousel__item__price">{text:PickUpItemPrice-1}</del>
+                  {/block:text-PickUpItemSalePrice-1}
+                  {block:not_text-PickUpItemSalePrice-1}
+                  <div class="c-carousel__item__price">{text:PickUpItemPrice-1}</div>
+                  {/block:not_text-PickUpItemSalePrice-1}
+                  {/block:text-PickUpItemPrice-1}
+                  {block:text-PickUpItemSalePrice-1}
+                  <div class="c-carousel__item__price c-carousel__item__price--sale">{text:PickUpItemSalePrice-1}</div>
+                  {/block:text-PickUpItemSalePrice-1}
+                </div>
+                <!-- /.c-carousel__item__content -->
+                {block:text-PickUpItemUrl-1}
+              </a>
+              {/block:text-PickUpItemUrl-1}
+            </div>
+            <!-- /.c-carousel__item__box -->
+            {/block:text-PickUpItemName-1}
+          </div>
+          <!-- /.c-carousel__item__inner -->
+        </div>
+        <!-- /c-carousel__item -->
+        {/block:image-PickUpImage-1}
+
+        {block:image-PickUpImage-2}
+        <div class="c-carousel__item swiper-slide">
+          <div class="c-carousel__item__inner" data-swiper-parallax-x="30" data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000">
+            <div class="c-carousel__item__pic" data-swiper-parallax-x="-30" data-swiper-parallax-scale="0.8" data-swiper-parallax-duration="1000">
+              {block:text-PickUpItemUrl-2}
+              <a href="{text:PickUpItemUrl-2}"{block:if-PickUpItemOutlink-2} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-2}>
+                {/block:text-PickUpItemUrl-2}
+                <img
+                src="{image:PickUpImage-2}"
+                alt="{text:PickUpItemName-2}">
+                {block:text-PickUpItemUrl-2}
+              </a>
+              {/block:text-PickUpItemUrl-2}
+            </div>
+            <!-- /.c-carousel__item__pic -->
+            {block:text-PickUpItemName-2}
+            <div class="c-carousel__item__box" data-swiper-parallax-x="-90"  data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.6">
+              {block:text-PickUpItemUrl-2}
+              <a href="{text:PickUpItemUrl-2}"{block:if-PickUpItemOutlink-2} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-2}>
+                {/block:text-PickUpItemUrl-2}
+                <div class="c-carousel__item__content">
+                  <div class="c-carousel__item__name">{text:PickUpItemName-2}</div>
+                  {block:text-PickUpItemPrice-2}
+                  {block:text-PickUpItemSalePrice-2}
+                  <del class="c-carousel__item__price">{text:PickUpItemPrice-2}</del>
+                  {/block:text-PickUpItemSalePrice-2}
+                  {block:not_text-PickUpItemSalePrice-2}
+                  <div class="c-carousel__item__price">{text:PickUpItemPrice-2}</div>
+                  {/block:not_text-PickUpItemSalePrice-2}
+                  {/block:text-PickUpItemPrice-2}
+                  {block:text-PickUpItemSalePrice-2}
+                  <div class="c-carousel__item__price c-carousel__item__price--sale">{text:PickUpItemSalePrice-2}</div>
+                  {/block:text-PickUpItemSalePrice-2}
+                </div>
+                <!-- /.c-carousel__item__content -->
+                {block:text-PickUpItemUrl-2}
+              </a>
+              {/block:text-PickUpItemUrl-2}
+            </div>
+            <!-- /.c-carousel__item__box -->
+            {/block:text-PickUpItemName-2}
+          </div>
+          <!-- /.c-carousel__item__inner -->
+        </div>
+        <!-- /c-carousel__item -->
+        {/block:image-PickUpImage-2}
+
+        {block:image-PickUpImage-3}
+        <div class="c-carousel__item swiper-slide">
+          <div class="c-carousel__item__inner" data-swiper-parallax-x="30" data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000">
+            <div class="c-carousel__item__pic" data-swiper-parallax-x="-30" data-swiper-parallax-scale="0.8" data-swiper-parallax-duration="1000">
+              {block:text-PickUpItemUrl-3}
+              <a href="{text:PickUpItemUrl-3}"{block:if-PickUpItemOutlink-3} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-3}>
+                {/block:text-PickUpItemUrl-3}
+                <img
+                src="{image:PickUpImage-3}"
+                alt="{text:PickUpItemName-3}">
+                {block:text-PickUpItemUrl-3}
+              </a>
+              {/block:text-PickUpItemUrl-3}
+            </div>
+            <!-- /.c-carousel__item__pic -->
+            {block:text-PickUpItemName-3}
+            <div class="c-carousel__item__box" data-swiper-parallax-x="-90"  data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.6">
+              {block:text-PickUpItemUrl-3}
+              <a href="{text:PickUpItemUrl-3}"{block:if-PickUpItemOutlink-3} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-3}>
+                {/block:text-PickUpItemUrl-3}
+                <div class="c-carousel__item__content">
+                  <div class="c-carousel__item__name">{text:PickUpItemName-3}</div>
+                  {block:text-PickUpItemPrice-3}
+                  {block:text-PickUpItemSalePrice-3}
+                  <del class="c-carousel__item__price">{text:PickUpItemPrice-3}</del>
+                  {/block:text-PickUpItemSalePrice-3}
+                  {block:not_text-PickUpItemSalePrice-3}
+                  <div class="c-carousel__item__price">{text:PickUpItemPrice-3}</div>
+                  {/block:not_text-PickUpItemSalePrice-3}
+                  {/block:text-PickUpItemPrice-3}
+                  {block:text-PickUpItemSalePrice-3}
+                  <div class="c-carousel__item__price c-carousel__item__price--sale">{text:PickUpItemSalePrice-3}</div>
+                  {/block:text-PickUpItemSalePrice-3}
+                </div>
+                <!-- /.c-carousel__item__content -->
+                {block:text-PickUpItemUrl-3}
+              </a>
+              {/block:text-PickUpItemUrl-3}
+            </div>
+            <!-- /.c-carousel__item__box -->
+            {/block:text-PickUpItemName-3}
+          </div>
+          <!-- /.c-carousel__item__inner -->
+        </div>
+        <!-- /c-carousel__item -->
+        {/block:image-PickUpImage-3}
+
+        {block:image-PickUpImage-4}
+        <div class="c-carousel__item swiper-slide">
+          <div class="c-carousel__item__inner" data-swiper-parallax-x="30" data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000">
+            <div class="c-carousel__item__pic" data-swiper-parallax-x="-30" data-swiper-parallax-scale="0.8" data-swiper-parallax-duration="1000">
+              {block:text-PickUpItemUrl-4}
+              <a href="{text:PickUpItemUrl-4}"{block:if-PickUpItemOutlink-4} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-4}>
+                {/block:text-PickUpItemUrl-4}
+                <img
+                src="{image:PickUpImage-4}"
+                alt="{text:PickUpItemName-4}">
+                {block:text-PickUpItemUrl-4}
+              </a>
+              {/block:text-PickUpItemUrl-4}
+            </div>
+            <!-- /.c-carousel__item__pic -->
+            {block:text-PickUpItemName-4}
+            <div class="c-carousel__item__box" data-swiper-parallax-x="-90"  data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.6">
+              {block:text-PickUpItemUrl-4}
+              <a href="{text:PickUpItemUrl-4}"{block:if-PickUpItemOutlink-4} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-4}>
+                {/block:text-PickUpItemUrl-4}
+                <div class="c-carousel__item__content">
+                  <div class="c-carousel__item__name">{text:PickUpItemName-4}</div>
+                  {block:text-PickUpItemPrice-4}
+                  {block:text-PickUpItemSalePrice-4}
+                  <del class="c-carousel__item__price">{text:PickUpItemPrice-4}</del>
+                  {/block:text-PickUpItemSalePrice-4}
+                  {block:not_text-PickUpItemSalePrice-4}
+                  <div class="c-carousel__item__price">{text:PickUpItemPrice-4}</div>
+                  {/block:not_text-PickUpItemSalePrice-4}
+                  {/block:text-PickUpItemPrice-4}
+                  {block:text-PickUpItemSalePrice-4}
+                  <div class="c-carousel__item__price c-carousel__item__price--sale">{text:PickUpItemSalePrice-4}</div>
+                  {/block:text-PickUpItemSalePrice-4}
+                </div>
+                <!-- /.c-carousel__item__content -->
+                {block:text-PickUpItemUrl-4}
+              </a>
+              {/block:text-PickUpItemUrl-4}
+            </div>
+            <!-- /.c-carousel__item__box -->
+            {/block:text-PickUpItemName-4}
+          </div>
+          <!-- /.c-carousel__item__inner -->
+        </div>
+        <!-- /c-carousel__item -->
+        {/block:image-PickUpImage-4}
+
+        {block:image-PickUpImage-5}
+        <div class="c-carousel__item swiper-slide">
+          <div class="c-carousel__item__inner" data-swiper-parallax-x="30" data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000">
+            <div class="c-carousel__item__pic" data-swiper-parallax-x="-30" data-swiper-parallax-scale="0.8" data-swiper-parallax-duration="1000">
+              {block:text-PickUpItemUrl-5}
+              <a href="{text:PickUpItemUrl-5}"{block:if-PickUpItemOutlink-5} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-5}>
+                {/block:text-PickUpItemUrl-5}
+                <img
+                src="{image:PickUpImage-5}"
+                alt="{text:PickUpItemName-5}">
+                {block:text-PickUpItemUrl-5}
+              </a>
+              {/block:text-PickUpItemUrl-5}
+            </div>
+            <!-- /.c-carousel__item__pic -->
+            {block:text-PickUpItemName-5}
+            <div class="c-carousel__item__box" data-swiper-parallax-x="-90"  data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.6">
+              {block:text-PickUpItemUrl-5}
+              <a href="{text:PickUpItemUrl-5}"{block:if-PickUpItemOutlink-5} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-5}>
+                {/block:text-PickUpItemUrl-5}
+                <div class="c-carousel__item__content">
+                  <div class="c-carousel__item__name">{text:PickUpItemName-5}</div>
+                  {block:text-PickUpItemPrice-5}
+                  {block:text-PickUpItemSalePrice-5}
+                  <del class="c-carousel__item__price">{text:PickUpItemPrice-5}</del>
+                  {/block:text-PickUpItemSalePrice-5}
+                  {block:not_text-PickUpItemSalePrice-5}
+                  <div class="c-carousel__item__price">{text:PickUpItemPrice-5}</div>
+                  {/block:not_text-PickUpItemSalePrice-5}
+                  {/block:text-PickUpItemPrice-5}
+                  {block:text-PickUpItemSalePrice-5}
+                  <div class="c-carousel__item__price c-carousel__item__price--sale">{text:PickUpItemSalePrice-5}</div>
+                  {/block:text-PickUpItemSalePrice-5}
+                </div>
+                <!-- /.c-carousel__item__content -->
+                {block:text-PickUpItemUrl-5}
+              </a>
+              {/block:text-PickUpItemUrl-5}
+            </div>
+            <!-- /.c-carousel__item__box -->
+            {/block:text-PickUpItemName-5}
+          </div>
+          <!-- /.c-carousel__item__inner -->
+        </div>
+        <!-- /c-carousel__item -->
+        {/block:image-PickUpImage-5}
+
+        {block:image-PickUpImage-6}
+        <div class="c-carousel__item swiper-slide">
+          <div class="c-carousel__item__inner" data-swiper-parallax-x="30" data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000">
+            <div class="c-carousel__item__pic" data-swiper-parallax-x="-30" data-swiper-parallax-scale="0.8" data-swiper-parallax-duration="1000">
+              {block:text-PickUpItemUrl-6}
+              <a href="{text:PickUpItemUrl-6}"{block:if-PickUpItemOutlink-6} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-6}>
+                {/block:text-PickUpItemUrl-6}
+                <img
+                src="{image:PickUpImage-6}"
+                alt="{text:PickUpItemName-6}">
+                {block:text-PickUpItemUrl-6}
+              </a>
+              {/block:text-PickUpItemUrl-6}
+            </div>
+            <!-- /.c-carousel__item__pic -->
+            {block:text-PickUpItemName-6}
+            <div class="c-carousel__item__box" data-swiper-parallax-x="-90"  data-swiper-parallax-y="-90" data-swiper-parallax-duration="1000" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.6">
+              {block:text-PickUpItemUrl-6}
+              <a href="{text:PickUpItemUrl-6}"{block:if-PickUpItemOutlink-6} target="_blank" rel="noopener"{/block:if-PickUpItemOutlink-6}>
+                {/block:text-PickUpItemUrl-6}
+                <div class="c-carousel__item__content">
+                  <div class="c-carousel__item__name">{text:PickUpItemName-6}</div>
+                  {block:text-PickUpItemPrice-6}
+                  {block:text-PickUpItemSalePrice-6}
+                  <del class="c-carousel__item__price">{text:PickUpItemPrice-6}</del>
+                  {/block:text-PickUpItemSalePrice-6}
+                  {block:not_text-PickUpItemSalePrice-6}
+                  <div class="c-carousel__item__price">{text:PickUpItemPrice-6}</div>
+                  {/block:not_text-PickUpItemSalePrice-6}
+                  {/block:text-PickUpItemPrice-6}
+                  {block:text-PickUpItemSalePrice-6}
+                  <div class="c-carousel__item__price c-carousel__item__price--sale">{text:PickUpItemSalePrice-6}</div>
+                  {/block:text-PickUpItemSalePrice-6}
+                </div>
+                <!-- /.c-carousel__item__content -->
+                {block:text-PickUpItemUrl-6}
+              </a>
+              {/block:text-PickUpItemUrl-6}
+            </div>
+            <!-- /.c-carousel__item__box -->
+            {/block:text-PickUpItemName-6}
+          </div>
+          <!-- /.c-carousel__item__inner -->
+        </div>
+        <!-- /c-carousel__item -->
+        {/block:image-PickUpImage-6}
+
+      </div>
+      <!-- /.c-carousel__inner -->
+    </div>
+    <!-- /.c-pickup__carousel.c-carousel -->
+  </div>
+  <!-- /.c-pickup__inner -->
+</div>
+<!-- /.c-pickup -->
+{/block:if-ShowPickUp}
+
+    {/block:NoIndexPageSearch}
+    {/block:NoIndexPageCategory}
+
+    {block:ShopPublic}
+    <div class="c-list{block:IndexPageCategory} c-list--category p-category__list{/block:IndexPageCategory}{block:IndexPageSearch} c-list--category p-category__list{/block:IndexPageSearch}">
+      <div class="c-list__inner u-frame">
+        <div class="c-list__list" id="js-items">
+          {block:HasItems}
+{block:Items}
+<div class="c-card js-item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+  <a class="js-itemLink" href="{ItemPageURL}">
+    {block:AppsItemLabel}
+    {AppsItemLabelTag}
+    {/block:AppsItemLabel}
+    <div class="c-card__pic">
+      <img
+      class="c-card__img"
+      src="{block:ItemImage1}{ItemImage1URL-640}{/block:ItemImage1}{block:NoItemImage1}{ItemNoImageURL}{/block:NoItemImage1}"
+      alt="{ItemTitle}"
+      >
+      {block:HasItemStock}
+      {block:ItemEndOfSale}
+      <p class="c-card__soldout">SOLD OUT</p>
+      {/block:ItemEndOfSale}
+      {/block:HasItemStock}
+      {block:NoItemStock}
+      {block:ItemNowOnSale}
+      <p class="c-card__soldout">SOLD OUT</p>
+      {/block:ItemNowOnSale}
+      {block:ItemEndOfSale}
+      <p class="c-card__soldout">SOLD OUT</p>
+      {/block:ItemEndOfSale}
+      {/block:NoItemStock}
+    </div>
+    <!-- /.c-card__thumb -->
+    <div class="c-card__content">
+      <div class="c-card__title">{ItemTitle}</div>
+      {block:NoItemProperPrice}
+      <div class="c-card__price">{ItemPrice}</div>
+      {/block:NoItemProperPrice}
+      {block:HasItemProperPrice}
+      <div class="c-card__price c-card__price--sale">
+        <span class="value">{ItemPrice}</span>
+        <span class="discount">{ItemDiscountRate}</span>
+      </div>
+      {/block:HasItemProperPrice}
+      <div class="c-card__tags">
+        {block:HasItemStock}
+        {block:ItemWatingForSale}
+        <div class="c-card__tag waitingForSale">COMING SOON</div>
+        {/block:ItemWatingForSale}
+        {block:ItemEndOfSale}
+        <div class="c-card__tag endOfSale">SOLD OUT</div>
+        {/block:ItemEndOfSale}
+        {/block:HasItemStock}
+
+        {block:NoItemStock}
+        {block:ItemWatingForSale}
+        <div class="c-card__tag waitingForSale">COMING SOON</div>
+        {/block:ItemWatingForSale}
+        {block:ItemNowOnSale}
+        <div class="c-card__tag endOfSale">SOLD OUT</div>
+        {/block:ItemNowOnSale}
+        {block:ItemEndOfSale}
+        <div class="c-card__tag endOfSale">SOLD OUT</div>
+        {/block:ItemEndOfSale}
+        {/block:NoItemStock}
+
+        {block:ItemPreOrder}
+        <div class="c-card__tag preOrder">{lang:PreOrderItem}</div>
+        {/block:ItemPreOrder}
+        {block:ItemLottery}
+        <div class="c-card__tag lottery">{lang:LotteryItem}</div>
+        {/block:ItemLottery}
+        {block:ItemTakeout}
+        <div class="c-card__tag takeout">{lang:TakeoutItem}</div>
+        {/block:ItemTakeout}
+
+        {block:ItemCommunityLimited}
+        <p class="c-card__tag community">会員限定商品</p>
+        {/block:ItemCommunityLimited}
+      </div>
+      <!-- /.c-card__tags -->
+    </div>
+    <!-- /.c-card__content -->
+  </a>
+</div>
+{/block:Items}
+{/block:HasItems}
+
+{block:NoItems}
+<div class="c-empty">
+  <p class="c-empty__message">{lang:NoItemsMessage}</p>
+</div>
+<!-- /.c-item__empty -->
+{/block:NoItems}
+        </div>
+        <!-- /.c-list__list -->
+        <div class="c-list__btn is-hide{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+          <button class="c-btn" type="button" id="js-moreItems">MORE</button>
+        </div>
+        <!-- /c-list__btn -->
+      </div>
+      <!-- /.c-list__inner -->
+    </div>
+    <!-- /.c-list -->
+    {/block:ShopPublic}
+    {block:NotShopPublic}
+    <section class="c-close u-frame">
+  <h1 class="c-close__text">{lang:NotShopPublicMessage}</h1>
+</section>
+<!-- /.c-close -->
+    {/block:NotShopPublic}
+
+    {block:NoIndexPageCategory}
+    {block:NoIndexPageSearch}
+    {block:if-ShowCta}
+    <aside class="c-cta{block:image-TopCtaBg} c-cta--bg{/block:image-TopCtaBg}">
+      <div class="c-cta__inner u-frame">
+  {block:if-ShowFaq}
+  {block:if-ShowCta-Faq}
+  <div class="c-cta__item {block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    <button type="button"class="c-banner js-faq-btn">
+      {block:image-CtaImage-Faq}
+      <div class="c-banner__pic">
+        <img
+        src="{image:CtaImage-Faq}"
+        alt="FAQ">
+      </div>
+      <!-- /.c-banner__pic -->
+      {/block:image-CtaImage-Faq}
+      <div class="c-banner__content">
+        <div class="c-banner__subtitle">
+          <span class="c-banner__subtitle__inner">よくある質問</span>
+        </div>
+        <div class="c-banner__title">FAQ</div>
+      </div>
+      <!-- /.c-banner__content -->
+    </button>
+    <!-- /.c-banner -->
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Faq}
+  {/block:if-ShowFaq}
+
+  {block:NotContactPage}
+  {block:if-ShowCta-Contact}
+  <div class="c-cta__item {block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    <a class="c-banner" href="{ContactPageURL}">
+      {block:image-CtaImage-Contact}
+      <div class="c-banner__pic">
+        <img
+        src="{image:CtaImage-Contact}"
+        alt="CONTACT">
+      </div>
+      <!-- /.c-banner__pic -->
+      {/block:image-CtaImage-Contact}
+      <div class="c-banner__content">
+        <div class="c-banner__subtitle">
+          <span class="c-banner__subtitle__inner">お問い合わせ</span>
+        </div>
+        <div class="c-banner__title">CONTACT</div>
+      </div>
+      <!-- /.c-banner__content -->
+    </a>
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Contact}
+  {/block:NotContactPage}
+
+  {block:if-ShowCta-Opt-1}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-1}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-1} no-frame-border{/block:not_if-CtaFrameBorder-Opt-1}" href="{text:CtaLinkUrl-Opt-1}"{block:if-CtaOutlink-Opt-1} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-1}>
+      {/block:text-CtaLinkUrl-Opt-1}
+      {block:not_text-CtaLinkUrl-Opt-1}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-1} no-frame-border{/block:not_if-CtaFrameBorder-Opt-1}">
+        {/block:not_text-CtaLinkUrl-Opt-1}
+        {block:image-CtaImage-Opt-1}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-1}"
+          alt="{text:CtaTitle-Opt-1}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-1}
+        {block:text-CtaTitle-Opt-1}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-1}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-1}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-1}
+          <div class="c-banner__title">{text:CtaTitle-Opt-1}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-1}
+        {block:not_text-CtaLinkUrl-Opt-1}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-1}
+      {block:text-CtaLinkUrl-Opt-1}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-1}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-1}
+
+  {block:if-ShowCta-Opt-2}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-2}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-2} no-frame-border{/block:not_if-CtaFrameBorder-Opt-2}" href="{text:CtaLinkUrl-Opt-2}"{block:if-CtaOutlink-Opt-2} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-2}>
+      {/block:text-CtaLinkUrl-Opt-2}
+      {block:not_text-CtaLinkUrl-Opt-2}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-2} no-frame-border{/block:not_if-CtaFrameBorder-Opt-2}">
+        {/block:not_text-CtaLinkUrl-Opt-2}
+        {block:image-CtaImage-Opt-2}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-2}"
+          alt="{text:CtaTitle-Opt-2}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-2}
+        {block:text-CtaTitle-Opt-2}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-2}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-2}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-2}
+          <div class="c-banner__title">{text:CtaTitle-Opt-2}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-2}
+        {block:not_text-CtaLinkUrl-Opt-2}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-2}
+      {block:text-CtaLinkUrl-Opt-2}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-2}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-2}
+
+  {block:if-ShowCta-Opt-3}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-3}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-3} no-frame-border{/block:not_if-CtaFrameBorder-Opt-3}" href="{text:CtaLinkUrl-Opt-3}"{block:if-CtaOutlink-Opt-3} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-3}>
+      {/block:text-CtaLinkUrl-Opt-3}
+      {block:not_text-CtaLinkUrl-Opt-3}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-3} no-frame-border{/block:not_if-CtaFrameBorder-Opt-3}">
+        {/block:not_text-CtaLinkUrl-Opt-3}
+        {block:image-CtaImage-Opt-3}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-3}"
+          alt="{text:CtaTitle-Opt-3}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-3}
+        {block:text-CtaTitle-Opt-3}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-3}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-3}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-3}
+          <div class="c-banner__title">{text:CtaTitle-Opt-3}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-3}
+        {block:not_text-CtaLinkUrl-Opt-3}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-3}
+      {block:text-CtaLinkUrl-Opt-3}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-3}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-3}
+
+  {block:if-ShowCta-Opt-4}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-4}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-4} no-frame-border{/block:not_if-CtaFrameBorder-Opt-4}" href="{text:CtaLinkUrl-Opt-4}"{block:if-CtaOutlink-Opt-4} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-4}>
+      {/block:text-CtaLinkUrl-Opt-4}
+      {block:not_text-CtaLinkUrl-Opt-4}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-4} no-frame-border{/block:not_if-CtaFrameBorder-Opt-4}">
+        {/block:not_text-CtaLinkUrl-Opt-4}
+        {block:image-CtaImage-Opt-4}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-4}"
+          alt="{text:CtaTitle-Opt-4}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-4}
+        {block:text-CtaTitle-Opt-4}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-4}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-4}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-4}
+          <div class="c-banner__title">{text:CtaTitle-Opt-4}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-4}
+        {block:not_text-CtaLinkUrl-Opt-4}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-4}
+      {block:text-CtaLinkUrl-Opt-4}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-4}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-4}
+</div>
+<!-- /.c-cta__inner -->
+    </aside>
+    <!-- /.c-cta -->
+    {/block:if-ShowCta}
+    {/block:NoIndexPageSearch}
+    {/block:NoIndexPageCategory}
+
+    {block:NoIndexPageCategory}
+    {block:NoIndexPageSearch}
+    {block:AppsBlog}
+{block:if-ShowTopBlog}
+<div class="c-news" id="js-blog">
+  <div class="c-news__inner u-frame">
+    <h2 class="c-news__caption{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">BLOG</h2>
+    <div class="c-news__list{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}" id="js-blogFeed"></div>
+    <!-- /.c-news__list -->
+    <div class="c-news__btn{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+      <a class="c-btn" href="{BlogPageURL}">MORE</a>
+    </div>
+    <!-- /.c-news__btn -->
+  </div>
+  <!-- /.c-news__inner -->
+</div>
+<!-- /.c-news -->
+{/block:if-ShowTopBlog}
+{/block:AppsBlog}
+    {/block:NoIndexPageSearch}
+    {/block:NoIndexPageCategory}
+
+    {block:IndexPageCategory}
+  </div>
+  <!-- /.p-category -->
+  {/block:IndexPageCategory}
+
+  {block:IndexPageSearch}
+</div>
+<!-- /.p-category -->
+{/block:IndexPageSearch}
+
+{/block:IndexPage}
+
+      {block:AboutPage}
+<div class="p-about">
+  {block:if-ShowAboutIntroduction}
+  <div class="c-intro">
+    <p class="c-intro__text">{ShopIntroduction}</p>
+  </div>
+  <!-- /.c-intro -->
+  {/block:if-ShowAboutIntroduction}
+
+  {block:if-ShowAboutConcept-1}
+  <div class="c-concept--about">
+    <div class="c-concept__inner u-frame">
+      {block:image-AboutConcept-1}
+      <div class="c-concept__pic{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+        {block:if-AboutConceptImageSkew-1}
+        <div class="c-concept__pic__skew">
+          {/block:if-AboutConceptImageSkew-1}
+          <img
+          src="{image:AboutConcept-1}"
+          alt="{text:AboutConceptTitle-1}">
+          {block:if-AboutConceptImageSkew-1}
+        </div>
+        <!-- /.c-concept__pic__skew -->
+        {/block:if-AboutConceptImageSkew-1}
+      </div>
+      <!-- /.c-concept__pic -->
+      {/block:image-AboutConcept-1}
+      <div class="c-concept__content{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+        {block:text-AboutConceptTitle-1}
+        <h2 class="c-concept__title u-preline">{text:AboutConceptTitle-1}</h2>
+        {/block:text-AboutConceptTitle-1}
+        {block:text-AboutConceptText-1}
+        <p class="c-concept__text u-preline">{text:AboutConceptText-1}</p>
+        {/block:text-AboutConceptText-1}
+      </div>
+      <!-- /.c-concept__content -->
+    </div>
+    <!-- /.c-concept__inner -->
+  </div>
+  <!-- /.c-concept -->
+  {/block:if-ShowAboutConcept-1}
+
+  {block:if-ShowAboutConcept-2}
+  <div class="c-concept--about reverse">
+    <div class="c-concept__inner u-frame">
+      {block:image-AboutConcept-2}
+      <div class="c-concept__pic{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+        {block:if-AboutConceptImageSkew-2}
+        <div class="c-concept__pic__skew">
+          {/block:if-AboutConceptImageSkew-2}
+          <img
+          src="{image:AboutConcept-2}"
+          alt="{text:AboutConceptTitle-2}">
+          {block:if-AboutConceptImageSkew-2}
+        </div>
+        <!-- /.c-concept__pic__skew -->
+        {/block:if-AboutConceptImageSkew-2}
+      </div>
+      <!-- /.c-concept__pic -->
+      {/block:image-AboutConcept-2}
+      <div class="c-concept__content{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+        {block:text-AboutConceptTitle-2}
+        <h2 class="c-concept__title u-preline">{text:AboutConceptTitle-2}</h2>
+        {/block:text-AboutConceptTitle-2}
+        {block:text-AboutConceptText-2}
+        <p class="c-concept__text u-preline">{text:AboutConceptText-2}</p>
+        {/block:text-AboutConceptText-2}
+      </div>
+      <!-- /.c-concept__content -->
+    </div>
+    <!-- /.c-concept__inner -->
+  </div>
+  <!-- /.c-concept -->
+  {/block:if-ShowAboutConcept-2}
+
+  {block:text-YouTubeCode}
+  <div class="c-video{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    <div class="c-video__inner">
+      {text:YouTubeCode}
+    </div>
+    <!-- /.c-video__inner -->
+  </div>
+  <!-- /.c-video -->
+  {/block:text-YouTubeCode}
+</div>
+<!-- /.p-about -->
+{/block:AboutPage}
+      {block:ItemPage}
+<div class="p-item">
+  <div class="p-item__inner u-frame">
+    <div class="p-item__view c-view">
+      <div class="c-view__main swiper{block:NoItemImage1} is-visible{/block:NoItemImage1}"{block:ItemImage1} id="js-mainSlide"{/block:ItemImage1}>
+        <div class="c-view__main-frame swiper-wrapper" data-pswp>
+          {block:NoItemImage1}
+          <div class="c-view__main-slide">
+            <img
+            src="{ItemNoImageURL}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view-main-slide -->
+          {/block:NoItemImage1}
+
+          {block:ItemImage1}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage1URL-origin}">
+            <img
+            src="{ItemImage1URL-1280}"
+            alt="{ItemTitle}">
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage1}
+
+          {block:ItemImage2}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage2URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage2URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage2}
+
+          {block:ItemImage3}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage3URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage3URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage3}
+
+          {block:ItemImage4}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage4URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage4URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage4}
+
+          {block:ItemImage5}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage5URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage5URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage5}
+
+          {block:ItemImage6}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage6URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage6URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage6}
+
+          {block:ItemImage7}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage7URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage7URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage7}
+
+          {block:ItemImage8}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage8URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage8URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage8}
+
+          {block:ItemImage9}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage9URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage9URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage9}
+
+          {block:ItemImage10}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage10URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage10URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage10}
+
+          {block:ItemImage11}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage11URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage11URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage11}
+
+          {block:ItemImage12}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage12URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage12URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage12}
+
+          {block:ItemImage13}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage13URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage13URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage13}
+
+          {block:ItemImage14}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage14URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage14URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage14}
+
+          {block:ItemImage15}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage15URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage15URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage15}
+
+          {block:ItemImage16}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage16URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage16URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage16}
+
+          {block:ItemImage17}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage17URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage17URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage17}
+
+          {block:ItemImage18}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage18URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage18URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage18}
+
+          {block:ItemImage19}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage19URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage19URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage19}
+
+          {block:ItemImage20}
+          <a class="c-view__main-slide swiper-slide" href="{ItemImage20URL-origin}">
+            <img
+            class="swiper-lazy"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{ItemImage20URL-1280}"
+            alt="{ItemTitle}"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </a>
+          <!-- /.c-view__main-slide -->
+          {/block:ItemImage20}
+        </div>
+        <!-- /.c-view__main-frame -->
+        {block:ItemImage2}
+        <button type="button" class="c-view__prev c-view__nav"></button>
+        <button type="button" class="c-view__next c-view__nav"></button>
+        {/block:ItemImage2}
+      </div>
+      <!-- /.c-view__main -->
+      {block:ItemImage2}
+      <div class="c-view__sub swiper" id="js-thumbnailSlide">
+        <div class="c-view__sub-frame swiper-wrapper">
+          {block:ItemImage1}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage1URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage1}
+
+          {block:ItemImage2}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage2URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage2}
+
+          {block:ItemImage3}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage3URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage3}
+
+          {block:ItemImage4}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage4URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage4}
+
+          {block:ItemImage5}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage5URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage5}
+
+          {block:ItemImage6}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage6URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage6}
+
+          {block:ItemImage7}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage7URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage7}
+
+          {block:ItemImage8}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage8URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage8}
+
+          {block:ItemImage9}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage9URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage9}
+
+          {block:ItemImage10}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage10URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage10}
+
+          {block:ItemImage11}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage11URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage11}
+
+          {block:ItemImage12}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage12URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage12}
+
+          {block:ItemImage13}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage13URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage13}
+
+          {block:ItemImage14}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage14URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage14}
+
+          {block:ItemImage15}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage15URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage15}
+
+          {block:ItemImage16}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage16URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage16}
+
+          {block:ItemImage17}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage17URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage17}
+
+          {block:ItemImage18}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage18URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage18}
+
+          {block:ItemImage19}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage19URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage19}
+
+          {block:ItemImage20}
+          <div class="c-view__sub-slide swiper-slide">
+            <img
+            src="{ItemImage20URL-300}"
+            alt="{ItemTitle}">
+          </div>
+          <!-- /.c-view__sub-slide -->
+          {/block:ItemImage20}
+
+        </div>
+        <!-- /.c-view__sub-frame -->
+      </div>
+      <!-- /.c-view__sub -->
+      {/block:ItemImage2}
+    </div>
+    <!-- /.c-view -->
+
+    <div class="p-item__detail">
+      {IllegalReportMessageTag}
+      <div class="p-item__name">
+        <div class="p-item__name__row">
+          {block:AppsItemLabel}
+          {AppsItemLabelTag}
+          {/block:AppsItemLabel}
+          <h1 class="p-item__name__main">{ItemTitle}</h1>
+        </div>
+        <!-- /.p-item__name__row -->
+        {block:AppsDownload}
+        {block:ItemDigitalContent}
+        <div class="p-item__name__sub">{ItemDigitalContent}</div>
+        {/block:ItemDigitalContent}
+        {/block:AppsDownload}
+      </div>
+      <!-- /.p-item__name -->
+      <div class="p-item__price">
+        {block:NoItemProperPrice}
+        <div class="p-item__normal">{ItemPrice}</div>
+        {/block:NoItemProperPrice}
+
+        {block:HasItemProperPrice}
+        <del class="p-item__normal">{ItemProperPrice}</del>
+        <div class="p-item__sale">
+          <span class="p-item__sale__int">{ItemPrice}</span>
+          <span class="p-item__sale__tag">{ItemDiscountRate}</span>
+        </div>
+        <!-- /.p-item__sale -->
+        {/block:HasItemProperPrice}
+
+      </div>
+      <!-- /.p-item__price -->
+      <div class="p-item__tags">
+        {block:ItemPreOrder}
+        <span class="p-item__tag preOrder">{lang:PreOrderItem}</span>
+        {/block:ItemPreOrder}
+        {block:ItemLottery}
+        <span class="p-item__tag lottery">{lang:LotteryItem}</span>
+        {/block:ItemLottery}
+        {block:ItemTakeout}
+        <span class="p-item__tag takeout">{lang:TakeoutItem}</span>
+        {/block:ItemTakeout}
+        {block:ItemCommunityLimited}
+        <span class="p-item__tag community">会員限定商品</span>
+        {/block:ItemCommunityLimited}
+
+        {block:HasItemStock}
+        {block:ItemWatingForSale}
+        <span class="p-item__tag waitingForSale">COMING SOON</span>
+        {/block:ItemWatingForSale}
+
+        {block:ItemEndOfSale}
+        <span class="p-item__tag endOfSale">SOLD OUT</span>
+        {/block:ItemEndOfSale}
+        {/block:HasItemStock}
+
+        {block:NoItemStock}
+        {block:ItemWatingForSale}
+        <span class="p-item__tag waitingForSale">COMING SOON</span>
+        {/block:ItemWatingForSale}
+
+        {block:ItemNowOnSale}
+        <span class="p-item__tag endOfSale">SOLD OUT</span>
+        {/block:ItemNowOnSale}
+
+        {block:ItemEndOfSale}
+        <span class="p-item__tag endOfSale">SOLD OUT</span>
+        {/block:ItemEndOfSale}
+        {/block:NoItemStock}
+      </div>
+      <!-- /.p-item__tags -->
+      {block:text-ItemFreeSpace}
+      <p class="p-item__summary free">{text:ItemFreeSpace}</p>
+      {/block:text-ItemFreeSpace}
+      <p class="p-item__summary">{ItemDetail}</p>
+      {block:PurchaseForm}
+      <div class="p-item__form">
+        <div class="p-item__select">
+          {ItemSelectTag}
+        </div>
+        <!-- /.p-item__select -->
+        <div class="p-item__submit">
+          {AppsAgeVerificationWarningTag}
+          {block:ItemCommunityLimited}
+          {CommunityPurchaseButton}
+          {/block:ItemCommunityLimited}
+          {PurchaseButton}
+        </div>
+        <!-- /.p-item__submit -->
+      </div>
+      <!-- /.p-item__form -->
+      {/block:PurchaseForm}
+      <div class="p-item__notes">
+        {ItemAttentionTag}
+      </div>
+      <!-- /.p-item__notes -->
+      <div class="p-item__action">
+        <div class="p-item__action__child twitter-share-button">
+          <a href="http://twitter.com/share" class="twitter-share-button" data-url="{ItemRedirectUrl}" data-lang="ja" data-hashtags="{TwitterDataHashtags}" data-via="{TwitterDataVia}" target="_blank">ツイート</a>
+        </div>
+        <!-- /.p-item__action__child -->
+        <div class="p-item__action__child fb-share-button" data-layout="button_count" data-size="small" data-mobile-iframe="true">
+          <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse">シェア</a>
+        </div>
+        <!-- /.p-item__action__child -->
+        <div class="p-item__action__child">
+          {IllegalReportTag}
+        </div>
+        <!-- /.p-item__action__child -->
+      </div>
+      <!-- /.p-item__actions -->
+    </div>
+    <!-- /.p-item__detail -->
+
+    {block:AppsItemDetailCustom}
+    <div class="p-item__custom c-custom">
+      {AdditionalItemDetail}
+      {AdditionalItemDetailDefaultCssAndJs}
+    </div>
+    <!-- /.p-item__custom -->
+    {/block:AppsItemDetailCustom}
+
+    {block:AppsReview}
+    <div class="p-item__review c-review">
+      {AppsReviewTag}
+    </div>
+    <!-- /.c-review -->
+    {/block:AppsReview}
+  </div>
+  <!-- /.p-item__inner -->
+
+  {block:if-ShowRelated}
+  {block:HasRelatedItems}
+  <section class="c-related c-list--related">
+    <h2 class="c-related__caption">RELATED ITEMS</h2>
+    <!-- /.c-related__caption -->
+    <div class="c-list__list u-frame">
+      {block:RelatedItems}
+      <a href="{RelatedItemPageURL}" class="c-card">
+        <div class="c-card__pic">
+          <img
+          class="c-card__img"
+          src="{RelatedItemImageURL-640}"
+          alt="{RelatedItemTitle}"
+          title="{RelatedItemTitle}"
+          >
+        </div>
+        <!-- /.c-card__pic -->
+        <div class="c-card__content">
+          <div class="c-card__title">{RelatedItemTitle}</div>
+          <div class="c-card__price">
+            <p>{RelatedItemPrice}</p>
+          </div>
+        </div>
+        <!-- /.c-card__content -->
+      </a>
+      {/block:RelatedItems}
+    </div>
+    <!-- /.c-related__list -->
+  </section>
+  <!-- /.c-related -->
+  {/block:HasRelatedItems}
+  {/block:if-ShowRelated}
+</div>
+<!-- /.p-item -->
+{/block:ItemPage}
+      {block:AppsBlog}
+{block:BlogPage}
+<div class="p-blog">
+  {BlogContentsTag}
+  <div class="p-blog__btn is-hide" id="js-blog-more">
+    <a class="c-btn" href="{BlogPageURL}">ALL POSTS</a>
+  </div>
+  <!-- /.p-blog__btn -->
+</div>
+<!-- /.p-blog -->
+{/block:BlogPage}
+{/block:AppsBlog}
+      {block:AppsCommunity}
+{block:CommunityPage}
+<div class="p-community">
+  <div class="p-community__inner">
+    {CommunityContentsTag}
+  </div>
+  <!-- /.p-community__inner -->
+</div>
+<!-- /.p-community -->
+{/block:CommunityPage}
+{/block:AppsCommunity}
+      {block:AppsMembership}
+{block:MembershipPage}
+<div class="p-membership">
+  {PageContents}
+</div>
+{/block:MembershipPage}
+
+{block:MembershipMyPage}
+<div class="p-membership">
+  {PageContents}
+</div>
+{/block:MembershipMyPage}
+
+{block:MembershipLoginPage}
+<div class="p-membership">
+  {PageContents}
+</div>
+{/block:MembershipLoginPage}
+{/block:AppsMembership}
+
+
+      {block:ContactPage}
+<div class="p-contact">
+  {ContactContentsTag}
+</div>
+<!-- /.p-contact -->
+{/block:ContactPage}
+      {block:PrivacyPage}
+<div class="p-content u-frame">
+  {PrivacyContentsTag}
+</div>
+{/block:PrivacyPage}
+      {block:LawPage}
+<div class="p-content u-frame">
+  {LawContentsTag}
+</div>
+<!-- /.p-content -->
+{/block:LawPage}
+    </main>
+    <!-- /.l-main -->
+    
+{block:IndexPageCategory}
+{block:if-ShowCta}
+<aside class="c-cta--sub">
+  <div class="c-cta__inner u-frame">
+  {block:if-ShowFaq}
+  {block:if-ShowCta-Faq}
+  <div class="c-cta__item {block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    <button type="button"class="c-banner js-faq-btn">
+      {block:image-CtaImage-Faq}
+      <div class="c-banner__pic">
+        <img
+        src="{image:CtaImage-Faq}"
+        alt="FAQ">
+      </div>
+      <!-- /.c-banner__pic -->
+      {/block:image-CtaImage-Faq}
+      <div class="c-banner__content">
+        <div class="c-banner__subtitle">
+          <span class="c-banner__subtitle__inner">よくある質問</span>
+        </div>
+        <div class="c-banner__title">FAQ</div>
+      </div>
+      <!-- /.c-banner__content -->
+    </button>
+    <!-- /.c-banner -->
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Faq}
+  {/block:if-ShowFaq}
+
+  {block:NotContactPage}
+  {block:if-ShowCta-Contact}
+  <div class="c-cta__item {block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    <a class="c-banner" href="{ContactPageURL}">
+      {block:image-CtaImage-Contact}
+      <div class="c-banner__pic">
+        <img
+        src="{image:CtaImage-Contact}"
+        alt="CONTACT">
+      </div>
+      <!-- /.c-banner__pic -->
+      {/block:image-CtaImage-Contact}
+      <div class="c-banner__content">
+        <div class="c-banner__subtitle">
+          <span class="c-banner__subtitle__inner">お問い合わせ</span>
+        </div>
+        <div class="c-banner__title">CONTACT</div>
+      </div>
+      <!-- /.c-banner__content -->
+    </a>
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Contact}
+  {/block:NotContactPage}
+
+  {block:if-ShowCta-Opt-1}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-1}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-1} no-frame-border{/block:not_if-CtaFrameBorder-Opt-1}" href="{text:CtaLinkUrl-Opt-1}"{block:if-CtaOutlink-Opt-1} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-1}>
+      {/block:text-CtaLinkUrl-Opt-1}
+      {block:not_text-CtaLinkUrl-Opt-1}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-1} no-frame-border{/block:not_if-CtaFrameBorder-Opt-1}">
+        {/block:not_text-CtaLinkUrl-Opt-1}
+        {block:image-CtaImage-Opt-1}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-1}"
+          alt="{text:CtaTitle-Opt-1}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-1}
+        {block:text-CtaTitle-Opt-1}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-1}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-1}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-1}
+          <div class="c-banner__title">{text:CtaTitle-Opt-1}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-1}
+        {block:not_text-CtaLinkUrl-Opt-1}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-1}
+      {block:text-CtaLinkUrl-Opt-1}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-1}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-1}
+
+  {block:if-ShowCta-Opt-2}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-2}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-2} no-frame-border{/block:not_if-CtaFrameBorder-Opt-2}" href="{text:CtaLinkUrl-Opt-2}"{block:if-CtaOutlink-Opt-2} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-2}>
+      {/block:text-CtaLinkUrl-Opt-2}
+      {block:not_text-CtaLinkUrl-Opt-2}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-2} no-frame-border{/block:not_if-CtaFrameBorder-Opt-2}">
+        {/block:not_text-CtaLinkUrl-Opt-2}
+        {block:image-CtaImage-Opt-2}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-2}"
+          alt="{text:CtaTitle-Opt-2}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-2}
+        {block:text-CtaTitle-Opt-2}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-2}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-2}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-2}
+          <div class="c-banner__title">{text:CtaTitle-Opt-2}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-2}
+        {block:not_text-CtaLinkUrl-Opt-2}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-2}
+      {block:text-CtaLinkUrl-Opt-2}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-2}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-2}
+
+  {block:if-ShowCta-Opt-3}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-3}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-3} no-frame-border{/block:not_if-CtaFrameBorder-Opt-3}" href="{text:CtaLinkUrl-Opt-3}"{block:if-CtaOutlink-Opt-3} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-3}>
+      {/block:text-CtaLinkUrl-Opt-3}
+      {block:not_text-CtaLinkUrl-Opt-3}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-3} no-frame-border{/block:not_if-CtaFrameBorder-Opt-3}">
+        {/block:not_text-CtaLinkUrl-Opt-3}
+        {block:image-CtaImage-Opt-3}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-3}"
+          alt="{text:CtaTitle-Opt-3}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-3}
+        {block:text-CtaTitle-Opt-3}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-3}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-3}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-3}
+          <div class="c-banner__title">{text:CtaTitle-Opt-3}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-3}
+        {block:not_text-CtaLinkUrl-Opt-3}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-3}
+      {block:text-CtaLinkUrl-Opt-3}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-3}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-3}
+
+  {block:if-ShowCta-Opt-4}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-4}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-4} no-frame-border{/block:not_if-CtaFrameBorder-Opt-4}" href="{text:CtaLinkUrl-Opt-4}"{block:if-CtaOutlink-Opt-4} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-4}>
+      {/block:text-CtaLinkUrl-Opt-4}
+      {block:not_text-CtaLinkUrl-Opt-4}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-4} no-frame-border{/block:not_if-CtaFrameBorder-Opt-4}">
+        {/block:not_text-CtaLinkUrl-Opt-4}
+        {block:image-CtaImage-Opt-4}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-4}"
+          alt="{text:CtaTitle-Opt-4}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-4}
+        {block:text-CtaTitle-Opt-4}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-4}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-4}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-4}
+          <div class="c-banner__title">{text:CtaTitle-Opt-4}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-4}
+        {block:not_text-CtaLinkUrl-Opt-4}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-4}
+      {block:text-CtaLinkUrl-Opt-4}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-4}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-4}
+</div>
+<!-- /.c-cta__inner -->
+</aside>
+<!-- /.c-cta -->
+{/block:if-ShowCta}
+{/block:IndexPageCategory}
+
+{block:IndexPageSearch}
+{block:if-ShowCta}
+<aside class="c-cta--sub">
+  <div class="c-cta__inner u-frame">
+  {block:if-ShowFaq}
+  {block:if-ShowCta-Faq}
+  <div class="c-cta__item {block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    <button type="button"class="c-banner js-faq-btn">
+      {block:image-CtaImage-Faq}
+      <div class="c-banner__pic">
+        <img
+        src="{image:CtaImage-Faq}"
+        alt="FAQ">
+      </div>
+      <!-- /.c-banner__pic -->
+      {/block:image-CtaImage-Faq}
+      <div class="c-banner__content">
+        <div class="c-banner__subtitle">
+          <span class="c-banner__subtitle__inner">よくある質問</span>
+        </div>
+        <div class="c-banner__title">FAQ</div>
+      </div>
+      <!-- /.c-banner__content -->
+    </button>
+    <!-- /.c-banner -->
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Faq}
+  {/block:if-ShowFaq}
+
+  {block:NotContactPage}
+  {block:if-ShowCta-Contact}
+  <div class="c-cta__item {block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    <a class="c-banner" href="{ContactPageURL}">
+      {block:image-CtaImage-Contact}
+      <div class="c-banner__pic">
+        <img
+        src="{image:CtaImage-Contact}"
+        alt="CONTACT">
+      </div>
+      <!-- /.c-banner__pic -->
+      {/block:image-CtaImage-Contact}
+      <div class="c-banner__content">
+        <div class="c-banner__subtitle">
+          <span class="c-banner__subtitle__inner">お問い合わせ</span>
+        </div>
+        <div class="c-banner__title">CONTACT</div>
+      </div>
+      <!-- /.c-banner__content -->
+    </a>
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Contact}
+  {/block:NotContactPage}
+
+  {block:if-ShowCta-Opt-1}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-1}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-1} no-frame-border{/block:not_if-CtaFrameBorder-Opt-1}" href="{text:CtaLinkUrl-Opt-1}"{block:if-CtaOutlink-Opt-1} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-1}>
+      {/block:text-CtaLinkUrl-Opt-1}
+      {block:not_text-CtaLinkUrl-Opt-1}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-1} no-frame-border{/block:not_if-CtaFrameBorder-Opt-1}">
+        {/block:not_text-CtaLinkUrl-Opt-1}
+        {block:image-CtaImage-Opt-1}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-1}"
+          alt="{text:CtaTitle-Opt-1}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-1}
+        {block:text-CtaTitle-Opt-1}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-1}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-1}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-1}
+          <div class="c-banner__title">{text:CtaTitle-Opt-1}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-1}
+        {block:not_text-CtaLinkUrl-Opt-1}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-1}
+      {block:text-CtaLinkUrl-Opt-1}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-1}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-1}
+
+  {block:if-ShowCta-Opt-2}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-2}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-2} no-frame-border{/block:not_if-CtaFrameBorder-Opt-2}" href="{text:CtaLinkUrl-Opt-2}"{block:if-CtaOutlink-Opt-2} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-2}>
+      {/block:text-CtaLinkUrl-Opt-2}
+      {block:not_text-CtaLinkUrl-Opt-2}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-2} no-frame-border{/block:not_if-CtaFrameBorder-Opt-2}">
+        {/block:not_text-CtaLinkUrl-Opt-2}
+        {block:image-CtaImage-Opt-2}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-2}"
+          alt="{text:CtaTitle-Opt-2}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-2}
+        {block:text-CtaTitle-Opt-2}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-2}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-2}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-2}
+          <div class="c-banner__title">{text:CtaTitle-Opt-2}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-2}
+        {block:not_text-CtaLinkUrl-Opt-2}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-2}
+      {block:text-CtaLinkUrl-Opt-2}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-2}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-2}
+
+  {block:if-ShowCta-Opt-3}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-3}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-3} no-frame-border{/block:not_if-CtaFrameBorder-Opt-3}" href="{text:CtaLinkUrl-Opt-3}"{block:if-CtaOutlink-Opt-3} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-3}>
+      {/block:text-CtaLinkUrl-Opt-3}
+      {block:not_text-CtaLinkUrl-Opt-3}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-3} no-frame-border{/block:not_if-CtaFrameBorder-Opt-3}">
+        {/block:not_text-CtaLinkUrl-Opt-3}
+        {block:image-CtaImage-Opt-3}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-3}"
+          alt="{text:CtaTitle-Opt-3}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-3}
+        {block:text-CtaTitle-Opt-3}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-3}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-3}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-3}
+          <div class="c-banner__title">{text:CtaTitle-Opt-3}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-3}
+        {block:not_text-CtaLinkUrl-Opt-3}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-3}
+      {block:text-CtaLinkUrl-Opt-3}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-3}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-3}
+
+  {block:if-ShowCta-Opt-4}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-4}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-4} no-frame-border{/block:not_if-CtaFrameBorder-Opt-4}" href="{text:CtaLinkUrl-Opt-4}"{block:if-CtaOutlink-Opt-4} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-4}>
+      {/block:text-CtaLinkUrl-Opt-4}
+      {block:not_text-CtaLinkUrl-Opt-4}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-4} no-frame-border{/block:not_if-CtaFrameBorder-Opt-4}">
+        {/block:not_text-CtaLinkUrl-Opt-4}
+        {block:image-CtaImage-Opt-4}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-4}"
+          alt="{text:CtaTitle-Opt-4}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-4}
+        {block:text-CtaTitle-Opt-4}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-4}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-4}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-4}
+          <div class="c-banner__title">{text:CtaTitle-Opt-4}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-4}
+        {block:not_text-CtaLinkUrl-Opt-4}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-4}
+      {block:text-CtaLinkUrl-Opt-4}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-4}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-4}
+</div>
+<!-- /.c-cta__inner -->
+</aside>
+<!-- /.c-cta -->
+{/block:if-ShowCta}
+{/block:IndexPageSearch}
+
+{block:NotIndexPage}
+{block:NotContactPage}
+{block:if-ShowCta}
+<aside class="c-cta--sub">
+  <div class="c-cta__inner u-frame">
+  {block:if-ShowFaq}
+  {block:if-ShowCta-Faq}
+  <div class="c-cta__item {block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    <button type="button"class="c-banner js-faq-btn">
+      {block:image-CtaImage-Faq}
+      <div class="c-banner__pic">
+        <img
+        src="{image:CtaImage-Faq}"
+        alt="FAQ">
+      </div>
+      <!-- /.c-banner__pic -->
+      {/block:image-CtaImage-Faq}
+      <div class="c-banner__content">
+        <div class="c-banner__subtitle">
+          <span class="c-banner__subtitle__inner">よくある質問</span>
+        </div>
+        <div class="c-banner__title">FAQ</div>
+      </div>
+      <!-- /.c-banner__content -->
+    </button>
+    <!-- /.c-banner -->
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Faq}
+  {/block:if-ShowFaq}
+
+  {block:NotContactPage}
+  {block:if-ShowCta-Contact}
+  <div class="c-cta__item {block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    <a class="c-banner" href="{ContactPageURL}">
+      {block:image-CtaImage-Contact}
+      <div class="c-banner__pic">
+        <img
+        src="{image:CtaImage-Contact}"
+        alt="CONTACT">
+      </div>
+      <!-- /.c-banner__pic -->
+      {/block:image-CtaImage-Contact}
+      <div class="c-banner__content">
+        <div class="c-banner__subtitle">
+          <span class="c-banner__subtitle__inner">お問い合わせ</span>
+        </div>
+        <div class="c-banner__title">CONTACT</div>
+      </div>
+      <!-- /.c-banner__content -->
+    </a>
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Contact}
+  {/block:NotContactPage}
+
+  {block:if-ShowCta-Opt-1}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-1}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-1} no-frame-border{/block:not_if-CtaFrameBorder-Opt-1}" href="{text:CtaLinkUrl-Opt-1}"{block:if-CtaOutlink-Opt-1} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-1}>
+      {/block:text-CtaLinkUrl-Opt-1}
+      {block:not_text-CtaLinkUrl-Opt-1}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-1} no-frame-border{/block:not_if-CtaFrameBorder-Opt-1}">
+        {/block:not_text-CtaLinkUrl-Opt-1}
+        {block:image-CtaImage-Opt-1}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-1}"
+          alt="{text:CtaTitle-Opt-1}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-1}
+        {block:text-CtaTitle-Opt-1}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-1}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-1}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-1}
+          <div class="c-banner__title">{text:CtaTitle-Opt-1}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-1}
+        {block:not_text-CtaLinkUrl-Opt-1}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-1}
+      {block:text-CtaLinkUrl-Opt-1}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-1}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-1}
+
+  {block:if-ShowCta-Opt-2}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-2}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-2} no-frame-border{/block:not_if-CtaFrameBorder-Opt-2}" href="{text:CtaLinkUrl-Opt-2}"{block:if-CtaOutlink-Opt-2} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-2}>
+      {/block:text-CtaLinkUrl-Opt-2}
+      {block:not_text-CtaLinkUrl-Opt-2}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-2} no-frame-border{/block:not_if-CtaFrameBorder-Opt-2}">
+        {/block:not_text-CtaLinkUrl-Opt-2}
+        {block:image-CtaImage-Opt-2}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-2}"
+          alt="{text:CtaTitle-Opt-2}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-2}
+        {block:text-CtaTitle-Opt-2}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-2}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-2}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-2}
+          <div class="c-banner__title">{text:CtaTitle-Opt-2}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-2}
+        {block:not_text-CtaLinkUrl-Opt-2}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-2}
+      {block:text-CtaLinkUrl-Opt-2}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-2}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-2}
+
+  {block:if-ShowCta-Opt-3}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-3}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-3} no-frame-border{/block:not_if-CtaFrameBorder-Opt-3}" href="{text:CtaLinkUrl-Opt-3}"{block:if-CtaOutlink-Opt-3} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-3}>
+      {/block:text-CtaLinkUrl-Opt-3}
+      {block:not_text-CtaLinkUrl-Opt-3}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-3} no-frame-border{/block:not_if-CtaFrameBorder-Opt-3}">
+        {/block:not_text-CtaLinkUrl-Opt-3}
+        {block:image-CtaImage-Opt-3}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-3}"
+          alt="{text:CtaTitle-Opt-3}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-3}
+        {block:text-CtaTitle-Opt-3}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-3}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-3}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-3}
+          <div class="c-banner__title">{text:CtaTitle-Opt-3}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-3}
+        {block:not_text-CtaLinkUrl-Opt-3}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-3}
+      {block:text-CtaLinkUrl-Opt-3}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-3}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-3}
+
+  {block:if-ShowCta-Opt-4}
+  <div class="c-cta__item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    {block:text-CtaLinkUrl-Opt-4}
+    <a class="c-banner{block:not_if-CtaFrameBorder-Opt-4} no-frame-border{/block:not_if-CtaFrameBorder-Opt-4}" href="{text:CtaLinkUrl-Opt-4}"{block:if-CtaOutlink-Opt-4} target="_blank" rel="noopener"{/block:if-CtaOutlink-Opt-4}>
+      {/block:text-CtaLinkUrl-Opt-4}
+      {block:not_text-CtaLinkUrl-Opt-4}
+      <div class="c-banner{block:not_if-CtaFrameBorder-Opt-4} no-frame-border{/block:not_if-CtaFrameBorder-Opt-4}">
+        {/block:not_text-CtaLinkUrl-Opt-4}
+        {block:image-CtaImage-Opt-4}
+        <div class="c-banner__pic">
+          <img
+          src="{image:CtaImage-Opt-4}"
+          alt="{text:CtaTitle-Opt-4}">
+        </div>
+        <!-- /.c-banner__pic -->
+        {/block:image-CtaImage-Opt-4}
+        {block:text-CtaTitle-Opt-4}
+        <div class="c-banner__content">
+          {block:text-CtaSubTitle-Opt-4}
+          <div class="c-banner__subtitle">
+            <span class="c-banner__subtitle__inner">{text:CtaSubTitle-Opt-4}</span>
+          </div>
+          {/block:text-CtaSubTitle-Opt-4}
+          <div class="c-banner__title">{text:CtaTitle-Opt-4}</div>
+        </div>
+        <!-- /.c-banner__content -->
+        {/block:text-CtaTitle-Opt-4}
+        {block:not_text-CtaLinkUrl-Opt-4}
+      </div>
+      {/block:not_text-CtaLinkUrl-Opt-4}
+      {block:text-CtaLinkUrl-Opt-4}
+    </a>
+    {/block:text-CtaLinkUrl-Opt-4}
+  </div>
+  <!-- /.c-cta__item -->
+  {/block:if-ShowCta-Opt-4}
+</div>
+<!-- /.c-cta__inner -->
+</aside>
+<!-- /.c-cta -->
+{/block:if-ShowCta}
+{/block:NotContactPage}
+{/block:NotIndexPage}
+
+{block:if-ShowSns}
+<aside class="c-sns{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+  <h2 class="c-sns__caption">FOLLOW US</h2>
+<div class="c-sns__list">
+  {block:ShopInstagramId}
+  <a class="c-sns__item" href="http://instagram.com/{ShopInstagramId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--instagram"></span>
+  </a>
+  <!-- /.c-sns__item -->
+  {/block:ShopInstagramId}
+
+  {block:ShopTwitterId}
+  <a class="c-sns__item" href="https://twitter.com/{ShopTwitterId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--twitter"></span>
+  </a>
+  {/block:ShopTwitterId}
+
+  {block:ShopFacebookId}
+  <a class="c-sns__item" href="https://www.facebook.com/{ShopFacebookId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--facebook"></span>
+  </a>
+  {/block:ShopFacebookId}
+
+  {block:ShopLineId}
+  <a class="c-sns__item" href="https://line.me/R/ti/p/%40{ShopLineId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--line"></span>
+  </a>
+  {/block:ShopLineId}
+
+  {block:ShopTiktokId}
+  <a class="c-sns__item" href="https://www.tiktok.com/@{ShopTiktokId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--tiktok"></span>
+  </a>
+  {/block:ShopTiktokId}
+
+  {block:ShopYoutubeId}
+  <a class="c-sns__item" href="{ShopYoutubeId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--youtube"></span>
+  </a>
+  {/block:ShopYoutubeId}
+
+  {block:ShopNoteId}
+  <a class="c-sns__item" href="https://note.com/{ShopNoteId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--note"></span>
+  </a>
+  {/block:ShopNoteId}
+
+  {block:ShopAmebaId}
+  <a class="c-sns__item" href="http://ameblo.jp/{ShopAmebaId}" target="_blank" rel="noopener">
+    <span class="c-sns__icon c-sns__icon--ameba"></span>
+  </a>
+  {/block:ShopAmebaId}
+</div>
+  <!-- /.c-sns__list -->
+</aside>
+<!-- /.c-sns -->
+{/block:if-ShowSns}
+
+{block:NotContactPage}
+{block:AppsMailMagazine}
+<aside class="c-newsletter{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}" id="js-newsletter-form">
+  <h2 class="c-newsletter__caption">NEWSLETTER</h2>
+  <!-- /.c-newsletter__caption -->
+  <div class="c-newsletter__inner">
+    <div class="c-newsletter__content">
+      {block:text-NewsletterDescription}
+      <p class="c-newsletter__description u-preline">{text:NewsletterDescription}</p>
+      {/block:text-NewsletterDescription}
+      <div class="c-newsletter__form">
+        {MailMagazineSubscribeTag}
+      </div>
+      <!-- /.c-newsletter__form -->
+    </div>
+    <!-- /.c-newsletter__content -->
+  </div>
+  <!-- /.c-newsletter__inner -->
+</aside>
+<!-- /.c-newsletter -->
+{/block:AppsMailMagazine}
+{/block:NotContactPage}
+
+{block:if-ShowFaq}
+<aside class="p-faq">
+  <div class="p-faq__inner">
+    <div class="p-faq__scrollable" id="js-faq-scrollable">
+      <h2 class="p-faq__caption">FAQ</h2>
+      <div class="p-faq__list">
+        {block:text-Question-1}
+        {block:text-Answer-1}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-1}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-1}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-1}
+        {/block:text-Question-1}
+
+        {block:text-Question-2}
+        {block:text-Answer-2}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-2}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-2}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-2}
+        {/block:text-Question-2}
+
+        {block:text-Question-3}
+        {block:text-Answer-3}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-3}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-3}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-3}
+        {/block:text-Question-3}
+
+        {block:text-Question-4}
+        {block:text-Answer-4}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-4}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-4}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-4}
+        {/block:text-Question-4}
+
+        {block:text-Question-5}
+        {block:text-Answer-5}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-5}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-5}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-5}
+        {/block:text-Question-5}
+
+        {block:text-Question-6}
+        {block:text-Answer-6}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-6}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-6}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-6}
+        {/block:text-Question-6}
+
+        {block:text-Question-7}
+        {block:text-Answer-7}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-7}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-7}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-7}
+        {/block:text-Question-7}
+
+        {block:text-Question-8}
+        {block:text-Answer-8}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-8}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-8}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-8}
+        {/block:text-Question-8}
+
+        {block:text-Question-9}
+        {block:text-Answer-9}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-9}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-9}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-9}
+        {/block:text-Question-9}
+
+        {block:text-Question-10}
+        {block:text-Answer-10}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-10}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-10}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-10}
+        {/block:text-Question-10}
+
+        {block:text-Question-11}
+        {block:text-Answer-11}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-11}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-11}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-11}
+        {/block:text-Question-11}
+
+        {block:text-Question-12}
+        {block:text-Answer-12}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-12}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-12}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-12}
+        {/block:text-Question-12}
+
+        {block:text-Question-13}
+        {block:text-Answer-13}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-13}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-13}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-13}
+        {/block:text-Question-13}
+
+        {block:text-Question-14}
+        {block:text-Answer-14}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-14}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-14}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-14}
+        {/block:text-Question-14}
+
+        {block:text-Question-15}
+        {block:text-Answer-15}
+        <dl class="p-faq__item">
+          <dt class="p-faq__row p-faq__row--q">
+            <span class="p-faq__icon p-faq__icon--q">Q</span>
+            <span class="p-faq__text p-faq__text--q">{text:Question-15}</span>
+          </dt>
+          <!-- /.p-faq__row -->
+          <dd class="p-faq__row p-faq__row--a">
+            <span class="p-faq__icon p-faq__icon--a">A</span>
+            <p class="p-faq__text p-faq__text--a">{text:Answer-15}</p>
+          </dd>
+          <!-- /.p-faq__row -->
+        </dl>
+        <!-- /.p-faq__item -->
+        {/block:text-Answer-15}
+        {/block:text-Question-15}
+      </div>
+      <!-- /.p-faq__list -->
+      <button class="p-faq__end js-faq-close" type="button" aria-hidden="true">CLOSE</button>
+    </div>
+    <!-- /.p-faq__scrollable -->
+    <button class="p-faq__close js-faq-close" type="button" aria-hidden="true"></button>
+  </div>
+  <!-- /.p-faq__inner -->
+  <div class="p-faq__bg js-faq-close" aria-hidden="true"></div>
+</aside>
+<!-- /.p-faq -->
+{/block:if-ShowFaq}
+
+<footer class="l-footer{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+  <div class="l-footer__main">
+    <div class="l-footer__main__inner u-frame">
+      {block:if-ShowFooterLogo}
+      <div class="l-footer__logo">
+        <a href="{IndexPageURL}">{LogoTag}</a>
+      </div>
+      <!-- /.l-footer__logo -->
+      {/block:if-ShowFooterLogo}
+      {block:if-ShowShopInfo}
+      <div class="l-footer__info c-info">
+        <h2 class="c-info__caption">SHOP INFO</h2>
+        <div class="c-info__list">
+          {block:text-ShopTel}
+          <dl class="c-info__item">
+            <dt class="c-info__term">PHONE</dt>
+            <dd class="c-info__desc">:<span class="text">{text:ShopTel}</span></dd>
+          </dl>
+          {/block:text-ShopTel}
+          {block:text-ShopEmail}
+          <dl class="c-info__item">
+            <dt class="c-info__term">MAIL</dt>
+            <dd class="c-info__desc">:<span class="text">{text:ShopEmail}</span></dd>
+          </dl>
+          {/block:text-ShopEmail}
+          {block:text-ShopWebSite}
+          <dl class="c-info__item">
+            <dt class="c-info__term">WEBSITE</dt>
+            <dd class="c-info__desc">:<span class="text">{text:ShopWebSite}</span></dd>
+          </dl>
+          {/block:text-ShopWebSite}
+          {block:text-ShopAddress}
+          <p class="c-info__text">{text:ShopAddress}</p>
+          {/block:text-ShopAddress}
+        </div>
+        <!-- /.c-info__list -->
+      </div>
+      <!-- /.l-footer__info -->
+      {/block:if-ShowShopInfo}
+    </div>
+    <!-- /.l-footer__main__inner -->
+  </div>
+  <!-- /.l-footer__main -->
+  <div class="l-footer__bottom{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+    <div class="l-footer__row u-frame">
+      {block:AppsI18n}
+      <div class="l-footer__translation">
+        {AppsI18nTag}
+      </div>
+      <!-- /.l-footer__translation -->
+      {/block:AppsI18n}
+      <div class="l-footer__nav">
+        <a href="{PrivacyPageURL}">{lang:Privacy}</a>
+        <a href="{LawPageURL}">{lang:Law}</a>
+        {block:AppsMembership}
+        <a href="https://thebase.com/pages/shop_membership_term" target="_blank" rel="noopener">会員規約</a>
+        {/block:AppsMembership}
+      </div>
+      <!-- /.l-footer__nav -->
+      <p class="l-footer__copyright">
+        <small>©︎{ShopName}</small>
+      </p>
+    </div>
+    <!-- /.footer__row -->
+  </div>
+  <!-- /.l-footer__bottom -->
+</footer>
+<!-- /.l-footer -->
+  </div>
+  <!-- /.l-cover -->
+
+  {block:ShopPublic}
+  {block:ItemPage}
+  <!-- script:Facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=350947278320210&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- script:Twitter -->
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  {/block:ItemPage}
+  {/block:ShopPublic}
+
+  {block:AppsBlog}
+  {block:NotBlogPage}
+  {block:if-ShowTopBlog}
+  <script type="text/html" id="js-blog-template">
+    <% for(var i = 0, len = list.length; i < len; i++) { %>
+    <% var data = list[i] %>
+    <div class="c-news__item">
+      <a href="<%= data.link %>">
+        <p class="c-news__date"><%= data.date %></p>
+        <p class="c-news__title"><%= data.title %></p>
+      </a>
+    </div>
+    <!-- /.c-news -->
+    <% } %>
+  </script>
+  {/block:if-ShowTopBlog}
+  {/block:NotBlogPage}
+  {/block:AppsBlog}
+
+  <script>
+    var BASE_DATA = {
+      feed            : "{BlogFeedPageURL}",
+      feed_count      : "{select:BlogCount}",
+      items           : "{LoadItemsPageURL}",
+      items_param     : "{LoadItemsPageURLParams}",
+      item_max_page   : "{MaxPageNumber}",
+      item_next_page  : "{NextPageNumber}",
+      category        : "{block:IndexPageCategory}{IndexPageCategory}{/block:IndexPageCategory}{block:IndexPageSearch}search{/block:IndexPageSearch}{block:ItemPage}item{/block:ItemPage}",
+      base_url        : "{ShopURL}",
+      shop_id         : "{ShopId}",
+      scroll_effect   : {block:if-NotScrollEffect}false{/block:if-NotScrollEffect}{block:not_if-NotScrollEffect}true{/block:not_if-NotScrollEffect}
+    };
+  </script>
+  <script src="https://basefile.akamaized.net/sharesl/62988508456a9/common.bundle.js?{UpdateTime}" defer></script>
+</body>
+
+</html>
+{/block:NotLoadItemsPage}
+
+{block:LoadItemsPage}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex,nofollow">
+</head>
+<body>
+  <div>
+    {block:HasItems}
+{block:Items}
+<div class="c-card js-item{block:not_if-NotScrollEffect} is-ev{/block:not_if-NotScrollEffect}">
+  <a class="js-itemLink" href="{ItemPageURL}">
+    {block:AppsItemLabel}
+    {AppsItemLabelTag}
+    {/block:AppsItemLabel}
+    <div class="c-card__pic">
+      <img
+      class="c-card__img"
+      src="{block:ItemImage1}{ItemImage1URL-640}{/block:ItemImage1}{block:NoItemImage1}{ItemNoImageURL}{/block:NoItemImage1}"
+      alt="{ItemTitle}"
+      >
+      {block:HasItemStock}
+      {block:ItemEndOfSale}
+      <p class="c-card__soldout">SOLD OUT</p>
+      {/block:ItemEndOfSale}
+      {/block:HasItemStock}
+      {block:NoItemStock}
+      {block:ItemNowOnSale}
+      <p class="c-card__soldout">SOLD OUT</p>
+      {/block:ItemNowOnSale}
+      {block:ItemEndOfSale}
+      <p class="c-card__soldout">SOLD OUT</p>
+      {/block:ItemEndOfSale}
+      {/block:NoItemStock}
+    </div>
+    <!-- /.c-card__thumb -->
+    <div class="c-card__content">
+      <div class="c-card__title">{ItemTitle}</div>
+      {block:NoItemProperPrice}
+      <div class="c-card__price">{ItemPrice}</div>
+      {/block:NoItemProperPrice}
+      {block:HasItemProperPrice}
+      <div class="c-card__price c-card__price--sale">
+        <span class="value">{ItemPrice}</span>
+        <span class="discount">{ItemDiscountRate}</span>
+      </div>
+      {/block:HasItemProperPrice}
+      <div class="c-card__tags">
+        {block:HasItemStock}
+        {block:ItemWatingForSale}
+        <div class="c-card__tag waitingForSale">COMING SOON</div>
+        {/block:ItemWatingForSale}
+        {block:ItemEndOfSale}
+        <div class="c-card__tag endOfSale">SOLD OUT</div>
+        {/block:ItemEndOfSale}
+        {/block:HasItemStock}
+
+        {block:NoItemStock}
+        {block:ItemWatingForSale}
+        <div class="c-card__tag waitingForSale">COMING SOON</div>
+        {/block:ItemWatingForSale}
+        {block:ItemNowOnSale}
+        <div class="c-card__tag endOfSale">SOLD OUT</div>
+        {/block:ItemNowOnSale}
+        {block:ItemEndOfSale}
+        <div class="c-card__tag endOfSale">SOLD OUT</div>
+        {/block:ItemEndOfSale}
+        {/block:NoItemStock}
+
+        {block:ItemPreOrder}
+        <div class="c-card__tag preOrder">{lang:PreOrderItem}</div>
+        {/block:ItemPreOrder}
+        {block:ItemLottery}
+        <div class="c-card__tag lottery">{lang:LotteryItem}</div>
+        {/block:ItemLottery}
+        {block:ItemTakeout}
+        <div class="c-card__tag takeout">{lang:TakeoutItem}</div>
+        {/block:ItemTakeout}
+
+        {block:ItemCommunityLimited}
+        <p class="c-card__tag community">会員限定商品</p>
+        {/block:ItemCommunityLimited}
+      </div>
+      <!-- /.c-card__tags -->
+    </div>
+    <!-- /.c-card__content -->
+  </a>
+</div>
+{/block:Items}
+{/block:HasItems}
+
+{block:NoItems}
+<div class="c-empty">
+  <p class="c-empty__message">{lang:NoItemsMessage}</p>
+</div>
+<!-- /.c-item__empty -->
+{/block:NoItems}
+  </div>
+</body>
+</html>
+{/block:LoadItemsPage}

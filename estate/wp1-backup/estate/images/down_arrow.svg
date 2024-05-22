@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="50" viewBox="0 0 71 50">
+  <defs>
+    <filter id="Polygon_6" x="0" y="0" width="71" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#0f3b5e" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygon_6)">
+    <path id="Polygon_6-2" data-name="Polygon 6" d="M20.5,0,41,20H0Z" transform="translate(56 32) rotate(180)" fill="#0f3b5e"/>
+  </g>
+</svg>

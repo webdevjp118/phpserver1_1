@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Serif JP', serif;
+font-family: "Poppins", sans-serif;
+*/
+@font-face {
+	font-family: 'DNP Shuei Mgothic Std';
+	src: url('../fonts/UDDigiKyokashoNK-R-03.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DNP Shuei Mgothic Std';
+	src: url('../fonts/UDDigiKyokashoNK-B-03.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/helvetica-webfont.eot');
+    src: url('fonts/helvetica-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helvetica-webfont.woff2') format('woff2'),
+         url('fonts/helvetica-webfont.woff') format('woff'),
+         url('fonts/helvetica-webfont.ttf') format('truetype'),
+         url('fonts/helvetica-webfont.svg#helveticaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

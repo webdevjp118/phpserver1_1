@@ -1,0 +1,29 @@
+.p-offer {
+    &__txt,
+    &__img {
+        @include mq_up(md) {
+            width: 50%;
+        }
+    }
+    &__txt {
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        @include mq_down(md) {
+            text-align: center;
+            img {
+                width: 270px;
+            }
+        }
+    }
+    .offer-headline {
+        margin-top: 20px;
+        @include mq_down(md) {
+            font-size: 26px;
+        }
+        @include mq_up(md) {
+            font-size: 32px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+/*---------------------------
+fitness
+----------------------------*/
+.fitness {
+  text-align: left;
+}
+.fitness .inner {
+  width: 900px;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .fitness .inner {
+    /*tablet*/
+    width: 96%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .fitness .inner {
+    /*sp*/
+    width: 92%;
+  }
+}
+.fitness .inner .title {
+  margin-bottom: 40px;
+}
+.fitness .inner .title .img {
+  width: 35%;
+  float: left;
+}
+@media screen and (max-width: 640px) {
+  .fitness .inner .title .img {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+.fitness .inner .title .txt {
+  width: 60%;
+  float: right;
+}
+@media screen and (max-width: 640px) {
+  .fitness .inner .title .txt {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.fitness .inner .title .txt span {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.4em;
+  display: block;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 640px) {
+  .fitness .inner .title .txt span {
+    /*sp*/
+  }
+  .fitness .inner .title .txt span br {
+    display: none;
+  }
+}
+.fitness .inner .guide .txt img {
+  display: block;
+  margin-bottom: 20px;
+}
+.fitness .inner .guide .img {
+  padding: 10px;
+  box-shadow: 3px 3px 5px #ccc;
+  border: 1px solid #ccc;
+}
+.fitness .inner .guide .img img {
+  width: 100%;
+}
+.fitness .inner .point .col img {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.fitness .inner .client .col {
+  margin-bottom: 15px;
+}
+.fitness .inner .client .col span {
+  display: block;
+  margin-bottom: 10px;
+}

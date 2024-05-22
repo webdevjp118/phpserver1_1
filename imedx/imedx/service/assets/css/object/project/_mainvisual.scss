@@ -1,0 +1,199 @@
+.p-mv {
+    // トップページ
+    &-top {
+        position: relative;
+        @include mq_down(md) {
+            padding: 40px 0;
+            color: #fff;
+            .l-wrap {
+                position: relative;
+                z-index: 1;
+            }
+        }
+        @include mq_up(md) {
+            height: 540px;
+            margin-bottom: 62px;
+            display: flex;
+            align-items: center;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            @include mq_down(md) {
+                left: 0;
+                background: center/cover no-repeat url("assets/images/img_mv_sp.jpg");
+            }
+            @include mq_up(md) {
+                width: 50%;
+                background: center/cover no-repeat url("assets/images/img_mv_pc.jpg");
+            }
+        }
+        &__txt {
+            .c-btn-link {
+                @include mq_down(md) {
+                    margin: auto;
+                    border: 3px solid #fff;
+                    // background: #fff;
+                    // color: $colorBlue;
+                    // &:before {
+                    //     background: center/contain no-repeat url("assets/images/icon_arrow_right_blue_simple.png");
+                    // }
+                }
+            }
+        }
+        // タグ
+        .mv-tag {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            @include mq_down(md) {
+                justify-content: center;
+            }
+            li {
+                color: $colorBlue;
+                border-radius: 2px;
+                padding: 4px 24px;
+                background: #fff;
+                @include mq_up(md) {
+                    border: 1px solid $colorBlue;
+                }
+                &:not(:last-child) {
+                    margin-right: 8px;
+                }
+            }
+        }
+        .mv-ttl {
+            font-weight: 600;
+            margin-bottom: 20px;
+            @include mq_down(md) {
+                font-size: 32px;
+                text-align: center;
+            }
+            @include mq_up(md) {
+                font-size: 36px;
+            }
+        }
+        .mv-sentence {
+            line-height: 1.6;
+            @include mq_down(md) {
+                text-align: center;
+                font-weight: 600;
+            }
+        }
+        // ベネフィット
+        .mv-benefit {
+            @include mq_down(md) {
+                margin-top: 32px;
+            }
+            @include mq_up(md) {
+                margin-top: 52px;
+                margin-bottom: 42px;
+            }
+            li {
+                position: relative;
+                display: flex;
+                align-items: center;
+                font-weight: 600;
+                margin-bottom: 8px;
+                @include mq_down(md) {
+                    font-size: 12px;
+                    color: $colorBlack;
+                    background: #fff;
+                    height: 30px;
+                    line-height: 30px;
+                    padding: 0 8px;
+                    &:before,
+                    &:after {
+                        content: "";
+                        display: block;
+                        width: 0;
+                        height: 0;
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        border-style: solid;
+
+                    }
+                    &:before {
+                        left: -10px;
+                        border-width: 0 0 30px 10px;
+                        border-color: transparent transparent #ffffff transparent;
+                    }
+                    &:after {
+                        right: -10px;
+                        border-width: 30px 10px 0 0;
+                        border-color: #ffffff transparent transparent transparent;
+                    }
+                    .u-border-blue {
+                        background: none
+                    }
+                }
+                img {
+                    @include mq_down(md) {
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 3px;
+                    }
+                    @include mq_up(md) {
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 5px;
+                    }
+                }
+                @include mq_up(md) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    &-page {
+        display: flex;
+        align-items: center;
+        @include mq_down(md) {
+            height: 290px;
+            background: center/cover no-repeat url("assets/images/bg_mv_blue_sp.jpg");
+        }
+        @include mq_up(md) {
+            height: 280px;
+            background: center/cover no-repeat url("assets/images/bg_mv_blue_pc.jpg");
+        }
+        .mv-page__en {
+            position: relative;
+            font-weight: 600;
+            color: #D9EEF5;
+            padding-left: 49px;
+            @include mq_down(md) {
+                margin-bottom: 16px;
+            }
+            @include mq_up(md) {
+                margin-bottom: 26px;
+            }
+            &:before {
+                content: "";
+                display: block;
+                height: 1px;
+                width: 40px;
+                background: #D9EEF5;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+
+            }
+        }
+        .mv-page__ja {
+            font-weight: 600;
+            color: #fff;
+            @include mq_down(md) {
+                font-size: 30px;
+            }
+            @include mq_up(md) {
+                font-size: 38px;
+            }
+        }
+    }
+}

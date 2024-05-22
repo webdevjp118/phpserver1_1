@@ -1,0 +1,77 @@
+@use '../global'as g;
+
+.partnerBox {
+  text-align: center;
+  color: #fff;
+
+  @include g.pc {
+    display: flex;
+  }
+
+  .partner {
+    width: 50%;
+    background: url(../img/partner.png) no-repeat center/cover;
+
+    @include g.pc {
+      height: 372px;
+    }
+
+    @include g.sp {
+      width: 100%;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+  }
+
+  .recruit {
+    width: 50%;
+    background: url(../img/recruit.png) no-repeat center/cover;
+
+    @include g.pc {
+      height: 372px;
+    }
+
+    @include g.sp {
+      width: 100%;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+  }
+
+  .bannerTitle {
+    font-family: g.$raleway;
+    font-size: 70px;
+    font-weight: bold;
+
+    @include g.pc {
+      margin-top: 38px;
+    }
+
+    @include g.sp {
+      font-size: 15vw;
+    }
+
+    .-ja {
+      display: block;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 1em;
+
+      @include g.sp {
+        font-size: 1.125rem;
+      }
+    }
+  }
+
+  .bannerText {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 14px;
+    margin-bottom: 48px;
+
+    @include g.sp {
+      font-size: 3.4vw;
+    }
+  }
+}

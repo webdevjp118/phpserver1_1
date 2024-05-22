@@ -1,0 +1,89 @@
+.biz_outline .inner .message {
+  margin-bottom: 40px;
+  text-align: left;
+}
+.biz_outline .inner .message .img {
+  width: 15%;
+  float: left;
+}
+@media screen and (max-width: 640px) {
+  .biz_outline .inner .message .img {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+.biz_outline .inner .message .text {
+  width: 80%;
+  float: right;
+  line-height: 1.6em;
+}
+@media screen and (max-width: 640px) {
+  .biz_outline .inner .message .text {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+}
+.biz_outline .inner .message .text .name {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+.biz_outline .inner .message .text .name span {
+  font-size: 0.6em;
+  display: block;
+  margin-bottom: 10px;
+}
+.biz_outline .inner .message .text > span {
+  font-size: 1.4em;
+  font-weight: 500;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  display: block;
+}
+.biz_outline .inner .contents {
+  text-align: left;
+}
+.biz_outline .inner .contents .box {
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  line-height: 1.6em;
+}
+.biz_outline .inner .contents .box .text {
+  width: 65%;
+  float: left;
+}
+@media screen and (max-width: 640px) {
+  .biz_outline .inner .contents .box .text {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+}
+.biz_outline .inner .contents .box .text span {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+.biz_outline .inner .contents .box .img {
+  width: 30%;
+  float: right;
+}
+.biz_outline .inner .contents .box .img img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 640px) {
+  .biz_outline .inner .contents .box .img {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+}

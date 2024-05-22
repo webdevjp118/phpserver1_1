@@ -1,0 +1,452 @@
+@use '../global'as g;
+
+.mv {
+  background: url(../img/mv.png) no-repeat center/cover;
+  height: 100vh;
+  position: relative;
+
+  .mvBox {
+    font-family: g.$serif;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+    @include g.sp {
+      display: block;
+      width: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+
+    .mvTitle {
+      font-size: 60px;
+
+      @include g.sp {
+        font-size: 10vw;
+      }
+    }
+
+    .mvSub {
+      font-size: 32px;
+      margin-top: 0.7em;
+
+      @include g.sp {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+
+.about {
+  padding-top: 1em;
+  padding-bottom: 87px;
+
+
+  @include g.sp {
+    padding-bottom: 3em;
+  }
+
+  .xl_en {
+    color: rgba($color: #333333, $alpha: 0.1);
+    text-align: right;
+  }
+
+  .section_title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 36px;
+    position: relative;
+
+    @include g.sp {
+      font-size: 1.75rem;
+    }
+
+    &::after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: #9D0105;
+      position: absolute;
+      bottom: -0.3em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+
+  .section_sub {
+    font-family: g.$serif;
+    font-size: 38px;
+    font-weight: 600;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+    @include g.pc {
+      padding-left: 80px;
+    }
+
+    @include g.sp {
+      width: 95%;
+      margin: 0 auto;
+      font-size: 2.25rem;
+      margin-bottom: 1em;
+    }
+  }
+
+  .flex {
+    max-width: 1120px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    @include g.pc {
+      display: flex;
+      padding: 0 80px;
+    }
+
+    @include g.sp {
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    .aboutText_box {
+      .aboutText {
+        font-size: 18px;
+        line-height: 1.78;
+        margin-bottom: 2em;
+
+        @include g.sp {
+          font-size: 1.125rem;
+          margin-bottom: 1.5em;
+        }
+      }
+    }
+
+    .aboutFigure_box {
+      .aboutFigure {
+        text-align: center;
+
+        @include g.sp {
+          margin-bottom: 1em;
+        }
+
+        figcaption {
+          font-size: 16px;
+          margin-top: 0.5em;
+
+          @include g.sp {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .btnBox {
+    max-width: 1120px;
+    margin: 0 auto;
+    text-align: right;
+
+    @include g.sp {
+      text-align: center;
+    }
+  }
+}
+
+.service_top {
+  background: url(../img/top_02.jpg) no-repeat center/cover;
+  clip-path: polygon(0 15%, 100% 0, 100% 81%, 0 100%);
+  padding-top: 144px;
+  padding-bottom: 250px;
+
+  @include g.sp {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+    padding-top: 5em;
+    padding-bottom: 8em;
+  }
+
+  .xl_en {
+    color: rgba($color: #fff, $alpha: 0.1);
+    margin-bottom: 10px;
+  }
+
+  .section_title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 47px;
+    position: relative;
+    color: #fff;
+
+    @include g.sp {
+      font-size: 1.75rem;
+    }
+
+    &::after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: #9D0105;
+      position: absolute;
+      bottom: -0.3em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+
+  .service_topText {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+
+    @include g.sp {
+      width: 95%;
+      margin: 0 auto;
+      font-size: 1.125rem;
+      line-height: 1.5;
+      margin-bottom: 1em;
+    }
+  }
+
+  .flex {
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    @include g.pc {
+      display: flex;
+    }
+
+    @include g.sp {
+      width: 95%;
+    }
+
+    .serviceCard {
+      width: 260px;
+      height: 255px;
+      background-image: url(../img/top_03.png);
+      background-repeat: no-repeat;
+      padding-top: 50px;
+
+      @include g.pc {
+        margin-right: 25px;
+      }
+
+      @include g.sp {
+        width: 100%;
+        background-position: center;
+        justify-content: center;
+        margin-bottom: 1em;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .serviceCard_title {
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        width: 180px;
+        margin: 0 auto;
+        border-bottom: 2px solid #9D0105;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+
+        @include g.sp {
+          font-size: 1.75rem;
+        }
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        li {
+          font-size: 16px;
+          font-weight: 500;
+          margin-bottom: 10px;
+          line-height: 1.8;
+
+          @include g.sp {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .serviceCard_list {
+        padding-top: 1em;
+      }
+    }
+  }
+
+  .btnBox {
+    max-width: 1120px;
+    margin: 0 auto;
+    text-align: right;
+
+    @include g.sp {
+      text-align: center;
+    }
+  }
+}
+
+.works_top {
+  margin-top: -220px;
+  padding-top: 144px;
+  background: url(../img/top_04.png) no-repeat center/cover;
+  clip-path: polygon(0 21%, 100% 0, 100% 80%, 0 100%);
+  padding-bottom: 280px;
+
+  @include g.sp {
+    margin-top: -5.2em;
+    clip-path: polygon(0 6%, 100% 0, 100% 95%, 0 100%);
+    padding-top: 5em;
+    padding-bottom: 7em;
+  }
+
+  .xl_en {
+    text-align: right;
+    color: rgba($color: #fff, $alpha: 0.2);
+  }
+
+  .section_title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 47px;
+    position: relative;
+    color: #fff;
+
+    @include g.sp {
+      font-size: 1.75rem;
+    }
+
+    &::after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: rgba($color: #fff, $alpha: 0.7);
+      position: absolute;
+      bottom: -0.3em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+
+  .flex {
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    @include g.pc {
+      display: flex;
+    }
+
+    @include g.sp {
+      width: 95%;
+    }
+
+    .works_topFigure {
+      @include g.pc {
+        margin-right: 20px;
+      }
+
+      @include g.sp {
+        text-align: center;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      figcaption {
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 1em;
+
+        @include g.sp {
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+
+  .btnBox {
+    max-width: 1120px;
+    margin: 0 auto;
+    text-align: right;
+
+    @include g.sp {
+      text-align: center;
+    }
+  }
+}
+
+.recruit_top {
+  padding-top: 200px;
+  padding-bottom: 284px;
+  margin-top: -200px;
+
+  @include g.sp {
+    padding-top: 13em;
+    padding-bottom: 13em;
+  }
+
+  .xl_en {
+    color: rgba($color: #333333, $alpha: 0.1);
+  }
+
+  .recruit_topTitle {
+    width: 765px;
+    margin: 0 auto;
+    font-family: g.$serif;
+    font-size: 32px;
+    font-weight: 500px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 40px;
+
+    @include g.sp {
+      width: 95%;
+      font-size: 7.7vw;
+    }
+  }
+
+  .recruit_topText {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.78;
+    margin-bottom: 40px;
+
+    @include g.sp {
+      width: 95%;
+      font-size: 1.125rem;
+    }
+  }
+
+  .btnBox {
+    max-width: 1120px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

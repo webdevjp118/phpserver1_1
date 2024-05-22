@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen-CSS</title>
+    <script src="jquery.min.js"></script>
+    <style>
+        .source,
+        .generated
+        {
+            width: 80vw;
+            height: 40vh;
+            margin: 20px;
+        }
+        button {
+            width: 200px;
+            height: 50px;
+        }
+        .button_div {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <textarea class="source">
+
+        </textarea>
+    </div>
+    <div class="button_div"><button class="convert">Convert</button></div>
+    <div><textarea class="generated"></textarea></div>
+</body>
+<script>
+$("button").click(function(){
+    let source = $('.source').val();
+
+    var mySubString = source.substring(
+        source.indexOf('class="') + 7, 
+        source.lastIndexOf('"')
+    );
+    let classList = [];
+    while(source.includes('class="')) {
+        source = source.substring(source.indexOf('class="') + 7);
+        let classname = source.substring(0, source.indexOf('"'));
+        classname = classname.replace(' ', '.');
+        if(!classList.includes(classname)) {
+            classList.push(classname);
+        }
+        
+    }
+    let cssCode = "";
+    classList.forEach(el => {
+        cssCode += '.' + el + ' {\n\n}\n';
+    });
+    $('.generated').val(cssCode);
+    console.log(cssCode);
+});
+</script>
+</html>

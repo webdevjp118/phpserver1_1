@@ -1,0 +1,90 @@
+@use '../global'as g;
+
+.contact_top {
+  background: radial-gradient(rgba(#fff, .4) 0%, rgba(#fff, .4) 100%), url(../img/top_09.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 140px;
+  padding-bottom: 263px;
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  margin-top: -160px;
+
+  @include g.sp {
+    clip-path: polygon(0 10%, 100% 0, 100% 95%, 0 100%);
+    padding-top: 5em;
+    padding-bottom: 10em;
+  }
+
+  .xl_en {
+    color: rgba($color: #333333, $alpha: 0.1);
+    text-align: right;
+  }
+
+  .section_title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 47px;
+    position: relative;
+
+    @include g.sp {
+      font-size: 1.75rem;
+    }
+
+    &::after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: #9D0105;
+      position: absolute;
+      bottom: -0.3em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+
+  .contact_topText {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.5;
+
+    @include g.sp {
+      font-size: 4.5vw;
+      width: 90%;
+      margin: 0 auto 2em;
+    }
+  }
+
+  .btnBox {
+    margin-top: 1em;
+
+    @include g.pc {
+      display: flex;
+      justify-content: center;
+    }
+
+    @include g.sp {
+      padding-bottom: 1em;
+    }
+
+    a {
+      @include g.pc {
+        margin-right: 60px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      @include g.sp {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1em;
+      }
+    }
+  }
+}

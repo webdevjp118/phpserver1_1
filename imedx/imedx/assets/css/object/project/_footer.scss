@@ -1,0 +1,62 @@
+.p-footer {
+    &-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include mq_down(lg) {
+            flex-wrap: wrap;
+            border-top: 1px solid $colorGreen;
+        }
+        li {
+            @include mq_up(lg) {
+                display: flex;
+                align-items: center;
+                &:not(:last-child):after {
+                    content: "|";
+                    display: block;
+                    padding: 0 12px;
+                }
+            }
+            @include mq_down(lg) {
+                width: 50%;
+                border-bottom: 1px solid $colorGreen;
+                &:nth-child(odd) {
+                    border-right: 1px solid $colorGreen;
+                }
+            }
+            a {
+                display: inline-block;
+                color: $colorDarkGreen;
+                @include mq_up(lg) {
+                    padding: 8px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+                @include mq_down(lg) {
+                    padding: 24px 0;
+                    width: 100%;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    &-img {
+        text-align: center;
+        @include mq_down(lg) {
+            margin-bottom: 32px;
+        }
+        @include mq_up(lg) {
+            margin-bottom: 16px;
+        }
+        img {
+            width: auto;
+            @include mq_down(lg) {
+                height: 25px;
+            }
+            @include mq_up(lg) {
+                height: 35px;
+            }
+        }
+    }
+}

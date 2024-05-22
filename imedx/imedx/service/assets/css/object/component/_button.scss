@@ -1,0 +1,248 @@
+.c-btn {
+    // お問い合わせ
+    &__contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        width: 200px;
+        border-radius: 4px;
+        height: 47px;
+        background: $colorLightBlue;
+        border: 1px solid $colorLightBlue;
+        color: #fff;
+        font-size: 14px;
+        margin: auto;
+        @include mq_up(lg) {
+            margin-left: 12px;
+            transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+            &:hover {
+                color: $colorLightBlue;
+                background: #fff;
+            }
+            &:before {
+                left: 8px !important;
+            }
+        }
+    }
+    // スマホheaderのみ
+    &__header {
+        @include mq_up(lg) {
+            display: none;
+        }
+        @include mq_down(lg) {
+            display: inline-block;
+            padding: 8px 10px;
+            margin-right: 8px;
+            border: 1px solid $colorLightBlue;
+            color: $colorLightBlue;
+            border-radius: 2px;
+            font-weight: 600;
+        }
+    }
+    // リンク
+    &-arrow {
+        position: relative;
+        &:before {
+            content: "";
+            width: 6px;
+            height: 12px;
+            background: center/contain no-repeat url("assets/images/icon_arrow_right_white.png");
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+        }
+        @include mq_up(md) {
+            &:hover:before {
+                -webkit-transform: translate(10px, -50%);
+                transform: translate(10px, -50%);
+                background: center/contain no-repeat url("assets/images/icon_arrow_right_light_blue.png");
+
+            }
+        }
+    }
+    // リンク
+    &-link {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        width: 280px;
+        height: 60px;
+        color: #fff;
+        background: $colorLightBlue;
+        border: 1px solid $colorLightBlue;
+        border-radius: 4px;
+        @include mq_down(md) {
+            margin: auto;
+        }
+        @include mq_up(md) {
+            transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+            &:hover {
+                color: $colorLightBlue;
+                background: #fff;
+            }
+        }
+    }
+    // 小リンク
+    &__white {
+        padding: 16px;
+        border: 1px solid $colorLightBlue;
+        color: $colorLightBlue;
+        border-radius: 4px;
+        font-weight: 600;
+        svg {
+            margin-left: 8px;
+        }
+        @include mq_down(md) {
+            margin: auto;
+            width: 272px;
+            display: block;
+        }
+        @include mq_up(md) {
+            display: inline-block;
+            transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+            svg {
+                transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+            }
+            &:hover svg {
+                -webkit-transform: translateX(8px);
+                transform: translateX(8px);
+            }
+        }
+    }
+    // 円
+    &__case {
+        display: block;
+        border-radius: 50%;
+        background: center/15% no-repeat url("assets/images/icon_arrow_right_light_blue.png");
+        background-color: $colorThinBlue;
+        transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        @include mq_down(md) {
+            width: 38px;
+            height: 38px;
+        }
+        @include mq_up(md) {
+            width: 44px;
+            height: 44px;
+        }
+    }
+    // 診断
+    &-simulation {
+        width: 280px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 40px;
+        border: 1px solid $colorBlue;
+        text-align: center;
+        color: $colorBlue;
+        font-weight: 600;
+        cursor: pointer;
+        @include mq_up(md) {
+            transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+            &:hover {
+                background: $colorBlue;
+                color: #fff;
+            }
+        }
+    }
+    // 医療機関向けお問合せ - 電話
+    &__tel {
+        display: block;
+        margin: 40px auto 16px;
+        padding: 16px 0;
+        width: 324px;
+        text-align: center;
+        border: 1px solid $colorThinGray;
+        border-radius: 2px;
+        @include mq_up(md) {
+            transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+            &:hover {
+                background: $colorThinBlue;
+                border: 1px solid $colorBlue;
+            }
+        }
+        span {
+            display: block;
+            text-align: center;
+            &.tel-number {
+                color: $colorBlue;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 2px;
+            }
+            &.tel-txt {
+                color: $colorBlue;
+            }
+        }
+    }
+    // 医療機関向けお問合せ - 他ページ
+    &__other {
+        display: block;
+        margin: auto;
+        width: 324px;
+        text-align: center;
+        border-radius: 2px;
+        position: relative;
+        padding: 12px 0;
+        background: $colorThinBlue;
+        color: $colorDarkBlue;
+        &:before {
+            content: "";
+            display: block;
+            width: 6px;
+            height: 9px;
+            background: center/contain no-repeat url("assets/images/icon_arrow_right_dark_blue.png");
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            @include mq_up(md) {
+                transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+            }
+        }
+        @include mq_up(md) {
+            &:hover:before {
+                -webkit-transform: translate(4px, -50%);
+                transform: translate(4px, -50%);
+            }
+        }
+    }
+    &__send {
+        display: block;
+        width: 280px;
+        margin: auto;
+        padding: 21px 0;
+        border-radius: 40px;
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+        background: $colorThinGray;
+        border: 1px solid $colorThinGray;
+        transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+        &:not(.is_send) {
+            pointer-events: none;
+        }
+        &.is_send {
+            background: $colorLightBlue;
+            border: 1px solid $colorLightBlue;
+            @include mq_up(md) {
+                cursor: pointer;
+                &:hover {
+                    background: #fff;
+                    color: $colorLightBlue;
+                }
+            }
+        }
+    }
+}

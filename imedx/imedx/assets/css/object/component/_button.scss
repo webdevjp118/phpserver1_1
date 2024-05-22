@@ -1,0 +1,227 @@
+.c-btn {
+    // サークル
+    &__circle {
+        position: relative;
+        @include mq_down(md) {
+            padding-right: 60px;
+        }
+        @include mq_up(md) {
+            padding-right: 80px;
+            transition: .2s ease-out;
+            &:hover {
+                background: $colorLightGreen;
+                &:before {
+                    background: center/30% no-repeat url("assets/images/icon-arrow-right-light-green-hover.png");
+                    background-color: $colorDarkGreen;
+                    border: 1px solid $colorDarkGreen;
+                }
+            }
+        }
+        &:before {
+            content: "";
+            display: block;
+            border: 1px solid $colorGreen;
+            border-radius: 50%;
+            background: center/30% no-repeat url("assets/images/icon-arrow-right-green.png");
+            position: absolute;
+            right: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            @include mq_down(md) {
+                width: 38px;
+                height: 38px;
+            }
+            @include mq_up(md) {
+                width: 48px;
+                height: 48px;
+                transition: .2s ease-out;
+            }
+        }
+    }
+    // スクエア
+    &__square {
+        background: $colorLightGreen;
+        color: $colorDarkGreen;
+        font-weight: 600;
+        padding: 18px 22px;
+        border-radius: 2px;
+        display: inline-block;
+        @include mq_up(md) {
+            transition: .2s ease-out;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            &:hover {
+                background: $colorDarkGreen;
+                color: #fff;
+                &:before {
+                    background: center/contain no-repeat url("assets/images/icon-arrow-right-white.png");
+                }
+            }
+        }
+        @include mq_down(md) {
+            margin-top: 16px;
+        }
+        &:before {
+            content: "";
+            display: inline-block;
+            width: 7px;
+            height: 12px;
+            margin-right: 12px;
+            background: center/contain no-repeat url("assets/images/icon-arrow-right-dark-green.png");
+            @include mq_up(md) {
+                transition: .3s ease-out;
+            }
+        }
+    }
+    // カーブ
+    &__curve {
+        display: block;
+        border-radius: 40px;
+        margin: auto;
+        width: 252px;
+        height: 68px;
+        color: #fff;
+        background: #C0CFD0;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, .12);
+        border: none;
+        transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+        &:not(.is_send) {
+            pointer-events: none;
+        }
+        &.is_send {
+            background: $colorDarkGreen;
+            font-weight: 700;
+            @include mq_up(md) {
+                cursor: pointer;
+                &:hover {
+                    box-shadow: 0px 3px 16px rgba(0, 0, 0, .5);
+                    -webkit-transform: translateY(-3px);
+                    transform: translateY(-3px);
+                }
+            }
+        }
+    }
+    // CTAで活用
+    &__cta {
+        z-index: 2;
+        border-radius: 50%;
+        background: $colorDarkGreen;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: center/30% no-repeat url("assets/images/icon-mail-white.png");
+        @include mq_down(md) {
+            width: 80px;
+            height: 80px;
+        }
+        @include mq_up(md) {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            background-color: $colorDarkGreen;
+            transition: .2s ease-out;
+            &:hover {
+                background: center/30% no-repeat url("assets/images/icon-mail-green.png");
+                background-color: #fff;
+            }
+        }
+        img {
+            width: 30px;
+            height: auto;
+        }
+    }
+    // リンク専用
+    &__link {
+        display: block;
+        margin: auto;
+        width: 209px;
+        height: 55px;
+        line-height: 55px;
+        border-radius: 3px;
+        font-weight: 600;
+        text-align: center;
+        position: relative;
+        background: $colorDarkGreen;
+        color: #fff;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, .17);
+        &:before {
+            content: "";
+            display: block;
+            width: 8px;
+            height: 13px;
+            background: center/contain no-repeat url("assets/images/icon-arrow-right-white.png");
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        @include mq_up(md) {
+            transition: .2s ease-out;
+            &:hover {
+                box-shadow: 0px 3px 16px rgba(0, 0, 0, .5);
+                -webkit-transform: translateY(-3px);
+                transform: translateY(-3px);
+            }
+        }
+    }
+    // ブロック
+    &-block {
+        border-radius: 4px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .12);
+        overflow: hidden;
+        @include mq_up(md) {
+            width: 460px;
+            transition: .2s ease-out;
+            &:hover {
+                box-shadow: 0px 0 30px rgba(0, 0, 0, .4);
+                -webkit-transform: translateY(-3px);
+                transform: translateY(-3px);
+            }
+        }
+        @include mq_down(md) {
+            width: 100%;
+        }
+        &__inner {
+            padding: 0 16px;
+            flex-flow: column;
+            text-align: center;
+        }
+        h2 {
+            font-weight: 600;
+            margin-bottom: 12px;
+            @include mq_up(md) {
+                font-size: 20px;
+            }
+            @include mq_down(md) {
+                font-size: 18px
+            }
+        }
+        &.company {
+            color: #fff;
+            background: center/cover no-repeat url("assets/images/img-top-company.jpg");
+            @include mq_down(md) {
+                margin-bottom: 16px;
+            }
+            @include mq_up(md) {
+                margin-right: 16px;
+            }
+        }
+        &.policy {
+            background: center/80% no-repeat url("assets/images/img-logo-white.jpg");
+        }
+    }
+}

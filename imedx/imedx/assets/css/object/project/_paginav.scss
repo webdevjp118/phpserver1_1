@@ -1,0 +1,87 @@
+/* ページネーション */
+.wp-pagenavi {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    @include mq_down(md) {
+        margin-top: 60px;
+    }
+    @include mq_up(md) {
+        margin-top: 80px;
+    }
+    a, span {
+        display: inline-block;
+        width: auto;
+        margin: 4px;
+        border-radius: 2px;
+        @include mq_down(md) {
+            padding: 12px 15px !important;
+        }
+        @include mq_up(md) {
+            padding: 16px 19px !important;
+        }
+    }
+    a {
+        color: $colorDarkGreen;
+        border: 1px solid $colorDarkGreen;
+        transition: .2s ease-out;
+        &:hover {
+            background: $colorDarkGreen;
+            color: #fff;
+        }
+        &.nextpostslink {
+            display: flex;
+            align-items: center;
+            @include mq_down(md) {
+                padding: 12px 9px !important;
+            }
+            @include mq_up(md) {
+                padding: 16px 12px !important;
+            }
+            &:after {
+                content: "";
+                display: block;
+                width: 10px;
+                height: 10px;
+                background: center/contain no-repeat url("assets/images/icon-arrow-right-dark-green.png");
+                margin-left: 12px;
+            }
+            &:hover:after {
+                background: center/contain no-repeat url("assets/images/icon-arrow-right-white.png");
+            }
+        }
+        &.previouspostslink {
+            display: flex;
+            align-items: center;
+            @include mq_down(md) {
+                padding: 12px 9px !important;
+            }
+            @include mq_up(md) {
+                padding: 16px 12px !important;
+            }
+            &:before {
+                content: "";
+                display: block;
+                width: 10px;
+                height: 10px;
+                background: center/contain no-repeat url("assets/images/icon-arrow-left-dark-green.png");
+                margin-right: 12px;
+            }
+            &:hover:before {
+                background: center/contain no-repeat url("assets/images/icon-arrow-left-white.png");
+            }
+        }
+    }
+    span {
+        &.current {
+            color: #fff;
+            background: $colorDarkGreen;
+        }
+        &.extend {
+            padding: 0 !important;
+        }
+    }
+}

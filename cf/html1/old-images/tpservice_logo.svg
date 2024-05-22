@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115.435" height="74.816" viewBox="0 0 115.435 74.816">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.695" cy="0.288" r="0.765" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c7eafb"/>
+      <stop offset="0.55" stop-color="#00aeef"/>
+      <stop offset="1" stop-color="#0072bc"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.681" gradientTransform="translate(0.196) scale(0.608 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f8c1d9"/>
+      <stop offset="0.55" stop-color="#f287b7"/>
+      <stop offset="1" stop-color="#ef5ba1"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.5" cy="0.5" r="0.525" gradientTransform="translate(0.045) scale(0.91 1)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g id="レイヤー_1" data-name="レイヤー 1" transform="translate(-0.001 0.007)">
+    <path id="Path_15" data-name="Path 15" d="M96.039,18.862A8.75,8.75,0,1,1,87.29,10.1,8.751,8.751,0,0,1,96.039,18.862Z" transform="translate(17.035 2.192)" fill="url(#radial-gradient)"/>
+    <path id="Path_16" data-name="Path 16" d="M29.084,53.227C11.852,44.075,13.434,25.323,31.4,8.98a94.916,94.916,0,0,0-9.127,5.61C-2.836,32.126-7.4,54.736,12.084,65.091s55.637,4.527,80.754-13.009a77.744,77.744,0,0,0,7.873-6.267c-24.143,13.057-54.4,16.562-71.627,7.4Z" transform="translate(0 1.949)" fill="url(#radial-gradient-2)"/>
+    <path id="Path_17" data-name="Path 17" d="M49.944,34.282C42.667,16.174,55.955,2.861,80.208,1.924A92.853,92.853,0,0,0,69.609.33c-30.483-2.75-48.542,11.621-40.3,32.09S68.94,71.714,99.447,74.476a78.945,78.945,0,0,0,10.064.28C82.642,69.195,57.233,52.389,49.944,34.282Z" transform="translate(5.924 0)" fill="url(#radial-gradient-3)"/>
+  </g>
+</svg>

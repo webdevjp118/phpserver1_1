@@ -1,0 +1,249 @@
+@use '../global'as g;
+
+.page._service {
+  background: radial-gradient(rgba(#333, .28) 0%, rgba(#333, .28) 100%),
+    url(../img/service_01.png) no-repeat center/cover;
+  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
+  margin-bottom: 2em;
+
+  @include g.sp {
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  }
+}
+
+.service {
+  padding-top: 2em;
+
+  .flex {
+    max-width: 1060px;
+    margin: 0 auto;
+
+    @include g.pc {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+    }
+
+    @include g.sp {
+      width: 95%;
+    }
+
+    .serviceBox {
+      width: 460px;
+      margin-bottom: 122px;
+
+      @include g.sp {
+        width: 100%;
+        margin-bottom: 1.5em;
+      }
+
+      @include g.pc {
+        &:nth-child(2n-1) {
+          margin-right: 140px;
+        }
+      }
+
+      .serviceCard {
+        width: 280px;
+        height: 275px;
+        background: url(../img/service_02.png) no-repeat center;
+        padding-top: 50px;
+        margin: 0 auto;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        .serviceCard_title {
+          font-size: 28px;
+          font-weight: bold;
+          text-align: center;
+          width: 180px;
+          margin: 0 auto;
+          border-bottom: 2px solid #9D0105;
+          padding-bottom: 10px;
+          margin-bottom: 10px;
+
+          @include g.sp {
+            font-size: 1.75rem;
+          }
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          li {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            line-height: 1.8;
+
+            @include g.sp {
+              font-size: 1rem;
+            }
+          }
+        }
+
+        .serviceCard_list {
+          padding-top: 1em;
+        }
+      }
+
+      .serviceBox_text {
+        font-size: 16px;
+        line-height: 2;
+        margin: 20px 0;
+
+        @include g.sp {
+          font-size: 1rem;
+        }
+      }
+
+      .btnBox {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.flow {
+  background: radial-gradient(#B90106, #810000);
+  clip-path: polygon(0 13%, 100% 0, 100% 90%, 0 100%);
+  padding-top: 210px;
+  padding-bottom: 210px;
+
+  @include g.sp {
+    clip-path: polygon(0 7%, 100% 0, 100% 90%, 0 100%);
+    padding-top: 5em;
+    padding-bottom: 10em;
+  }
+
+  ._en {
+    color: rgba($color: #fff, $alpha: 0.2);
+  }
+
+  .section_title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 46px;
+    position: relative;
+    color: #fff;
+
+    @include g.sp {
+      font-size: 1.75rem;
+    }
+
+    &::after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: rgba($color: #fff, $alpha: 0.7);
+      position: absolute;
+      bottom: -0.3em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+
+  .flowBox {
+    position: relative;
+    width: 960px;
+    height: 140px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+
+    @include g.sp {
+      width: 95%;
+    }
+
+    .flowBox_sp {
+      @include g.sp {
+        width: 30%;
+      }
+    }
+
+    .tri {
+      position: absolute;
+      bottom: -19px;
+      left: 50px;
+    }
+
+    .num {
+      font-family: g.$cor;
+      font-size: 80px;
+      font-weight: bold;
+      font-style: italic;
+      color: rgba($color: #333, $alpha: 0.2);
+      line-height: 0.5;
+      padding: 0 19px 0 17px;
+
+      @include g.pc {
+        width: 60px;
+      }
+
+      @include g.sp {
+        font-size: 4rem;
+      }
+    }
+
+    .flowBox_figure {
+      @include g.pc {
+        display: flex;
+        align-items: center;
+        width: 140px;
+      }
+
+      @include g.sp {
+        text-align: center;
+        margin-top: 0.7em;
+      }
+    }
+
+    .flowText_box {
+      width: 758px;
+      border-left: 2px solid #333;
+      margin-top: 10px;
+      padding-left: 60px;
+
+      @include g.pc {
+        height: 120px;
+      }
+
+      @include g.sp {
+        width: 70%;
+        margin: 0.7em 0;
+        padding: 0 0.5em;
+      }
+
+      .flowTitle {
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 25px;
+
+        @include g.sp {
+          font-size: 1.375rem;
+          margin-top: 0.7em;
+        }
+      }
+
+      .flowText {
+        font-size: 16px;
+        margin-top: 1em;
+
+        @include g.sp {
+          font-size: 1rem;
+          margin-top: 0.7em;
+        }
+      }
+    }
+  }
+}

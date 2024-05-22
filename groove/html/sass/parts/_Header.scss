@@ -1,0 +1,86 @@
+@use '../global'as g;
+
+/* header */
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+
+
+  .headerInner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 76px;
+
+    @include g.sp {
+      height: 3.75rem;
+    }
+
+    .headerLogo {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        margin-left: 72px;
+
+        @include g.sp {
+          margin-left: 0.4em;
+        }
+      }
+    }
+
+    .headerNav {
+      display: flex;
+
+      @include g.pc {
+        padding-right: 50px;
+      }
+
+      .navList {
+        display: flex;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+
+        @include g.pc {
+          justify-content: space-around;
+          margin-top: 20px;
+        }
+
+
+        .navItem {
+          margin-right: 30px;
+
+          @include g.sp {
+            margin-bottom: 1em;
+          }
+        }
+      }
+
+      .btnBox {
+        display: flex;
+        justify-content: space-around;
+
+        @include g.pc {
+          margin-top: 20px;
+        }
+
+        @include g.sp {
+          align-items: center;
+        }
+
+        a {
+          @include g.pc {
+            margin-right: 30px;
+          }
+
+          @include g.sp {
+            margin-left: 1em;
+          }
+        }
+      }
+    }
+  }
+}

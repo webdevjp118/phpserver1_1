@@ -1,0 +1,14 @@
+.l-wrap {
+    @include mq_down(md) {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    @include mq_up(md) {
+        padding-left: 24px;
+        padding-right: 24px;
+        max-width: 1008px;
+        width: 100%;
+        margin: auto;
+    }
+}

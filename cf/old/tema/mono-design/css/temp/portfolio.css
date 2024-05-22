@@ -1,0 +1,141 @@
+.portfolio {
+  padding: 60px 0px; }
+  .portfolio .inner h2 {
+    font-size: 1.6em;
+    margin-bottom: 20px; }
+  .portfolio .inner span.text {
+    display: block;
+    width: 60%;
+    margin: 0px auto 40px auto; }
+    @media screen and (max-width: 640px) {
+      .portfolio .inner span.text {
+        /*sp*/
+        width: 100%; } }
+  .portfolio .inner .list .box {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 40px;
+    text-align: left; }
+    .portfolio .inner .list .box:nth-of-type(2n) {
+      margin-right: 0; }
+    .portfolio .inner .list .box:after {
+      content: "";
+      display: block;
+      clear: both; }
+    @media screen and (max-width: 640px) {
+      .portfolio .inner .list .box {
+        /*sp*/
+        width: 100%;
+        float: none;
+        margin-bottom: 10px; } }
+    .portfolio .inner .list .box .img {
+      width: 50%;
+      float: left; }
+      @media screen and (max-width: 640px) {
+        .portfolio .inner .list .box .img {
+          /*sp*/
+          width: 100%;
+          float: none;
+          margin-bottom: 10px; }
+          .portfolio .inner .list .box .img img {
+            width: 100%;
+            height: auto; } }
+    .portfolio .inner .list .box .text {
+      width: 45%;
+      float: right; }
+      @media screen and (max-width: 640px) {
+        .portfolio .inner .list .box .text {
+          /*sp*/
+          width: 100%;
+          float: none; } }
+      .portfolio .inner .list .box .text h3 {
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        font-weight: 500; }
+      .portfolio .inner .list .box .text span {
+        font-size: 0.9em; }
+    .portfolio .inner .list .box .detail_nav {
+      clear: both;
+      padding-top: 20px;
+      text-align: center; }
+      .portfolio .inner .list .box .detail_nav a {
+        display: inline-block;
+        background: #372E2C;
+        padding: 5px 40px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 100px; }
+
+.portfolio_list .inner ul.list {
+  margin-bottom: 40px; }
+  .portfolio_list .inner ul.list:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .portfolio_list .inner ul.list li {
+    display: block;
+    width: 25%;
+    float: left; }
+    @media screen and (max-width: 640px) {
+      .portfolio_list .inner ul.list li {
+        /*sp*/
+        width: 50%; } }
+    .portfolio_list .inner ul.list li a {
+      text-decoration: none;
+      display: block;
+      padding: 15px 10px;
+      border: 1px solid #ccc; }
+      .portfolio_list .inner ul.list li a.on {
+        background: #333;
+        color: #fff;
+        border: 1px solid #333; }
+.portfolio_list .inner .genre {
+  margin-bottom: 40px;
+  background: #333;
+  color: #fff;
+  padding: 10px; }
+.portfolio_list .inner .list_box .box {
+  width: 32%;
+  margin-bottom: 40px;
+  float: left;
+  margin-right: 2%; }
+  .portfolio_list .inner .list_box .box:nth-of-type(3n) {
+    margin-right: 0; }
+  @media screen and (max-width: 640px) {
+    .portfolio_list .inner .list_box .box {
+      /*sp*/
+      width: 100%;
+      float: none; } }
+  .portfolio_list .inner .list_box .box img {
+    width: 100%;
+    height: 192px; }
+  .portfolio_list .inner .list_box .box .name {
+    background: #333; }
+    .portfolio_list .inner .list_box .box .name:after {
+      content: "";
+      display: block;
+      clear: both; }
+    .portfolio_list .inner .list_box .box .name h3 {
+      width: 70%;
+      float: left;
+      padding: 7px 10px;
+      color: #fff;
+      text-align: left;
+      font-size: 0.9em;
+      font-weight: normal; }
+    .portfolio_list .inner .list_box .box .name .icon_genre {
+      width: 30%;
+      float: right;
+      padding: 7px 10px;
+      font-size: 0.6em;
+      background: #999;
+      color: #fff; }
+      .portfolio_list .inner .list_box .box .name .icon_genre.icon01 {
+        background: #A0C964; }
+      .portfolio_list .inner .list_box .box .name .icon_genre.icon02 {
+        background: #E29A59; }
+      .portfolio_list .inner .list_box .box .name .icon_genre.icon03 {
+        background: #64B6A1; }
+      .portfolio_list .inner .list_box .box .name .icon_genre.icon04 {
+        background: #4E72BB; }

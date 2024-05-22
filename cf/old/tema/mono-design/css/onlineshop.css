@@ -1,0 +1,110 @@
+/*---------------------------
+onlineshop
+----------------------------*/
+.onlineshop {
+  text-align: left;
+}
+.onlineshop .inner {
+  width: 900px;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .onlineshop .inner {
+    /*tablet*/
+    width: 96%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .onlineshop .inner {
+    /*sp*/
+    width: 92%;
+  }
+}
+.onlineshop .inner .title {
+  margin-bottom: 40px;
+}
+.onlineshop .inner .title .img {
+  width: 35%;
+  float: left;
+}
+@media screen and (max-width: 640px) {
+  .onlineshop .inner .title .img {
+    /*sp*/
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+.onlineshop .inner .title .txt {
+  width: 60%;
+  float: right;
+}
+@media screen and (max-width: 640px) {
+  .onlineshop .inner .title .txt {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.onlineshop .inner .title .txt span {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.4em;
+  display: block;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 640px) {
+  .onlineshop .inner .title .txt span {
+    /*sp*/
+  }
+  .onlineshop .inner .title .txt span br {
+    display: none;
+  }
+}
+.onlineshop .inner .guide .txt img {
+  display: block;
+  margin-bottom: 20px;
+}
+.onlineshop .inner .guide .img {
+  padding: 10px;
+  box-shadow: 3px 3px 5px #ccc;
+  border: 1px solid #ccc;
+}
+.onlineshop .inner .guide .img img {
+  width: 100%;
+}
+.onlineshop .inner .point .col img {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.onlineshop .inner .shop_list {
+  margin-bottom: 20px;
+}
+.onlineshop .inner .shop_list img {
+  margin-bottom: 10px;
+}
+.onlineshop .inner .shop_list span {
+  display: block;
+  text-align: center;
+  line-height: 1.6em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.onlineshop .inner .shop_list > .col {
+  height: 480px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+}
+@media screen and (max-width: 640px) {
+  .onlineshop .inner .shop_list > .col {
+    /*sp*/
+    height: auto;
+  }
+}
+.onlineshop .inner .shop_list > .col .list .row {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #ccc;
+}

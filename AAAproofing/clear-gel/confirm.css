@@ -1,0 +1,25 @@
+.lancer_overlay {
+    position: fixed;
+    z-index: 199999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.lancer_logo {
+    opacity: .1;
+}
+.lancer_name {
+    margin-top: 20px;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="439" height="100" viewBox="0 0 439 100">
+  <g id="Group_107" data-name="Group 107" transform="translate(-5346 15473)">
+    <g id="Rectangle_103" data-name="Rectangle 103" transform="translate(5346 -15473)" fill="none" stroke="#3c505a" stroke-width="1">
+      <rect width="439" height="100" rx="50" stroke="none"/>
+      <rect x="0.5" y="0.5" width="438" height="99" rx="49.5" fill="none"/>
+    </g>
+    <text id="レビューを見る" transform="translate(5566 -15414)" fill="#3c505a" font-size="20" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="-70" y="0">レビューを見る</tspan></text>
+    <path id="Polygon_7" data-name="Polygon 7" d="M6.5,0,13,9H0Z" transform="translate(5728 -15429) rotate(90)" fill="#3c505a"/>
+  </g>
+</svg>

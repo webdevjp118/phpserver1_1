@@ -1,0 +1,246 @@
+@use '../global'as g;
+
+.greeting {
+  margin-top: -100px;
+
+  .sectionTitle_sub {
+    transform: translateY(-50px);
+  }
+
+  .greeting_box {
+    position: relative;
+
+    @include g.pc {
+      height: 500px;
+      min-width: 1280px;
+    }
+
+    .greetingFigure {
+      @include g.pc {
+        position: absolute;
+        top: 0;
+        right: 53%;
+      }
+
+      @include g.sp {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+
+    .greetingText_box {
+      width: 57%;
+      background-color: #F7F8FC;
+      padding: 38px 100px 45px 90px;
+
+      @include g.pc {
+        height: 374px;
+        min-width: 730px;
+        position: absolute;
+        right: 0;
+        top: 42px;
+        z-index: -1;
+      }
+
+      @include g.sp {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2em 1.5em;
+      }
+
+      .greetingBox_title {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.8;
+
+        @include g.sp {
+          font-size: 1.25rem;
+        }
+      }
+
+      .greetingText {
+        font-size: 16px;
+        line-height: 2;
+
+        @include g.sp {
+          font-size: 1rem;
+        }
+      }
+
+      span {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: right;
+        margin-top: 1em;
+        max-width: 1400px;
+
+        @include g.sp {
+          font-size: 1.125rem;
+        }
+      }
+    }
+  }
+}
+
+.philosophy {
+  .sectionTitle_sub {
+    @include g.sp {
+      margin-top: 1em;
+    }
+  }
+
+  .philoFigure {
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 70px;
+
+    @include g.sp {
+      width: 80%;
+      margin: 1em auto 3em;
+    }
+  }
+
+  .philoTitle {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+
+    @include g.sp {
+      font-size: 1.5rem;
+    }
+
+    .-en {
+      font-family: g.$raleway;
+      font-size: 82px;
+      font-weight: bold;
+      color: #F7F8FC;
+      position: absolute;
+      top: -0.5em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      z-index: -1;
+
+      @include g.sp {
+        font-size: 15vw;
+        top: -0.4em;
+      }
+    }
+  }
+
+  .philoText {
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 4em;
+
+    @include g.sp {
+      width: 80%;
+      margin: 1em auto 2em;
+      font-size: 1rem;
+    }
+
+    &:last-child {
+      margin-bottom: 7em;
+
+      @include g.sp {
+        margin-bottom: 3em;
+      }
+    }
+  }
+}
+
+.job {
+  background-color: #F7F8FC;
+  padding-top: 76px;
+  padding-bottom: 92px;
+
+  @include g.sp {
+    padding: 2em 0 3em;
+  }
+
+  .sectionTitle_sub {
+    margin-bottom: 40px;
+
+    @include g.sp {
+      margin-bottom: 1.5em;
+    }
+  }
+
+  .flex {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    @include g.pc {
+      display: flex;
+
+      &.-rev {
+        flex-direction: row-reverse;
+      }
+    }
+
+    .jobFigure {
+      width: 50%;
+
+      @include g.sp {
+        width: 80%;
+        margin: 1em auto 1em;
+        text-align: center;
+      }
+
+      @include g.pc {
+
+        &.right {
+          text-align: right;
+        }
+      }
+    }
+
+    .jobText_box {
+      width: 50%;
+
+      @include g.sp {
+        width: 80%;
+        margin: 1em auto 2em;
+        font-size: 1rem;
+      }
+
+      .num {
+        font-family: g.$din;
+        font-size: 100px;
+        font-weight: bold;
+        color: #fff;
+
+        @include g.sp {
+          font-size: 5rem;
+        }
+      }
+
+      .jobTitle {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 33px;
+
+        @include g.sp {
+          font-size: 1.5rem;
+          margin-bottom: 0.8em;
+        }
+      }
+
+      .jobText {
+        font-size: 16px;
+        line-height: 2;
+
+        @include g.sp {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

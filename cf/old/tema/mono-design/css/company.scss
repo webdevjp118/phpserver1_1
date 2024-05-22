@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*---------------------------
+company
+----------------------------*/
+.company {
+	text-align: left;
+
+	.inner {
+		width:900px;
+		@media only screen and (min-width:641px) and (max-width:768px) {/*tablet*/
+			width:96%;
+		}
+		@media screen and (max-width: 640px) {/*sp*/
+			width:92%;
+		}
+		.title {
+			margin-bottom: 20px;
+		}
+
+		table {
+			width: 100%;
+
+			tr {
+				border-bottom: 1px dotted #ccc;
+
+				td {
+					padding: 15px 0px;
+
+					&:nth-of-type(odd) {
+						font-weight: bold;
+					}
+
+					@media screen and (max-width: 640px) {
+						/*sp*/
+						display: block;
+						width: 100%;
+
+						&:nth-of-type(odd) {
+							background: #eee;
+						}
+					}
+				}
+			}
+		}
+	}
+}

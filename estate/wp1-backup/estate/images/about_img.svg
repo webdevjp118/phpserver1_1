@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="673" height="534" viewBox="0 0 673 534">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f4f9fd"/>
+      <stop offset="1" stop-color="#0f3b5e" stop-opacity="0.11"/>
+    </radialGradient>
+    <filter id="Ellipse_3" x="182" y="109" width="158" height="158" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#0f3b5e" flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_8" x="345" y="0" width="158" height="158" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#0f3b5e" flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_7" x="515" y="109" width="158" height="158" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-color="#0f3b5e" flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_6" x="515" y="291" width="158" height="158" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-color="#0f3b5e" flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_5" x="345" y="376" width="158" height="158" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-color="#0f3b5e" flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_4" x="182" y="291" width="158" height="158" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-6"/>
+      <feFlood flood-color="#0f3b5e" flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_1" x="0" y="202" width="158" height="158" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-7"/>
+      <feFlood flood-color="#0f3b5e" flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_133" data-name="Group 133" transform="translate(-655 -4488)">
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(885 4566)" stroke="#0f3b5e" stroke-width="1" stroke-dasharray="2" fill="url(#radial-gradient)">
+      <circle cx="193.5" cy="193.5" r="193.5" stroke="none"/>
+      <circle cx="193.5" cy="193.5" r="193" fill="none"/>
+    </g>
+    <g id="Group_131" data-name="Group 131" transform="translate(0 1)">
+      <g transform="matrix(1, 0, 0, 1, 655, 4487)" filter="url(#Ellipse_3)">
+        <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="64" cy="64" r="64" transform="translate(197 121)" fill="#fff"/>
+      </g>
+      <text id="弁護士" transform="translate(916 4681)" fill="#0f3b5e" font-size="20" font-family="NotoSansJP-Regular, Noto Sans JP"><tspan x="-30" y="0">弁護士</tspan></text>
+    </g>
+    <g id="Group_129" data-name="Group 129" transform="translate(2)">
+      <g transform="matrix(1, 0, 0, 1, 653, 4488)" filter="url(#Ellipse_8)">
+        <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="64" cy="64" r="64" transform="translate(360 12)" fill="#fff"/>
+      </g>
+      <text id="税理士" transform="translate(1077 4573)" fill="#0f3b5e" font-size="20" font-family="NotoSansJP-Regular, Noto Sans JP"><tspan x="-30" y="0">税理士</tspan></text>
+    </g>
+    <g id="Group_126" data-name="Group 126" transform="translate(0 -17)">
+      <g transform="matrix(1, 0, 0, 1, 655, 4505)" filter="url(#Ellipse_7)">
+        <circle id="Ellipse_7-2" data-name="Ellipse 7" cx="64" cy="64" r="64" transform="translate(530 121)" fill="#fff"/>
+      </g>
+      <text id="社会保険_労務士" data-name="社会保険
+労務士" transform="translate(1249 4681)" fill="#0f3b5e" font-size="20" font-family="NotoSansJP-Regular, Noto Sans JP"><tspan x="-40" y="0">社会保険</tspan><tspan x="-30" y="36">労務士</tspan></text>
+    </g>
+    <g id="Group_127" data-name="Group 127" transform="translate(0 4)">
+      <g transform="matrix(1, 0, 0, 1, 655, 4484)" filter="url(#Ellipse_6)">
+        <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="64" cy="64" r="64" transform="translate(530 303)" fill="#fff"/>
+      </g>
+      <text id="不動産_鑑定工" data-name="不動産
+鑑定工" transform="translate(1249 4842)" fill="#0f3b5e" font-size="20" font-family="NotoSansJP-Regular, Noto Sans JP"><tspan x="-30" y="0">不動産</tspan><tspan x="-30" y="36">鑑定工</tspan></text>
+    </g>
+    <g id="Group_128" data-name="Group 128" transform="translate(2 15)">
+      <g transform="matrix(1, 0, 0, 1, 653, 4473)" filter="url(#Ellipse_5)">
+        <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="64" cy="64" r="64" transform="translate(360 388)" fill="#fff"/>
+      </g>
+      <text id="ライフ_プランナー" data-name="ライフ
+プランナー" transform="translate(1077 4916)" fill="#0f3b5e" font-size="20" font-family="NotoSansJP-Regular, Noto Sans JP"><tspan x="-30" y="0">ライフ</tspan><tspan x="-50" y="36">プランナー</tspan></text>
+    </g>
+    <text id="各専門家で_連携" data-name="各専門家で
+連携" transform="translate(1089 4751)" fill="#0f3b5e" font-size="35" font-family="NotoSansJP-Regular, Noto Sans JP"><tspan x="-87.5" y="0">各専門家で</tspan><tspan x="-35" y="63">連携</tspan></text>
+    <g id="Group_130" data-name="Group 130" transform="translate(0 -16)">
+      <g transform="matrix(1, 0, 0, 1, 655, 4504)" filter="url(#Ellipse_4)">
+        <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="64" cy="64" r="64" transform="translate(197 303)" fill="#fff"/>
+      </g>
+      <text id="司法書士" transform="translate(916 4880)" fill="#0f3b5e" font-size="20" font-family="NotoSansJP-Regular, Noto Sans JP"><tspan x="-40" y="0">司法書士</tspan></text>
+    </g>
+    <line id="Line_22" data-name="Line 22" x2="129" transform="translate(755.5 4767.5)" fill="none" stroke="#0f3b5e" stroke-width="1" stroke-dasharray="2"/>
+    <g id="Group_132" data-name="Group 132" transform="translate(128)">
+      <g transform="matrix(1, 0, 0, 1, 527, 4488)" filter="url(#Ellipse_1)">
+        <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="64" cy="64" r="64" transform="translate(15 214)" fill="#0f3b5e"/>
+      </g>
+      <text id="当社" transform="translate(606 4779)" fill="#fff" font-size="30" font-family="NotoSerifJP-Regular, Noto Serif JP"><tspan x="-30" y="0">当社</tspan></text>
+    </g>
+  </g>
+</svg>

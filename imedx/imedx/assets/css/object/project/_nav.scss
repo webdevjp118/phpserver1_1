@@ -1,0 +1,69 @@
+
+// ヘッダーメニュー
+.p-nav {
+    @include mq_down(md) {
+        padding: 0 24px;
+        margin-top: 60px;
+    }
+    @include mq_up(md) {
+        display: flex;
+        align-items: center;
+    }
+    li.nav-item {
+        @include mq_down(md) {
+            &:not(:last-child) {
+                margin-bottom: 8px;
+            }
+        }
+        a.nav-link {
+            cursor: pointer;
+            padding: 12px 24px;
+            font-weight: 600;
+            transition: color .2s ease-out,border .2s ease-out;
+            @include mq_down(md) {
+                display: block;
+                width: 100%;
+                padding: 16px;
+                font-size: 16px;
+                border-radius: 4px;
+                background: #fff;
+                border: 1px solid #eee;
+                position: relative;
+                &:before {
+                    content: "";
+                    display: block;
+                    width: 7px;
+                    height: 12px;
+                    background: center/contain no-repeat url("assets/images/icon-arrow-right-dark-green.png");
+                    position: absolute;
+                    right: 16px;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                }
+            }
+            @include mq_up(md) {
+                position: relative;
+                font-size: 14px;
+                &:after {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 2px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    background: $colorDarkGreen;
+                    transition: opacity .2s ease-out;
+                    opacity: 0;
+                }
+                &:hover {
+                    color: $colorDarkGreen;
+                    &:after {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

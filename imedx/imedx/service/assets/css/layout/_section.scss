@@ -1,0 +1,67 @@
+.l-section {
+    @include mq_down(md) {
+        padding: 62px 0;
+    }
+    @include mq_up(md) {
+        padding: 120px 0;
+    }
+    // トップページ：about
+    &__about {
+        position: relative;
+        @include mq_down(md) {
+            padding: 32px 0;
+        }
+        @include mq_up(md) {
+            padding: 62px 0;
+        }
+        &:before {
+            content: "DX";
+            color: #fff;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            z-index: 0;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            font-weight: 600;
+            font-family: "ヒラギノ角ゴ ProN W3","HiraKakuProN-W3","ヒラギノ角ゴ Pro W3","HiraKakuPro-W3","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS Pgothic","Osaka",sans-serif,Helvetica, Helvetica Neue, Arial, Verdana;
+            @include mq_up(md) {
+                font-size: 220px;
+            }
+        }
+    }
+    // トップページ：offer
+    &__offer {
+        @include mq_down(md) {
+            padding: 62px 0;
+            text-align: center;
+            background: $colorLightRed;
+        }
+        .u-text__sentence {
+            text-align: left;
+        }
+    }
+    // 固定ページ
+    &__page {
+        @include mq_down(md) {
+            margin: 62px 0;
+        }
+        @include mq_up(md) {
+            margin: 80px 0;
+        }
+    }
+    // 導入事例詳細
+    &__faq {
+        border-bottom: 1px solid $colorThinGray;
+        @include mq_down(md) {
+            padding: 16px 0;
+        }
+        @include mq_up(md) {
+            display: flex;
+            padding: 32px 0;
+        }
+        &:first-child {
+            border-top: 1px solid $colorThinGray;
+        }
+    }
+}

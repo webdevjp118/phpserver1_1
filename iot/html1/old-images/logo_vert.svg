@@ -1,0 +1,15 @@
+<svg id="レイヤー_3" data-name="レイヤー 3" xmlns="http://www.w3.org/2000/svg" width="59" height="79.045" viewBox="0 0 59 79.045">
+  <g id="Group_27" data-name="Group 27">
+    <path id="Path_120" data-name="Path 120" d="M4.868,359.115l2.367-3.09L7.253,356H9.759L5.9,360.832v4.731H3.839v-4.717L0,356H2.455Z" transform="translate(0 -286.518)" fill="#6b9bd2"/>
+    <path id="Path_121" data-name="Path 121" d="M69.21,361.349a3.02,3.02,0,0,1-.279,1.425,1.936,1.936,0,0,1-.88.8,3.353,3.353,0,0,1-1.479.3,2.957,2.957,0,0,1-1.388-.312,2,2,0,0,1-.853-.79,2.751,2.751,0,0,1-.262-1.3v-5.486H62v5.666a3.88,3.88,0,0,0,.546,2.075,3.5,3.5,0,0,0,1.587,1.355,5.907,5.907,0,0,0,2.44.466,5.288,5.288,0,0,0,3.468-1.027,3.627,3.627,0,0,0,1.232-2.937v-5.6H69.212v5.365Z" transform="translate(-49.899 -286.502)" fill="#6b9bd2"/>
+    <path id="Path_122" data-name="Path 122" d="M134.967,356H132.6l-4.036,4.3V356H126.5v9.563h2.065V361.02L133,365.544l.018.02h2.656l-4.9-5.059Z" transform="translate(-101.811 -286.518)" fill="#6b9bd2"/>
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="2.147" height="9.563" transform="translate(36.037 69.482)" fill="#6b9bd2"/>
+    <path id="Path_123" data-name="Path 123" d="M218.7,360.171l-3.773-4.149-.02-.021h-2.1v9.563h2.075v-6.622h.4l2.734,3.316h1.1l2.709-3.316h.424v6.622h2.075V356h-2.088Z" transform="translate(-171.275 -286.518)" fill="#6b9bd2"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="3" height="10" transform="translate(56 69)" fill="#6b9bd2"/>
+    <path id="Path_124" data-name="Path 124" d="M18.947,0,29.315,25.761,39.683,0H58.552V50.55a42.949,42.949,0,0,0-8.572-5.83V8.449H45.569L31.823,40.071c-.843-.051-1.69-.082-2.545-.082s-1.7.033-2.545.082L12.983,8.449H8.572V44.72A42.949,42.949,0,0,0,0,50.55V0Z" fill="#6b9bd2"/>
+    <g id="Group_26" data-name="Group 26" transform="translate(15.224 52.502)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="4" cy="4" r="4" transform="translate(-0.224 0.499)" fill="#f04e69"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="4" cy="4" r="4" transform="translate(19.776 0.499)" fill="#f04e69"/>
+    </g>
+  </g>
+</svg>

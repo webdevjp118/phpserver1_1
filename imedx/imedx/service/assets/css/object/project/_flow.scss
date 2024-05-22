@@ -1,0 +1,92 @@
+.p-flow {
+    &-list {
+        @include mq_up(md) {
+            margin-bottom: 40px;
+            display: flex;
+            align-items: stretch;
+        }
+        li {
+            position: relative;
+            background: #fff;
+            text-align: center;
+            @include mq_down(md) {
+                padding: 24px;
+                margin-bottom: 30px;
+                &:not(:last-child) {
+                    &:before {
+                        width: 21px;
+                        height: 24px;
+                        background: center/contain no-repeat url("assets/images/icon_arrow_down_dark_blue.png");
+                        position: absolute;
+                        bottom: -21px;
+                        left: 50%;
+                        -webkit-transform: translateX(-50%);
+                        transform: translateX(-50%);
+                    }
+                }
+            }
+            @include mq_up(md) {
+                padding: 24px 12px;
+                flex: 1;
+                &:not(:last-child) {
+                    margin-right: 8px;
+                    &:before {
+                        width: 110px;
+                        height: 18px;
+                        background: center/contain no-repeat url("assets/images/icon_flow_arrow_blue.png");
+                        position: absolute;
+                        z-index: 1;
+                        right: -59px;
+                        top: 36px;
+                        -webkit-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+            &:before {
+                content: "";
+                display: block;
+            }
+        }
+        .flow-tag {
+            display: inline-block;
+            border-radius: 30px;
+            width: 100px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            color: $colorDarkBlue;
+            background: #fff;
+            font-weight: 600;
+            margin-bottom: 16px;
+            font-size: 11px;
+            @include mq_down(md) {
+                position: absolute;
+                left: 50%;
+                -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+                top: -12px;
+            }
+            @include mq_up(md) {
+                border: 1px solid $colorDarkBlue;
+            }
+        }
+        .flow-ttl {
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .font-txt {
+            font-size: 11px;
+            color: $colorLightBlack;
+            line-height: 1.6;
+            text-align: left;
+            margin-top: 16px;
+        }
+    }
+    .c-btn-link {
+        margin: auto auto 16px;
+    }
+    .u-text__sentence {
+        text-align: center;
+    }
+}

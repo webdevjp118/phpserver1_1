@@ -1,0 +1,91 @@
+@use '../global'as g;
+
+.information {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 177px;
+  margin-bottom: 87px;
+
+  @include g.sp {
+    width: 90%;
+    margin-top: 7em;
+    margin-bottom: 2em;
+  }
+
+  .info_wrap {
+    margin-bottom: 2em;
+
+    ul {
+      display: flex;
+      align-items: center;
+
+      .info_date {
+        margin-right: 1em;
+        font-family: g.$raleway;
+        font-size: 16px;
+        font-weight: 600;
+
+        @include g.sp {
+          font-size: 1rem;
+        }
+      }
+
+      .info_category {
+        font-size: 13px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #3351BC;
+        padding: 0.5em 1.5em;
+
+        @include g.sp {
+          font-size: 0.8125rem;
+        }
+      }
+    }
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1em;
+
+    @include g.sp {
+      font-size: 1.875rem;
+    }
+  }
+
+  img {
+    margin-bottom: 2em;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8;
+    border-bottom: 2px solid #404F86;
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+
+    @include g.sp {
+      font-size: 1.25rem;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 2.25;
+    margin-bottom: 3em;
+
+    @include g.sp {
+      font-size: 1rem;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .blue {
+      color: #3351BC;
+    }
+  }
+}

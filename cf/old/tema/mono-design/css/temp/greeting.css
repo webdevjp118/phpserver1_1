@@ -1,0 +1,33 @@
+.greeting .inner .img {
+  width: 25%;
+  float: left; }
+  @media screen and (max-width: 640px) {
+    .greeting .inner .img {
+      /*sp*/
+      width: 100%;
+      float: none; } }
+  .greeting .inner .img img {
+    margin-bottom: 30px; }
+  .greeting .inner .img .name {
+    font-weight: 500;
+    line-height: 1.6em; }
+    .greeting .inner .img .name span {
+      display: block;
+      font-size: 1.3em; }
+.greeting .inner .text {
+  width: 70%;
+  float: right;
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.6em; }
+  @media screen and (max-width: 640px) {
+    .greeting .inner .text {
+      /*sp*/
+      width: 100%;
+      float: none; } }
+  .greeting .inner .text span {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.4em; }

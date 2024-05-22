@@ -1,0 +1,23 @@
+/*---------------------------
+policy
+----------------------------*/
+.policy .inner {
+  text-align: left;
+}
+.policy .inner .main > p {
+  margin-bottom: 30px;
+}
+.policy .inner .main .txt {
+  margin-bottom: 40px;
+}
+.policy .inner .main .txt p {
+  margin-bottom: 30px;
+}
+.policy .inner .main .txt h3 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+}
+.policy .inner .main .contact_box h3 {
+  margin-bottom: 20px;
+}

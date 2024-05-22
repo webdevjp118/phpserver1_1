@@ -1,0 +1,103 @@
+.p-faq {
+    &__headline {
+        line-height: 1.6;
+        font-weight: 600;
+        @include mq_down(md) {
+            margin-bottom: 8px;
+        }
+        @include mq_up(md) {
+            width: 195px;
+        }
+    }
+    &__body {
+        @include mq_up(md) {
+            flex: 1;
+        }
+    }
+    &__content {
+        background: $colorThinBlue;
+        &:not(:last-child) {
+            margin-bottom: 16px;
+        }
+        .faq-txt {
+            @include mq_down(md) {
+                padding: 16px;
+            }
+            @include mq_up(md) {
+                padding: 24px;
+            }
+            p {
+                display: flex;
+                width: 100%;
+                position: relative;
+                line-height: 1.6;
+                @include mq_down(md) {
+                    padding-right: 32px;
+                }
+                @include mq_up(md) {
+                    padding-right: 40px;
+                }
+                &:before {
+                    font-weight: 600;
+                    margin-right: 4px;
+                }
+            }
+        }
+        .faq-question {
+            cursor: pointer;
+            p:before {
+                content: "Q";
+                color: $colorBlue;
+            }
+            .click-open {
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 0;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                background-color: #fff;
+                background-size: 30%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url("assets/images/icon_arrow_up_blue.png");
+                transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+                @include mq_down(md) {
+                    width: 30px;
+                    height: 30px;
+                }
+                @include mq_up(md) {
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+            @include mq_up(md) {
+                &:hover .click-open {
+                    background-color: $colorBlue;
+                    background-size: 30%;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-image: url("assets/images/icon_arrow_up_white.png");
+                }
+            }
+            &.is_active .click-open {
+                -webkit-transform: translateY(-50%) rotate(180deg);
+                transform: translateY(-50%) rotate(180deg);
+            }
+        }
+        .faq-answer {
+            display: none;
+            border-top: 1px solid #fff;
+            &.is_active {
+                display: flex !important;
+            }
+            p:before {
+                content: "A";
+                color: $colorRed;
+            }
+        }
+    }
+}

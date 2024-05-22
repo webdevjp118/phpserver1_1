@@ -1,0 +1,97 @@
+/*---------------------------------
+ページ全体の共通デザイン
+※ここは最初に決めたら基本的に変更しない
+変更時は制作チーム全体でファイルを更新する
+---------------------------------*/
+@use '../global'as g;
+
+/* scroll */
+html {
+  scroll-behavior: smooth;
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 688px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 640px) {
+    font-size: 26px;
+  }
+
+  @media (max-width: 592px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 544px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 496px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 448px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 352px) {
+    font-size: 14px;
+  }
+}
+
+/* layout */
+body {
+  color: #333;
+  font-family: g.$sansSerif;
+  background: url(../img/pt_bg.png) center/cover;
+
+  @include g.pc {
+    min-width: 970px;
+  }
+
+}
+
+.wrapper {
+  max-width: 1225px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inner {
+  max-width: 970px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+/*---------------------------------
+PC/ スマホ別表示
+---------------------------------*/
+@include g.pc {
+
+  .sp {
+    display: none;
+  }
+}
+
+@include g.sp {
+  .pc {
+    display: none;
+  }
+}

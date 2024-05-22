@@ -1,0 +1,7 @@
+<svg id="youtube_button" data-name="youtube button" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <path id="Polygon_1" data-name="Polygon 1" d="M7.5,0,15,13.078H0Z" transform="translate(48.078 33) rotate(90)" fill="#fff"/>
+  <g id="Ellipse_3" data-name="Ellipse 3" fill="none" stroke="#fff" stroke-width="1">
+    <circle cx="40" cy="40" r="40" stroke="none"/>
+    <circle cx="40" cy="40" r="39.5" fill="none"/>
+  </g>
+</svg>

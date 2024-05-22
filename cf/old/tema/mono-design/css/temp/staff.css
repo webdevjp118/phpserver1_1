@@ -1,0 +1,53 @@
+.staff .inner .list {
+  margin-bottom: 40px; }
+  .staff .inner .list:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .staff .inner .list .img {
+    width: 40%;
+    float: left; }
+    .staff .inner .list .img img {
+      width: 100%;
+      height: auto; }
+    @media screen and (max-width: 640px) {
+      .staff .inner .list .img {
+        /*sp*/
+        width: 100%;
+        float: none;
+        margin-bottom: 20px; } }
+  .staff .inner .list dl {
+    width: 55%;
+    float: right;
+    text-align: left; }
+    @media screen and (max-width: 640px) {
+      .staff .inner .list dl {
+        /*sp*/
+        width: 100%;
+        float: none;
+        margin-bottom: 20px; } }
+    .staff .inner .list dl dt {
+      width: 40%;
+      float: left;
+      font-weight: 500;
+      padding: 25px 0px;
+      clear: both; }
+    .staff .inner .list dl dd {
+      padding: 0 0 0 40%;
+      border-bottom: 1px solid #ccc;
+      padding: 25px 0px; }
+.staff .inner .list_detail {
+  text-align: left; }
+  .staff .inner .list_detail .box {
+    padding: 15px 0px;
+    border-bottom: 1px solid #ccc; }
+    .staff .inner .list_detail .box span {
+      display: block;
+      float: left;
+      width: 30%;
+      font-size: 0.9em; }
+    .staff .inner .list_detail .box p {
+      display: block;
+      float: left;
+      font-size: 1.2em;
+      width: 70%; }

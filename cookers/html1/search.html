@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe || Search</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="mask">
+      <svg version="1.1" id="mask" x="0px" y="0px" viewBox="0 0 1365 875.1" style="enable-background:new 0 0 1365 875.1;" preserveAspectRatio="none">
+        <path class="st0" d="M-142.4,910.1c40.9-679.4,574.6-1018.6,566.6-767.2s-192.8,715.9-23.9,697.3c181.6-20,357.5-399.9,399-579.6
+          c55.9-241.4,340.2-330.2,270.4-36.9s-157.6,850,61.9,573.6S1511.7-2.8,1511.7-2.8" style="stroke-width: 500px; stroke-dasharray: 4894; stroke-dashoffset: 0; stroke: #D0102C;;"></path>
+      </svg>
+      <svg version="1.1" id="mask-sp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354px" height="684px" viewBox="0 0 354 684" style="enable-background:new 0 0 354 684;" xml:space="preserve">
+        <path class="st0" d="M-31.1,105.6C61.3,76.1,390.5-63.5,355.3,69.8s-466.9,63.5-413.2,153s341.1,8.1,355,77.9
+        C311,370.5,52.7,422.6,1.2,446.6c-49.9,23.3-77.5,167.9,96.1,102C259,487.3,465.2,469.1,371,605.9c-69.3,100.7-428,45.6-428,45.6"></path>
+      </svg>
+    </div>
+    <!-- Page Header -->
+    <div class="pageHeader">
+      <!-- Menu Btn -->
+      <div
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+        class="menuBtn"
+      >
+        <div class="barLine"></div>
+        <div class="barLine"></div>
+        <div class="menuBtnText">メニュー</div>
+      </div>
+      <div class="container-fluid">
+        <div class="row headerRow">
+          <div class="col-1 noneCol">
+            <a class="headerLogo" href="index.html">
+              <img src="./img/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="col-12 col-lg-4">
+            <a href="index.html" class="carouselSectionLogo">
+              <img src="./img/logo.png" alt="" />
+            </a>
+            <div class="mobileTabButtons">
+              <a class="mobileTabBtn active" href="index.html">レシピ</a>
+              <a class="mobileTabBtn" href="./Pink/reading.html">読み物</a>
+            </div>
+            <div class="searchArea">
+              <select name="" id="">
+                <option value="">レシピ投稿者</option>
+                <option value="">レシピ投稿者 2</option>
+                <option value="">レシピ投稿者 3</option>
+              </select>
+              <input type="text" placeholder="料理名・食材名・イベント名" />
+              <img src="./img/search-icon.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-3 noneCol">
+            <div class="tabsButtons">
+              <a class="tabBtn active" href="index.html">レシピ</a>
+              <a class="tabBtn" href="./Pink/reading.html">読み物</a>
+            </div>
+          </div>
+          <div class="col-4 noneCol">
+            <div class="headerLinks">
+              <a class="headerLink" href="#">
+                <img src="./img/header-link-1.svg" alt="" />
+                <br />
+                <span>マイページ</span>
+              </a>
+              <a class="headerLink" href="#">
+                <img src="./img/header-link-2.svg" alt="" />
+                <br />
+                <span>ログイン</span>
+              </a>
+              <a class="headerLink" href="#">
+                <img src="./img/header-link-3.svg" alt="" />
+                <br />
+                <span>新規会員登録</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel Section -->
+    <section class="carouselSection">
+      <div id="recipeCarousel" class="owl-carousel owl-theme">
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-1.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-2.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-3.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-4.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-1.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-2.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-3.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-4.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-1.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-2.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-3.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-4.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-1.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-2.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-3.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-4.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-1.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-2.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-3.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-4.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-1.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-2.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-3.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-4.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-1.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-2.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-3.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-4.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-1.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-2.png"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            class="recipeCarouselImg"
+            src="./img/carousel-img-3.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contents Section -->
+    <section class="contentsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <!-- Side Contents -->
+            <div class="sideContainer">
+              <h2 class="sideContentsHeading">お知らせ</h2>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+            </div>
+			<!--
+            <div class="sideContainer">
+              <h2 class="sideContentsHeading">トピックス</h2>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+            </div>
+            <div class="sideContainer">
+              <h2 class="sideContentsHeading">最近Artist</h2>
+              <div class="row gx-3 sideContentsRow">
+                <div class="col-6">
+                  <div class="imageContentsSide">
+                    <img class="sideImg" src="./img/side-img-1.png" alt="" />
+                    <div class="imgNumber yellow">1</div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <h2 class="sideContentsSubHeading">名前テキスト</h2>
+                  <div class="sideContentsText">タイトルテキストテキスト</div>
+                </div>
+              </div>
+              <div class="row gx-3 sideContentsRow">
+                <div class="col-6">
+                  <div class="imageContentsSide">
+                    <img class="sideImg" src="./img/side-img-2.png" alt="" />
+                    <div class="imgNumber gray">2</div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <h2 class="sideContentsSubHeading">名前テキスト</h2>
+                  <div class="sideContentsText">タイトルテキストテキスト</div>
+                </div>
+              </div>
+              <div class="row gx-3 sideContentsRow">
+                <div class="col-6">
+                  <div class="imageContentsSide">
+                    <img class="sideImg" src="./img/side-img-3.png" alt="" />
+                    <div class="imgNumber brown">3</div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <h2 class="sideContentsSubHeading">名前テキスト</h2>
+                  <div class="sideContentsText">タイトルテキストテキスト</div>
+                </div>
+              </div>
+            </div>
+            -->
+			<div class="multiplueImages">
+              <img src="./img/side-img-4.png" alt="" />
+              <img src="./img/side-img-5.png" alt="" />
+              <img src="./img/side-img-6.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <!-- Center Contents -->
+            <div class="centerContents">
+              <div class="centerContentsHeader mb-0">
+                <h1 class="mainHeading">ハッシュタグ検索</h1>
+              </div>
+              <div class="searchPageArea">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="" id="" />
+              </div>
+              <div class="ingredientsButtons mt-2">
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+                <a class="ingredientsBtn" href="#">#ハッシュタグ</a>
+              </div>
+              <div class="centerContentsHeader mb-0">
+                <h1 class="mainHeading">具材で検索</h1>
+              </div>
+              <div class="ingredientsButtons mt-2">
+                <a class="ingredientsBtn" href="#">サラダ</a>
+                <a class="ingredientsBtn" href="#">ごはんもの</a>
+                <a class="ingredientsBtn" href="#">グラタン・ドリア</a>
+                <a class="ingredientsBtn" href="#">パスタ・スパゲッテ</a>
+                <a class="ingredientsBtn" href="#">つけもの・佃煮</a>
+                <a class="ingredientsBtn" href="#">卵料理</a>
+                <a class="ingredientsBtn" href="#">定番おかず</a>
+                <a class="ingredientsBtn" href="#">おつまみ・小鉢</a>
+                <a class="ingredientsBtn" href="#">揚げもの</a>
+                <a class="ingredientsBtn" href="#">汁もの・スープ</a>
+                <a class="ingredientsBtn" href="#">炒めもの</a>
+                <a class="ingredientsBtn" href="#">煮もの</a>
+                <a class="ingredientsBtn" href="#">燻製</a>
+                <a class="ingredientsBtn" href="#">粉もの</a>
+                <a class="ingredientsBtn" href="#">肉料理</a>
+                <a class="ingredientsBtn" href="#">お菓子・デザート</a>
+                <a class="ingredientsBtn" href="#">豆腐・大豆加工品</a>
+                <a class="ingredientsBtn" href="#">卵料理</a>
+                <a class="ingredientsBtn" href="#"
+                  >調味料・タレ・ソース・ドレッシング</a
+                >
+                <a class="ingredientsBtn" href="#">野菜料理</a>
+                <a class="ingredientsBtn" href="#">鍋もの</a>
+                <a class="ingredientsBtn" href="#">パン・お食事パイ</a>
+                <a class="ingredientsBtn" href="#">麺類</a>
+                <a class="ingredientsBtn" href="#">鶏肉料理</a>
+                <a class="ingredientsBtn" href="#">飲み物</a>
+                <a class="ingredientsBtn" href="#">魚介料理</a>
+              </div>
+              <div class="centerContentsHeader">
+                <h1 class="mainHeading">レシピ投稿者で検索</h1>
+              </div>
+              <!-- Row 1 -->
+              <div class="row gx-2 mb-4">
+                <div class="col-6">
+                  <a class="searchTabsBtn active" href="#">新しい順</a>
+                </div>
+                <div class="col-6">
+                  <a class="searchTabsBtn" href="#">人気順</a>
+                </div>
+              </div>
+              <div class="row g-2">
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-1.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-2.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-3.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-4.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-5.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-6.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-7.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-1.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-2.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-3.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-4.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <div class="recipeCard artistCard">
+                    <img
+                      class="recipeCardImg"
+                      src="./img/artist-card-img-5.png"
+                      alt=""
+                    />
+                    <div class="cardFooter">
+                      <p class="cardDetails">名前テキストさん</p>
+                      <p class="cardText">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                      </p>
+                      <div class="cardLinks">
+                        <a class="cardLink" href="#">
+                          <img src="./img/feather-user-plus-icon.svg" alt="" />
+                          <span>487</span>
+                        </a>
+                        <a class="cardLink" href="#">
+                          <img src="./img/book-icon.svg" alt="" />
+                          <span>84</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Paginations -->
+              <nav
+                class="searchPagePagination"
+                aria-label="Page navigation example"
+              >
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&#8249;</span>
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link active" href="#">2</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">...</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">15</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&#8250;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="centerContentsHeader mb-0 mt-3">
+                <h1 class="mainHeading">料理名で検索</h1>
+              </div>
+              <div class="ingredientsButtons mt-2">
+                <a class="ingredientsBtn" href="#">サラダ</a>
+                <a class="ingredientsBtn" href="#">ごはんもの</a>
+                <a class="ingredientsBtn" href="#">グラタン・ドリア</a>
+                <a class="ingredientsBtn" href="#">パスタ・スパゲッテ</a>
+                <a class="ingredientsBtn" href="#">つけもの・佃煮</a>
+                <a class="ingredientsBtn" href="#">卵料理</a>
+                <a class="ingredientsBtn" href="#">定番おかず</a>
+                <a class="ingredientsBtn" href="#">おつまみ・小鉢</a>
+                <a class="ingredientsBtn" href="#">揚げもの</a>
+                <a class="ingredientsBtn" href="#">汁もの・スープ</a>
+                <a class="ingredientsBtn" href="#">炒めもの</a>
+                <a class="ingredientsBtn" href="#">煮もの</a>
+                <a class="ingredientsBtn" href="#">燻製</a>
+                <a class="ingredientsBtn" href="#">粉もの</a>
+                <a class="ingredientsBtn" href="#">肉料理</a>
+                <a class="ingredientsBtn" href="#">お菓子・デザート</a>
+                <a class="ingredientsBtn" href="#">豆腐・大豆加工品</a>
+                <a class="ingredientsBtn" href="#">卵料理</a>
+                <a class="ingredientsBtn" href="#">野菜料理</a>
+                <a class="ingredientsBtn" href="#">鍋もの</a>
+                <a class="ingredientsBtn" href="#">パン・お食事パイ</a>
+                <a class="ingredientsBtn" href="#">麺類</a>
+                <a class="ingredientsBtn" href="#">鶏肉料理</a>
+                <a class="ingredientsBtn" href="#">飲み物</a>
+                <a class="ingredientsBtn" href="#">魚介料理</a>
+                <a class="ingredientsBtn" href="#"
+                  >調味料・タレ・ソース・ドレッシング</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brown Footer -->
+    <footer class="brownFooter">
+      <div class="container">
+        <div>
+          <a class="brownFooterLink" href="#">利用規約</a>
+          <a class="brownFooterLink mx-5" href="#">情報セキュリティ方針</a>
+          <a class="brownFooterLink" href="#">ヘルプ</a>
+        </div>
+        <p class="copyRightText">© 2023 ViSTAR Co.LTD.</p>
+      </div>
+    </footer>
+
+    <!-- Hide Menu -->
+    <div
+      class="offcanvas offcanvas-end hideMenu"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <div
+          class="hideMenuBtn"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+          class="hideMenuBtn"
+        >
+          <img src="./img/closed-icon.svg" alt="" />
+          <div>閉じる</div>
+        </div>
+      </div>
+      <div class="offcanvas-body">
+        <a class="hideMenuLink" href="cooker.html">ページトップ</a>
+        <br />
+        <a class="hideMenuLink" href="search.html">レシピ検索</a>
+        <br />
+        <a class="hideMenuLink" href="ranking.html">ランキング</a>
+        <br />
+        <a class="hideMenuLink mt-5" href="detail.html">ラログイン</a>
+        <br />
+        <a class="mainBtn" href="#">新規会員登録</a>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./js/pjax-api.js"></script>
+    <script src="./js/gsap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

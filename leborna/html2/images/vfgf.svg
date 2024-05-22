@@ -1,0 +1,377 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="457.999" height="452.001" viewBox="0 0 457.999 452.001">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dcdcdc"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="Ellipse_99" x="83.999" y="76" width="294" height="294" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_82" x="5.999" y="91" width="130" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_1" x="5.999" y="91.001" width="130.001" height="74.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_2" x="0" y="140.5" width="141.999" height="86.501" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="Path_235" x="35.194" y="141.59" width="73.74" height="28.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_82-2" x="5.999" y="221" width="130" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_1-2" x="5.999" y="221.001" width="130.001" height="74.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_2-2" x="0" y="270.5" width="141.999" height="86.501" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_234" x="41.464" y="271.59" width="61.2" height="28.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_82-3" x="321.999" y="91" width="130" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_1-3" x="321.999" y="91.001" width="130.001" height="74.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_2-3" x="316" y="140.5" width="141.999" height="86.501" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-12"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_233" x="350.054" y="140.12" width="75.78" height="30.27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-13"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_82-4" x="321.999" y="221" width="130" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-14"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_1-4" x="321.999" y="221.001" width="130.001" height="74.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-15"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_2-4" x="316" y="270.5" width="141.999" height="86.501" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-16"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_232" x="348.599" y="271.59" width="78.93" height="28.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-17"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_82-5" x="98.999" y="0" width="130" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-18"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-18"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_1-5" x="98.999" y="0.001" width="130.001" height="74.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-19"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-19"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_2-5" x="93" y="49.5" width="141.999" height="86.501" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-20"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-20"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_231" x="125.674" y="50.59" width="75.81" height="28.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-21"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-21"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_82-6" x="98.999" y="316" width="130" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-22"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-22"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_1-6" x="98.999" y="316.001" width="130.001" height="74.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-23"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-23"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_2-6" x="93" y="365.5" width="141.999" height="86.501" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-24"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-24"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_230" x="120.064" y="364.73" width="87.33" height="36.239" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-25"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-25"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_82-7" x="231.999" y="0" width="130" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-26"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-26"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_1-7" x="231.999" y="0.001" width="130.001" height="74.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-27"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-27"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_2-7" x="226" y="49.5" width="141.999" height="86.501" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-28"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-28"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_229" x="270.269" y="50.59" width="55.59" height="28.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-29"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-29"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_82-8" x="231.999" y="316" width="130" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-30"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-30"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_1-8" x="231.999" y="316.001" width="130.001" height="74.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-31"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-31"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_2-8" x="226" y="365.5" width="141.999" height="86.501" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-32"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-32"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_228" x="268.859" y="366.59" width="57.06" height="28.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-33"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-33"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_213" data-name="Group 213" transform="translate(-353.001 9018)">
+    <g id="Group_212" data-name="Group 212" transform="translate(-1 -2)">
+      <g transform="matrix(1, 0, 0, 1, 354, -9016)" filter="url(#Ellipse_99)">
+        <g id="Ellipse_99-2" data-name="Ellipse 99" transform="translate(97 88)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)">
+          <circle cx="132" cy="132" r="132" stroke="none"/>
+          <circle cx="132" cy="132" r="131.5" fill="none"/>
+        </g>
+      </g>
+      <path id="Path_236" data-name="Path 236" d="M-73.8-16l-1.06.46a22.621,22.621,0,0,1,1.62,2.76l1.08-.48A28.346,28.346,0,0,0-73.8-16Zm2.2-.8-1.06.46A20.787,20.787,0,0,1-71-13.6l1.08-.48A28.617,28.617,0,0,0-71.6-16.8Zm-7.58,1.76-1.84-.62a7.417,7.417,0,0,1-.62,1.6A16.752,16.752,0,0,1-87.92-7.3l1.38,1.02a19.3,19.3,0,0,0,5.08-4.92h6.74A16.239,16.239,0,0,1-77.9-4.96a16.018,16.018,0,0,1-8,5.02l1.46,1.32a17.8,17.8,0,0,0,7.96-5.44,19.562,19.562,0,0,0,3.54-6.9,6.285,6.285,0,0,1,.46-1.06l-1.32-.8a3.83,3.83,0,0,1-1.3.18h-5.42c.16-.28.32-.56.46-.84C-79.86-13.84-79.5-14.52-79.18-15.04Zm13,1.34c.04.48.04,1.1.04,1.56V-2.3c0,.7-.04,2.18-.06,2.44h1.72c-.02-.16-.02-.64-.04-1.16H-53.6c0,.54-.02,1.02-.02,1.16h1.72c-.02-.22-.04-1.78-.04-2.42v-9.86c0-.5,0-1.06.04-1.56-.6.04-1.32.04-1.76.04H-64.4C-64.86-13.66-65.4-13.68-66.18-13.7Zm1.66,1.62h10.94v9.5H-64.52Zm17.46,3.42V-6.7c.62-.06,1.68-.1,2.78-.1H-33.3c.9,0,1.74.08,2.14.1V-8.66c-.44.04-1.16.1-2.16.1H-44.28C-45.4-8.56-46.46-8.62-47.06-8.66Zm32.96-4.72-1.02-.78a5.477,5.477,0,0,1-1.5.16h-7.72c-.6,0-1.74-.08-2.02-.12v1.82c.22-.02,1.32-.1,2.02-.1h7.8a17.6,17.6,0,0,1-3.32,5.56A22.87,22.87,0,0,1-28.1-.9L-26.82.44a25.354,25.354,0,0,0,7.8-5.84A46.178,46.178,0,0,1-13.52.54l1.4-1.2a55.48,55.48,0,0,0-5.84-5.98A25.312,25.312,0,0,0-14.6-12.5,5.737,5.737,0,0,1-14.1-13.38Zm21.22.08L5.9-14.08a4.107,4.107,0,0,1-1.06.1H-5.2c-.66,0-1.44-.06-2-.12v1.76c.52-.02,1.2-.06,2-.06H5.02A15.216,15.216,0,0,1,2.4-5.88,13.346,13.346,0,0,1-5.4-1.06L-4.04.44A15.286,15.286,0,0,0,3.84-4.92,19.539,19.539,0,0,0,6.82-12.3,4.218,4.218,0,0,1,7.12-13.3ZM27.2-10.1l-.9-.84a6.425,6.425,0,0,1-1.1.1H15.32a14.329,14.329,0,0,1-1.88-.14v1.66c.62-.04,1.28-.08,1.88-.08.78,0,8.44.02,9.56.02a12.039,12.039,0,0,1-3.44,3.6l1.3.9A17.518,17.518,0,0,0,26.8-9.56,5.386,5.386,0,0,1,27.2-10.1ZM20.48-8.04H18.74a8.14,8.14,0,0,1,.12,1.18c0,2.62-.38,4.82-3.08,6.64A5.872,5.872,0,0,1,14.4.46l1.42,1.12C20.04-.76,20.44-3.78,20.48-8.04Zm20.16-7.5-1.86-.6a6.849,6.849,0,0,1-.62,1.58A16.487,16.487,0,0,1,31.88-7.8l1.38,1.04a20.275,20.275,0,0,0,5.08-4.92H45.1a16.442,16.442,0,0,1-3.2,6.24A16.18,16.18,0,0,1,33.92-.42L35.36.88a17.535,17.535,0,0,0,7.96-5.44,19.4,19.4,0,0,0,3.56-6.88,6.284,6.284,0,0,1,.46-1.06L46-13.32a3.347,3.347,0,0,1-1.3.2H39.28a8.988,8.988,0,0,0,.48-.84A15.124,15.124,0,0,1,40.64-15.54Zm19.18-.16L58-16.28a7.223,7.223,0,0,1-.64,1.58,18.328,18.328,0,0,1-6.42,6.96L52.28-6.7a21.817,21.817,0,0,0,5.3-5.3h6.76a16.709,16.709,0,0,1-2.72,5.54c-1.4-.98-2.9-1.94-4.22-2.7l-1.08,1.1c1.28.8,2.8,1.84,4.24,2.88A17.545,17.545,0,0,1,52.82-.36L54.26.88A18.978,18.978,0,0,0,61.88-4.2c.82.66,1.58,1.28,2.18,1.82l1.18-1.38c-.64-.52-1.44-1.14-2.28-1.76a20.132,20.132,0,0,0,3.12-6.22,6.563,6.563,0,0,1,.48-1.08l-1.32-.8a3.986,3.986,0,0,1-1.32.2H58.5a6.707,6.707,0,0,0,.42-.72C59.12-14.5,59.48-15.18,59.82-15.7ZM71.14-8.66V-6.7c.62-.06,1.68-.1,2.78-.1H84.9c.9,0,1.74.08,2.14.1V-8.66c-.44.04-1.16.1-2.16.1H73.92C72.8-8.56,71.74-8.62,71.14-8.66Z" transform="translate(583 -8763)" fill="#989898"/>
+      <path id="Path_237" data-name="Path 237" d="M-36.45-15.84a30.367,30.367,0,0,1-2.88,6.66,70.844,70.844,0,0,1-1.2-8.22h9.27v-3.54h-3.12l1.44-1.53a25.1,25.1,0,0,0-4.89-3.21l-2.16,2.13a37.558,37.558,0,0,1,3.84,2.61h-4.59c-.06-1.47-.09-2.94-.06-4.44h-3.75c0,1.5.06,2.97.12,4.44H-56.67v8.76c0,3.9-.21,9.12-2.49,12.72a15.617,15.617,0,0,1,3.03,2.43c2.46-3.66,3.09-9.51,3.21-13.89h3.9c-.09,3.78-.21,5.22-.51,5.64a.97.97,0,0,1-.9.36c-.48,0-1.5-.03-2.58-.12a8.1,8.1,0,0,1,.99,3.33,23.605,23.605,0,0,0,3.45-.09A2.819,2.819,0,0,0-46.5-3c.69-.87.87-3.54.96-9.84,0-.42.03-1.35.03-1.35h-7.41V-17.4h8.7A61.973,61.973,0,0,0-42.15-5.31,22.919,22.919,0,0,1-48.27-.45a23.517,23.517,0,0,1,2.58,2.94,25.428,25.428,0,0,0,5.07-4.08c1.32,2.46,2.97,3.96,5.07,3.96,2.79,0,3.99-1.32,4.56-6.87a9.7,9.7,0,0,1-3.03-2.01c-.15,3.75-.51,5.25-1.23,5.25-.96,0-1.92-1.26-2.79-3.42a34.848,34.848,0,0,0,5.16-10.29ZM-5.73-8.16a42.254,42.254,0,0,1-4.59,3.12,14.274,14.274,0,0,1-2.37-3.12Zm1.05,0h3.21v-3.15H-19.86v-1.56H-5.43v-2.76H-19.86v-1.5H-5.43v-2.76H-19.86v-1.59H-4.59v-2.91H-23.52v13.08H-28.5v3.15h4.95v6.87c-1.35.15-2.58.33-3.66.45l.81,3.27c3.63-.54,8.58-1.29,13.17-2.04l-.15-3.15c-2.16.33-4.38.66-6.48.96V-8.16h3.45c2.49,5.67,6.48,9.24,13.26,10.8A15.85,15.85,0,0,1-.9-.57,19.842,19.842,0,0,1-7.89-3.15,50.514,50.514,0,0,0-2.37-6.54Zm27.72-4.8v-3.18H16.38c.06-1.23.12-2.52.15-3.87h-3.3c-.03,1.38-.06,2.67-.15,3.87H6.96v3.18h5.76c-.69,3.45-2.28,5.85-6.33,7.41A9.731,9.731,0,0,1,8.4-2.82,11.162,11.162,0,0,0,15.09-9.3a11.15,11.15,0,0,0,6.18,6.48A10.721,10.721,0,0,1,23.4-5.7c-3.51-1.17-5.46-3.78-6.48-7.26ZM5.79-2.07V-20.7H24.12V-2.07ZM2.25-24.12V2.55H5.79V1.38H24.12V2.55h3.72V-24.12ZM58.77-12.33H46.89v-1.92a46.7,46.7,0,0,0,9.6-7.47l-2.73-2.04-.81.18H34.38v3.51H49.23a36.488,36.488,0,0,1-4.29,3H43.17v4.74H31.26v3.57H43.17v7.14c0,.54-.21.69-.84.69-.69,0-3,0-5.07-.09a16.168,16.168,0,0,1,1.5,3.69c2.73.03,4.83-.06,6.24-.63,1.44-.57,1.89-1.53,1.89-3.6v-7.2H58.77Z" transform="translate(583 -8800)" fill="#176fa2"/>
+    </g>
+    <g id="Group_211" data-name="Group 211">
+      <g id="info_item2" data-name="info item2" transform="translate(368 -8921)">
+        <g transform="matrix(1, 0, 0, 1, -15, -97)" filter="url(#Ellipse_82)">
+          <circle id="Ellipse_82-9" data-name="Ellipse 82" cx="56" cy="56" r="56" transform="translate(15 97)" fill="#3898c6"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -15, -97)" filter="url(#Subtraction_1)" style="mix-blend-mode: screen;isolation: isolate">
+          <path id="Subtraction_1-9" data-name="Subtraction 1" d="M6,8536.5H6c0-.1,0-.211,0-.316V8536a56.015,56.015,0,0,1,107.6-21.8A55.647,55.647,0,0,1,118,8536c0,.128,0,.258,0,.387A56,56,0,0,0,6,8536.5Z" transform="translate(9 -8383)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -15, -97)" filter="url(#Subtraction_2)" style="mix-blend-mode: soft-light;isolation: isolate">
+          <path id="Subtraction_2-9" data-name="Subtraction 2" d="M62,8592a55.955,55.955,0,0,1-56-56c0-.166,0-.333,0-.5a56,56,0,0,0,111.994,0c0,.1,0,.209,0,.314V8536a55.954,55.954,0,0,1-56,56Z" transform="translate(9 -8383)"/>
+        </g>
+        <circle id="Ellipse_100" data-name="Ellipse 100" cx="56" cy="56" r="56" transform="translate(0)" opacity="0.25" fill="url(#linear-gradient-2)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        <g transform="matrix(1, 0, 0, 1, -15, -97)" filter="url(#Path_235)">
+          <path id="Path_235-2" data-name="Path 235" d="M-32.8,0h2.79V-8.73h3.63c4.83,0,8.1-2.16,8.1-6.81,0-4.8-3.3-6.48-8.22-6.48h-6.3Zm2.79-10.98v-8.76h3.15c3.87,0,5.82,1.02,5.82,4.2,0,3.15-1.83,4.56-5.7,4.56ZM-13.845,0h12.39V-2.37h-9.6V-22.02h-2.79Zm24.06.39a9.443,9.443,0,0,0,6.81-2.55V-11.4h-7.2v2.31h4.65v5.76a6.032,6.032,0,0,1-3.96,1.29c-4.74,0-7.35-3.48-7.35-9.03,0-5.49,2.88-8.91,7.29-8.91a6.168,6.168,0,0,1,4.77,2.1l1.5-1.8a8.37,8.37,0,0,0-6.33-2.73c-5.82,0-10.08,4.32-10.08,11.43C.315-3.84,4.455.39,10.215.39ZM22.245,0h2.79V-9.87h8.4v-2.34h-8.4v-7.44h9.9v-2.37H22.245Z" transform="translate(71 166)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="info_item2-2" data-name="info item2" transform="translate(368 -8791)">
+        <g transform="matrix(1, 0, 0, 1, -15, -227)" filter="url(#Ellipse_82-2)">
+          <circle id="Ellipse_82-10" data-name="Ellipse 82" cx="56" cy="56" r="56" transform="translate(15 227)" fill="#2cb0d3"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -15, -227)" filter="url(#Subtraction_1-2)" style="mix-blend-mode: screen;isolation: isolate">
+          <path id="Subtraction_1-10" data-name="Subtraction 1" d="M6,8536.5H6c0-.1,0-.211,0-.316V8536a56.015,56.015,0,0,1,107.6-21.8A55.647,55.647,0,0,1,118,8536c0,.128,0,.258,0,.387A56,56,0,0,0,6,8536.5Z" transform="translate(9 -8253)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -15, -227)" filter="url(#Subtraction_2-2)" style="mix-blend-mode: soft-light;isolation: isolate">
+          <path id="Subtraction_2-10" data-name="Subtraction 2" d="M62,8592a55.955,55.955,0,0,1-56-56c0-.166,0-.333,0-.5a56,56,0,0,0,111.994,0c0,.1,0,.209,0,.314V8536a55.954,55.954,0,0,1-56,56Z" transform="translate(9 -8253)"/>
+        </g>
+        <circle id="Ellipse_100-2" data-name="Ellipse 100" cx="56" cy="56" r="56" transform="translate(0)" opacity="0.25" fill="url(#linear-gradient-2)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        <g transform="matrix(1, 0, 0, 1, -15, -227)" filter="url(#Path_234)">
+          <path id="Path_234-2" data-name="Path 234" d="M-26.535,0h2.79V-10.38h10.26V0h2.76V-22.02h-2.76v9.24h-10.26v-9.24h-2.79ZM3.945.39a9.443,9.443,0,0,0,6.81-2.55V-11.4h-7.2v2.31h4.65v5.76a6.032,6.032,0,0,1-3.96,1.29c-4.74,0-7.35-3.48-7.35-9.03,0-5.49,2.88-8.91,7.29-8.91a6.168,6.168,0,0,1,4.77,2.1l1.5-1.8a8.37,8.37,0,0,0-6.33-2.73c-5.82,0-10.08,4.32-10.08,11.43C-5.955-3.84-1.815.39,3.945.39ZM15.975,0h2.79V-9.87h8.4v-2.34h-8.4v-7.44h9.9v-2.37H15.975Z" transform="translate(71 296)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="info_item2-3" data-name="info item2" transform="translate(684 -8921)">
+        <g transform="matrix(1, 0, 0, 1, -331, -97)" filter="url(#Ellipse_82-3)">
+          <circle id="Ellipse_82-11" data-name="Ellipse 82" cx="56" cy="56" r="56" transform="translate(331 97)" fill="#f71b2e"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -331, -97)" filter="url(#Subtraction_1-3)" style="mix-blend-mode: screen;isolation: isolate">
+          <path id="Subtraction_1-11" data-name="Subtraction 1" d="M6,8536.5H6c0-.1,0-.211,0-.316V8536a56.015,56.015,0,0,1,107.6-21.8A55.647,55.647,0,0,1,118,8536c0,.128,0,.258,0,.387A56,56,0,0,0,6,8536.5Z" transform="translate(325 -8383)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -331, -97)" filter="url(#Subtraction_2-3)" style="mix-blend-mode: soft-light;isolation: isolate">
+          <path id="Subtraction_2-11" data-name="Subtraction 2" d="M62,8592a55.955,55.955,0,0,1-56-56c0-.166,0-.333,0-.5a56,56,0,0,0,111.994,0c0,.1,0,.209,0,.314V8536a55.954,55.954,0,0,1-56,56Z" transform="translate(325 -8383)"/>
+        </g>
+        <circle id="Ellipse_100-3" data-name="Ellipse 100" cx="56" cy="56" r="56" transform="translate(0)" opacity="0.25" fill="url(#linear-gradient-2)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        <g transform="matrix(1, 0, 0, 1, -331, -97)" filter="url(#Path_233)">
+          <path id="Path_233-2" data-name="Path 233" d="M-26.775.39c3.75,0,7.08-3.21,7.08-8.82,0-4.98-2.28-8.28-6.51-8.28a8.207,8.207,0,0,0-5.1,2.31l.09-2.94v-6.54h-2.73V0h2.19l.24-1.68h.12A7.236,7.236,0,0,0-26.775.39Zm-.45-2.28a6.253,6.253,0,0,1-3.99-1.71v-8.55c1.56-1.47,3-2.25,4.38-2.25,3.09,0,4.29,2.43,4.29,6.03C-22.545-4.32-24.525-1.89-27.225-1.89ZM-15.165,0h13.02V-2.37h-10.23v-8.01h8.34v-2.37h-8.34v-6.9h9.9v-2.37h-12.69Zm26.28.39a9.443,9.443,0,0,0,6.81-2.55V-11.4h-7.2v2.31h4.65v5.76a6.032,6.032,0,0,1-3.96,1.29c-4.74,0-7.35-3.48-7.35-9.03,0-5.49,2.88-8.91,7.29-8.91a6.168,6.168,0,0,1,4.77,2.1l1.5-1.8a8.37,8.37,0,0,0-6.33-2.73c-5.82,0-10.08,4.32-10.08,11.43C1.215-3.84,5.355.39,11.115.39ZM23.145,0h2.79V-9.87h8.4v-2.34h-8.4v-7.44h9.9v-2.37H23.145Z" transform="translate(387 166)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="info_item2-4" data-name="info item2" transform="translate(684 -8791)">
+        <g transform="matrix(1, 0, 0, 1, -331, -227)" filter="url(#Ellipse_82-4)">
+          <circle id="Ellipse_82-12" data-name="Ellipse 82" cx="56" cy="56" r="56" transform="translate(331 227)" fill="#fa901c"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -331, -227)" filter="url(#Subtraction_1-4)" style="mix-blend-mode: screen;isolation: isolate">
+          <path id="Subtraction_1-12" data-name="Subtraction 1" d="M6,8536.5H6c0-.1,0-.211,0-.316V8536a56.015,56.015,0,0,1,107.6-21.8A55.647,55.647,0,0,1,118,8536c0,.128,0,.258,0,.387A56,56,0,0,0,6,8536.5Z" transform="translate(325 -8253)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -331, -227)" filter="url(#Subtraction_2-4)" style="mix-blend-mode: soft-light;isolation: isolate">
+          <path id="Subtraction_2-12" data-name="Subtraction 2" d="M62,8592a55.955,55.955,0,0,1-56-56c0-.166,0-.333,0-.5a56,56,0,0,0,111.994,0c0,.1,0,.209,0,.314V8536a55.954,55.954,0,0,1-56,56Z" transform="translate(325 -8253)"/>
+        </g>
+        <circle id="Ellipse_100-4" data-name="Ellipse 100" cx="56" cy="56" r="56" transform="translate(0)" opacity="0.25" fill="url(#linear-gradient-2)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        <g transform="matrix(1, 0, 0, 1, -331, -227)" filter="url(#Path_232)">
+          <path id="Path_232-2" data-name="Path 232" d="M-35.4,0h2.79V-8.73h3.63c4.83,0,8.1-2.16,8.1-6.81,0-4.8-3.3-6.48-8.22-6.48h-6.3Zm2.79-10.98v-8.76h3.15c3.87,0,5.82,1.02,5.82,4.2,0,3.15-1.83,4.56-5.7,4.56ZM-16.44,0h5.64C-4.17,0-.54-4.11-.54-11.07c0-6.99-3.63-10.95-10.38-10.95h-5.52Zm2.79-2.28V-19.74h2.49c5.19,0,7.74,3.09,7.74,8.67,0,5.55-2.55,8.79-7.74,8.79ZM12.81.39a9.443,9.443,0,0,0,6.81-2.55V-11.4h-7.2v2.31h4.65v5.76a6.032,6.032,0,0,1-3.96,1.29c-4.74,0-7.35-3.48-7.35-9.03,0-5.49,2.88-8.91,7.29-8.91a6.168,6.168,0,0,1,4.77,2.1l1.5-1.8a8.37,8.37,0,0,0-6.33-2.73c-5.82,0-10.08,4.32-10.08,11.43C2.91-3.84,7.05.39,12.81.39ZM24.84,0h2.79V-9.87h8.4v-2.34h-8.4v-7.44h9.9v-2.37H24.84Z" transform="translate(387 296)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="info_item2-5" data-name="info item2" transform="translate(461 -9012)">
+        <g transform="matrix(1, 0, 0, 1, -108, -6)" filter="url(#Ellipse_82-5)">
+          <circle id="Ellipse_82-13" data-name="Ellipse 82" cx="56" cy="56" r="56" transform="translate(108 6)" fill="#b845bb"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -108, -6)" filter="url(#Subtraction_1-5)" style="mix-blend-mode: screen;isolation: isolate">
+          <path id="Subtraction_1-13" data-name="Subtraction 1" d="M6,8536.5H6c0-.1,0-.211,0-.316V8536a56.015,56.015,0,0,1,107.6-21.8A55.647,55.647,0,0,1,118,8536c0,.128,0,.258,0,.387A56,56,0,0,0,6,8536.5Z" transform="translate(102 -8474)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -108, -6)" filter="url(#Subtraction_2-5)" style="mix-blend-mode: soft-light;isolation: isolate">
+          <path id="Subtraction_2-13" data-name="Subtraction 2" d="M62,8592a55.955,55.955,0,0,1-56-56c0-.166,0-.333,0-.5a56,56,0,0,0,111.994,0c0,.1,0,.209,0,.314V8536a55.954,55.954,0,0,1-56,56Z" transform="translate(102 -8474)"/>
+        </g>
+        <circle id="Ellipse_100-5" data-name="Ellipse 100" cx="56" cy="56" r="56" transform="translate(0)" opacity="0.25" fill="url(#linear-gradient-2)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        <g transform="matrix(1, 0, 0, 1, -108, -6)" filter="url(#Path_231)">
+          <path id="Path_231-2" data-name="Path 231" d="M-28.305,0h3.21l6.99-22.02h-2.82l-3.54,11.94c-.78,2.58-1.32,4.68-2.13,7.26h-.12c-.84-2.58-1.35-4.68-2.13-7.26l-3.57-11.94h-2.91Zm13.2,0h2.79V-9.87h8.4v-2.34h-8.4v-7.44h9.9v-2.37H-15.1ZM9.765.39a9.443,9.443,0,0,0,6.81-2.55V-11.4h-7.2v2.31h4.65v5.76a6.032,6.032,0,0,1-3.96,1.29c-4.74,0-7.35-3.48-7.35-9.03,0-5.49,2.88-8.91,7.29-8.91a6.168,6.168,0,0,1,4.77,2.1l1.5-1.8a8.37,8.37,0,0,0-6.33-2.73c-5.82,0-10.08,4.32-10.08,11.43C-.135-3.84,4.005.39,9.765.39ZM21.8,0h2.79V-9.87h8.4v-2.34h-8.4v-7.44h9.9v-2.37H21.8Z" transform="translate(164 75)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="info_item2-6" data-name="info item2" transform="translate(461 -8696)">
+        <g transform="matrix(1, 0, 0, 1, -108, -322)" filter="url(#Ellipse_82-6)">
+          <circle id="Ellipse_82-14" data-name="Ellipse 82" cx="56" cy="56" r="56" transform="translate(108 322)" fill="#33bf9a"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -108, -322)" filter="url(#Subtraction_1-6)" style="mix-blend-mode: screen;isolation: isolate">
+          <path id="Subtraction_1-14" data-name="Subtraction 1" d="M6,8536.5H6c0-.1,0-.211,0-.316V8536a56.015,56.015,0,0,1,107.6-21.8A55.647,55.647,0,0,1,118,8536c0,.128,0,.258,0,.387A56,56,0,0,0,6,8536.5Z" transform="translate(102 -8158)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -108, -322)" filter="url(#Subtraction_2-6)" style="mix-blend-mode: soft-light;isolation: isolate">
+          <path id="Subtraction_2-14" data-name="Subtraction 2" d="M62,8592a55.955,55.955,0,0,1-56-56c0-.166,0-.333,0-.5a56,56,0,0,0,111.994,0c0,.1,0,.209,0,.314V8536a55.954,55.954,0,0,1-56,56Z" transform="translate(102 -8158)"/>
+        </g>
+        <circle id="Ellipse_100-6" data-name="Ellipse 100" cx="56" cy="56" r="56" transform="translate(0)" opacity="0.25" fill="url(#linear-gradient-2)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        <g transform="matrix(1, 0, 0, 1, -108, -322)" filter="url(#Path_230)">
+          <path id="Path_230-2" data-name="Path 230" d="M-34.275,0h2.79V-19.65h6.66v-2.37h-16.11v2.37h6.66Zm21.21.39a9.443,9.443,0,0,0,6.81-2.55V-11.4h-7.2v2.31h4.65v5.76a6.032,6.032,0,0,1-3.96,1.29c-4.74,0-7.35-3.48-7.35-9.03,0-5.49,2.88-8.91,7.29-8.91a6.168,6.168,0,0,1,4.77,2.1l1.5-1.8a8.37,8.37,0,0,0-6.33-2.73c-5.82,0-10.08,4.32-10.08,11.43C-22.965-3.84-18.825.39-13.065.39ZM-1.035,0h2.79V-9.87h8.4v-2.34h-8.4v-7.44h9.9v-2.37H-1.035ZM13.9-7.35h7.68v-2.1H13.9Zm11.7,13.32h2.76c-.06-2.73-.09-5.31-.18-8.07A7.546,7.546,0,0,0,34.005.39c3.3,0,6.39-2.46,6.39-6.87,0-3.42-2.01-5.85-5.25-6.3v-.15a6.31,6.31,0,0,0,3.27-5.58c0-3.9-2.97-5.76-6.12-5.76-4.56,0-6.69,3.33-6.69,7.8Zm7.77-7.86a6.3,6.3,0,0,1-5.19-2.55c0-3.93.03-7.77.09-11.64.03-3.9,1.56-6,4.05-6,1.83,0,3.42,1.26,3.42,3.78,0,2.16-1.32,4.5-4.77,5.19l.42,2.1a6.291,6.291,0,0,1,1.68-.21,4.237,4.237,0,0,1,4.59,4.59C37.665-3.66,35.745-1.89,33.375-1.89Z" transform="translate(164 391)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="info_item2-7" data-name="info item2" transform="translate(594 -9012)">
+        <g transform="matrix(1, 0, 0, 1, -241, -6)" filter="url(#Ellipse_82-7)">
+          <circle id="Ellipse_82-15" data-name="Ellipse 82" cx="56" cy="56" r="56" transform="translate(241 6)" fill="#e10062"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -241, -6)" filter="url(#Subtraction_1-7)" style="mix-blend-mode: screen;isolation: isolate">
+          <path id="Subtraction_1-15" data-name="Subtraction 1" d="M6,8536.5H6c0-.1,0-.211,0-.316V8536a56.015,56.015,0,0,1,107.6-21.8A55.647,55.647,0,0,1,118,8536c0,.128,0,.258,0,.387A56,56,0,0,0,6,8536.5Z" transform="translate(235 -8474)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -241, -6)" filter="url(#Subtraction_2-7)" style="mix-blend-mode: soft-light;isolation: isolate">
+          <path id="Subtraction_2-15" data-name="Subtraction 2" d="M62,8592a55.955,55.955,0,0,1-56-56c0-.166,0-.333,0-.5a56,56,0,0,0,111.994,0c0,.1,0,.209,0,.314V8536a55.954,55.954,0,0,1-56,56Z" transform="translate(235 -8474)"/>
+        </g>
+        <circle id="Ellipse_100-7" data-name="Ellipse 100" cx="56" cy="56" r="56" transform="translate(0)" opacity="0.25" fill="url(#linear-gradient-2)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        <g transform="matrix(1, 0, 0, 1, -241, -6)" filter="url(#Path_229)">
+          <path id="Path_229-2" data-name="Path 229" d="M-23.73,0h2.79V-9.87h8.4v-2.34h-8.4v-7.44h9.9v-2.37H-23.73ZM1.14.39A9.443,9.443,0,0,0,7.95-2.16V-11.4H.75v2.31H5.4v5.76A6.032,6.032,0,0,1,1.44-2.04c-4.74,0-7.35-3.48-7.35-9.03,0-5.49,2.88-8.91,7.29-8.91a6.168,6.168,0,0,1,4.77,2.1l1.5-1.8a8.37,8.37,0,0,0-6.33-2.73c-5.82,0-10.08,4.32-10.08,11.43C-8.76-3.84-4.62.39,1.14.39ZM13.17,0h2.79V-9.87h8.4v-2.34h-8.4v-7.44h9.9v-2.37H13.17Z" transform="translate(297 75)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="info_item2-8" data-name="info item2" transform="translate(594 -8696)">
+        <g transform="matrix(1, 0, 0, 1, -241, -322)" filter="url(#Ellipse_82-8)">
+          <circle id="Ellipse_82-16" data-name="Ellipse 82" cx="56" cy="56" r="56" transform="translate(241 322)" fill="#90c43f"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -241, -322)" filter="url(#Subtraction_1-8)" style="mix-blend-mode: screen;isolation: isolate">
+          <path id="Subtraction_1-16" data-name="Subtraction 1" d="M6,8536.5H6c0-.1,0-.211,0-.316V8536a56.015,56.015,0,0,1,107.6-21.8A55.647,55.647,0,0,1,118,8536c0,.128,0,.258,0,.387A56,56,0,0,0,6,8536.5Z" transform="translate(235 -8158)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -241, -322)" filter="url(#Subtraction_2-8)" style="mix-blend-mode: soft-light;isolation: isolate">
+          <path id="Subtraction_2-16" data-name="Subtraction 2" d="M62,8592a55.955,55.955,0,0,1-56-56c0-.166,0-.333,0-.5a56,56,0,0,0,111.994,0c0,.1,0,.209,0,.314V8536a55.954,55.954,0,0,1-56,56Z" transform="translate(235 -8158)"/>
+        </g>
+        <circle id="Ellipse_100-8" data-name="Ellipse 100" cx="56" cy="56" r="56" transform="translate(0)" opacity="0.25" fill="url(#linear-gradient-2)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        <g transform="matrix(1, 0, 0, 1, -241, -322)" filter="url(#Path_228)">
+          <path id="Path_228-2" data-name="Path 228" d="M-25.14,0h2.79V-6.96l3.78-4.5L-11.97,0h3.09l-7.95-13.62,6.87-8.4h-3.12l-9.18,11.07h-.09V-22.02h-2.79ZM-5.76,0h2.79V-9.87h8.4v-2.34h-8.4v-7.44h9.9v-2.37H-5.76ZM19.11.39a9.443,9.443,0,0,0,6.81-2.55V-11.4h-7.2v2.31h4.65v5.76a6.032,6.032,0,0,1-3.96,1.29c-4.74,0-7.35-3.48-7.35-9.03,0-5.49,2.88-8.91,7.29-8.91a6.168,6.168,0,0,1,4.77,2.1l1.5-1.8a8.37,8.37,0,0,0-6.33-2.73c-5.82,0-10.08,4.32-10.08,11.43C9.21-3.84,13.35.39,19.11.39Z" transform="translate(297 391)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

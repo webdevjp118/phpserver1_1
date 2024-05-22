@@ -1,0 +1,84 @@
+@use '../global'as g;
+
+
+.xl_en {
+  font-family: g.$cor;
+  font-size: 160px;
+  font-weight: bold;
+  font-style: italic;
+
+  @include g.sp {
+    font-size: 20vw;
+  }
+}
+
+._en {
+  font-family: g.$cor;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  color: rgba($color: #333, $alpha: 0.1);
+
+  @include g.sp {
+    font-size: 1.875rem;
+  }
+}
+
+.page {
+  padding-top: 150px;
+
+  @include g.pc {
+    height: 460px;
+  }
+
+  @include g.sp {
+    padding-top: 15vh;
+    padding-bottom: 3em;
+  }
+
+  .pageTitle {
+    font-family: g.$serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+
+    @include g.sp {
+      font-size: 10vw;
+    }
+  }
+
+  .xl_en {
+    font-size: 140px;
+    color: rgba($color: #fff, $alpha: 0.4);
+    text-align: right;
+
+    @include g.pc {
+      transform: translateY(-50px);
+    }
+
+    @include g.sp {
+      font-size: 20vw;
+    }
+  }
+
+  .breadcrumb {
+    max-width: 1120px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 2em;
+
+    @include g.sp {
+      margin-left: 1em;
+    }
+
+    .bread_top {
+      text-decoration: underline;
+    }
+  }
+}
+
+

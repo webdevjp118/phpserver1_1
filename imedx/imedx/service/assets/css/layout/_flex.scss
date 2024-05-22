@@ -1,0 +1,5 @@
+.l-flex {
+    @include mq_up(md) {
+        display: flex;
+    }
+}

@@ -1,0 +1,118 @@
+.outline .inner {
+  text-align: left;
+}
+.outline .inner .greeting {
+  margin-bottom: 40px;
+}
+.outline .inner .greeting .title_img {
+  background: url(../img/outline/greeting_bg.png);
+  background-size: cover;
+  padding: 90px 50px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 640px) {
+  .outline .inner .greeting .title_img {
+    /*sp*/
+    padding: 50px 25px;
+  }
+}
+.outline .inner .greeting .title_img span {
+  font-size: 1.6em;
+  line-height: 1.4em;
+  color: #fff;
+  text-shadow: 0 0 6px #000;
+}
+@media screen and (max-width: 640px) {
+  .outline .inner .greeting .title_img span {
+    /*sp*/
+    font-size: 1.2em;
+  }
+}
+.outline .inner .greeting .text {
+  margin-bottom: 30px;
+  line-height: 1.8em;
+}
+.outline .inner .greeting .name {
+  text-align: right;
+  font-size: 1.4rem;
+  line-height: 1.8em;
+}
+.outline .inner .info {
+  margin-bottom: 60px;
+}
+.outline .inner .info:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.outline .inner .info .text {
+  width: 100%;
+}
+@media screen and (max-width: 640px) {
+  .outline .inner .info .text {
+    /*sp*/
+    width: 100%;
+    float: none;
+  }
+}
+.outline .inner .info .text table {
+  width: 100%;
+}
+.outline .inner .info .text table tr th {
+  width: 30%;
+  text-align: left;
+  padding: 10px;
+  background: #eee;
+  border-bottom: 1px solid #fff;
+}
+@media screen and (max-width: 640px) {
+  .outline .inner .info .text table tr th {
+    /*sp*/
+    display: block;
+    width: 100%;
+  }
+}
+.outline .inner .info .text table tr td {
+  width: 70%;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+@media screen and (max-width: 640px) {
+  .outline .inner .info .text table tr td {
+    /*sp*/
+    display: block;
+    width: 100%;
+  }
+}
+.outline .inner .history {
+  margin-bottom: 60px;
+}
+.outline .inner .history table {
+  width: 100%;
+}
+.outline .inner .history table tr th {
+  width: 30%;
+  text-align: left;
+  padding: 10px;
+  background: #eee;
+  border-bottom: 1px solid #fff;
+}
+.outline .inner .history table tr td {
+  width: 70%;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.outline .inner .access {
+  margin-bottom: 60px;
+}
+.outline .inner .access .text {
+  margin-bottom: 30px;
+}
+.outline .inner .access .text span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: 500;
+}

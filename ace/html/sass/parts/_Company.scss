@@ -1,0 +1,259 @@
+@use '../global'as g;
+
+.page._company {
+  background: radial-gradient(rgba(#333, .28) 0%, rgba(#333, .28) 100%), url(../img/company_01.png) no-repeat center/cover;
+  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
+
+  @include g.sp {
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  }
+}
+
+.message {
+  padding-top: 2em;
+  padding-bottom: 250px;
+
+  @include g.sp {
+    padding-bottom: 10em;
+  }
+
+  .section_title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 46px;
+    position: relative;
+
+    @include g.sp {
+      font-size: 1.75rem;
+    }
+
+    &::after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: #9D0105;
+      position: absolute;
+      bottom: -0.3em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+
+  .message_box {
+    width: 1120px;
+    margin: 0 auto;
+
+    @include g.sp {
+      width: 95%;
+    }
+
+    .message_text {
+      font-size: 18px;
+      line-height: 1.78;
+      margin-bottom: 2em;
+
+      @include g.sp {
+        font-size: 1.125rem;
+      }
+    }
+
+    .flex {
+      @include g.pc {
+        display: flex;
+      }
+
+      .textBox {
+        @include g.pc {
+          width: 70%;
+          padding-right: 1em;
+        }
+      }
+
+      .messageFigure {
+        text-align: center;
+
+        @include g.pc {
+          width: 30%;
+        }
+
+        @include g.sp {
+          margin-bottom: 1em;
+        }
+
+        img {
+          width: 100%;
+
+        }
+
+        figcaption {
+          margin-top: 1em;
+        }
+      }
+    }
+  }
+}
+
+.company {
+  background: radial-gradient(#B90106, #810000);
+  clip-path: polygon(0 11%, 100% 0, 100% 89%, 0 100%);
+  padding-top: 210px;
+  padding-bottom: 270px;
+  margin-top: -200px;
+
+  @include g.sp {
+    clip-path: polygon(0 7%, 100% 0, 100% 90%, 0 100%);
+    padding-top: 5em;
+    padding-bottom: 8em;
+  }
+
+  ._en {
+    color: rgba($color: #fff, $alpha: 0.2);
+  }
+
+  .section_title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 46px;
+    position: relative;
+    color: #fff;
+
+    @include g.sp {
+      font-size: 1.75rem;
+    }
+
+    &::after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: rgba($color: #fff, $alpha: 0.7);
+      position: absolute;
+      bottom: -0.3em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+
+  .compnayBox {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+
+    @include g.pc {
+      padding: 0 105px 0 85px;
+      height: 550px;
+    }
+
+    @include g.sp {
+      width: 85%;
+    }
+
+    dl {
+      display: flex;
+      flex-wrap: wrap;
+
+      @include g.sp {
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      dt {
+        width: 180px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        padding: 25px 0 25px 3em;
+        border-bottom: 2px solid #9D0105;
+        margin-right: 10px;
+
+        &:last-of-type {
+          border-bottom: none;
+        }
+
+        @include g.sp {
+          width: 30%;
+          padding: 1em 0 1em 0.5em;
+          font-size: 1rem;
+        }
+      }
+
+      dd {
+        width: 420px;
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 25px 0 25px 3em;
+        border-bottom: 1px solid #9D0105;
+
+        &:last-of-type {
+          border-bottom: none;
+        }
+
+        @include g.sp {
+          width: 65%;
+          padding: 1em 0 1em 1em;
+          font-size: 1rem;
+
+        }
+      }
+    }
+  }
+}
+
+.history {
+  padding-top: 90px;
+  padding-bottom: 270px;
+
+  @include g.sp {
+    padding-top: 2em;
+    padding-bottom: 10em;
+  }
+
+  .section_title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 46px;
+    position: relative;
+
+    @include g.sp {
+      font-size: 1.75rem;
+    }
+
+    &::after {
+      content: '';
+      width: 40px;
+      height: 3px;
+      background-color: #9D0105;
+      position: absolute;
+      bottom: -0.3em;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+
+  .flex {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    @include g.pc {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    @include g.sp {
+      width: 90%;
+      text-align: center;
+
+      img {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}

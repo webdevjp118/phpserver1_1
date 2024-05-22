@@ -1,0 +1,130 @@
+.post{
+	text-align: left;
+	.inner{
+		.main{
+			width:75%;
+			float: left;
+			@media screen and (max-width: 640px) {/*sp*/
+				width:100%;
+				float: none;
+				margin-bottom: 20px;
+			}
+			.title{
+				margin-bottom: 20px;
+				padding-bottom: 20px;
+				font-size: 1.6em;
+			}
+			.date{
+				margin-bottom: 20px;
+				padding-bottom: 20px;
+				border-bottom: 1px solid #ccc;
+			}
+			.bottom_nav{
+				margin-top: 40px;
+				padding: 20px 0px;
+				border-top: 1px solid #ccc;
+				&:after{
+					content: "";
+					display: block;
+					clear: both;
+				}
+				.prev{
+					width:50%;
+					float: left;
+					text-align: left;
+				}
+				.next{
+					width:50%;
+					float: right;
+					text-align: right;
+				}
+			}
+			.box{//archive
+				margin-bottom: 20px;
+				padding-bottom: 20px;
+				border-bottom: 1px dashed #ccc;
+				&:after{
+					content: "";
+					display: block;
+					clear: both;
+				}
+				.text{
+					width:100%;
+					span{
+						font-size: 0.9em;
+						font-weight: bold;
+						margin-bottom: 10px;
+						display: block;
+					}
+					a{
+						text-decoration: none;
+					}
+				}
+			}
+			.pager{
+				padding-top: 20px;
+				text-align: center;
+				ul{
+					list-style: none;
+					li{
+						display: inline-block;
+						a{
+							border: 1px solid #ccc;
+							padding: 8px 10px;
+							display: block;
+							&:hover{
+								background: #000;
+								color: #fff;
+								border: 1px solid #000;
+							}
+						}
+						span{
+							&.current{
+								background: #000;
+								color: #fff;
+								border: 1px solid #000;
+								padding: 8px 10px;
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}//.main
+		.side{
+			width:20%;
+			float: right;
+			@media screen and (max-width: 640px) {/*sp*/
+				width:100%;
+				float: none;
+			}
+			.box{
+				h2{
+					background: #F78EA6;
+					color: #fff;
+					padding: 5px;
+					margin-bottom: 20px;
+					font-size: 0.8em;
+				}
+				ul{
+					list-style: none;
+					li{
+						padding-bottom: 10px;
+						margin-bottom: 10px;
+						border-bottom: 1px dotted #ccc;
+						span{
+							font-size: 0.8em;
+							padding: 0;
+							font-weight: bold;
+							display: block;
+						}
+						a{
+							display: block;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}//.side
+	}//.inner
+}

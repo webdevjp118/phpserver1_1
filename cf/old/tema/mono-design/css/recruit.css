@@ -1,0 +1,47 @@
+/*---------------------------
+recruit
+----------------------------*/
+.recruit .inner .main .box {
+  text-align: left;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #ccc;
+}
+.recruit .inner .main .box h3 {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #F78EA6;
+  margin-bottom: 10px;
+}
+.recruit .inner .main .box .txt {
+  margin-bottom: 10px;
+}
+.recruit .inner .main .box table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+.recruit .inner .main .box table th,
+.recruit .inner .main .box table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+@media screen and (max-width: 640px) {
+  .recruit .inner .main .box table th,
+  .recruit .inner .main .box table td {
+    /*sp*/
+    width: 100%;
+    display: block;
+  }
+}
+.recruit .inner .main .box table th {
+  width: 25%;
+  font-weight: bold;
+}
+@media screen and (max-width: 640px) {
+  .recruit .inner .main .box table th {
+    /*sp*/
+    width: 100%;
+    background: #eee;
+  }
+}

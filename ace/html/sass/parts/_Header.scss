@@ -1,0 +1,67 @@
+@use '../global'as g;
+
+/* header */
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+
+  .headerInner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+
+    @include g.sp {
+      height: 5rem;
+    }
+
+    .headerLogo {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        margin-left: 50px;
+
+        @include g.sp {
+          margin-left: 1em;
+        }
+      }
+    }
+
+    .navContainer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: #fff;
+
+      .headerNav {
+        .navList {
+          display: flex;
+          align-items: center;
+          font-size: 14px;
+          font-weight: 700;
+
+          @include g.pc {
+            justify-content: space-around;
+          }
+
+          @include g.sp {
+            font-size: 1.5rem;
+          }
+
+          .navItem {
+            @include g.pc {
+              margin-right: 40px;
+            }
+
+            @include g.sp {
+              margin-bottom: 1em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

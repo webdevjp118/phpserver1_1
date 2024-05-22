@@ -1,0 +1,41 @@
+.p-about {
+    position: relative;
+    z-index: 1;
+    &__video {
+        position: relative;
+        @include mq_down(md) {
+            padding-top: 56.25%;
+            margin-bottom: 24px;
+        }
+        @include mq_up(md) {
+            padding-right: 32px;
+            width: 50%;
+            padding-top: 28.125%;
+        }
+        iframe {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__txt {
+        @include mq_up(md) {
+            padding-left: 24px;
+            width: 50%;
+            display: flex;
+            align-items: center;
+        }
+        h2 {
+            font-size: 32px;
+            margin-bottom: 24px;
+            @include mq_down(md) {
+                font-size: 26px;
+            }
+        }
+        .u-text__sentence {
+            margin-bottom: 24px;
+        }
+    }
+}

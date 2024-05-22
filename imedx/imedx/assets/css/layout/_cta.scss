@@ -1,0 +1,10 @@
+.l-cta {
+    background: $colorDarkGreen;
+    color: #fff;
+    @include mq_up(md) {
+        padding: 92px 0;
+    }
+    @include mq_down(md) {
+        padding: 60px 0;
+    }
+}

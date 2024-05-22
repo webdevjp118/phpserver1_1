@@ -1,0 +1,93 @@
+@use '../global'as g;
+
+.page._pp {
+  background: radial-gradient(rgba(#333, .28) 0%, rgba(#333, .28) 100%),
+    url(../img/pp_01.png) no-repeat center/cover;
+  clip-path: polygon(0 0, 100% 0, 100% 67%, 0 100%);
+  margin-bottom: 2em;
+
+  @include g.sp {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+}
+
+.privacy {
+  padding-bottom: 120px;
+
+  @include g.pc {
+    padding-top: 2em;
+  }
+
+  @include g.sp {
+    padding-bottom: 12em;
+  }
+
+  .privacyBox {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    @include g.sp {
+      width: 90%;
+    }
+
+    .privacyText_b {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.78;
+
+      @include g.sp {
+        font-size: 1.125rem;
+      }
+    }
+
+    .privacyText {
+      font-size: 18px;
+      line-height: 1.78;
+
+      @include g.sp {
+        font-size: 1.125rem;
+      }
+    }
+
+    .ppList {
+      counter-reset: item;
+      margin-top: 65px;
+      margin-bottom: 80px;
+
+      @include g.sp {
+        margin-top: 3em;
+        margin-bottom: 4em;
+      }
+
+      .ppItem {
+        font-size: 18px;
+        line-height: 1.78;
+        position: relative;
+        padding-left: 2em;
+        margin-bottom: 40px;
+
+        @include g.sp {
+          font-size: 1.125rem;
+          padding-left: 1em;
+          margin-bottom: 1.5em;
+        }
+
+        &::before {
+          counter-increment: item;
+          content: counter(item)".";
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+
+        ul {
+          padding-left: 1em;
+
+          @include g.sp {
+            padding-left: 0.5em;
+          }
+        }
+      }
+    }
+  }
+}

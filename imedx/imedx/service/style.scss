@@ -1,0 +1,111 @@
+/*
+    Theme Name: iMedX サービスサイト
+    Theme URI:
+*/
+@charset "utf-8";
+
+$breakpoint-up: (
+    'sm': 'screen and (min-width: 400px)',
+    'md': 'screen and (min-width: 600px)',
+    'lg': 'screen and (min-width: 960px)',
+) !default;
+
+$breakpoint-down: (
+    'sm': 'screen and (max-width: 399px)',
+    'md': 'screen and (max-width: 599px)',
+    'lg': 'screen and (max-width: 959px)',
+) !default;
+
+@mixin mq_up($breakpoint: md) {
+    @media #{map-get($breakpoint-up, $breakpoint)} {
+        @content;
+    }
+}
+
+@mixin mq_down($breakpoint: md) {
+    @media #{map-get($breakpoint-down, $breakpoint)} {
+        @content;
+    }
+}
+
+@mixin only-md {
+    @media screen and (min-width: 600px) and (max-width: 959px) {
+        @content;
+    }
+}
+
+// ==========================================================================
+// 変数
+// ==========================================================================
+/* color */
+$colorBlack: #333333;
+$colorLightBlack: #606060;
+$colorDarkBlue: #155571;
+$colorBlue: #1D78A0;
+$colorLightBlue: #74BCD4;
+$colorThinBlue: #F5F8FA;
+$colorGreenBlue: #B2B6CB;
+$colorRed: #B75959;
+$colorLightRed: #FCF7F7;
+$colorGray: #777777;
+$colorLightGray: #B7B7B7;
+$colorThinGray: #EBEBEB;
+
+// ==========================================================================
+// Foundation
+// ==========================================================================
+@import "./assets/css/foundation/reset";
+@import "./assets/css/foundation/base";
+
+// ==========================================================================
+// Layout
+// ==========================================================================
+@import "./assets/css/layout/_breadcrumb";
+@import "./assets/css/layout/_cta";
+@import "./assets/css/layout/_footer";
+@import "./assets/css/layout/_header";
+@import "./assets/css/layout/_section";
+@import "./assets/css/layout/_wrap";
+@import "./assets/css/layout/_flex";
+
+// ==========================================================================
+// Object
+// ==========================================================================
+/* Project 複数のcomponentの集まり */
+@import "./assets/css/object/project/_about";
+@import "./assets/css/object/project/_benefit";
+@import "./assets/css/object/project/_case";
+@import "./assets/css/object/project/_clinic";
+@import "./assets/css/object/project/_detail";
+@import "./assets/css/object/project/_faq";
+@import "./assets/css/object/project/_flow";
+@import "./assets/css/object/project/_headline";
+@import "./assets/css/object/project/_list";
+@import "./assets/css/object/project/_mainvisual";
+@import "./assets/css/object/project/_nav";
+@import "./assets/css/object/project/_offer";
+@import "./assets/css/object/project/_post";
+@import "./assets/css/object/project/_policy";
+@import "./assets/css/object/project/_price";
+@import "./assets/css/object/project/_pop";
+@import "./assets/css/object/project/_simulation";
+@import "./assets/css/object/project/_pagenavi";
+
+/* Component 最小単位 */
+@import "./assets/css/object/component/_box";
+@import "./assets/css/object/component/_button";
+@import "./assets/css/object/component/_clinic";
+@import "./assets/css/object/component/_contact";
+@import "./assets/css/object/component/_news";
+@import "./assets/css/object/component/_pagination";
+@import "./assets/css/object/component/_tag";
+
+/* Utility 調整 */
+@import "./assets/css/object/utility/_background";
+@import "./assets/css/object/utility/_border";
+@import "./assets/css/object/utility/_color";
+@import "./assets/css/object/utility/_font";
+@import "./assets/css/object/utility/_padding";
+@import "./assets/css/object/utility/_margin";
+@import "./assets/css/object/utility/_size";
+@import "./assets/css/object/utility/_text";

@@ -1,0 +1,41 @@
+.p-cta {
+    display: flex;
+    @include mq_down(md) {
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .p__headline {
+        margin-bottom: 36px;
+        @include mq_up(md) {
+            margin-bottom: 20px;
+        }
+    }
+    &__left {
+        .p-headline__en {
+            color: #fff;
+        }
+    }
+    &__right {
+        position: relative;
+        @include mq_down(md) {
+            width: 100px;
+            height: 100px;
+        }
+        @include mq_up(md) {
+            width: 400px;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+                width: 350px;
+                height: 1px;
+                background: #fff;
+                right: 0;
+                z-index: 1;
+            }
+        }
+    }
+}

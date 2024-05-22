@@ -1,0 +1,133 @@
+.p-benefit {
+    li {
+        position: relative;
+        @include mq_up(md) {
+            display: flex;
+        }
+        &:not(:last-child) {
+            margin-bottom: 32px;
+        }
+        &:before {
+            content: "";
+            display: block;
+            width: 43px;
+            height: 43px;
+            line-height: 43px;
+            border-radius: 0 0 8px 0;
+            background: #fff;
+            color: $colorLightBlue;
+            font-weight: 600;
+            position: absolute;
+            left: 0;
+            font-size: 22px;
+            top: -21.5px;
+            z-index: 1;
+        }
+        &:nth-of-type(1):before {
+            content: "01";
+        }
+        &:nth-of-type(2) {
+            &:before {
+                content: "02";
+            }
+            .p-benefit-img:after {
+                content: "";
+                display: block;
+                background: center/contain no-repeat url("assets/images/img_benefit_circle.png");
+                position: absolute;
+                top: -40.5px;
+                z-index: 1;
+                @include mq_down(md) {
+                    width: 80px;
+                    height: 80px;
+                    right: -10px;
+                }
+                @include mq_up(md) {
+                    width: 111px;
+                    height: 111px;
+                    right: -30px;
+                }
+            }
+        }
+        &:nth-of-type(3):before {
+            content: "03";
+        }
+    }
+    &-img {
+        position: relative;
+        @include mq_down(md) {
+            margin-bottom: 24px;
+        }
+        @include mq_up(md) {
+            width: 331px;
+            margin-right: 24px;
+        }
+    }
+    &-txt {
+        @include mq_up(md) {
+            flex: 1;
+        }
+        h3 {
+            font-weight: 600;
+            line-height: 1.6;
+            margin-bottom: 12px;
+            @include mq_down(md) {
+                font-size: 18px;
+            }
+            @include mq_up(md) {
+                font-size: 20px;
+            }
+        }
+    }
+    &-point {
+        background: $colorThinBlue;
+        padding: 16px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        @include mq_up(md) {
+            display: flex;
+            align-items: center;
+            width: 500px;
+        }
+        &__txt {
+            @include mq_down(md) {
+                margin-bottom: 16px;
+                text-align: center;
+            }
+            @include mq_up(md) {
+                width: 210px;
+            }
+        }
+        &__table {
+            border-collapse: separate;
+            border-spacing: 1px;
+            @include mq_up(md) {
+                flex: 1;
+            }
+            tr {
+                margin-bottom: 12px;
+            }
+            th, td {
+                background: #fff;
+                padding: 8px 16px;
+                border: none;
+                .u-weight__bold {
+                    font-size: 16px;
+                }
+            }
+            th {
+                width: auto;
+                font-weight: 600;
+                font-size: 14px;
+                @include mq_up(md) {
+                    width: 105px;
+                }
+            }
+            td {
+                font-size: 12px;
+                color: $colorLightBlack;
+                white-space: nowrap;
+            }
+        }
+    }
+}

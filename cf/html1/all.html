@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all</title>
+    <style>
+        iframe {
+            width: 90%;
+            height: 90vh;
+        }
+        a {
+            font-size: 20px;
+            display: block;
+            width: 50%;
+            color: #fff;
+            background-color:darkblue
+        }
+        .each_page:nth-child(2n) {
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="each_page"><a target="_blank" href="top.html">top.html</a><iframe src="top.html"></iframe></div>
+    <div class="each_page"><a target="_blank" href="company.html">top.html</a><iframe src="company.html"></iframe></div>
+    <div class="each_page"><a target="_blank" href="contact.html">contact.html</a><iframe src="contact.html"></iframe></div>
+    <div class="each_page"><a target="_blank" href="fitness.html">fitness.html</a><iframe src="fitness.html"></iframe></div>
+    <div class="each_page"><a target="_blank" href="policy.html">policy.html</a><iframe src="policy.html"></iframe></div>
+    <div class="each_page"><a target="_blank" href="recruit.html">recruit.html</a><iframe src="recruit.html"></iframe></div>
+    <div class="each_page"><a target="_blank" href="refrigeration.html">refrigeration.html</a><iframe src="refrigeration.html"></iframe></div>
+    <div class="each_page"><a target="_blank" href="sdgs.html">sdgs.html</a><iframe src="sdgs.html"></iframe></div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script>
+$(".each_page").click(function(){
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $(this).offset().top
+    }, 500);
+});
+</script>
+</html>

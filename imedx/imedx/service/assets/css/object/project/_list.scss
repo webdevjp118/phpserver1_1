@@ -1,0 +1,44 @@
+.p-list {
+    &__news {
+        border-top: 1px solid $colorThinGray;
+        width: 100%;
+        &--item {
+            border-bottom: 1px solid $colorThinGray;
+        }
+        &--link {
+            position: relative;
+            @include mq_down(md) {
+                padding-right: 40px !important;
+            }
+            @include mq_up(md) {
+                padding-right: 80px !important;
+                &:hover:before {
+                    background: center/15% no-repeat url(assets/images/icon_arrow_right_light_white.png);
+                    background-color: $colorLightBlue;
+                    border: 1px solid $colorLightBlue;
+                }
+            }
+            &:before {
+                content: "";
+                display: block;
+                border: 1px solid $colorLightBlue;
+                border-radius: 50%;
+                background: center/15% no-repeat url(assets/images/icon_arrow_right_light_blue.png);
+                position: absolute;
+                right: 0;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+                @include mq_down(md) {
+                    width: 38px;
+                    height: 38px;
+                }
+                @include mq_up(md) {
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+        }
+    }
+}

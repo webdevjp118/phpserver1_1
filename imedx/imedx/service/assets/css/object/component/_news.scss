@@ -1,0 +1,33 @@
+.c-news {
+    position: relative;
+    display: block;
+    @include mq_down(md) {
+        padding: 16px 0;
+    }
+    @include mq_up(md) {
+        padding: 28px 0;
+        transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+        &:hover {
+            transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+            background: $colorThinBlue;
+        }
+    }
+    &__date {
+        line-height: 1.6;
+        color: $colorLightBlack;
+        @include mq_up(md) {
+            width: 135px;
+            font-size: 14px;
+        }
+        @include mq_down(md) {
+            margin-bottom: 4px;
+            font-size: 12px;
+        }
+    }
+    &__body {
+        line-height: 1.6;
+        @include mq_up(md) {
+            flex: 1;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.p-mv {
+    &-top {
+        @include mq_down(md) {
+            height: 371px;
+            background: center/cover no-repeat url("assets/images/mv-top-sp.jpg");
+            position: relative;
+        }
+        &__img {
+            @include mq_down(md) {
+                display: none;
+            }
+            @include mq_up(md) {
+                height: 505px;
+                background: center/cover no-repeat url("assets/images/mv-top-pc.jpg");
+            }
+        }
+    }
+    &-page {
+        position: relative;
+        padding: 60px 0;
+        border-bottom: 1px solid $colorGreen;
+        @include mq_up(md) {
+            padding: 80px 0;
+        }
+    }
+}

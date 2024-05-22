@@ -1,0 +1,217 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    font-weight: 400;
+    color: #433f37;
+    overflow-x: hidden;
+}
+img {
+    height: 150px;
+    width: auto;
+}
+.box,
+.single-info__date {
+    display: none;
+}
+.single-cate {
+    margin-top: 100px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+/********************************************************************/
+ul {
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: #F0F0F0;
+    font-family: Verdana, sans-serif;
+}
+
+ul li {
+    margin-bottom: 4px;
+    border-bottom: dotted 1px #A0A0A0;
+    background-color: #FBE0C3;
+}
+
+ul.ur_heading {
+    /* background-color: #F9FBE7; */
+    background-color: #fff;
+} 
+li.right_title {
+    background-color: #c2EdcE;
+}
+
+.left_title[data-subhas="true"]::before,
+.right_title[data-subhas="true"]::before {
+    content: "▸";
+    margin-left: -10px;
+}
+.left_title.chare_opened[data-subhas="true"]::before,
+.right_title.chare_opened[data-subhas="true"]::before {
+    content: "▾";
+    margin-left: -10px;
+}
+.left_title[data-chare="2"], 
+.right_title[data-chare="2"] {
+    margin-left: 10px !important;
+}
+.left_title[data-chare="3"],
+.right_title[data-chare="3"] {
+    margin-left: 20px;
+}
+.left_title[data-chare="4"],
+.right_title[data-chare="4"] {
+    margin-left: 30px;
+}
+.left_title[data-chare="5"],
+.right_title[data-chare="5"] {
+    margin-left: 40px;
+}
+.left_title[data-chare="6"],
+.right_title[data-chare="6"] {
+    margin-left: 50px;
+}
+.left_title[data-chare="7"],
+.right_title[data-chare="7"] {
+    margin-left: 60px;
+}
+.left_title[data-chare="8"],
+.right_title[data-chare="8"] {
+    margin-left: 70px;
+}
+
+/* .left_title[data-chare="2"]::before {
+    content: "»";
+    margin-left: -10px;
+}
+.left_title[data-chare="3"]::before {
+    content: "▸";
+    margin-left: -10px;
+}
+.left_title[data-chare="4"]::before {
+    content: "›";
+    margin-left: -10px;
+} */
+
+ul li:hover {
+    background-color: #E0E0E0;
+}
+ul li.right_title:hover {
+}
+
+.side_heading {
+    position: fixed;
+    width: 240px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #F0F0F0;
+}
+.ul_headings {
+    width: 100%;
+    height: calc(100vh - 120px);
+    position: relative;
+}
+.ul_heading, .ur_heading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: calc(100vh - 120px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.top_search {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: calc( 100% - 240px);
+    background-color: #F0F0F0;
+    display: flex;
+}
+.top_search input[type="text"] {
+    margin: 4px 0;
+    width: 100%;
+}
+.top_result {
+    width: 40px;
+    height: 40px;
+    content: "";
+    display: block;
+}
+.php_error {
+    margin-top: 80px;
+}
+.opt_words {
+    display: flex;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+.opt_word {
+    width: 48%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: solid 1px #AAAAAA;
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+.opt_word[data-checked=true]{
+    background-color: #649C17;
+}
+.opt_word[data-checked=false]{
+    background-color: #E0E0E0;
+}
+.switch_heading {
+    border-radius: 4px;
+    width: 48%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: solid 1px #FF0000;
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+.switch_heading.switched {
+    background-color: rgb(240, 255, 254);
+}
+.chare_name,
+.chare_sep {
+    font-size: 14px;
+    cursor: pointer;
+}
+/* 
+.main_content {
+    position: fixed;
+    left: 210px;
+    height: 100vh;
+    width: calc(100vw - 210px);
+    padding-left: 10px;
+}
+.content_scroll {
+    width: calc(100% - 20px);
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+} */
+.main_content {
+    padding-left: 260px;
+    padding-right: 20px;
+}
+input[type="text"] {
+    margin: 20px;
+    font-size: 15px;
+    padding: 4px;
+}
+

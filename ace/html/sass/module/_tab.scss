@@ -1,0 +1,98 @@
+@use '../global'as g;
+
+/*tabの形状*/
+.tab {
+  display: flex;
+  flex-wrap: wrap;
+  width: 930px;
+  margin: 0 auto;
+
+  @include g.sp {
+    width: 95%;
+  }
+
+  li {
+    width: 310px;
+    text-align: center;
+    background: linear-gradient(-13.6deg, rgba(#B90106, 0.2), rgba(#810000, 0.2));
+
+    @include g.pc {
+      height: 70px;
+      line-height: 70px;
+    }
+
+    @include g.sp {
+      width: 33%;
+      padding: 0.5em 0;
+    }
+
+    /*liにactiveクラスがついた時の形状*/
+    &.active {
+      background: linear-gradient(-15.8deg, #810000, #B90106);
+      position: relative;
+
+      &::after {
+        position: absolute;
+        content: '';
+        background-image: url(../img/btn_03.png);
+        width: 40px;
+        height: 16px;
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        z-index: 100;
+      }
+
+      a {
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+
+        @include g.sp {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    a {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+
+      @include g.sp {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+/*エリアの表示非表示と形状*/
+.area {
+  display: none;
+  /*はじめは非表示*/
+  opacity: 0;
+  /*透過0*/
+  background: #fff;
+}
+
+/*areaにis-activeというクラスがついた時の形状*/
+.area.is-active {
+  display: block;
+  /*表示*/
+  animation-name: displayAnime;
+  /*ふわっと表示させるためのアニメーション*/
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes displayAnime {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

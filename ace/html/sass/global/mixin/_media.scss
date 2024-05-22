@@ -1,0 +1,27 @@
+$breakpointPC: 769px;
+$breakpointSP: 768px;
+// $breakpointSP: 375px;
+
+@mixin pc {
+  @media screen and (min-width: $breakpointPC) {
+    @content;
+    // 呼び出し時のブロック内容を
+    // @content部分に反映させる
+  }
+}
+
+@mixin sp {
+  @media screen and (max-width: $breakpointSP) {
+    @content;
+    // 呼び出し時のブロック内容を
+    // @content部分に反映させる
+  }
+}
+
+// @mixin sp {
+//   @media screen and (max-width: $breakpointSP) {
+//     @content;
+//     // 呼び出し時のブロック内容を
+//     // @content部分に反映させる
+//   }
+// }

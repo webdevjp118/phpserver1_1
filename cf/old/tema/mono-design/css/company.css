@@ -1,0 +1,46 @@
+/*---------------------------
+company
+----------------------------*/
+.company {
+  text-align: left;
+}
+.company .inner {
+  width: 900px;
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .company .inner {
+    /*tablet*/
+    width: 96%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .company .inner {
+    /*sp*/
+    width: 92%;
+  }
+}
+.company .inner .title {
+  margin-bottom: 20px;
+}
+.company .inner table {
+  width: 100%;
+}
+.company .inner table tr {
+  border-bottom: 1px dotted #ccc;
+}
+.company .inner table tr td {
+  padding: 15px 0px;
+}
+.company .inner table tr td:nth-of-type(odd) {
+  font-weight: bold;
+}
+@media screen and (max-width: 640px) {
+  .company .inner table tr td {
+    /*sp*/
+    display: block;
+    width: 100%;
+  }
+  .company .inner table tr td:nth-of-type(odd) {
+    background: #eee;
+  }
+}

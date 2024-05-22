@@ -1,0 +1,145 @@
+
+.p-pop {
+    @include mq_down(md) {
+        padding: 12px;
+    }
+    @include mq_up(md) {
+        padding: 32px;
+    }
+    &__tab {
+        display: flex;
+        align-items: center;
+        @include mq_down(md) {
+            padding: 0 12px;
+        }
+        @include mq_up(md) {
+            padding: 0 32px;
+        }
+        a {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-weight: 600;
+            @include mq_down(md) {
+                font-size: 13px;
+            }
+        }
+        &--left {
+            width: 50%;
+            a {
+                padding: 12px 0;
+                background: $colorBlue;
+                color: #fff;
+                border-radius: 2px 2px 0 0;
+            }
+        }
+        &--right {
+            width: 50%;
+            padding-left: 6px;
+            a {
+                border-radius: 2px;
+                position: relative;
+                border: 1px solid $colorRed;
+                color: $colorRed;
+                padding: 6px 0;
+                cursor: pointer;
+                transition: 0.2s cubic-bezier(0.45, 0, 0.55, 1);
+                &:before {
+                    content: "";
+                    display: block;
+                    background: center/contain no-repeat url("assets/images/icon_arrow_right_red.png");
+                    position: absolute;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    @include mq_down(md) {
+                        width: 4px;
+                        height: 7px;
+                        left: 8px;
+                    }
+                    @include mq_up(md) {
+                        width: 7px;
+                        height: 12px;
+                        left: 12px;
+                    }
+                }
+                &:hover {
+                    background: $colorLightRed;
+                }
+            }
+        }
+    }
+    &__inner {
+        border: 1px solid $colorLightBlue;
+        @include mq_down(md) {
+            padding: 12px;
+        }
+        @include mq_up(md) {
+            padding: 32px;
+        }
+    }
+    &__txt {
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    &__link {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            width: 100%;
+            @include mq_down(md) {
+                width: 49%;
+                &:nth-child(odd) {
+                    margin-right: 2%;
+                }
+                &:not(:nth-last-child(-n+2)) {
+                    margin-bottom: 2%;
+                }
+            }
+            @include mq_up(md) {
+                width: 32%;
+                &:nth-last-child(-n+3) {
+                    margin-top: 2%;
+                }
+                &:not(:nth-child(3n)) {
+                    margin-right: 2%;
+                }
+            }
+            a {
+                width: 100%;
+                padding: 12px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 1.2;
+                background: $colorLightBlue;
+                position: relative;
+                color: #fff;
+                border-radius: 2px;
+                font-weight: 600;
+                @include mq_down(md) {
+                    font-size: 13px
+                }
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: center/contain no-repeat url("assets/images/icon_arrow_right_white.png");
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    @include mq_down(md) {
+                        width: 6px;
+                        height: 10px;
+                        left: 6px;
+                    }
+                    @include mq_up(md) {
+                        width: 7px;
+                        height: 12px;
+                        left: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

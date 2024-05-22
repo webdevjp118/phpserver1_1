@@ -1,0 +1,156 @@
+.c-contact {
+    &-box {
+        &:nth-last-of-type(1) {
+            margin-bottom: 0;
+        }
+        @include mq_down(md) {
+            margin-bottom: 24px;
+        }
+        @include mq_up(md) {
+            margin-bottom: 50px;
+            align-items: stretch;
+        }
+    }
+    &-flex {
+        @include mq_up(md) {
+            display: flex;
+        }
+    }
+    &-label {
+        display: flex;
+        align-items: center;
+        @include mq_down(md) {
+            margin-bottom: 4px;
+        }
+        @include mq_up(md) {
+            width: 196px;
+            height: 50px;
+            line-height: 50px;
+            border-bottom: 1px solid $colorGreen;
+        }
+        p {
+            font-weight: 600;
+            color: $colorDarkGreen;
+            @include mq_up(md) {
+                width: auto;
+                height: 100%;
+                line-height: 50px;
+                margin-top: 1px;
+                border-bottom: 1px solid $colorDarkGreen;
+            }
+        }
+        span {
+            display: block;
+            color: $colorRed;
+            padding-left: 8px;
+            @include mq_down(md) {
+                font-size: 12px;
+            }
+            @include mq_up(md) {
+                font-size: 14px;
+                height: 100%;
+                line-height: 50px;
+            }
+        }
+    }
+    &-input {
+        @include mq_up(md) {
+            flex: 1;
+            padding-left: 24px;
+        }
+        input {
+            height: 50px;
+            line-height: 50px;
+        }
+        input, textarea {
+            border: 1px solid $colorGreen;
+        }
+    }
+    &-agree {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: none;
+        label {
+            padding-left: 35px;
+            position: relative;
+            cursor: pointer;
+            &:before {
+                content: '';
+                display: block;
+                width: 20px;
+                height: 20px;
+                border: 1px solid $colorGreen;
+                position: absolute;
+                left: 0;
+                top: 0;
+                border-radius: 2px;
+                opacity: 1;
+                -webkit-transition: all .12s, border-color .08s;
+                transition: all .12s, border-color .08s;
+            }
+        }
+        input[type=checkbox] {
+            display: none;
+            &:checked  + label:before {
+                width: 10px;
+                top: -5px;
+                left: 5px;
+                border-radius: 0;
+                opacity: 1;
+                border-top-color: transparent;
+                border-left-color: transparent;
+                -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+        }
+    }
+    &-privacy {
+        padding: 24px;
+        border: 1px solid $colorGreen;
+        border-radius: 4px;
+        overflow: scroll;
+        @include mq_down(md) {
+            height: 150px;
+        }
+        @include mq_up(md) {
+            height: 200px;
+        }
+        .headline {
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 14px;
+        }
+    }
+}
+
+/* contact form 7 */
+.error-tip,
+form:not(.sent) .wpcf7-response-output {
+    background: $colorRed;
+    color: #fff;
+    text-align: center;
+    padding: 30px 12px !important;
+    border: none !important;
+    font-weight: 700;
+    @include mq_up(lg) {
+        margin-right: 0 !important;
+        margin-left: auto !important;
+        width: 742px;
+    }
+}
+.error-msg,
+.wpcf7-not-valid-tip {
+    box-sizing: border-box;
+    border: 1px solid $colorRed;
+    color: $colorRed;
+    margin-top: 6px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    display: none !important;
+}

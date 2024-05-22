@@ -1,0 +1,88 @@
+
+.p-clinic {
+    overflow: hidden;
+    .swiper {
+        overflow: visible !important;
+        @include mq_up(md) {
+            padding-left: 24px !important;
+            padding-right: 24px !important;
+            width: 960px !important;
+            margin: auto !important;
+        }
+    }
+    &__list {
+        &.swiper-wrap {
+            @include mq_down(md) {
+                width: 100% !important;
+                padding-left: 16px !important;
+                padding-right: 16px !important;
+            }
+        }
+        &:not(.swiper-wrap) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        li {
+            @include mq_down(md) {
+                width: 100%;
+            }
+        }
+    }
+    &__content {
+        @include mq_up(md) {
+            width: 462px;
+            &:nth-child(odd) {
+                margin-right: 32px;
+            }
+            &:not(:nth-last-child(-n+2)) {
+                margin-bottom: 40px;
+            }
+            a:hover .c-btn__case {
+                -webkit-transform: translate(8px, -50%);
+                transform: translate(8px, -50%);
+                background: center/15% no-repeat url("assets/images/icon_arrow_right_white.png");
+                background-color: $colorBlue;
+            }
+        }
+        @include mq_down(md) {
+            &:not(:last-child) {
+                margin-bottom: 24px;
+            }
+        }
+    }
+    .swiper-slide {
+        @include mq_down(md) {
+            &:not(:nth-last-child(-n+2)) {
+                margin-bottom: 24px;
+            }
+        }
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        background: $colorLightBlue;
+        color: #fff;
+        width: 40px;
+        border-radius: 50%;
+        height: 40px;
+        @include mq_down(md) {
+            display: none;
+        }
+        &:after {
+            font-size: 20px !important;
+            font-weight: 600;
+        }
+    }
+    .swiper-button-prev {
+        @include mq_up(lg) {
+            left: 4px !important;
+        }
+    }
+    .swiper-button-next {
+        @include mq_up(lg) {
+            right: 4px !important;
+        }
+    }
+    .swiper-button-disabled {
+        opacity: 0 !important;
+    }
+}

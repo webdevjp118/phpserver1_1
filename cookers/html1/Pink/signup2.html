@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reading || Sign Up 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+  <body>
+    <!-- Page Header -->
+    <div class="pageHeader">
+      <!-- Menu Btn -->
+
+      <div
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+        class="menuBtn"
+      >
+        <div class="barLine"></div>
+        <div class="barLine"></div>
+        <div class="menuBtnText">メニュー</div>
+      </div>
+      <div class="container-fluid">
+        <div class="row headerRow">
+          <div class="col-1 noneCol">
+            <a class="headerLogo" href="reading.html"
+              ><img src="./img/logo.png" alt=""
+            /></a>
+          </div>
+          <div class="col-12 col-lg-4">
+            <a href="index.html" class="carouselSectionLogo">
+              <img src="./img/logo.png" alt="" />
+            </a>
+            <div class="mobileTabButtons">
+              <a class="mobileTabBtn" href="../index.html">レシピ</a>
+              <a class="mobileTabBtn active" href="reading.html">読み物</a>
+            </div>
+            <div class="searchArea">
+              <select name="" id="">
+                <option value="">レシピ投稿者</option>
+                <option value="">レシピ投稿者 2</option>
+                <option value="">レシピ投稿者 3</option>
+              </select>
+              <input type="text" placeholder="料理名・食材名・イベント名" />
+              <img src="./img/search-icon.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-3 noneCol">
+            <div class="tabsButtons">
+              <a class="tabBtn" href="../index.html">レシピ</a>
+              <a class="tabBtn active" href="reading.html">読み物</a>
+            </div>
+          </div>
+          <div class="col-4 noneCol">
+            <div class="headerLinks">
+              <a class="headerLink" href="Mypage.html">
+                <img src="./img/headerlink1.png" alt="" />
+                <br />
+                <span>マイページ</span>
+              </a>
+              <a class="headerLink" href="login.html">
+                <img src="./img/headlink2.png" alt="" />
+                <br />
+                <span>ログイン</span>
+              </a>
+              <a class="headerLink" href="signup.html">
+                <img src="./img/headlink3.png" alt="" />
+                <br />
+                <span>新規会員登録</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel Section -->
+    <section class="carouselSection">
+      <div id="recipeCarousel" class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="recipeCarouselImg" src="./img/carousel1.png" alt="" />
+        </div>
+        <div class="item">
+          <img class="recipeCarouselImg" src="./img/carousel2.png" alt="" />
+        </div>
+        <div class="item">
+          <img class="recipeCarouselImg" src="./img/carousel3.png" alt="" />
+        </div>
+        <div class="item">
+          <img class="recipeCarouselImg" src="./img/carousel4.png" alt="" />
+        </div>
+        <div class="item">
+          <img class="recipeCarouselImg" src="./img/carousel1.png" alt="" />
+        </div>
+        <div class="item">
+          <img class="recipeCarouselImg" src="./img/carousel2.png" alt="" />
+        </div>
+        <div class="item">
+          <img class="recipeCarouselImg" src="./img/carousel3.png" alt="" />
+        </div>
+        <div class="item">
+          <img class="recipeCarouselImg" src="./img/carousel4.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contents Section -->
+    <section class="contentsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <!-- Side Contents -->
+            <div class="sideContainer">
+              <h2 class="sideContentsHeading">ランキング</h2>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+            </div>
+			<!--
+            <div class="sideContainer">
+              <h2 class="sideContentsHeading">トピックス</h2>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+              <div class="sideContentsDiv">
+                <div class="sideContentsText">2023.04.25</div>
+                <div class="sideContentsText">
+                  タイトルテキストタイトルテキストタイトルテキス
+                </div>
+              </div>
+            </div>
+            <div class="sideContainer">
+              <h2 class="sideContentsHeading">最近Artist</h2>
+              <div class="row gx-3 sideContentsRow">
+                <div class="col-6">
+                  <div class="imageContentsSide">
+                    <img class="sideImg" src="./img/sideImg1.png" alt="" />
+                    <div class="imgNumber yellow">1</div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <h2 class="sideContentsSubHeading">名前テキスト</h2>
+                  <div class="sideContentsText">タイトルテキストテキスト</div>
+                </div>
+              </div>
+              <div class="row gx-3 sideContentsRow">
+                <div class="col-6">
+                  <div class="imageContentsSide">
+                    <img class="sideImg" src="./img/sideImg2.png" alt="" />
+                    <div class="imgNumber gray">2</div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <h2 class="sideContentsSubHeading">名前テキスト</h2>
+                  <div class="sideContentsText">タイトルテキストテキスト</div>
+                </div>
+              </div>
+              <div class="row gx-3 sideContentsRow">
+                <div class="col-6">
+                  <div class="imageContentsSide">
+                    <img class="sideImg" src="./img/sideImg3.png" alt="" />
+                    <div class="imgNumber brown">3</div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <h2 class="sideContentsSubHeading">名前テキスト</h2>
+                  <div class="sideContentsText">タイトルテキストテキスト</div>
+                </div>
+              </div>
+            </div>
+            -->
+			<div class="multiplueImages">
+              <img src="./img/carousel1.png" alt="" />
+              <img src="./img/carousel2.png" alt="" />
+              <img src="./img/carousel3.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <!-- Center Contents -->
+            <div class="centerContents">
+              <!-- Row 1 -->
+              <div class="centerContentsHeader">
+                <h1 class="mainHeading">新規会員登録</h1>
+              </div>
+              <div
+                class="row g-2 justify-content-center align-items-center signup2"
+              >
+                <!-- Steps -->
+                <div class="col-10">
+                  <div class="stepsContainer">
+                    <div class="container">
+                      <div class="multiSteps">
+                        <div class="stepsPointLine completed"></div>
+                        <div class="singleStep active">
+                          <div class="stepText">STEP 1</div>
+                          <div class="stepPoint"></div>
+                          <div class="stepText">登録情報入力</div>
+                        </div>
+                        <div class="singleStep">
+                          <div class="stepText">STEP 2</div>
+                          <div class="stepPoint"></div>
+                          <div class="stepText">メールアドレス確認</div>
+                        </div>
+                        <div class="singleStep">
+                          <div class="stepText">STEP 3</div>
+                          <div class="stepPoint"></div>
+                          <div class="stepText">登録完了</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-11">
+                  <div class="contentArea">
+                    <a href="#" class="longerBtn"
+                      >ご登録ありがとうございます！会員登録が完了しました。</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brown Footer -->
+    <footer class="brownFooter">
+      <div class="container">
+        <div>
+          <a class="brownFooterLink" href="#">利用規約</a>
+          <a class="brownFooterLink mx-5" href="#">情報セキュリティ方針</a>
+          <a class="brownFooterLink" href="#">ヘルプ</a>
+        </div>
+        <p class="copyRightText">© 2023 ViSTAR Co.LTD.</p>
+      </div>
+    </footer>
+
+    <!-- Hide Menu -->
+    <div
+      class="offcanvas offcanvas-end hideMenu"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <div
+          class="hideMenuBtn"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+          class="hideMenuBtn"
+        >
+          <img src="./img/closed-icon.svg" alt="" />
+          <div>閉じる</div>
+        </div>
+      </div>
+      <div class="offcanvas-body">
+        <a class="hideMenuLink" href="reading.html">ページトップ</a>
+        <br />
+        <a class="hideMenuLink" href="hashtagSearch.html">レシピ検索</a>
+        <br />
+        <a class="hideMenuLink" href="ReadingRank.html">ランキング</a>
+        <br />
+        <a class="hideMenuLink mt-5" href="login.html">ラログイン</a>
+        <br />
+        <a class="mainBtn" href="signup.html">新規会員登録</a>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

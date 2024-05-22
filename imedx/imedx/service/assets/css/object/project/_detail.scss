@@ -1,0 +1,219 @@
+.p-detail {
+    &-box {
+        background: $colorThinBlue;
+        @include mq_down(md) {
+            padding: 32px 16px;
+            margin-bottom: 12px;
+        }
+        @include mq_up(md) {
+            padding: 32px;
+            margin-bottom: 24px;
+        }
+        &__inner {
+            @include mq_up(md) {
+                display: flex;
+            }
+        }
+        &__txt {
+            @include mq_down(md) {
+                margin-bottom: 24px;
+            }
+            @include mq_up(md) {
+                flex: 1;
+                padding-right: 40px;
+            }
+            .detail-ttl {
+                line-height: 1.6;
+                @include mq_down(md) {
+                    font-size: 16px;
+                    margin-bottom: 16px;
+                    text-align: center;
+                }
+                @include mq_up(md) {
+                    font-size: 18px;
+                    margin-bottom: 24px;
+                }
+            }
+        }
+        &__img {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            @include mq_up(md) {
+                width: 360px;
+            }
+            &:before {
+                content: "";
+                display: block;
+                width: 24px;
+                height: 20px;
+                background: center/contain no-repeat url("assets/images/icon_arrow_detail_right.png");
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+            .detail-img-box {
+                text-align: center;
+                flex: 1;
+                &.before {
+                    @include mq_down(md) {
+                        margin-right: 24px;
+                    }
+                    @include mq_up(md) {
+                        margin-right: 30px;
+                    }
+                    .detail-img-tag {
+                        background-color: $colorGray;
+                    }
+                    .detail-img-txt {
+                        color: $colorGray;
+                    }
+                }
+                &.after {
+                    .detail-img-tag {
+                        background-color: $colorBlue;
+                    }
+                    .detail-img-txt {
+                        color: $colorBlue;
+                    }
+                }
+            }
+            .detail-img-tag {
+                margin: auto;
+                height: 20px;
+                line-height: 20px;
+                width: 80px;
+                text-align: center;
+                border-radius: 2px 2px 0 0;
+                font-weight: 600;
+                color: #fff;
+                @include mq_down(md) {
+                    font-size: 12px;
+                }
+                @include mq_up(md) {
+                    font-size: 14px;
+                }
+            }
+            .detail-img-txt {
+                text-align: center;
+                padding: 0 2px;
+                background: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                @include mq_down(md) {
+                    font-size: 12px;
+                    height: 62px;
+                }
+                @include mq_up(md) {
+                    font-size: 13px;
+                    height: 72px;
+                }
+            }
+        }
+    }
+    &-tag {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        @include mq_down(md) {
+            justify-content: center;
+        }
+        .detail-tag-inner {
+            background: #fff;
+            height: 40px;
+            line-height: 40px;
+        }
+        .detail-tag-img {
+            margin-right: 2px;
+            padding-left: 24px;
+            padding-right: 16px;
+            border-radius: 30px 0 0 30px;
+            img {
+                height: 24px;
+                width: auto;
+                vertical-align: middle;
+            }
+        }
+        .detail-tag-txt {
+            background: #fff;
+            padding-right: 24px;
+            padding-left: 16px;
+            border-radius: 0 30px 30px 0;
+            color: $colorBlue;
+        }
+    }
+    // その他
+    &-other {
+        @include mq_up(md) {
+            display: flex;
+            justify-content: center;
+        }
+        &__inner {
+            background: #F8F8F8;
+            @include mq_down(md) {
+                padding: 24px 16px;
+            }
+            @include mq_up(md) {
+                padding: 24px 32px;
+            }
+            .detail-other-ttl {
+                text-align: center;
+                font-weight: 600;
+                font-size: 18px;
+                margin-bottom: 1em;
+                @include mq_down(md) {
+                    font-size: 16px;
+                }
+                @include mq_up(md) {
+                    font-size: 18px;
+                }
+            }
+            .detail-other-list {
+                margin-top: 4px;
+                list-style-type: disc;
+                list-style-position: outside;
+                margin-left: 2em;
+                color: $colorLightBlack;
+                line-height: 1.4;
+            }
+        }
+    }
+    &-table {
+        th, td {
+            border: 1px solid #EBEBEB;
+            @include mq_down(md) {
+                padding: 12px 4px;
+                font-size: 12px;
+            }
+            @include mq_up(md) {
+                padding: 24px;
+            }
+        }
+        th {
+            @include mq_up(md) {
+                flex: 1;
+            }
+            background: $colorThinBlue;
+            white-space: nowrap;
+        }
+        td {
+            @include mq_up(md) {
+                width: 660px;
+            }
+        }
+        .c-btn-link {
+            margin-right: auto;
+            margin-left: auto;
+            @include mq_up(md) {
+                margin-top: 40px;
+            }
+            @include mq_down(md) {
+                margin-top: 32px;
+            }
+        }
+    }
+}

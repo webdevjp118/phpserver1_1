@@ -1,0 +1,80 @@
+.portfolio_detail ul.list {
+  margin-bottom: 40px; }
+  .portfolio_detail ul.list:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .portfolio_detail ul.list li {
+    display: block;
+    width: 25%;
+    float: left; }
+    @media screen and (max-width: 640px) {
+      .portfolio_detail ul.list li {
+        /*sp*/
+        width: 50%; } }
+    .portfolio_detail ul.list li a {
+      text-decoration: none;
+      display: block;
+      padding: 15px 10px;
+      border: 1px solid #ccc; }
+      .portfolio_detail ul.list li a.on {
+        background: #333;
+        color: #fff;
+        border: 1px solid #333; }
+.portfolio_detail .genre {
+  margin-bottom: 40px;
+  background: #333;
+  color: #fff;
+  padding: 10px; }
+.portfolio_detail .post h3 {
+  margin-bottom: 40px;
+  font-size: 1.8em;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc; }
+  @media screen and (max-width: 640px) {
+    .portfolio_detail .post h3 {
+      /*sp*/
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      padding-bottom: 10px; } }
+.portfolio_detail .post .text {
+  text-align: left;
+  margin-bottom: 40px;
+  line-height: 1.4em; }
+.portfolio_detail .post .image {
+  width: 100%;
+  margin: auto; }
+  .portfolio_detail .post .image .slick-box {
+    background: #333;
+    border: 1px solid #333;
+    margin-bottom: 10px; }
+    .portfolio_detail .post .image .slick-box img {
+      height: 480px;
+      margin: auto; }
+      @media screen and (max-width: 640px) {
+        .portfolio_detail .post .image .slick-box img {
+          /*sp*/
+          height: 240px; } }
+  .portfolio_detail .post .image .slick-nav {
+    text-align: left; }
+    .portfolio_detail .post .image .slick-nav li {
+      font-display: inline-block;
+      border: 2px solid #fff; }
+      .portfolio_detail .post .image .slick-nav li.slick-current {
+        border: 2px solid #363636; }
+.portfolio_detail .post .bottom_nav {
+  margin-top: 40px;
+  padding: 20px 0px;
+  border-top: 1px solid #ccc; }
+  .portfolio_detail .post .bottom_nav:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .portfolio_detail .post .bottom_nav .prev {
+    width: 50%;
+    float: left;
+    text-align: left; }
+  .portfolio_detail .post .bottom_nav .next {
+    width: 50%;
+    float: right;
+    text-align: right; }

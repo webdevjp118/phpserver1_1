@@ -1,0 +1,41 @@
+.c-contact {
+    &__check {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: none;
+        label {
+            padding-left: 35px;
+            position: relative;
+            cursor: pointer;
+            &:before {
+                content: '';
+                display: block;
+                width: 20px;
+                height: 20px;
+                border: 1px solid $colorLightGray;
+                position: absolute;
+                left: 0;
+                top: 0;
+                border-radius: 2px;
+                opacity: 1;
+                -webkit-transition: all .12s, border-color .08s;
+                transition: all .12s, border-color .08s;
+            }
+        }
+        input[type=checkbox] {
+            display: none;
+            &:checked  + label:before {
+                width: 10px;
+                top: -5px;
+                left: 5px;
+                border-radius: 0;
+                opacity: 1;
+                border-top-color: transparent;
+                border-left-color: transparent;
+                -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+        }
+    }
+}
